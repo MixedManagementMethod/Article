@@ -18,3 +18,9 @@ The repository requires the following structure to work correctly:
 * `/.github/workflows/publish.yml`: GitHub Actions workflow to build the site and publish it to GitHub Pages.
 * `/Gemfile`, `/Gemfile.lock`: Specifies the Ruby Gem module dependencies for https://jekyllrb.com/[Jekyll]-based publishing.
 * `index.adoc`: The root file for the AsciiDoc-based content.
+
+== Formatting
+
+There are some https://docs.asciidoctor.org/asciidoc/latest/text/custom-inline-styles/[custom inline styles] that need to be formatted in CSS (search the `.adoc` sources for `[.<style name from the following list>]`).
+
+* `listitemterm`

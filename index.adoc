@@ -10,3 +10,5 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :toclevels: 3
 
 include::sources/introduction.adoc[]
+
+include::LICENSES.adoc[]
