@@ -47,7 +47,7 @@ Breaking down the walls of the martial arts silos and dogmas led to these ideas:
 [arabic]
 . [.listitemterm]#Context matters#. The capabilities and characteristics (size, skill, experience, training) of your opponents matter, as does yours. The rules of the contest matters. The environment in which the contest occurs, matters. 
 . [.listitemterm]#Some techniques are more useful than others in more circumstances# e.g. Muay Thai, wrestling. 
-. [.listitemterm]#Any technique might have value in some circumstances#. 
+. [.listitemterm]#Any technique might have value# in some circumstances. 
 
 === Why the Mixed Management Method?
 
