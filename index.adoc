@@ -19,13 +19,6 @@ For blog posts, Jekyll will recognize files under the `_post` directory, parse t
 
 To display a list of posts, use Jekyll syntax similar to the following:
 
-[source, html]
-----
-{% for post in site.posts limit: 5 %}
-<a href=".{{ post.url }}">{{ post.navtitle }}</a>
-{% endfor %}
-----
-
 === Update Look and feel
 
 The layout provided with the https://github.com/asciidoctor/jekyll-asciidoc-quickstart[Jekyll AsciiDoc Quickstart] project is based on https://foundation.zurb.com[Foundation], a responsive design css framework. You're free to update the layout by editing the `_layouts/default.html` file and css under the `css` directory.
