@@ -1,8 +1,11 @@
-= Mixed Management Method: Sanity in a world of insane humans
+= Mixed Management Method
 Jeffrey Chongsathien <jwkc2@cantab.net>
+:description: Documentation of the Mixed Management Method
 :doctype: article
 :keywords: management, leadership, organization, methodology, engineering, software
 :showtitle:
+:noheader:
+:nofooter:
 :page-title: {doctitle}
 :page-description: {description}
 :imagesdir: ./images
