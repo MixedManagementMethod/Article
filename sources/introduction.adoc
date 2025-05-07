@@ -2,7 +2,8 @@
 
 === What is the Mixed Management Method?
 
-*The Mixed Management Method is an opinionated set of principles and practices for organizational management/leadership.*
+[.text-center]
+*The Mixed Management Method is an opinionated methodology for organizational management/leadership.*
 
 It is primarily aimed at the software engineering discipline, but not exclusively so, as major parts of it can be applied to any organization in any domain.
 
@@ -57,4 +58,4 @@ The Mixed Management Method aims to be a solid foundation for _most_ organizatio
 
 === Licensing information
 
-See <<licenses>>.
+See <<licenses>>
