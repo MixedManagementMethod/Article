@@ -36,7 +36,7 @@
 <!-- End Nav -->
 
 
-<!-- Main Page Content and Sidebar -->
+<!-- Main Page Content -->
 
 <div class="row">
 
@@ -48,31 +48,9 @@
     </div>
 
     <!-- End Main Content -->
-
-    <!-- Sidebar -->
-
-    <aside class="large-3 columns">
-
-        <h4>Posts</h4>
-        <ul id="posts" class="posts nav">
-            {% for post in site.posts limit: 5 %}
-            <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.navtitle }}</a></li>
-            {% endfor %}
-        </ul>
-
-        <div class="panel">
-            <h5>Featured</h5>
-
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon
-                nulla pork belly cupidatat meatloaf cow.</p>
-        </div>
-
-    </aside>
-
-    <!-- End Sidebar -->
 </div>
 
-<!-- End Main Content and Sidebar -->
+<!-- End Main Content -->
 
 
 <!-- Footer -->
