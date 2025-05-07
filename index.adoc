@@ -6,12 +6,15 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :showtitle:
 :noheader:
 :nofooter:
+:icons: font
 :page-title: {doctitle}
 :page-description: {description}
 :imagesdir: ./images
 :toc:
 :toclevels: 3
 
-include::sources/introduction.adoc[]
+include::sources/Introduction.adoc[]
+
+include::sources/Framework.adoc[]
 
 include::LICENSES.adoc[]

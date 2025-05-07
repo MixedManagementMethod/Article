@@ -1,0 +1,35 @@
+== Framework
+
+The Mixed Management Method framework is:
+
+[.text-center]
+People, Product, Practice (in that order of importance)
+
+The following table illustrates the rationale behind the order of importance.
+
+.Rationale for framework order of importance
+[cols="1,4", options="header"]
+|===
+|Context
+|Interpretation
+
+|Bad product, bad practices
+|Your organization is in a really bad place, and it's the consequence of having the wrong people, past and/or present. 
+
+The only thing that's going to save you is fundamental reform of the people-side of things. 
+
+|Great product, bad practices
+|If you have the wrong people, you can live in this state of decay for a long time because the product keeps the money coming in. However, make no mistake - you are decaying from within, as evidenced by the bad practices, and it's only a matter of time before the product suffers. The right people created the great product, and now is the time when they've transitioned out and the wrong people infest the upper ranks of the organization.
+
+As always, it's the right people (in the right positions for the right reasons) who can turn it around. 
+
+|Bad product, great practices
+|It doesn't matter how great your practices arem because the people have created a bad product that doesn't lead to a voluntary exchange of product for money (i.e. sales).
+
+Turning this situation around starts with turning the people around, particularly how they understand the business domain of the customers you don't have. 
+|===
+
+[IMPORTANT]
+====
+Problems in product and practice are _downstream_ of problems with people… as are the solutions. 
+====
