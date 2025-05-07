@@ -1,12 +1,12 @@
-= License
+== Licenses
 
-== Mixed Management Method
+=== Mixed Management Method
 
 Copyright (C) 2025-Present Jeffrey Chongsathien
 
 
 
-== Jekyll AsciiDoc Quickstart
+=== Jekyll AsciiDoc Quickstart
 
 https://github.com/asciidoctor/jekyll-asciidoc-quickstart
 
