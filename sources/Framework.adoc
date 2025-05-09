@@ -3,7 +3,7 @@
 The Mixed Management Method framework is:
 
 [.text-center]
-People, Product, Practice (in that order of importance)
+<<people>>, <<product>>, <<practice>> (in that order of importance)
 
 The following table illustrates the rationale behind the order of importance.
 
@@ -31,5 +31,5 @@ Turning this situation around starts with turning the people around, particularl
 
 [IMPORTANT]
 ====
-Problems in product and practice are _downstream_ of problems with people… as are the solutions. 
+Problems in <<product,product>> and <<practice,practice>> are _downstream_ of problems with <<people,people>>… as are the solutions. 
 ====
