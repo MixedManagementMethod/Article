@@ -17,4 +17,12 @@ include::sources/Introduction.adoc[]
 
 include::sources/Framework.adoc[]
 
+include::sources/People.adoc[]
+
+include::sources/Product.adoc[]
+
+include::sources/Practice.adoc[]
+
+include::sources/Support.adoc[]
+
 include::LICENSES.adoc[]
