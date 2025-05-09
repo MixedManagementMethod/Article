@@ -1,2 +1,29 @@
 == People
 
+=== Culture
+
+As asserted in our <<framework,framework>>, 'people' is the root element of any organization.
+
+For a wide variety of individuals with varying personalities, values and experiences, to work together effectively requires a degree of alignment i.e. a _culture_.
+
+Cultures are emergent properties that can appear spontaneously from happenstance, but the best cultures are purposefully driven.
+
+[.importantpoint]#"Culture must be defined, communicated, driven, monitored and maintained by competent leaders."#
+
+From real world observation, the cultural principles provided here in the Mixed Management Method work well because it's in the highlighted areas that organizations most often fail (due to failing leadership).
+
+By the authority afforded to them by their positions, leaders affect the culture more than anyone else, because the effects of their behaviours amplify across the organization (to varying degrees).
+
+Companies that survive beyond the startup phase tend to bear the hallmarks of the culture of the founders long after they've gone. A culture of being a counterproductive cheapskate on computing equipment established by a founder, will most likely echo down the years unless explicitly corrected.
+
+=== No dogma
+
+[.importantpoint]#"Specific solutions for specific problems in specific contexts and circumstances."#
+
+The Mixed Management Method encourages a 'pick and mix/toolbox' and 'continuous improvement' mindsets. As such, it encourages you to be introspective, and compare the outcome of practice to theory.
+
+While the Mixed Management Method provides a framework of foundational wisdom to apply to any organization, it inevitably builds on ideas and practices developed in other methodologies. They all have elements that are useful in some circumstances, and are highly destructive in others, when applied dogmatically.
+
+It's no good evangelizing forks to eat soup, but dogmatic people will (insert name of prominent software engineering methodology of your choice). Moreover, they'll make people eat soup with forks and never admit both they're wrong and making others miserable, despite reason and evidence to the contrary. There's always a mindless disconnect between their mental model, and the reality of the circumstances in front of them. It's this disconnect that makes them so miserable to engage with.
+
+They often have MBAs.

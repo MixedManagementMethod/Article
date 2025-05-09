@@ -1,2 +1,3 @@
 == Practice
 
+As asserted in our <<framework,framework>>, practice is downstream of <<people,people>>.
