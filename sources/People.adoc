@@ -6,19 +6,24 @@ As asserted in our <<framework,framework>>, 'people' is the root element of any 
 
 For a wide variety of individuals with varying personalities, values and experiences, to work together effectively requires a degree of alignment i.e. a _culture_.
 
+From real world observation, the cultural principles provided here in the Mixed Management Method work well because it's in the highlighted areas that organizations fail (due to failing leadership).
+
+[.importantpoint]#"Great Culture = <<no_dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
+
 Cultures are emergent properties that can appear spontaneously from happenstance, but the best cultures are purposefully driven.
 
 [.importantpoint]#Culture must be defined, communicated, driven, monitored and maintained by competent leaders.#
 
-From real world observation, the cultural principles provided here in the Mixed Management Method work well because it's in the highlighted areas that organizations most often fail (due to failing leadership).
+By the authority afforded to them by their positions, leaders affect the culture more than anyone else, because the effects of their behaviours amplify across the organization (to varying degrees). Companies that survive beyond the startup phase tend to bear the hallmarks of the culture of the founders long after they've gone. A culture of being a counterproductive cheapskate on computing equipment established by a founder, will most likely echo down the years unless explicitly corrected.
 
-[.importantpoint]#"Great Culture = <<no_dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
+Some mechanisms to drive and maintain a culture are:
 
-By the authority afforded to them by their positions, leaders affect the culture more than anyone else, because the effects of their behaviours amplify across the organization (to varying degrees).
+* [.listitemterm]#By communication# (publish article on an intranet/wiki, do presentations)
+* [.listitemterm]#By example# (live by example, elaborate by adding your own lived experiences)
+* [.listitemterm]#By exercise# (regularly scheduled discussions, building into checklists for consideration in discussions like retrospectives)
+* [.listitemterm]#By people# (recruit/promote people who embody the culture)
 
-Companies that survive beyond the startup phase tend to bear the hallmarks of the culture of the founders long after they've gone. A culture of being a counterproductive cheapskate on computing equipment established by a founder, will most likely echo down the years unless explicitly corrected.
-
-=== No dogma
+==== No dogma
 
 [.importantpoint]#Specific solutions for specific problems in specific contexts and circumstances.#
 
@@ -30,9 +35,9 @@ It's no good evangelizing forks to eat soup, but dogmatic people will (insert na
 
 They often have MBAs - an expensive sunk cost that requires justification.
 
-=== Honesty
+==== Honesty
 
-==== Dishonesty is rot
+===== Dishonesty is rot
 
 Corruption, in all it's forms, breeds dysfunction and decay, and it's starts with not speaking the truth and the whole truth to yourself and others.
 
@@ -66,19 +71,19 @@ Clarifying the dividing lines between honest/plain/robust speaking from rude/una
 * [.listitemterm]#When it is about the person, be kind but strong.# 
 * [.listitemterm]#Recurring/severe problems are problems, not incidents.# The "jump on every instance right away" mentality observed in some management is insecure, fragile micromanagement.
 
-==== "I don't know" is a valid answer
+===== "I don't know" is a valid answer
 
 Punishing responses like "I don't know" is simply a desperate fear-based attempt to deny reality. A healthy culture encourages facing into reality, not retreating from it.
 
 "Let's find out" is a productive follow-up to "I don't know".
 
-==== "I disagree" is a valid response
+===== "I disagree" is a valid response
 
 Destructive, excessive authoritarianism hates free, robust speech, stemming from a deeply insecure, weak mindset. In contrast, mentally secure, strong leaders don't fear disagreement - they encourage it, in order to produce the best results possible.
 
 Healthy, productive environments with good morale aren't characterized by fear and paranoia.
 
-==== Honesty requires robustness and forgiveness
+===== Honesty requires robustness and forgiveness
 
 As a consequence of free and honest speech, emotional robustness must be encouraged. That's not to say organizations should foster toxic behaviour, but equally as poisonous is cry-bully weakness. Speech should be focussed on getting the best possible outcomes for the work.
 
@@ -104,13 +109,13 @@ Interestingly, cultures that value honesty and openness have an affinity with en
 
 All of this discussion is to say that national culture can change the backdrop against which you're operating, but nonetheless the value of infusing honesty (and transparency) into the heart of your organizational culture remains the same.
 
-==== The coverup is worse than the crime
+===== The coverup is worse than the crime
 
 When mistakes and bad decisions do happen, inability to speak honestly prevents the kind of retrospective needed to understand what happened and to prevent it happening again i.e. it prevents improvement (at all levels). This naturally breeds resentment and low morale in higher performers of good character, as they watch dysfunctionally perpetuate and grow, and injustice prevail.
 
-=== Transparency
+==== Transparency
 
-==== Speak your mind
+===== Speak your mind
 
 When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
 
@@ -118,7 +123,7 @@ The best possible decisions are made more likely by a discursive process prior t
 
 // Add a link here to decision-making.
 
-==== Silos are evil
+===== Silos are evil
 
 Silos are the evil tools of toxic narcissists and the cancer of organizations. By creating silos:
 
@@ -127,7 +132,7 @@ Silos are the evil tools of toxic narcissists and the cancer of organizations. B
 
 Competent leadership must identify and fight silos continuously, lest the cancer grow and even metastasize.
 
-==== Responsibility, not Ownership
+===== Responsibility, not Ownership
 
 A motif in the Mixed Management Method is how the improper use of language causes problems. One such case in conventional methodologies is "ownership" e.g. a 'Product Owner' role title. The problem is that 'ownership':
 
@@ -136,7 +141,7 @@ A motif in the Mixed Management Method is how the improper use of language cause
 
 [.importantpoint]#The correct, healthy term is 'responsibility', as in "Take responsibility" and "It's my responsibility".#
 
-==== Push knowledge
+===== Push knowledge
 
 A healthy culture promotes habitual building of _institutional knowledge_. It should be a habit of all individuals in the organization to record *_what_* they did, and *_how_* they did it.
 
@@ -158,15 +163,15 @@ The level of dysfunction in an organization, and sub-sections of it, is always o
 
 It's no different from a Ramsay's Kitchen Nightmares restaurant kitchen that doesn't have tickets for the orders, doesn't have effective communications, doesn't have systems to cooks training up, has a messy and disorganized layout etc.
 
-=== Meritocracy
+==== Meritocracy
 
-==== The right people in the right positions, and the right numbers, for the right reasons.
+===== The right people in the right positions, and the right numbers, for the right reasons
 
 Here, we'll focus on the right reasons. The other factors are explored elsewhere:
 
 // Add links to the entries below
 
-* Right people: Performance
+* Right people: <<individual_performance>>
 * Right positions: Organizational structure
 * Right numbers: Adequate resourcing
 
@@ -178,11 +183,9 @@ If they can't do that, then (justified) resentment builds, leading to negative b
  
 So, what are the _wrong_ reasons?
 
-// Add link below to Performance
-
 * Promotion by default.
 * Corruption i.e. nepotism/favouritism.
-* Anything else disconnected from Performance.
+* Anything else disconnected from <<individual_performance>>.
 
 Steve Jobs stated the Bozo Explosion occurs because over time, bozos rise up the ranks and promote other bozos in their self-interest (high-performers make them look bad) and so pretty soon, you have a kakistocracy (the most unsuitable people have the most power). This is undoubtedly true in many organizations.
 
@@ -226,7 +229,7 @@ There is no cure for the human condition, but truly well-run organizations are d
 
 As organizations are inevitably hierarchical power structures, *_the only effective way to drive this is from the top_*, with aggressive and wise action by the highest levels of leadership. Steve Jobs did this on his return to Apple, where within weeks he cut a scythe through entire layers of dysfunctional middle management and saved suppressed high performers like Jony Ive, by doing a one-man, organization-wide performance review.
 
-==== Longevity is not an intrinsic good
+===== Longevity is not an intrinsic good
 
 Longevity of individuals at an organization is a double-edged sword. 
 
@@ -235,3 +238,30 @@ Longevity of individuals at an organization is a double-edged sword.
 * [.listitemterm]#Longevity can mean stagnation.# Unless exposed to new ideas and experiences within their tenure at the organization, longevity results in very limited people. This is most obvious when joining an organization at meeting the long-timers - great depth of product knowledge, carries the company history, shocking limitations of technique and contemporary practices.
 
 Longevity should be treated with thoughtfulness like any other individual attributes, but the worst thing to do is blindly treat is as an intrinsic good.
+
+=== Individual Performance
+
+Individual Performance, as a basis for meritocracy, should be considered as a rated/considered combination of:
+
+[.importantpoint]#"Individual Performance = { <<character>>, <<expertise>>, <<success>> }"#
+
+==== Character
+
+There is no precise, complete, definitive recipe for 'good character'. Much of the entirety of human culture, literature and religion is dedicated to exploring what it is.
+
+We've already discussed such individual behaviours elsewhere in the Mixed Management Method, as foundations of an <<culture,organizational culture>> that many individuals should align to. 
+
+* [.listitemterm]#Never dogmatic#. Adapt to the circumstances to achieve the best results.
+* [.listitemterm]#Speak honestly and openly#, especially to admit mistakes.
+* [.listitemterm]#No egos - it's about putting the work first#.
+* [.listitemterm]#Don't ask others to do anything you're not prepared to do yourself#. 
+
+// Add a link to the ticketing system
+
+How does character manifest? Ultimately, as a set of anecdotes that describe the actions an individual took in a specific scenario. This can be captured as a set of tickets.
+
+==== Expertise
+
+// Populate this section
+
+==== Success
