@@ -268,10 +268,26 @@ How does character manifest? Ultimately, as a set of anecdotes that describe the
 
 ==== Expertise
 
-// Populate this section
+Expertise can be defined as follows:
 
-Knowledge and skills related to { a discipline, product/service, specific technology, business domain }
+[.importantpoint]#"Expertise = A combination of { knowledge, skill } in any of a { discipline, product/service, technology, business domain }"#
 
+Having worked with extreme combinations of knowledge and skill:
+
+* An individual with lots of knowledge but little skill to apply it, is frustrating to work with, useless in the best case but counter-productive in most. This profile is oh-so typical of the middle management cancer that plagues bad organizations. Characteristically, when you ask for their assistance/contribution for a _specific_ issue, all they can do is _recite_.
+* An individual with lots of skill but little knowledge is a potentially valuable asset that just needs some time to learn. Investing the time and effort you don't have into assisting such people yields high returns. 
+
+[.importantpoint]#"When recruiting, dismissing candidates with evidence of high-levels of skill due to lack of knowledge is a mistake.#
+
+The best hires are high performers anywhere. Better to have a high performer that needs time to adapt to a specific discipline/product/service/technology/business domain, than low performer with lots of experience.
+
+Part of this story is _intelligence_, which unpins knowledge and skills across all areas. Whilst not being definitive or comprehensive, it's perfectly reasonable to say that high levels of school academic achievement pre-university are strong indicators of intelligence. However, that shouldn't stop you from finding unpolished gems.
+
+The corollary also applies - kids that aren't intelligent, don't magically become intelligent as adults. That's not to say that one can't become wise, skilled or successful… but let's be clear:
+
+[.importantpoint]#"Intelligence, whilst far from the be-all-and-end-all, is a foundation for performance. Academic success is usefully approximate measure of intelligence. Dismiss it to create a kakistocracy, fixate on it to lose out on performance.#
+
+Only toxic compassion would wilfully ignore such basic truths.
 
 ==== Success
 
