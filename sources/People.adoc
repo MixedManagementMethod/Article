@@ -8,7 +8,7 @@ For a wide variety of individuals with varying personalities, values and experie
 
 Cultures are emergent properties that can appear spontaneously from happenstance, but the best cultures are purposefully driven.
 
-[.importantpoint]#"Culture must be defined, communicated, driven, monitored and maintained by competent leaders."#
+[.importantpoint]#Culture must be defined, communicated, driven, monitored and maintained by competent leaders.#
 
 From real world observation, the cultural principles provided here in the Mixed Management Method work well because it's in the highlighted areas that organizations most often fail (due to failing leadership).
 
@@ -18,7 +18,7 @@ Companies that survive beyond the startup phase tend to bear the hallmarks of th
 
 === No dogma
 
-[.importantpoint]#"Specific solutions for specific problems in specific contexts and circumstances."#
+[.importantpoint]#Specific solutions for specific problems in specific contexts and circumstances.#
 
 The Mixed Management Method encourages a 'pick and mix/toolbox' and 'continuous improvement' mindsets. As such, it encourages you to be introspective, and compare the outcome of practice to theory.
 
@@ -27,3 +27,96 @@ While the Mixed Management Method provides a framework of foundational wisdom to
 It's no good evangelizing forks to eat soup, but dogmatic people will (insert name of prominent software engineering methodology of your choice). Moreover, they'll make people eat soup with forks and never admit both they're wrong and making others miserable, despite reason and evidence to the contrary. There's always a mindless disconnect between their mental model, and the reality of the circumstances in front of them. It's this disconnect that makes them so miserable to engage with.
 
 They often have MBAs.
+
+=== Honesty, Transparency, Meritocracy
+
+[.importantpoint]#"Great Culture = { Honesty, Transparency, Meritocracy }"#
+
+==== Honesty
+
+===== Dishonesty is the rot
+
+Corruption, in all it's forms, breeds dysfunction and decay, and it's starts with not speaking the truth and the whole truth to yourself and others.
+
+* "I'm _certain_ this is the case"
+* "I'm doing this for reason X, _not_ reason Y"
+* "I _am_ good at what I do"
+* "I _am qualified_ for this job"
+* "I _do think_ that's right"
+* "I have _no_ other thoughts to share"
+
+The reasons behind this?
+
+* Self-interest, emotionally manifesting as fear or greed.
+* Weakness of character.
+
+Great cultures:
+
+* Encourage honesty at all times.
+* Recruit people who have a history of speaking truth to power.
+
+The fictional TV series "House" whose title character extorts "Everybody lies!" embraces in inevitability of the weakness of human nature. Creation of a great organizational culture requires aspiring to the best of it.
+
+Clarifying the dividing lines between honest/plain/robust speaking from rude/unacceptable is part of the challenge. Try this in your communications of culture (or the ambiguously scoped 'ways of working'):
+
+* [.listitemterm]#Be honest and open.#
+   ** <<i_dont_know_is_a_valid_answer>>
+   ** <<i_disagree_is_a_valid_response>>
+   ** <<the_coverup_is_worse_than_the_crime>>
+* [.listitemterm]#It's always about the work.# 
+* [.listitemterm]#Be robust and forgive#, because <<honesty_requires_robustness_and_forgiveness,humans are messy>>
+* [.listitemterm]#When it is about the person, be kind but strong.# 
+* [.listitemterm]#Recurring/severe problems are problems, not incidents.# The "jump on every instance right away" mentality observed in some management is insecure, fragile micromanagement.
+
+===== "I don't know" is a valid answer
+
+Punishing responses like "I don't know" is simply a desperate fear-based attempt to deny reality. A healthy culture encourages facing into reality, not retreating from it.
+
+"Let's find out" is a productive follow-up to "I don't know".
+
+===== "I disagree" is a valid response
+
+Destructive, excessive authoritarianism hates free, robust speech, stemming from a deeply insecure, weak mindset. In contrast, mentally secure, strong leaders don't fear disagreement - they encourage it, in order to produce the best results possible.
+
+Healthy, productive environments with good morale aren't characterized by fear and paranoia.
+
+===== Honesty requires robustness and forgiveness
+
+As a consequence of free and honest speech, emotional robustness must be encouraged. That's not to say organizations should foster toxic behaviour, but equally as poisonous is cry-bully weakness. Speech should be focussed on getting the best possible outcomes for the work.
+
+However, we're flawed, emotional human beings, and we must embrace that - by allowing for our humanity and forgiving its edge cases.
+
+Interestingly, nationality can play a key part in this too. Some national cultures are at an extreme end of the honesty spectrum because the answer to any question is always 'Yes', even when it's factually not true.
+
+* "Has this task been completed?" "Yes"
+* "Can we do this by tomorrow?" "Yes"
+
+There can be many reasons for this (philosophical and religious history, history of extreme authoritarianism, to name but two) but irrespective of why, this makes collaboration difficult for obvious reasons.
+
+At the other extreme end of honesty spectrum are national cultures in which speaking openly and honestly is embraced, to the point where people from cultures that value 'politeness' and being 'nice' can't cope with what they perceive as shocking rudeness. What they don't realize is that their perception of 'politeness/nice' actually requires large amounts of energy for constant low/mid-level lying and obfuscation of the truth. 
+
+* "That's a terrible idea"
+* "No, we'd be crazy to choose X over Y"
+
+Thus, they lack the strength of character to cope with real honesty, because they have thin skins. They also can't navigate the nuance between _actual rudeness_ and _honest, plain speaking_. 
+
+The statement "That's a bad idea" is factually not the same as "You're bad at this", except in the weak mind of a thin-skinned person.
+
+Interestingly, cultures that value honesty and openness have an affinity with engineering, and it's obvious why. Science and technology requires a foundation of reason, evidence and human discourse. T 
+
+All of this discussion is to say that national culture can change the backdrop against which you're operating, but nonetheless the value of infusing honesty (and transparency) into the heart of your organizational culture remains the same.
+
+===== The coverup is worse than the crime
+
+When mistakes and bad decisions do happen, inability to speak honestly prevents the kind of retrospective needed to understand what happened and to prevent it happening again i.e. it prevents improvement (at all levels). This naturally breeds resentment and low morale in higher performers of good character, as they watch dysfunctionally perpetuate and grow, and injustice prevail.
+
+==== Transparency
+
+===== Speak your mind
+
+When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
+
+The best possible decisions are made more likely by a discursive process prior to the decision.
+
+// Add a link here to decision-making.
+
