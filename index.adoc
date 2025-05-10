@@ -11,7 +11,7 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :page-description: {description}
 :imagesdir: ./images
 :toc:
-:toclevels: 3
+:toclevels: 4
 
 include::sources/Introduction.adoc[]
 

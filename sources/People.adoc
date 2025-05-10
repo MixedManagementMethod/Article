@@ -12,6 +12,8 @@ Cultures are emergent properties that can appear spontaneously from happenstance
 
 From real world observation, the cultural principles provided here in the Mixed Management Method work well because it's in the highlighted areas that organizations most often fail (due to failing leadership).
 
+[.importantpoint]#"Great Culture = <<no_dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
+
 By the authority afforded to them by their positions, leaders affect the culture more than anyone else, because the effects of their behaviours amplify across the organization (to varying degrees).
 
 Companies that survive beyond the startup phase tend to bear the hallmarks of the culture of the founders long after they've gone. A culture of being a counterproductive cheapskate on computing equipment established by a founder, will most likely echo down the years unless explicitly corrected.
@@ -26,15 +28,11 @@ While the Mixed Management Method provides a framework of foundational wisdom to
 
 It's no good evangelizing forks to eat soup, but dogmatic people will (insert name of prominent software engineering methodology of your choice). Moreover, they'll make people eat soup with forks and never admit both they're wrong and making others miserable, despite reason and evidence to the contrary. There's always a mindless disconnect between their mental model, and the reality of the circumstances in front of them. It's this disconnect that makes them so miserable to engage with.
 
-They often have MBAs.
+They often have MBAs - an expensive sunk cost that requires justification.
 
-=== Honesty, Transparency, Meritocracy
+=== Honesty
 
-[.importantpoint]#"Great Culture = { Honesty, Transparency, Meritocracy }"#
-
-==== Honesty
-
-===== Dishonesty is the rot
+==== Dishonesty is the rot
 
 Corruption, in all it's forms, breeds dysfunction and decay, and it's starts with not speaking the truth and the whole truth to yourself and others.
 
@@ -68,19 +66,19 @@ Clarifying the dividing lines between honest/plain/robust speaking from rude/una
 * [.listitemterm]#When it is about the person, be kind but strong.# 
 * [.listitemterm]#Recurring/severe problems are problems, not incidents.# The "jump on every instance right away" mentality observed in some management is insecure, fragile micromanagement.
 
-===== "I don't know" is a valid answer
+==== "I don't know" is a valid answer
 
 Punishing responses like "I don't know" is simply a desperate fear-based attempt to deny reality. A healthy culture encourages facing into reality, not retreating from it.
 
 "Let's find out" is a productive follow-up to "I don't know".
 
-===== "I disagree" is a valid response
+==== "I disagree" is a valid response
 
 Destructive, excessive authoritarianism hates free, robust speech, stemming from a deeply insecure, weak mindset. In contrast, mentally secure, strong leaders don't fear disagreement - they encourage it, in order to produce the best results possible.
 
 Healthy, productive environments with good morale aren't characterized by fear and paranoia.
 
-===== Honesty requires robustness and forgiveness
+==== Honesty requires robustness and forgiveness
 
 As a consequence of free and honest speech, emotional robustness must be encouraged. That's not to say organizations should foster toxic behaviour, but equally as poisonous is cry-bully weakness. Speech should be focussed on getting the best possible outcomes for the work.
 
@@ -102,17 +100,17 @@ Thus, they lack the strength of character to cope with real honesty, because the
 
 The statement "That's a bad idea" is factually not the same as "You're bad at this", except in the weak mind of a thin-skinned person.
 
-Interestingly, cultures that value honesty and openness have an affinity with engineering, and it's obvious why. Science and technology requires a foundation of reason, evidence and human discourse. T 
+Interestingly, cultures that value honesty and openness have an affinity with engineering, and it's obvious why. Science and technology requires a foundation of reason, evidence and human discourse.
 
 All of this discussion is to say that national culture can change the backdrop against which you're operating, but nonetheless the value of infusing honesty (and transparency) into the heart of your organizational culture remains the same.
 
-===== The coverup is worse than the crime
+==== The coverup is worse than the crime
 
 When mistakes and bad decisions do happen, inability to speak honestly prevents the kind of retrospective needed to understand what happened and to prevent it happening again i.e. it prevents improvement (at all levels). This naturally breeds resentment and low morale in higher performers of good character, as they watch dysfunctionally perpetuate and grow, and injustice prevail.
 
-==== Transparency
+=== Transparency
 
-===== Speak your mind
+==== Speak your mind
 
 When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
 
@@ -120,7 +118,7 @@ The best possible decisions are made more likely by a discursive process prior t
 
 // Add a link here to decision-making.
 
-===== Silos are evil
+==== Silos are evil
 
 Silos are the evil tools of toxic narcissists and the cancer of organizations. By creating silos:
 
@@ -129,7 +127,7 @@ Silos are the evil tools of toxic narcissists and the cancer of organizations. B
 
 Competent leadership must identify and fight silos continuously, lest the cancer grow and even metastasize.
 
-===== Responsibility, not Ownership
+==== Responsibility, not Ownership
 
 A motif in the Mixed Management Method is how the improper use of language causes problems. One such case in conventional methodologies is "ownership" e.g. a 'Product Owner' role title. The problem is that 'ownership':
 
@@ -138,7 +136,7 @@ A motif in the Mixed Management Method is how the improper use of language cause
 
 [.importantpoint]#The correct, healthy term is 'responsibility', as in "Take responsibility" and "It's my responsibility".#
 
-===== Push knowledge
+==== Push knowledge
 
 A healthy culture promotes habitual building of _institutional knowledge_. It should be a habit of all individuals in the organization to record *_what_* they did, and *_how_* they did it.
 
