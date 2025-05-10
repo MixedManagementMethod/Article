@@ -6,7 +6,7 @@ As asserted in our <<framework,framework>>, 'people' is the root element of any 
 
 For a wide variety of individuals with varying personalities, values and experiences, to work together effectively requires a degree of alignment i.e. a _culture_.
 
-From real world observation, the cultural principles provided here in the Mixed Management Method work well because it's in the highlighted areas that organizations fail (due to failing leadership).
+From real world observation, the cultural principles/individual behaviours described here work well because it's in these areas that organizations fail (due to failing leadership).
 
 [.importantpoint]#"Great Culture = <<no_dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
 
