@@ -120,3 +120,42 @@ The best possible decisions are made more likely by a discursive process prior t
 
 // Add a link here to decision-making.
 
+===== Silos are evil
+
+Silos are the evil tools of toxic narcissists and the cancer of organizations. By creating silos:
+
+* Individuals can get away with all kinds of undesirable/unacceptable behaviours e.g. bad quality work, bad interpersonal interactions 
+* Individuals can blackmail organizations into continuing employment, leveraging the potential knowledge loss on their departure. "It's in his/her head"
+
+Competent leadership must identify and fight silos continuously, lest the cancer grow and even metastasize.
+
+===== Responsibility, not Ownership
+
+A motif in the Mixed Management Method is how the improper use of language causes problems. One such case in conventional methodologies is "ownership" e.g. a 'Product Owner' role title. The problem is that 'ownership':
+
+* [.listitemterm]#Encourages a siloing mindset.# "It's MY stapler! You can't use it!".
+* [.listitemterm]#Is usually legally false.# The stapler belongs to Acme LLC, and it's just provided to the employee for their activity in return for payment.
+
+[.importantpoint]#The correct, healthy term is 'responsibility', as in "Take responsibility" and "It's my responsibility".#
+
+===== Push knowledge
+
+A healthy culture promotes habitual building of _institutional knowledge_. It should be a habit of all individuals in the organization to record *_what_* they did, and *_how_* they did it.
+
+The basic principle is:
+
+[.importantpoint]#One day, it's going to be you trying to find out what on Earth happened, and you'll be grateful for someone keeping good notes.#
+
+This is effectively anti-siloing.
+
+// Add link to task tracking
+
+Some mechanisms to push knowledge:
+
+* [.listitemterm]#Messaging apps# like Teams/Slack, where conservations occur in shared spaces, as opposed to email silos.
+* [.listitemterm]#An organization-wide task tracking (ticketing) system.# The history is captured in the ticket fields, particularly the comments, where notes of thoughts and actions should be kept.
+* [.listitemterm]#Publishing on intranet/wiki articles# e.g. “How we do <this>”.
+
+The level of dysfunction in an organization, and sub-sections of it, is always obvious from its email/messaging, ticketing and intranet/wiki and ticketing infrastructure and practices.
+
+It's no different from a Ramsay's Kitchen Nightmares restaurant kitchen that doesn't have tickets for the orders, doesn't have effective communications, doesn't have systems to cooks training up, has a messy and disorganized layout etc.
