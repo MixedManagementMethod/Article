@@ -302,3 +302,28 @@ I once saw a presentation given to a community of product people, entitled (para
 // Add a link to the ticketing system
 
 As with <<character,character>>, success manifests as a set of anecdotes, that may have been captured internally as tickets.
+
+=== Review Individual Performance
+
+Conventional performance review practices pushed by HR professional are _ineffective_ (by their philosophy and design) and _inefficient_ (by their software-based implementation, consumption of effort they force on everyone else without suffering the effects). 
+
+* They lack understanding of what constitutes performance, because *_HR people don't do the work_*.
+* They create a top-down power dynamic that amplifies the damage caused by meritocracy problems i.e. when someone incompetent/of poor character is reviewing the performance of people under them.
+* HR professionals aren't a tech-savvy bunch as a class, so the process infrastructure they produce are burdensome and bureaucratic, especially when they can force it onto their victims without push back and accountability.
+
+In the Mixed Management Method, we've already characterized individual performance, and can elaborate on that to aid design of implementations.
+
+==== Adopt our Individual Performance rating template
+
+
+==== Use a ticketing system to aid evaluation of success
+
+// Add a link to ticket system
+
+==== Prioritize upwards performance review, not down
+
+
+==== Exclude no-one
+
+
+==== Find the high performers. Bypass the hierarchy
