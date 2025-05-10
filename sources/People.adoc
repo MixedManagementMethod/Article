@@ -32,7 +32,7 @@ They often have MBAs - an expensive sunk cost that requires justification.
 
 === Honesty
 
-==== Dishonesty is the rot
+==== Dishonesty is rot
 
 Corruption, in all it's forms, breeds dysfunction and decay, and it's starts with not speaking the truth and the whole truth to yourself and others.
 
@@ -224,4 +224,14 @@ There is no cure for the human condition, but truly well-run organizations are d
 
 [.importantpoint]#The only way to prevent/address the disease of human nature is the establishment and maintenance of high-performance meritocracy, centered on individual performance.# 
 
-As organizations are inevitably hierarchical power structures, the only effective way to drive this is *_from the top_*, with aggressive and wise action by the highest levels of leadership. Steve Jobs did this on his return to Apple, where within weeks he cut a scythe through entire layers of dysfunctional middle management and saved suppressed high performers like Jony Ive, by doing a one-man, organization-wide performance review.
+As organizations are inevitably hierarchical power structures, *_the only effective way to drive this is from the top_*, with aggressive and wise action by the highest levels of leadership. Steve Jobs did this on his return to Apple, where within weeks he cut a scythe through entire layers of dysfunctional middle management and saved suppressed high performers like Jony Ive, by doing a one-man, organization-wide performance review.
+
+==== Longevity is not an intrinsic good
+
+Longevity of individuals at an organization is a double-edged sword. 
+
+* [.listitemterm]#Longevity might not correlate to in-depth knowledge of the product/business.# It’s perfectly possible for bad employees to persist for a long time and learn nothing.
+* [.listitemterm]#Longevity can mean bad learning.# If someone has decades of experience at a dysfunctional company, all they learn is how to be dysfunctional, with lots of bad ideas and bad ideas.
+* [.listitemterm]#Longevity can mean stagnation.# Unless exposed to new ideas and experiences within their tenure at the organization, longevity results in very limited people. This is most obvious when joining an organization at meeting the long-timers - great depth of product knowledge, carries the company history, shocking limitations of technique and contemporary practices.
+
+Longevity should be treated with thoughtfulness like any other individual attributes, but the worst thing to do is blindly treat is as an intrinsic good.
