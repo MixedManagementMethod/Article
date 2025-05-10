@@ -157,3 +157,71 @@ Some mechanisms to push knowledge:
 The level of dysfunction in an organization, and sub-sections of it, is always obvious from its email/messaging, ticketing and intranet/wiki and ticketing infrastructure and practices.
 
 It's no different from a Ramsay's Kitchen Nightmares restaurant kitchen that doesn't have tickets for the orders, doesn't have effective communications, doesn't have systems to cooks training up, has a messy and disorganized layout etc.
+
+=== Meritocracy
+
+==== The right people in the right positions, and the right numbers, for the right reasons.
+
+Here, we'll focus on the right reasons. The other factors are explored elsewhere:
+
+// Add links to the entries below
+
+* Right people: Performance
+* Right positions: Organizational structure
+* Right numbers: Adequate resourcing
+
+[.importantpoint]#The best thing an organization can do for morale is establish and maintain a meritocracy.#
+
+It's important for people to be able to look at someone in a more senior position in the hierarchy and acknowledge (even if harbouring jealousy) "Yes, I understand why that person has that position." 
+
+If they can't do that, then (justified) resentment builds, leading to negative behaviours and expensive employee turnover (expensive because turnover of skilled employees is always expensive, as much of the accumulated experience and learning is gone).
+ 
+So, what are the _wrong_ reasons?
+
+// Add link below to Performance
+
+* Promotion by default.
+* Corruption i.e. nepotism/favouritism.
+* Anything else disconnected from Performance.
+
+Steve Jobs stated the Bozo Explosion occurs because over time, bozos rise up the ranks and promote other bozos in their self-interest (high-performers make them look bad) and so pretty soon, you have a kakistocracy (the most unsuitable people have the most power). This is undoubtedly true in many organizations.
+
+_Promotion 'by default'_ occurs because a position in the hierarchy becomes vacant and the easiest thing to do is bump up the next person. Internal candidates often advantages: 
+
+* Having product/organizational knowledge
+* Being “the devil you know” (de-risking by familiarity). 
+
+However, meritocratic promotion means treating it the same as hiring for a new position. 
+
+* Is the internal candidate capable of the new position, not the one they have? e.g. do they meet all aspects of the role profile.
+* Do they understand what change is desired, how to get there, and can get the organization there?
+
+_Corruption_ is essentially all the reasons other than merit. As evidenced by history and psychological studies like the Milgram Experiment, the Stanford Experiment and COVID19:
+
+[.importantpoint]#Most humans most of the time are amoral, and immoral.# 
+
+We all like to think we are people who are:
+
+* Well informed
+* Think critically
+* Stand up to abuses of power
+* Speak out against injustice
+* Do the noble thing and sacrifice for what's right.
+
+The reality is that this describes the minority of humans. Our biological operating system is coded for:
+
+* Subservience
+* Group think
+* Selfishness
+* Greed
+* Cowardice
+
+, and our cultural 'applications' that run on the biological operating system have highly limited reach and effectiveness. Given a choice between doing the right thing - morally, for the organization, for others - and suffering a loss of income, *_most people, most of the time choose self-interest_*. 
+
+Moreover, our economic system and societal power structures promote the worst aspects of our biological operating system, by turning people who are not independently wealthy (i.e. don't have to think about money) into "rats in a drum" (to quote Raoul Silva from the film 'Skyfall'). Over-promoted incompetence will always protect itself, because "the rats will eat rat".
+
+There is no cure for the human condition, but truly well-run organizations are designed for immunity against it.
+
+[.importantpoint]#The only way to prevent/address the disease of human nature is the establishment and maintenance of high-performance meritocracy, centered on individual performance.# 
+
+As organizations are inevitably hierarchical power structures, the only effective way to drive this is *_from the top_*, with aggressive and wise action by the highest levels of leadership. Steve Jobs did this on his return to Apple, where within weeks he cut a scythe through entire layers of dysfunctional middle management and saved suppressed high performers like Jony Ive, by doing a one-man, organization-wide performance review.
