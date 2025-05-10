@@ -245,6 +245,12 @@ Individual Performance, as a basis for meritocracy, should be considered as a ra
 
 [.importantpoint]#"Individual Performance = { <<character>>, <<expertise>>, <<success>> }"#
 
+Over one's career, you'll work with all sorts of combinations of these factor.
+
+* I've worked with people of exceptional intelligence and academic credentials, who made bad decisions based on a) limited expertise in some areas, and b) emotional dysfunction (narcissism fed by deep insecurities) corrupting their reasoning ability. Despite high levels of technical expertise in many areas, their character flaws and limited expertise in some areas severely negative impacted their overall performance. As I predicted/asserted he should, he would later in his career go on to be a highly capable software architect, and thankfully not in overall leadership.
+* I've worked with people who weren't the best technically but of a sufficient level, but their spirit, conscientiousness and good humour made them a valuable contributor.
+* I've worked with people supposedly of great expertise and the title to match, but their actual contributions (success) were terrible, and their seniority/career 'success' perpetuated by their poor character.
+
 ==== Character
 
 There is no precise, complete, definitive recipe for 'good character'. Much of the entirety of human culture, literature and religion is dedicated to exploring what it is.
@@ -263,6 +269,9 @@ How does character manifest? Ultimately, as a set of anecdotes that describe the
 ==== Expertise
 
 // Populate this section
+
+Knowledge and skills related to { a discipline, product/service, specific technology, business domain }
+
 
 ==== Success
 
