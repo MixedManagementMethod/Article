@@ -11,7 +11,26 @@ This repository is hosted in GitHub and uses a GitHub Action to convert the arti
 - https://github.com/MixedManagementMethod[GitHub organization site]
 - https://github.com/orgs/MixedManagementMethod/projects/3[GitHub project]
 
-== Repository Structure
+== Development environment setup
+
+One-time installation:
+
+1. Run the Ruby installer on my PC following: https://jekyllrb.com/docs/installation/windows/
+2. Open a PowerShell terminal: `gem install jekyll bundler`
+3. Ensure `jekyll -v` displays the version. Restart the PC if necessary.
+4. Clone the Article repository locally e.g. to `~\Projects\MixedManagementMethod\Article`
+5. Browse to that location (the working copy) in PowerShell.
+6. `bundle install`. Surprisingly, this doesn't modify the working copy. It installs the Ruby modules that this project requires, specified in `Gemfile`.
+
+To see the AsciiDoc sources served as HTML:
+
+1. Navigate to the root of the working copy in PowerShell.
+2. `bundle exec jekyll serve`
+3. Open a web browser to http://localhost:4000/
+   a. The now running server detects changes to the source files and regenerates the HTML.
+   b. Refresh the browser to view regenerated HTML.
+
+== Repository structure
 
 The repository requires the following structure to work correctly:
 
