@@ -35,20 +35,20 @@ All of these prior methodologies have some elements of truth, wisdom and value. 
 New methodologies tend to go through an adoption curve (with a peak and decline). This is particularly true of software engineering where the rapid advancement of technology has resulted in an equally rapid churn in development methodologies.
 
 [arabic]
-. New ideas lead to excitement and adoption.
-. Excitement becomes evangelism. 
-. Evangelism becomes dogmatism. 
-. Practitioners suffer from dogmatic adoption, and pain that results from the reality.
-. Practitioners push back on the evangelists. Some of the new ideas persist whilst others die over time.
+1. New ideas lead to excitement and adoption.
+2. Excitement becomes evangelism. 
+3. Evangelism becomes dogmatism. 
+4. Practitioners suffer from dogmatic adoption, and pain that results from the reality.
+5. Practitioners push back on the evangelists. Some of the new ideas persist whilst others die over time.
 
 It took practical application of the various martial arts school in less artificially constrained combat - 'mixed' martial arts (MMA), Bruce Lee's Jeet Kune Do philosophy - to discover the truth of what works, when it works, what’s dogma and so on.
 
 Breaking down the walls of the martial arts silos and dogmas led to these ideas:
 
 [arabic]
-. [.listitemterm]#Context matters#. The capabilities and characteristics (size, skill, experience, training) of your opponents matter, as does yours. The rules of the contest matters. The environment in which the contest occurs, matters. 
-. [.listitemterm]#Some techniques are more useful than others in more circumstances# e.g. Muay Thai, wrestling. 
-. [.listitemterm]#Any technique might have value# in some circumstances. 
+1. [.listitemterm]#Context matters#. The capabilities and characteristics (size, skill, experience, training) of your opponents matter, as does yours. The rules of the contest matters. The environment in which the contest occurs, matters. 
+2. [.listitemterm]#Some techniques are more useful than others in more circumstances# e.g. Muay Thai, wrestling. 
+3. [.listitemterm]#Any technique might have value# in some circumstances. 
 
 === Why the Mixed Management Method?
 
