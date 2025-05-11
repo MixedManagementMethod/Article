@@ -449,7 +449,7 @@ Finally, if you have any desire to right the ship, you'll promote the existing h
 
 === Leadership
 
-==== Leadership, not 'management'
+==== Foster leadership, reject management
 
 [.importantpoint]#Every organization should replace the word 'manager' in job titles, with 'leader'.#
 
@@ -482,3 +482,34 @@ ____
 We went through that stage in Apple where we went out and thought "Oh, we're going to be a big company... let's hire professional management". We went out and hired a bunch of professional management. It didn't work at all. Most of them were bozos. They knew how to manage but they didn't know how to do anything!" 
 ____
 
+==== Foster great leadership
+
+[.importantpoint]#To be a great leader, do what great leaders do.#
+
+We can think of this in terms of the elements of individual performance.
+
+Character:
+
+* Has all of the character traits described in <<character>> but in the case of leadership, is coupled to power over other people.
+* Prioritizes *_Mission, Men, Me_* (in that order) i.e. does what's right for the work and others, not what's convenient or self-interested.
+* Leads from the front, and/or coaches from behind, as required.
+* Has the strength of character to make decisions, and the humility to listen/debate/consult.
+* Is authoritative, but a disciplinarian or mentor as needed.
+* Has a sense of humour and uses it to make tough work and meetings easier.
+* Capable under pressure (but that doesn't mean robotic, or even necessarily calm)
+* Gives credit where credit's due.
+
+Expertise:
+
+* Is as competent as their peers or more so, at any level of seniority (think military leaders who haven't risen up the ranks on the front lines).
+* Communicates effectively with clarity, completeness and conciseness.
+* Able to:
+   ** Understand 'here'
+   ** Define a vision of 'there'
+   ** Understand how to get from here to there
+   ** Communicate how to get from here to there
+   ** Execute
+
+Success:
+
+* Is mostly right. Makes the best possible decisions and achieve the best possible results. The most common trait of people who are frequently wrong is the unwillingness to consider being wrong due to fear and insecurity. No secure person has a problem declaring publicly "Damn, I'm wrong, aren't I?!"
