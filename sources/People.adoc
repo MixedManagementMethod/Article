@@ -479,7 +479,7 @@ With a '<Discipline/Function/Product> Leader' title, it's quickly obvious when t
 
 [quote,Steve Jobs (1985)]
 ____
-We went through that stage in Apple where we went out and thought "Oh, we're going to be a big company... let's hire professional management". We went out and hired a bunch of professional management. It didn't work at all. Most of them were bozos. They knew how to manage but they didn't know how to do anything!" 
+We went through that stage in Apple where we went out and thought "Oh, we're going to be a big company... let's hire professional management". We went out and hired a bunch of professional management. It didn't work at all. Most of them were bozos. They knew how to manage but they didn't know how to do anything!
 ____
 
 ==== Foster great leadership
@@ -488,7 +488,7 @@ ____
 
 We can think of this in terms of the elements of individual performance.
 
-Character:
+===== Character
 
 * Has all of the character traits described in <<character>> but in the case of leadership, is coupled to power over other people.
 * Prioritizes *_Mission, Men, Me_* (in that order) i.e. does what's right for the work and others, not what's convenient or self-interested.
@@ -499,7 +499,7 @@ Character:
 * Capable under pressure (but that doesn't mean robotic, or even necessarily calm)
 * Gives credit where credit's due.
 
-Expertise:
+===== Expertise
 
 * Is as competent as their peers or more so, at any level of seniority (think military leaders who haven't risen up the ranks on the front lines).
 * Communicates effectively with clarity, completeness and conciseness.
@@ -510,11 +510,59 @@ Expertise:
    ** Communicate how to get from here to there
    ** Execute
 
-Success:
+===== Success
 
 * Is mostly right. Makes the best possible decisions and achieve the best possible results. The most common trait of people who are frequently wrong is the unwillingness to consider being wrong due to fear and insecurity. No secure person has a problem declaring publicly "Damn, I'm wrong, aren't I?!"
 
 === Organizational Structure
+
+==== Establish functional verticals (preferred) and cross-cutting horizontals
+
+The Harvard Business Review article https://hbr.org/2020/11/how-apple-is-organized-for-innovation["How Apple Is Organized for Innovation"] lays out the case for functionally-oriented verticals but it's fundamentally simple (paraphrased):
+
+[.importantpoint]#Decision making and seniority is best correlated with expertise.#
+
+[quote,Steve Jobs (1985)]
+____
+If you're a great person, why do you want to work for someone you can't learn anything from?! 
+____
+
+The worst organizations are the ones where people look to their leaders to see incompetence and lack of expertise - both in terms of outcomes, and destruction of morale. This is more likely to occur when the organizational structure isn't designed to reflect it, e.g. a _hardware_ engineer leading an Engineering department and supposedly leading _software_ engineers. Rarely do we even see the best case where the person in charge is smart enough to step back and not interfere in something they're ignorant of. The Apple organization model essentially minimized this occurrence by having it only occur at one point - around Steve Jobs.
+
+When designing your organizational structure for maximum performance, you need to red-flag points where people of no expertise have power over others.
+
+Some organizations create cross-cutting horizontals e.g. a Project Management department, alongside verticals like Hardware Engineering and Production. This is problematic for multiple reasons:
+
+[arabic]
+1. The horizontal function interferes in the verticals where they have no expertise, causing dysfunction. A project management specialist rarely knows anything about, say, mechanical engineering and manufacturing.
+2. The horizontal function gets frustrated at inability to exert control over the verticals.
+
+If you must have functional horizontals, the best way to clarify their position as drivers of best practice with a "light touch" approach but no formal authority over the verticals.
+
+==== Don't create Engineering departments
+
+Engineering doesn't exist... and that's not a play on words of the YouTube channel "Baseball Doesn't Exist".  
+
+* There's no degree in 'creating stuff'. 
+* There is no 'Institute of Engineering'.
+
+There is no such discipline as 'engineering'. There is:
+
+* Aerospace and Aerothermal Engineering
+* Bioengineering
+* Civil, Structural and Environmental Engineering
+* Electrical and Electronic Engineering
+* Electrical and Information Sciences
+* Energy, Sustainability and the Environment
+* Information and Computer Engineering
+* Instrumentation and Control
+* Mechanical Engineering
+
+The skills, techniques, models, history and ideas of the aforementioned disciplines are so broad in scope and diverse, that students specialize before even getting out of 3-4 years of undergraduate study. Then on top of that, they require decades of real-world experience and learning, in order to build expertise.
+
+There are rare instances of polymathy, but the practical limitations on time required to learn deeply and gain experience means that claims to be able to span these disciplines are limited at best, and delusional at worst. Don't put a software engineer in charge of building highways overnight - it won't end well. It is extremely unlikely that an 'engineer' is a modern day Leonardo da Vinci.
+
+Functional verticals should separate the engineering disciplines, or _at a minimum_ separate the 'world of atoms' (physical space) from the 'world of bits' (information space), which have fundamentally different dynamics, rules, constraints and bodies of knowledge. 
 
 === Personal Development
 
