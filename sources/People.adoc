@@ -564,6 +564,23 @@ There are rare instances of polymathy, but the practical limitations on time req
 
 Functional verticals should separate the engineering disciplines, or _at a minimum_ separate the 'world of atoms' (physical space) from the 'world of bits' (information space), which have fundamentally different dynamics, rules, constraints and bodies of knowledge. 
 
+==== Define role profiles
+
+Leadership should author role profiles, whose contents:
+
+* Bring clarity to the human requirements for roles 
+* When reused, create alignment across multiple workflows.
+
+They should be structured at the top-level consistent with <<individual_performance,individual performance>> i.e. { Character, Expertise, Success }
+
+The contents of role profiles can be reused in multiple areas, creating alignment:
+
+* In recruitment ads.
+* When evaluating role candidates (new recruitment, internal promotion).
+* To guide individual performance reviews.
+* Identify gaps in expertise that need to be filled (when built into an <<map_expertise,expertise map>>).
+* Identify single points of failure (when built into an <<map_expertise,expertise map>>) - individuals whose absence/departure cripples productivity.
+
 === Personal Development
 
 ==== Strategize personal development
