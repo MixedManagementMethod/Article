@@ -513,3 +513,29 @@ Expertise:
 Success:
 
 * Is mostly right. Makes the best possible decisions and achieve the best possible results. The most common trait of people who are frequently wrong is the unwillingness to consider being wrong due to fear and insecurity. No secure person has a problem declaring publicly "Damn, I'm wrong, aren't I?!"
+
+=== Organizational Structure
+
+=== Personal Development
+
+==== Strategize personal development
+
+By inspecting the combination of:
+
+// Add links to these
+
+* Role profiles
+* <<review_individual_performance,Performance review results>>
+* Expertise mapping
+
+, you should be able to create individualized personal development strategies that clarify how to get someone to a given goal akin to "Became a senior salesperson" i.e. learn this, demonstrate that, experience that and so on.
+
+// Add links to the ticketing
+
+Like any other stream of work, personal development can be managed with tickets.
+
+==== Think in terms of craftsmanship
+
+Irrespective of the discipline under consideration, the craftsmanship model of career development is useful because it focuses on _what someone can do_, not _what there title is_.
+
+Essentially, we should all start as apprentices. Then we become journeymen. Eventually, we can choose to become master craftsmen, or diverge into some variation such leadership, sales, marketing but utilizing the foundational competence of building something.
