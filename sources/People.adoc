@@ -1,5 +1,7 @@
 == People
 
+The right people can lift your organization/product/practices to unparalleled heights. The wrong people in the wrong positions for the wrong reasons can completely destroy it... and it only takes one.
+
 === Culture
 
 As asserted in our <<framework,framework>>, 'people' is the root element of any organization.
@@ -165,6 +167,8 @@ It's no different from a Ramsay's Kitchen Nightmares restaurant kitchen that doe
 
 ==== Meritocracy
 
+In general, life is not a meritocracy. The longer you live and the wiser you become, the more you realize that life is insanity and happenstance. That's no reason for your organization to be the same.
+
 ===== The right people in the right positions, and the right numbers, for the right reasons
 
 Here, we'll focus on the right reasons. The other factors are explored elsewhere:
@@ -184,7 +188,7 @@ If they can't do that, then (justified) resentment builds, leading to negative b
 So, what are the _wrong_ reasons?
 
 * Promotion by default.
-* Corruption i.e. nepotism/favouritism.
+* Corruption i.e. nepotism/favouritism/personal relationships.
 * Anything else disconnected from <<individual_performance>>.
 
 Steve Jobs stated the Bozo Explosion occurs because over time, bozos rise up the ranks and promote other bozos in their self-interest (high-performers make them look bad) and so pretty soon, you have a kakistocracy (the most unsuitable people have the most power). This is undoubtedly true in many organizations.
@@ -257,10 +261,11 @@ There is no precise, complete, definitive recipe for 'good character'. Much of t
 
 We've already discussed such individual behaviours elsewhere in the Mixed Management Method, as foundations of an <<culture,organizational culture>> that many individuals should align to. 
 
-* [.listitemterm]#Never dogmatic#. Adapt to the circumstances to achieve the best results.
+* [.listitemterm]#Never be dogmatic#. Adapt to the circumstances to achieve the best results.
 * [.listitemterm]#Speak honestly and openly#, especially to admit mistakes.
 * [.listitemterm]#No egos - it's about putting the work first#.
 * [.listitemterm]#Don't ask others to do anything you're not prepared to do yourself#. 
+* [.listitemterm]#Be conscientious.#
 
 // Add a link to the ticketing system
 
@@ -315,15 +320,132 @@ In the Mixed Management Method, we've already characterized individual performan
 
 ==== Adopt our Individual Performance rating template
 
+Whatever mechanism you use to execute and store individual performance reviews, e.g.
 
-==== Use a ticketing system to aid evaluation of success
+* Spreadsheets
+* Wiki pages
+* Forms software
+* Web apps
+
+Use this structure:
+
+.Individual Performance Review template
+[cols="1,1,2a,3",options="header"]
+|===
+|Field name
+|Data type
+|Data validation
+|Comments
+
+|Character
+|Integer (stars)
+|In the range [0, 4]
+
+* 0 - Non-existent
+* 1 - Poor
+* 2 - Okay
+* 3 - Very good
+* 4 - Excellent
+|A zero-based range is more amenable to star rating and averaging calculations, than a one-based range.
+
+|Expertise
+|Same as `Character`
+|Same as `Character`
+|There’s no need to break expertise down by discipline/product/service/technology/business domain, until individual development).
+
+|Success
+|Same as `Character`
+|Same as `Character`
+|None
+
+|Overall
+|Decimal
+|&#x2265;
+|Calculated (weighted?) average(`Character`, `Expertise`, `Success`)
+
+|Strengths
+|Text
+|Any
+|'S' of the S.W.O.T. acronym.
+
+|Weaknesses
+|Text
+|Any
+|'W' of the S.W.O.T. acronym.
+
+|Opportunities
+|Text
+|Any
+|'O' of the S.W.O.T. acronym. Could be interpreted as "opportunities to make the individual happier" or "enhance value to the organization", amongst others.
+
+|Threats
+|Text
+|Any
+|'T' of the S.W.O.T. acronym. Could be interpreted as "potential to leave", amongst others.
+|===
+
+==== Surface tickets to aid evaluation of success
 
 // Add a link to ticket system
 
+A mechanisms to assist evaluation of individual success in a performance review is to query your (single-source-of-truth) ticketing system for:
+
+* Tickets that were/are assigned to them over the review period (say, a year), AND 
+* Have been completed/are in progress. 
+
+Such a mechanism avoids the failures of human memory and prevents recency bias. "I completely forget they did that 12 months ago! That was a valuable contribution."
+
 ==== Prioritize upwards performance review, not down
 
+Having people in senior positions review performance of people in lower ones, is simply creating a top-down, authoritarian dynamic that amplifies the negative impact of bad performers getting into positions of power (as they invariably will do, by intent or error). Unfortunately, this is the approach pushed by so many incompetent HR bureaucrats.
+
+What's needed most is the opposite - a feedback mechanism to hold power to account, as the higher up an organization you go, the more power and amplified impact your performance has. That's not to argue for abandoning authority, but for the value of signals that might indicate a problem that needs addressing in places with the most power.
+
+It's the most corrupt and incompetent management that fears transparency, and only desires top-down accountability... because they can more easily manipulate in their favour a situation with fewer routes of information flow, controlling the flow of information and shaping the narrative aka 'managing up'. 
+
+[.importantpoint]#Relying on top-down transparency and accountability is why organizational rot starts with the 'lieutenants', who manipulate the information the flows between the 'troops' and the 'general'.#
+
+[quote,A conversation in the bunker]
+____
+General: "I want 10,000 additional troops on the front line by tomorrow!"
+
+Lieutenant A: "Yes, of course!"
+
+<Lieutenant A exits room>
+
+Lieutenant B :"Are you nuts, that's impossible!"
+
+Lieutenant A: "I'm not going to tell him that, are you?!"
+
+Lieutenant B: "No way, do I look like a want to eat a bullet?!"
+____
 
 ==== Exclude no-one
 
+No-one should be excluded from performance review, especially at the highest levels. The people with the most power have the responsibility to be the most competent, because the consequences of their actions have the greatest scope to negatively impact the organization.
+
+The only possible reason that a person can have for defending the idea that high performance is not a fundamental requirement for senior positions, is to attempt to defend their own incompetence. Sadly, this seems to be particularly widespread in Software Engineering, as the intangible, magical thing that is software must therefore cost nothing to create, take no time, cause no difficulty and can be led by people who've never done it. This always leads to disaster.
 
 ==== Find the high performers. Bypass the hierarchy
+
+When joining an organization in a leadership position, you may conduct an ad-hoc, one-off type of full individual performance review across the whole organization. This is contrast to a regularly scheduled, cross organizational activity. It's a way to increase understanding of the people element of the organization.
+
+You can't assume that everyone is the right person in the right position for the right reasons (it's rarely the case). Instead, you should assume that more likely case that it's a rats nest stemming from a history of corruption, nepotism, over promotion and political power games.
+
+The best example is when Steve Jobs returned to Apple and laid the foundation for the greatest comeback story in corporate history, by conducting a one-man 'performance review' across the company... finding the frustrated, suppressed high-performers like Jony Ive and firing swathes of management.
+
+How do you sort this mess out?
+
+[.importantpoint]#You need to find the high-performers and build your review of individual performance from them.#
+
+In almost every organization, there's at least one (or a few) key, high performing employees. You need to find them by asking around:
+
+* "Who's the _one_ person who would cause this place to grind to a halt if they left?"
+* "Who does everyone turn to for help?"
+
+Once you're found one or more high performers, have them take you on a guided tour of the organizational structure to find who they respect and value, thus expanding the group of trusted high performers to sufficient degree to cover all the organization's sub-groups (departments, functions).
+
+Then use the expertise of the trusted group to conduct the performance review (excluding the SWOT components for efficiency). In this way, you'll build the most accurate map of individual performance across the organization. The odds are that it won't correspond to a meritocracy.
+
+Finally, if you have any desire to right the ship, you'll promote the existing high performers, recruit new ones, and empower them to drive change (such as getting rid of the low performers).
+
