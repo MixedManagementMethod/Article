@@ -424,8 +424,6 @@ ____
 
 No-one should be excluded from performance review, especially at the highest levels. The people with the most power have the responsibility to be the most competent, because the consequences of their actions have the greatest scope to negatively impact the organization.
 
-The only possible reason that a person can have for defending the idea that high performance is not a fundamental requirement for senior positions, is to attempt to defend their own incompetence. Sadly, this seems to be particularly widespread in Software Engineering, as the intangible, magical thing that is software must therefore cost nothing to create, take no time, cause no difficulty and can be led by people who've never done it. This always leads to disaster.
-
 ==== Find the high performers. Bypass the hierarchy
 
 When joining an organization in a leadership position, you may conduct an ad-hoc, one-off type of full individual performance review across the whole organization. This is contrast to a regularly scheduled, cross organizational activity. It's a way to increase understanding of the people element of the organization.
@@ -448,4 +446,39 @@ Once you're found one or more high performers, have them take you on a guided to
 Then use the expertise of the trusted group to conduct the performance review (excluding the SWOT components for efficiency). In this way, you'll build the most accurate map of individual performance across the organization. The odds are that it won't correspond to a meritocracy.
 
 Finally, if you have any desire to right the ship, you'll promote the existing high performers, recruit new ones, and empower them to drive change (such as getting rid of the low performers).
+
+=== Leadership
+
+==== Leadership, not 'management'
+
+[.importantpoint]#Every organization should replace the word 'manager' in job titles, with 'leader'.#
+
+Managers are a very different breed from leaders, and it mostly boils down to lack of character and lack of competence.
+
+* Managers [.lineitemterm]#rearrange the deck chairs on the Titanic# while it's sinking to keep everyone 'happy' out of self-interest. In contrast, leaders spot the iceberg early, then do everything within their power to prevent crashing into it (and if it does crash, lead the response).
+* Managers [.lineitemterm]#fight the fights they can win#, not the fights that are right.
+* Managers [.lineitemterm]#prioritize { Me, Men (that serve Me), Mission }#. Leaders do the opposite.
+* Managers [.lineitemterm]#prefer spreadsheets over people#.
+* Managers [.lineitemterm]#are B/C players, who hire and promote D/E players# out of self-interest. Leaders are A players, who hire and promote A/A+ players.
+
+Typical manager character traits include:
+
+* Clock watching
+* Stealing/ignoring of credit for good work
+* Driving out of high performers
+* Manipulation of the narrative by controlling and shaping information flowing to the higher levels in the hierarchy
+* Hire and promote loyalists, not high-performers
+
+On the competence side, the word 'manager' only serves to obfuscate the necessity of competence and domain expertise i.e. defends the concept of the general manager. 
+
+You cannot take the manager of a grocery store, put them in charge of the cardio-thoracic surgery department of a hospital overnight and not expect the likelihood of people dying. For a managing director of a technology company to exclaim _"Of course there's such a thing as a (general) manager... look at me... I know nothing about our product and I'm a charge!"_ would be insanity.
+
+The only possible reason that a person can have for defending the idea that competence is not a fundamental requirement for senior positions, is to attempt to defend their own lack of it. Sadly, this seems to be particularly widespread in Software Engineering, as the intangible, magical thing that is software must therefore cost nothing to create, take no time, cause no difficulty, and therefore can be led by people *_who've never done it_* (!). This always leads to disaster.
+
+With a '<Discipline/Function/Product> Leader' title, it's quickly obvious when the shoes don't fit.
+
+[quote,Steve Jobs (1985)]
+____
+We went through that stage in Apple where we went out and thought "Oh, we're going to be a big company... let's hire professional management". We went out and hired a bunch of professional management. It didn't work at all. Most of them were bozos. They knew how to manage but they didn't know how to do anything!" 
+____
 
