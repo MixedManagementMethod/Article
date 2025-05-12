@@ -581,6 +581,49 @@ The contents of role profiles can be reused in multiple areas, creating alignmen
 * Identify gaps in expertise that need to be filled (when built into an <<map_expertise,expertise map>>).
 * Identify single points of failure (when built into an <<map_expertise,expertise map>>) - individuals whose absence/departure cripples productivity.
 
+==== Map expertise
+
+==== Don't fall for the dogma of full-time specialist roles
+
+In some conventional software engineering methodologies, such as Scrum or Scaled Agile, some full-time specialist roles are considered mandatory (or strongly pushed), including Architect, Product Manager (<<foster_leadership_reject_management,Product Leader?>>), UI Designer, Scrum Master, Test Engineer, Technical Writer and so on.
+
+These are actually _responsibilities_ (or activities to be done), and don't dogmatically have to be full-time roles. It's perfectly reasonable for a responsibility to be covered without adding specialist roles. Within a given set of circumstances, a senior-level software engineer may be perfectly capable of performing the activities of a Product Manager, without overburdening or falling short in expertise... it depends.
+
+Following the idea of functional verticals, consider this general form of role title:
+
+"<Seniority> <Discipline> [- <Specialism>]" e.g. "Principal Software Engineer - Frontend"
+
+===== Product Owner/Manager
+
+Product management (leadership) roles are problematic. There's a great depth of learning in _creating and taking care of_ things. Career product people tend to lack this depth, and there's something distinctly 'career consultant' about their general lack of competence. One could argue they bring domain expertise - sure, but can they put it to good use? Can someone effectively tell others what to create, if they don't have expertise in how to create? (no)
+
+Should you create a product leadership role - with the decision making powers it entails - or do you just need:
+
+* A 'Subject Matter Expert' who can assist the people who actually create?
+* To develop greater business domain understanding in the creators?
+
+===== Scrum Master
+
+In other cases, full-time specialist roles can be positively destructive. The dogma of the Scrum Master is one of the worst things to ever happen to software engineering. The name itself is steeped in Scrum dogma.
+
+If you have a full-time Scrum Master with no meaningful expertise creating software (apprentice, journeyman craftsman), which seems to be disturbingly common, what help are they actually to senior engineer with decades of experience actually doing it? If a Scrum Master role exists, it's most often a reflection of:
+
+[arabic]
+1. The leadership of Software Engineering is incompetent, because they can't do *_their job_* of implementing, driving and maintaining best practice.
+2. The organization's leadership is dogmatically adhering to a methodology irrespective of what the realized benefits are, thus wasting money.
+
+All the activities a Scrum Master is supposed to perform, should be covered by competent people in leadership roles.
+
+[.importantpoint]#Best practice is understood and implemented by competent practitioners.#
+
+===== Technical Writer
+
+[.importantpoint]#The best people to explain what a product does, how it works etc. are the people who designed and created it.#
+
+In fact, there's really no way around that fact (otherwise you'll be doing reverse engineering).
+
+A full-time specialist Technical Writer role can raise the standard of the writing and provide extra bandwidth to write, but there's no silver bullet to avoid the need for the _creators to write the first draft_. It's amazing how people can be ignorant of the obvious.
+
 === Personal Development
 
 ==== Strategize personal development
