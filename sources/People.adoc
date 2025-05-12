@@ -632,7 +632,7 @@ By inspecting the combination of:
 
 // Add links to these
 
-* Role profiles
+* <<define_role_profiles,Role profiles>>
 * <<review_individual_performance,Performance review results>>
 * Expertise mapping
 
