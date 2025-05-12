@@ -630,11 +630,9 @@ A full-time specialist Technical Writer role can raise the standard of the writi
 
 By inspecting the combination of:
 
-// Add links to these
-
 * <<define_role_profiles,Role profiles>>
 * <<review_individual_performance,Performance review results>>
-* Expertise mapping
+* <<map_expertise,Expertise mapping>>
 
 , you should be able to create individualized personal development strategies that clarify how to get someone to a given goal akin to "Became a senior salesperson" i.e. learn this, demonstrate that, experience that and so on.
 
