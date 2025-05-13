@@ -121,9 +121,9 @@ When mistakes and bad decisions do happen, inability to speak honestly prevents 
 
 When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
 
-The best possible decisions are made more likely by a discursive process prior to the decision.
+// Add a cross reference to decision-making.
 
-// Add a cross reference to decision-making in the previous line.
+The best possible decisions are made more likely by a discursive process prior to the decision.
 
 ===== Silos are evil
 
