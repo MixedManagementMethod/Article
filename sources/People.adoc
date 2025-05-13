@@ -275,7 +275,7 @@ How does character manifest? Ultimately, as a set of anecdotes that describe the
 
 Expertise can be defined as follows:
 
-[.importantpoint]#"Expertise = A combination of { knowledge, skill } in any of a { discipline, product/service, technology, business domain }"#
+[.importantpoint]#"Expertise = A combination of { knowledge, skill } in any of a { discipline, product/service, technologies, business domain }"#
 
 Having worked with extreme combinations of knowledge and skill:
 
@@ -516,7 +516,7 @@ We can think of this in terms of the elements of individual performance.
 
 === Organizational Structure
 
-==== Establish functional verticals (preferred) and cross-cutting horizontals
+==== Establish functional verticals (preferred) and limited cross-cutting horizontals
 
 The Harvard Business Review article https://hbr.org/2020/11/how-apple-is-organized-for-innovation["How Apple Is Organized for Innovation"] lays out the case for functionally-oriented verticals but it's fundamentally simple (paraphrased):
 
@@ -583,6 +583,45 @@ The contents of role profiles can be reused in multiple areas, creating alignmen
 
 ==== Map expertise
 
+There's a crappy term for a map of expertise in an organization - 'Skills Matrix'. The plain English, keep-it-simple name in the Mixed Management Methodology is 'Expertise Map'.
+
+As a reminder, <<expertise,expertise>> is one of the components of <<individual_performance,individual performance>>.
+
+===== Design the map
+
+When structuring your expertise map, break it down hierarchically by { discipline, product/service, technologies, business domain } according to your specific context e.g.
+
+* Software Engineering (discipline)
+  ** OOP
+  ** Recursion
+* Our SaaS software (product/service)
+  ** Account management
+  ** Catalogue navigation
+* Technologies (technologies)
+  ** C#
+  ** ASP.NET
+* B2C retail (business domain)
+  ** Data protection law
+
+The structure should be aligned with the expertise component of the relevant <<define_role_profiles,role profiles>>.
+
+===== Populate the map
+
+The most effective and efficient approach to populating the map is _self-assessment_. Send out a form for/access to the spreadsheet and have people self-rate their expertise from [0, 4] (as per  <<adopt_our_individual_performance_rating_template, individual performance rating>>).
+
+Self-assessment is best, because:
+
+* Any approach will dependent on subjective opinion anyway. The individual in question is as informed as anyone else. 
+* Making the map contents open and accessible will increase the likelihood of surfacing errors/deception "No way Person X has expertise of 4 on Topic A!"
+* Any other approach has the increased likelihood of bottle necking. With self-assessment, the burden is being maximally distributed.
+
+===== Use the results
+
+Once the map has been populated:
+
+* Analysis of the results (particularly colour coding the ratings) may highlight areas of weakness/single-points-of-failure, or under-utilized expertise.
+* The results can be used as input into <<strategize_personal_development,personal development strategies>>.
+
 ==== Don't fall for the dogma of full-time specialist roles
 
 In some conventional software engineering methodologies, such as Scrum or Scaled Agile, some full-time specialist roles are considered mandatory (or strongly pushed), including Architect, Product Manager (<<foster_leadership_reject_management,Product Leader?>>), UI Designer, Scrum Master, Test Engineer, Technical Writer and so on.
@@ -624,7 +663,7 @@ There's really no way around that fact (otherwise you'll be doing reverse engine
 
 A full-time specialist Technical Writer role can raise the standard of the writing and provide extra bandwidth to write, but there's no silver bullet to avoid the need for the _creators to write the first draft_. Seems obvious but you'd be surprised at how ignorant people can be of the obvious.
 
-==== Staff in adequate numbers
+==== Staff in adequate numbers for your expectations
 
 The world of unlimited resources is obviously a fiction for any organization. We live in an objective universe on a closed ball in space with a finite number of people available and a finite amount and distribution of expertise, and so on.
 
@@ -638,7 +677,7 @@ What should be much easier to identify with even a modicum of experience and rea
 
 A natural consequence of the inevitable limits of available resources, is the need to limit expectations of what may be achieved in a given timeframe.
 
-You'll notice that all of this requires expertise. Without expertise, no reasonable understanding of what's required can be formed, nor what's possible, nor the unavoidable reality of uncertainty, risk, and objective limits. Leadership/management without expertise will inevitably behave unreasonably, and it's incredible how common this is.
+You'll notice that all of this requires expertise. Without expertise, no reasonable understanding of what's required can be formed, nor what's possible, nor the unavoidable reality of uncertainty, risk, and objective limits. Leadership/management without expertise or reasoning ability will inevitably behave unreasonably, and it's incredible how common this is.
 
 === Personal Development
 
