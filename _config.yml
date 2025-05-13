@@ -3,11 +3,11 @@ title: Mixed Management Method
 #baseurl: /blog
 description: 
 exclude:
-- LICENSE
 - README.adoc
 - Gemfile
 - Gemfile.lock
 - Rakefile
+- asciidoctor/
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
