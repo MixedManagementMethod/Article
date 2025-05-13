@@ -25,4 +25,4 @@ include::sources/Practice.adoc[]
 
 include::sources/Support.adoc[]
 
-include::LICENSES.adoc[]
+include::LICENSE.adoc[]
