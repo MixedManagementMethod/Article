@@ -624,6 +624,22 @@ There's really no way around that fact (otherwise you'll be doing reverse engine
 
 A full-time specialist Technical Writer role can raise the standard of the writing and provide extra bandwidth to write, but there's no silver bullet to avoid the need for the _creators to write the first draft_. Seems obvious but you'd be surprised at how ignorant people can be of the obvious.
 
+==== Staff in adequate numbers
+
+The world of unlimited resources is obviously a fiction for any organization. We live in an objective universe on a closed ball in space with a finite number of people available and a finite amount and distribution of expertise, and so on.
+
+I've never seen a silver bullet for understanding what 'adequate' means in terms of human resources. It's a highly context-specific problem whose input variables are many and varied, such as the business domain, the nature of the product/service portfolio, the cash resources, the landscape of competitive organizations, but to name a few.
+
+[.importantpoint]#All you can really do to plan staffing is rely on past experience and reason-in-the-context, then let the chips fall where they may, whilst being responsive to new learning and changing conditions.#
+
+In some cases, there are simple rules of thumbs available e.g. in IT, ratio of organizational headcount to IT department headcount.
+
+What should be much easier to identify with even a modicum of experience and reasoning ability, are minimum levels of resourcing necessary to achieve goals, below which the staff will be overworked, overstressed and likely to leave, leading to project/function collapse. As is often seen in phase dynamics, there's a period of sustained stress where no problem is apparent from a distance, then sudden change/collapse.
+
+A natural consequence of the inevitable limits of available resources, is the need to limit expectations of what may be achieved in a given timeframe.
+
+You'll notice that all of this requires expertise. Without expertise, no reasonable understanding of what's required can be formed, nor what's possible, nor the unavoidable reality of uncertainty, risk, and objective limits. Leadership/management without expertise will inevitably behave unreasonably, and it's incredible how common this is.
+
 === Personal Development
 
 ==== Strategize personal development
