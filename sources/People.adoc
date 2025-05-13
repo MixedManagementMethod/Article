@@ -123,7 +123,7 @@ When a toxic culture implemented/fostered by toxic management, doesn't allow peo
 
 The best possible decisions are made more likely by a discursive process prior to the decision.
 
-// Add a link here to decision-making.
+// Add a cross reference to decision-making in the previous line.
 
 ===== Silos are evil
 
@@ -153,7 +153,7 @@ The basic principle is:
 
 This is effectively anti-siloing.
 
-// Add link to task tracking
+// Add cross reference to the ticketing system
 
 Some mechanisms to push knowledge:
 
@@ -173,11 +173,9 @@ In general, life is not a meritocracy. The longer you live and the wiser you bec
 
 Here, we'll focus on the right reasons. The other factors are explored elsewhere:
 
-// Add links to the entries below
-
 * Right people: <<individual_performance>>
-* Right positions: Organizational structure
-* Right numbers: Adequate resourcing
+* Right positions: <<organizational_structure>>
+* Right numbers: <<staff_in_adequate_numbers_for_your_expectations>>
 
 [.importantpoint]#The best thing an organization can do for morale is establish and maintain a meritocracy.#
 
@@ -267,7 +265,7 @@ We've already discussed such individual behaviours elsewhere in the Mixed Manage
 * [.listitemterm]#Don't ask others to do anything you're not prepared to do yourself#. 
 * [.listitemterm]#Be conscientious.#
 
-// Add a link to the ticketing system
+// Add a cross reference to the ticketing system
 
 How does character manifest? Ultimately, as a set of anecdotes that describe the actions an individual took in a specific scenario. This may be captured internally as a set of tickets.
 
@@ -304,7 +302,7 @@ I once saw a presentation given to a community of product people, entitled (para
 
 [.importantpoint]#When examining performance of current or prospective employees, ignore titles and what groups did... let them tell a story where specifically their work contributed to success.#
 
-// Add a link to the ticketing system
+// Add a cross reference to the ticketing system
 
 As with <<character,character>>, success manifests as a set of anecdotes, that may have been captured internally as tickets.
 
@@ -386,7 +384,7 @@ Use this structure:
 
 ==== Surface tickets to aid evaluation of success
 
-// Add a link to ticket system
+// Add a cross reference to the ticketing system
 
 A mechanisms to assist evaluation of individual success in a performance review is to query your (single-source-of-truth) ticketing system for:
 
@@ -691,7 +689,7 @@ By inspecting the combination of:
 
 , you should be able to create individualized personal development strategies that clarify how to get someone to a given goal akin to "Became a senior salesperson" i.e. learn this, demonstrate that, experience that and so on.
 
-// Add links to the ticketing
+// Add cross reference to the ticketing system
 
 Like any other stream of work, personal development can be managed with tickets.
 
