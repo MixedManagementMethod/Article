@@ -599,7 +599,7 @@ Product management (leadership) roles are problematic. There's a great depth of 
 
 Should you create a product leadership role - with the decision making powers it entails - or do you just need:
 
-* A 'Subject Matter Expert' who can assist the people who actually create?
+* A 'Subject Matter Expert' who can assist the people who actually create? (but without the product decision rights)
 * To develop greater business domain understanding in the creators?
 
 ===== Scrum Master
@@ -612,7 +612,7 @@ If you have a full-time Scrum Master with no meaningful expertise creating softw
 1. The leadership of Software Engineering is incompetent, because they can't do *_their job_* of implementing, driving and maintaining best practice.
 2. The organization's leadership is dogmatically adhering to a methodology irrespective of what the realized benefits are, thus wasting money.
 
-All the activities a Scrum Master is supposed to perform, should be covered by competent people in leadership roles.
+All the activities a Scrum Master is supposed to perform should be covered by competent people in leadership roles, and before attempting to plug the gap with another person, there should be a serious conversation about why the gap exists.
 
 [.importantpoint]#Best practice is understood and implemented by competent practitioners.#
 
@@ -620,9 +620,9 @@ All the activities a Scrum Master is supposed to perform, should be covered by c
 
 [.importantpoint]#The best people to explain what a product does, how it works etc. are the people who designed and created it.#
 
-In fact, there's really no way around that fact (otherwise you'll be doing reverse engineering).
+There's really no way around that fact (otherwise you'll be doing reverse engineering).
 
-A full-time specialist Technical Writer role can raise the standard of the writing and provide extra bandwidth to write, but there's no silver bullet to avoid the need for the _creators to write the first draft_. It's amazing how people can be ignorant of the obvious.
+A full-time specialist Technical Writer role can raise the standard of the writing and provide extra bandwidth to write, but there's no silver bullet to avoid the need for the _creators to write the first draft_. Seems obvious but you'd be surprised at how ignorant people can be of the obvious.
 
 === Personal Development
 
