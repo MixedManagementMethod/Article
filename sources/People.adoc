@@ -1,2 +1,700 @@
 == People
 
+The right people can lift your organization/product/practices to unparalleled heights. The wrong people in the wrong positions for the wrong reasons can completely destroy it... and it only takes one.
+
+=== Culture
+
+As asserted in our <<framework,framework>>, 'people' is the root element of any organization.
+
+For a wide variety of individuals with varying personalities, values and experiences, to work together effectively requires a degree of alignment i.e. a _culture_.
+
+From real world observation, the cultural principles/individual behaviours described here work well because it's in these areas that organizations fail (due to failing leadership).
+
+[.importantpoint]#"Great Culture = <<no_dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
+
+Cultures are emergent properties that can appear spontaneously from happenstance, but the best cultures are purposefully driven.
+
+[.importantpoint]#Culture must be defined, communicated, driven, monitored and maintained by competent leaders.#
+
+By the authority afforded to them by their positions, leaders affect the culture more than anyone else, because the effects of their behaviours amplify across the organization (to varying degrees). Companies that survive beyond the startup phase tend to bear the hallmarks of the culture of the founders long after they've gone. A culture of being a counterproductive cheapskate on computing equipment established by a founder, will most likely echo down the years unless explicitly corrected.
+
+Some mechanisms to drive and maintain a culture are:
+
+* [.listitemterm]#By communication# (publish article on an intranet/wiki, do presentations)
+* [.listitemterm]#By example# (live by example, elaborate by adding your own lived experiences)
+* [.listitemterm]#By exercise# (regularly scheduled discussions, building into checklists for consideration in discussions like retrospectives)
+* [.listitemterm]#By people# (recruit/promote people who embody the culture)
+
+==== No dogma
+
+[.importantpoint]#Specific solutions for specific problems in specific contexts and circumstances.#
+
+The Mixed Management Method encourages a 'pick and mix/toolbox' and 'continuous improvement' mindsets. As such, it encourages you to be introspective, and compare the outcome of practice to theory.
+
+While the Mixed Management Method provides a framework of foundational wisdom to apply to any organization, it inevitably builds on ideas and practices developed in other methodologies. They all have elements that are useful in some circumstances, and are highly destructive in others, when applied dogmatically.
+
+It's no good evangelizing forks to eat soup, but dogmatic people will (insert name of prominent software engineering methodology of your choice). Moreover, they'll make people eat soup with forks and never admit both they're wrong and making others miserable, despite reason and evidence to the contrary. There's always a mindless disconnect between their mental model, and the reality of the circumstances in front of them. It's this disconnect that makes them so miserable to engage with.
+
+They often have MBAs - an expensive sunk cost that requires justification.
+
+==== Honesty
+
+===== Dishonesty is cancer
+
+Corruption, in all it's forms, breeds dysfunction and decay, and it's starts with not speaking the truth and the whole truth to yourself and others.
+
+* "I'm _certain_ this is the case"
+* "I'm doing this for reason X, _not_ reason Y"
+* "I _am_ good at what I do"
+* "I _am qualified_ for this job"
+* "I _do think_ that's right"
+* "I have _no_ other thoughts to share"
+
+The reasons behind this?
+
+* Self-interest, emotionally manifesting as fear or greed.
+* Weakness of character.
+
+Great cultures:
+
+* Encourage honesty at all times.
+* Recruit people who have a history of speaking truth to power.
+
+The fictional TV series "House" whose title character extorts "Everybody lies!" embraces in inevitability of the weakness of human nature. Creation of a great organizational culture requires aspiring to the best of it.
+
+Clarifying the dividing lines between honest/plain/robust speaking from rude/unacceptable is part of the challenge. Try this in your communications of culture (or the ambiguously scoped 'ways of working'):
+
+* [.listitemterm]#Be honest and open.#
+   ** <<i_dont_know_is_a_valid_answer>>
+   ** <<i_disagree_is_a_valid_response>>
+   ** <<the_coverup_is_worse_than_the_crime>>
+* [.listitemterm]#It's always about the work.# 
+* [.listitemterm]#Be robust and forgive#, because <<honesty_requires_robustness_and_forgiveness,humans are messy>>
+* [.listitemterm]#When it is about the person, be kind but strong.# 
+* [.listitemterm]#Recurring/severe problems are problems, not incidents.# The "jump on every instance right away" mentality observed in some management is insecure, fragile micromanagement.
+
+===== "I don't know" is a valid answer
+
+Punishing responses like "I don't know" is simply a desperate fear-based attempt to deny reality. A healthy culture encourages facing into reality, not retreating from it.
+
+"Let's find out" is a productive follow-up to "I don't know".
+
+===== "I disagree" is a valid response
+
+Destructive, excessive authoritarianism hates free, robust speech, stemming from a deeply insecure, weak mindset. In contrast, mentally secure, strong leaders don't fear disagreement - they encourage it, in order to produce the best results possible.
+
+Healthy, productive environments with good morale aren't characterized by fear and paranoia.
+
+===== Honesty requires robustness and forgiveness
+
+As a consequence of free and honest speech, emotional robustness must be encouraged. That's not to say organizations should foster toxic behaviour, but equally as poisonous is cry-bully weakness. Speech should be focussed on getting the best possible outcomes for the work.
+
+However, we're flawed, emotional human beings, and we must embrace that - by allowing for our humanity and forgiving its edge cases.
+
+Interestingly, nationality can play a key part in this too. Some national cultures are at an extreme end of the honesty spectrum because the answer to any question is always 'Yes', even when it's factually not true.
+
+* "Has this task been completed?" "Yes"
+* "Can we do this by tomorrow?" "Yes"
+
+There can be many reasons for this (philosophical and religious history, history of extreme authoritarianism, to name but two) but irrespective of why, this makes collaboration difficult for obvious reasons.
+
+At the other extreme end of honesty spectrum are national cultures in which speaking openly and honestly is embraced, to the point where people from cultures that value 'politeness' and being 'nice' can't cope with what they perceive as shocking rudeness. What they don't realize is that their perception of 'politeness/nice' actually requires large amounts of energy for constant low/mid-level lying and obfuscation of the truth. 
+
+* "That's a terrible idea"
+* "No, we'd be crazy to choose X over Y"
+
+Thus, they lack the strength of character to cope with real honesty, because they have thin skins. They also can't navigate the nuance between _actual rudeness_ and _honest, plain speaking_. 
+
+The statement "That's a bad idea" is factually not the same as "You're bad at this", except in the weak mind of a thin-skinned person.
+
+Interestingly, cultures that value honesty and openness have an affinity with engineering, and it's obvious why. Science and technology requires a foundation of reason, evidence and human discourse.
+
+All of this discussion is to say that national culture can change the backdrop against which you're operating, but nonetheless the value of infusing honesty (and transparency) into the heart of your organizational culture remains the same.
+
+===== The coverup is worse than the crime
+
+When mistakes and bad decisions do happen, inability to speak honestly prevents the kind of retrospective needed to understand what happened and to prevent it happening again i.e. it prevents improvement (at all levels). This naturally breeds resentment and low morale in higher performers of good character, as they watch dysfunctionally perpetuate and grow, and injustice prevail.
+
+==== Transparency
+
+===== Speak your mind
+
+When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
+
+// Add a cross reference to decision-making.
+
+The best possible decisions are made more likely by a discursive process prior to the decision.
+
+===== Silos are evil
+
+Silos are the evil tools of toxic narcissists and the cancer of organizations. By creating silos:
+
+* Individuals can get away with all kinds of undesirable/unacceptable behaviours e.g. bad quality work, bad interpersonal interactions 
+* Individuals can blackmail organizations into continuing employment, leveraging the potential knowledge loss on their departure. "It's in his/her head"
+
+Competent leadership must identify and fight silos continuously, lest the cancer grow and even metastasize.
+
+===== Responsibility, not Ownership
+
+A motif in the Mixed Management Method is how the improper use of language causes problems. One such case in conventional methodologies is "ownership" e.g. a 'Product Owner' role title. The problem is that 'ownership':
+
+* [.listitemterm]#Encourages a siloing mindset.# "It's MY stapler! You can't use it!".
+* [.listitemterm]#Is usually legally false.# The stapler belongs to Acme LLC, and it's just provided to the employee for their activity in return for payment.
+
+[.importantpoint]#The correct, healthy term is 'responsibility', as in "Take responsibility" and "It's my responsibility".#
+
+===== Push knowledge
+
+A healthy culture promotes habitual building of _institutional knowledge_. It should be a habit of all individuals in the organization to record *_what_* they did, and *_how_* they did it.
+
+The basic principle is:
+
+[.importantpoint]#One day, it's going to be you trying to find out what on Earth happened, and you'll be grateful for someone keeping good notes.#
+
+This is effectively anti-siloing.
+
+// Add cross reference to the ticketing system
+
+Some mechanisms to push knowledge:
+
+* [.listitemterm]#Messaging apps# like Teams/Slack, where conservations occur in shared spaces, as opposed to email silos.
+* [.listitemterm]#An organization-wide task tracking (ticketing) system.# The history is captured in the ticket fields, particularly the comments, where notes of thoughts and actions should be kept.
+* [.listitemterm]#Publishing on intranet/wiki articles# e.g. “How we do <this>”.
+
+The level of dysfunction in an organization, and sub-sections of it, is always obvious from its email/messaging, ticketing and intranet/wiki and ticketing infrastructure and practices.
+
+It's no different from a Ramsay's Kitchen Nightmares restaurant kitchen that doesn't have tickets for the orders, doesn't have effective communications, doesn't have systems to cooks training up, has a messy and disorganized layout etc.
+
+==== Meritocracy
+
+In general, life is not a meritocracy. The longer you live and the wiser you become, the more you realize that life is insanity and happenstance. That's no reason for your organization to be the same.
+
+===== The right people in the right positions, and the right numbers, for the right reasons
+
+Here, we'll focus on the right reasons. The other factors are explored elsewhere:
+
+* Right people: <<individual_performance>>
+* Right positions: <<organizational_structure>>
+* Right numbers: <<staff_in_adequate_numbers_for_your_expectations>>
+
+[.importantpoint]#The best thing an organization can do for morale is establish and maintain a meritocracy.#
+
+It's important for people to be able to look at someone in a more senior position in the hierarchy and acknowledge (even if harbouring jealousy) "Yes, I understand why that person has that position." 
+
+If they can't do that, then (justified) resentment builds, leading to negative behaviours and expensive employee turnover (expensive because turnover of skilled employees is always expensive, as much of the accumulated experience and learning is gone).
+ 
+So, what are the _wrong_ reasons?
+
+* Promotion by default.
+* Corruption i.e. nepotism/favouritism/personal relationships.
+* Anything else disconnected from <<individual_performance>>.
+
+Steve Jobs stated the Bozo Explosion occurs because over time, bozos rise up the ranks and promote other bozos in their self-interest (high-performers make them look bad) and so pretty soon, you have a kakistocracy (the most unsuitable people have the most power). This is undoubtedly true in many organizations.
+
+_Promotion 'by default'_ occurs because a position in the hierarchy becomes vacant and the easiest thing to do is bump up the next person. Internal candidates often advantages: 
+
+* Having product/organizational knowledge
+* Being “the devil you know” (de-risking by familiarity). 
+
+However, meritocratic promotion means treating it the same as hiring for a new position. 
+
+* Is the internal candidate capable of the new position, not the one they have? e.g. do they meet all aspects of the role profile.
+* Do they understand what change is desired, how to get there, and can get the organization there?
+
+_Corruption_ is essentially all the reasons other than merit. As evidenced by history and psychological studies like the Milgram Experiment, the Stanford Experiment and COVID19:
+
+[.importantpoint]#Most humans most of the time are amoral, and immoral.# 
+
+We all like to think we are people who are:
+
+* Well informed
+* Think critically
+* Stand up to abuses of power
+* Speak out against injustice
+* Do the noble thing and sacrifice for what's right.
+
+The reality is that this describes the minority of humans. Our biological operating system is coded for:
+
+* Subservience
+* Group think
+* Selfishness
+* Greed
+* Cowardice
+
+Further, our cultural 'applications' that run on the biological operating system have highly limited reach and effectiveness. Given a choice between doing the right thing - morally, for the organization, for others - and suffering a loss of income, *_most people, most of the time choose self-interest_*. 
+
+Moreover, our economic system and societal power structures promote the worst aspects of our biological operating system, by turning people who are not independently wealthy (i.e. don't have to think about money) into "rats in a drum" (to quote Raoul Silva from the film 'Skyfall'). Over-promoted incompetence will always protect itself, because "the rats will eat rat".
+
+There is no cure for the human condition, but truly well-run organizations are designed for immunity against it.
+
+[.importantpoint]#The only way to prevent/address the disease of human nature is the establishment and maintenance of high-performance meritocracy, centered on individual performance.# 
+
+As organizations are inevitably hierarchical power structures, *_the only effective way to drive this is from the top_*, with aggressive and wise action by the highest levels of leadership. Steve Jobs did this on his return to Apple, where within weeks he cut a scythe through entire layers of dysfunctional middle management and saved suppressed high performers like Jony Ive, by doing a one-man, organization-wide performance review.
+
+===== Longevity is not an intrinsic good
+
+Longevity of individuals at an organization is a double-edged sword. 
+
+* [.listitemterm]#Longevity might not correlate to in-depth knowledge of the product/business.# It’s perfectly possible for bad employees to persist for a long time and learn nothing.
+* [.listitemterm]#Longevity can mean bad learning.# If someone has decades of experience at a dysfunctional company, all they learn is how to be dysfunctional, with lots of bad ideas and bad ideas.
+* [.listitemterm]#Longevity can mean stagnation.# Unless exposed to new ideas and experiences within their tenure at the organization, longevity results in very limited people. This is most obvious when joining an organization at meeting the long-timers - great depth of product knowledge, carries the company history, shocking limitations of technique and contemporary practices.
+
+Longevity should be treated with thoughtfulness like any other individual attributes, but the worst thing to do is blindly treat is as an intrinsic good.
+
+=== Individual Performance
+
+Individual Performance, as a basis for meritocracy, should be considered as a rated/considered combination of:
+
+[.importantpoint]#"Individual Performance = { <<character>>, <<expertise>>, <<success>> }"#
+
+Over one's career, you'll work with all sorts of combinations of these factor.
+
+* I've worked with people of exceptional intelligence and academic credentials, who made bad decisions based on a) limited expertise in some areas, and b) emotional dysfunction (narcissism fed by deep insecurities) corrupting their reasoning ability. Despite high levels of technical expertise in many areas, their character flaws and limited expertise in some areas severely negative impacted their overall performance. As I predicted/asserted he should, he would later in his career go on to be a highly capable software architect, and thankfully not in overall leadership.
+* I've worked with people who weren't the best technically but of a sufficient level, but their spirit, conscientiousness and good humour made them a valuable contributor.
+* I've worked with people supposedly of great expertise and the title to match, but their actual contributions (success) were terrible, and their seniority/career 'success' perpetuated by their poor character.
+
+==== Character
+
+There is no precise, complete, definitive recipe for 'good character'. Much of the entirety of human culture, literature and religion is dedicated to exploring what it is.
+
+We've already discussed such individual behaviours elsewhere in the Mixed Management Method, as foundations of an <<culture,organizational culture>> that many individuals should align to. 
+
+* [.listitemterm]#Never be dogmatic#. Adapt to the circumstances to achieve the best results.
+* [.listitemterm]#Speak honestly and openly#, especially to admit mistakes.
+* [.listitemterm]#No egos - it's about putting the work first#.
+* [.listitemterm]#Don't ask others to do anything you're not prepared to do yourself#. 
+* [.listitemterm]#Be conscientious.#
+
+// Add a cross reference to the ticketing system
+
+How does character manifest? Ultimately, as a set of anecdotes that describe the actions an individual took in a specific scenario. This may be captured internally as a set of tickets.
+
+==== Expertise
+
+Expertise can be defined as follows:
+
+[.importantpoint]#"Expertise = A combination of { knowledge, skill } in any of a { discipline, product/service, technologies, business domain }"#
+
+Having worked with extreme combinations of knowledge and skill:
+
+* An individual with lots of knowledge but little skill to apply it, is frustrating to work with, useless in the best case but counter-productive in most. This profile is oh-so typical of the middle management cancer that plagues bad organizations. Characteristically, when you ask for their assistance/contribution for a _specific_ issue, all they can do is _recite_.
+* An individual with lots of skill but little knowledge is a potentially valuable asset that just needs some time to learn. Investing the time and effort you don't have into assisting such people yields high returns. 
+
+[.importantpoint]#"When recruiting, dismissing candidates with evidence of high-levels of skill due to lack of knowledge is a mistake.#
+
+The best hires are high performers anywhere. Better to have a high performer that needs time to adapt to a specific discipline/product/service/technology/business domain, than low performer with lots of experience.
+
+Part of this story is _intelligence_, which unpins knowledge and skills across all areas. Whilst not being definitive or comprehensive, it's perfectly reasonable to say that high levels of school academic achievement pre-university are strong indicators of intelligence. However, that shouldn't stop you from finding unpolished gems.
+
+The corollary also applies - kids that aren't intelligent, don't magically become intelligent as adults. That's not to say that one can't become wise, skilled or successful… but let's be clear:
+
+[.importantpoint]#"Intelligence, whilst far from the be-all-and-end-all, is a foundation for performance. Academic success is usefully approximate measure of intelligence. Dismiss it to create a kakistocracy, fixate on it to lose out on performance.#
+
+Only toxic compassion would wilfully ignore such basic truths.
+
+==== Success
+
+Individual success is not what an organization, department or team achieved, but simply how one's contributions directly contributed to success.
+
+A recognizable trait of low-performers in job interviews is to talk about the successes of broader groups like their team or department, and are unable/unwilling to talk about specifically their contributions.
+
+I once saw a presentation given to a community of product people, entitled (paraphrased somewhat) "My career as a series of failures and what I learned". The presenter walked through his entire career, describing how each product/project he was involved in failed spectacularly, and caused by _his involvement_. No attempt to promote the value of learning-through-failure could mask over the obvious that he was bad at his discipline, despite holding a high-level role in the organization. After the presentation, an audience member discreetly conversed "So this guy's work is a non-stop series of failures and now he works for you guys... good luck with that!". In the year that followed, it was no surprise to find that his most recent product work was yet another catastrophic failure in a long series of failures... and one that he refused to take responsibility for (despite the fact that it could not possibly be anyone else's).
+
+[.importantpoint]#When examining performance of current or prospective employees, ignore titles and what groups did... let them tell a story where specifically their work contributed to success.#
+
+// Add a cross reference to the ticketing system
+
+As with <<character,character>>, success manifests as a set of anecdotes, that may have been captured internally as tickets.
+
+=== Review Individual Performance
+
+Conventional performance review practices pushed by HR professional are _ineffective_ (by their philosophy and design) and _inefficient_ (by their software-based implementation, consumption of effort they force on everyone else without suffering the effects). 
+
+* They lack understanding of what constitutes performance, because *_HR people don't do the work_*.
+* They create a top-down power dynamic that amplifies the damage caused by meritocracy problems i.e. when someone incompetent/of poor character is reviewing the performance of people under them.
+* HR professionals aren't a tech-savvy bunch as a class, so the process infrastructure they produce are burdensome and bureaucratic, especially when they can force it onto their victims without push back and accountability.
+
+In the Mixed Management Method, we've already characterized individual performance, and can elaborate on that to aid design of implementations.
+
+==== Adopt our Individual Performance rating template
+
+Whatever mechanism you use to execute and store individual performance reviews, e.g.
+
+* Spreadsheets
+* Wiki pages
+* Forms software
+* Web apps
+
+Use this structure:
+
+.Individual Performance Review template
+[cols="1,1,2a,3",options="header"]
+|===
+|Field name
+|Data type
+|Data validation
+|Comments
+
+|Character
+|Integer (stars)
+|In the range [0, 4]
+
+* 0 - Non-existent
+* 1 - Poor
+* 2 - Okay
+* 3 - Very good
+* 4 - Excellent
+|A zero-based range is more amenable to star rating and averaging calculations, than a one-based range.
+
+|Expertise
+|Same as `Character`
+|Same as `Character`
+|There’s no need to break expertise down by discipline/product/service/technology/business domain, until individual development).
+
+|Success
+|Same as `Character`
+|Same as `Character`
+|None
+
+|Overall
+|Decimal
+|&#x2265;
+|Calculated (weighted?) average(`Character`, `Expertise`, `Success`)
+
+|Strengths
+|Text
+|Any
+|'S' of the S.W.O.T. acronym.
+
+|Weaknesses
+|Text
+|Any
+|'W' of the S.W.O.T. acronym.
+
+|Opportunities
+|Text
+|Any
+|'O' of the S.W.O.T. acronym. Could be interpreted as "opportunities to make the individual happier" or "enhance value to the organization", amongst others.
+
+|Threats
+|Text
+|Any
+|'T' of the S.W.O.T. acronym. Could be interpreted as "potential to leave", amongst others.
+|===
+
+==== Surface tickets to aid evaluation of success
+
+// Add a cross reference to the ticketing system
+
+A mechanisms to assist evaluation of individual success in a performance review is to query your (single-source-of-truth) ticketing system for:
+
+* Tickets that were/are assigned to them over the review period (say, a year), AND 
+* Have been completed/are in progress. 
+
+Such a mechanism avoids the failures of human memory and prevents recency bias. "I completely forget they did that 12 months ago! That was a valuable contribution."
+
+==== Prioritize upwards performance review, not down
+
+Having people in senior positions review performance of people in lower ones, is simply creating a top-down, authoritarian dynamic that amplifies the negative impact of bad performers getting into positions of power (as they invariably will do, by intent or error). Unfortunately, this is the approach pushed by so many incompetent HR bureaucrats.
+
+What's needed most is the opposite - a feedback mechanism to hold power to account, as the higher up an organization you go, the more power and amplified impact your performance has. That's not to argue for abandoning authority, but for the value of signals that might indicate a problem that needs addressing in places with the most power.
+
+It's the most corrupt and incompetent management that fears transparency, and only desires top-down accountability... because they can more easily manipulate in their favour a situation with fewer routes of information flow, controlling the flow of information and shaping the narrative aka 'managing up'. 
+
+[.importantpoint]#Relying on top-down transparency and accountability is why organizational rot starts with the 'lieutenants', who manipulate the information the flows between the 'troops' and the 'general'.#
+
+[quote,A conversation in the bunker]
+____
+General: "I want 10,000 additional troops on the front line by tomorrow!"
+
+Lieutenant A: "Yes, of course!"
+
+<Lieutenant A exits room>
+
+Lieutenant B :"Are you nuts, that's impossible!"
+
+Lieutenant A: "I'm not going to tell him that, are you?!"
+
+Lieutenant B: "No way, do I look like a want to eat a bullet?!"
+____
+
+==== Exclude no-one
+
+No-one should be excluded from performance review, especially at the highest levels. The people with the most power have the responsibility to be the most competent, because the consequences of their actions have the greatest scope to negatively impact the organization.
+
+==== Find the high performers. Bypass the hierarchy
+
+When joining an organization in a leadership position, you may conduct an ad-hoc, one-off type of full individual performance review across the whole organization. This is contrast to a regularly scheduled, cross organizational activity. It's a way to increase understanding of the people element of the organization.
+
+You can't assume that everyone is the right person in the right position for the right reasons (it's rarely the case). Instead, you should assume that more likely case that it's a rats nest stemming from a history of corruption, nepotism, over promotion and political power games.
+
+The best example is when Steve Jobs returned to Apple and laid the foundation for the greatest comeback story in corporate history, by conducting a one-man 'performance review' across the company... finding the frustrated, suppressed high-performers like Jony Ive and firing swathes of management.
+
+How do you sort this mess out?
+
+[.importantpoint]#You need to find the high-performers and build your review of individual performance from them.#
+
+In almost every organization, there's at least one (or a few) key, high performing employees. You need to find them by asking around:
+
+* "Who's the _one_ person who would cause this place to grind to a halt if they left?"
+* "Who does everyone turn to for help?"
+
+Once you're found one or more high performers, have them take you on a guided tour of the organizational structure to find who they respect and value, thus expanding the group of trusted high performers to sufficient degree to cover all the organization's sub-groups (departments, functions).
+
+Then use the expertise of the trusted group to conduct the performance review (excluding the SWOT components for efficiency). In this way, you'll build the most accurate map of individual performance across the organization. The odds are that it won't correspond to a meritocracy.
+
+Finally, if you have any desire to right the ship, you'll promote the existing high performers, recruit new ones, and empower them to drive change (such as getting rid of the low performers).
+
+=== Leadership
+
+==== Foster leadership, reject management
+
+[.importantpoint]#Every organization should replace the word 'manager' in job titles, with 'leader'.#
+
+Managers are a very different breed from leaders, and it mostly boils down to lack of character and lack of competence.
+
+* Managers [.lineitemterm]#rearrange the deck chairs on the Titanic# while it's sinking to keep everyone 'happy' out of self-interest. In contrast, leaders spot the iceberg early, then do everything within their power to prevent crashing into it (and if it does crash, lead the response).
+* Managers [.lineitemterm]#fight the fights they can win#, not the fights that are right.
+* Managers [.lineitemterm]#prioritize { Me, Men (that serve Me), Mission }#. Leaders do the opposite.
+* Managers [.lineitemterm]#prefer spreadsheets over people#.
+* Managers [.lineitemterm]#are B/C players, who hire and promote D/E players# out of self-interest. Leaders are A players, who hire and promote A/A+ players.
+
+Typical manager character traits include:
+
+* Clock watching
+* Stealing/ignoring of credit for good work
+* Driving out of high performers
+* Manipulation of the narrative by controlling and shaping information flowing to the higher levels in the hierarchy
+* Hire and promote loyalists, not high-performers
+
+On the competence side, the word 'manager' only serves to obfuscate the necessity of competence and domain expertise i.e. defends the concept of the general manager. 
+
+You cannot take the manager of a grocery store, put them in charge of the cardio-thoracic surgery department of a hospital overnight and not expect the likelihood of people dying. For a managing director of a technology company to exclaim _"Of course there's such a thing as a (general) manager... look at me... I know nothing about our product and I'm a charge!"_ would be insanity.
+
+The only possible reason that a person can have for defending the idea that competence is not a fundamental requirement for senior positions, is to attempt to defend their own lack of it. Sadly, this seems to be particularly widespread in Software Engineering, as the intangible, magical thing that is software must therefore cost nothing to create, take no time, cause no difficulty, and therefore can be led by people *_who've never done it_* (!). This always leads to disaster.
+
+With a '<Discipline/Function/Product> Leader' title, it's quickly obvious when the shoes don't fit.
+
+[quote,Steve Jobs (1985)]
+____
+We went through that stage in Apple where we went out and thought "Oh, we're going to be a big company... let's hire professional management". We went out and hired a bunch of professional management. It didn't work at all. Most of them were bozos. They knew how to manage but they didn't know how to do anything!
+____
+
+==== Foster great leadership
+
+[.importantpoint]#To be a great leader, do what great leaders do.#
+
+We can think of this in terms of the elements of individual performance.
+
+===== Character
+
+* Has all of the character traits described in <<character>> but in the case of leadership, is coupled to power over other people.
+* Prioritizes *_Mission, Men, Me_* (in that order) i.e. does what's right for the work and others, not what's convenient or self-interested.
+* Leads from the front, and/or coaches from behind, as required.
+* Has the strength of character to make decisions, and the humility to listen/debate/consult.
+* Is authoritative, but a disciplinarian or mentor as needed.
+* Has a sense of humour and uses it to make tough work and meetings easier.
+* Capable under pressure (but that doesn't mean robotic, or even necessarily calm)
+* Gives credit where credit's due.
+
+===== Expertise
+
+* Is as competent as their peers or more so, at any level of seniority (think military leaders who haven't risen up the ranks on the front lines).
+* Communicates effectively with clarity, completeness and conciseness.
+* Able to:
+   ** Understand 'here'
+   ** Define a vision of 'there'
+   ** Understand how to get from here to there
+   ** Communicate how to get from here to there
+   ** Execute
+
+===== Success
+
+* Is mostly right. Makes the best possible decisions and achieve the best possible results. The most common trait of people who are frequently wrong is the unwillingness to consider being wrong due to fear and insecurity. No secure person has a problem declaring publicly "Damn, I'm wrong, aren't I?!"
+
+=== Organizational Structure
+
+==== Establish functional verticals (preferred) and limited cross-cutting horizontals
+
+The Harvard Business Review article https://hbr.org/2020/11/how-apple-is-organized-for-innovation["How Apple Is Organized for Innovation"] lays out the case for functionally-oriented verticals but it's fundamentally simple (paraphrased):
+
+[.importantpoint]#Decision making and seniority is best correlated with expertise.#
+
+[quote,Steve Jobs (1985)]
+____
+If you're a great person, why do you want to work for someone you can't learn anything from?! 
+____
+
+The worst organizations are the ones where people look to their leaders to see incompetence and lack of expertise - both in terms of outcomes, and destruction of morale. This is more likely to occur when the organizational structure isn't designed to reflect it, e.g. a _hardware_ engineer leading an Engineering department and supposedly leading _software_ engineers. Rarely do we even see the best case where the person in charge is smart enough to step back and not interfere in something they're ignorant of. The Apple organization model essentially minimized this occurrence by having it only occur at one point - around Steve Jobs.
+
+When designing your organizational structure for maximum performance, you need to red-flag points where people of no expertise have power over others.
+
+Some organizations create cross-cutting horizontals e.g. a Project Management department, alongside verticals like Hardware Engineering and Production. This is problematic for multiple reasons:
+
+[arabic]
+1. The horizontal function interferes in the verticals where they have no expertise, causing dysfunction. A project management specialist rarely knows anything about, say, mechanical engineering and manufacturing.
+2. The horizontal function gets frustrated at inability to exert control over the verticals.
+
+If you must have functional horizontals, the best way to clarify their position as drivers of best practice with a "light touch" approach but no formal authority over the verticals.
+
+==== Don't create Engineering departments
+
+Engineering doesn't exist... and that's not a play on words of the YouTube channel "Baseball Doesn't Exist".  
+
+* There's no degree in 'creating stuff'. 
+* There is no 'Institute of Engineering'.
+
+There is no such discipline as 'engineering'. There is:
+
+* Aerospace and Aerothermal Engineering
+* Bioengineering
+* Civil, Structural and Environmental Engineering
+* Electrical and Electronic Engineering
+* Electrical and Information Sciences
+* Energy, Sustainability and the Environment
+* Information and Computer Engineering
+* Instrumentation and Control
+* Mechanical Engineering
+
+The skills, techniques, models, history and ideas of the aforementioned disciplines are so broad in scope and diverse, that students specialize before even getting out of 3-4 years of undergraduate study. Then on top of that, they require decades of real-world experience and learning, in order to build expertise.
+
+There are rare instances of polymathy, but the practical limitations on time required to learn deeply and gain experience means that claims to be able to span these disciplines are limited at best, and delusional at worst. Don't put a software engineer in charge of building highways overnight - it won't end well. It is extremely unlikely that an 'engineer' is a modern day Leonardo da Vinci.
+
+Functional verticals should separate the engineering disciplines, or _at a minimum_ separate the 'world of atoms' (physical space) from the 'world of bits' (information space), which have fundamentally different dynamics, rules, constraints and bodies of knowledge. 
+
+==== Define role profiles
+
+Leadership should author role profiles, whose contents:
+
+* Bring clarity to the human requirements for roles 
+* When reused, create alignment across multiple workflows.
+
+They should be structured at the top-level consistent with <<individual_performance,individual performance>> i.e. { Character, Expertise, Success }
+
+The contents of role profiles can be reused in multiple areas, creating alignment:
+
+* In recruitment ads.
+* When evaluating role candidates (new recruitment, internal promotion).
+* To guide individual performance reviews.
+* Identify gaps in expertise that need to be filled (when built into an <<map_expertise,expertise map>>).
+* Identify single points of failure (when built into an <<map_expertise,expertise map>>) - individuals whose absence/departure cripples productivity.
+
+==== Map expertise
+
+There's a crappy term for a map of expertise in an organization - 'Skills Matrix'. The plain English, keep-it-simple name in the Mixed Management Methodology is 'Expertise Map'.
+
+As a reminder, <<expertise,expertise>> is one of the components of <<individual_performance,individual performance>>.
+
+===== Design the map
+
+When structuring your expertise map, break it down hierarchically by { discipline, product/service, technologies, business domain } according to your specific context e.g.
+
+* Software Engineering (discipline)
+  ** OOP
+  ** Recursion
+* Our SaaS software (product/service)
+  ** Account management
+  ** Catalogue navigation
+* Technologies (technologies)
+  ** C#
+  ** ASP.NET
+* B2C retail (business domain)
+  ** Data protection law
+
+The structure should be aligned with the expertise component of the relevant <<define_role_profiles,role profiles>>.
+
+===== Populate the map
+
+The most effective and efficient approach to populating the map is _self-assessment_. Send out a form for/access to the spreadsheet and have people self-rate their expertise from [0, 4] (as per  <<adopt_our_individual_performance_rating_template, individual performance rating>>).
+
+Self-assessment is best, because:
+
+* Any approach will dependent on subjective opinion anyway. The individual in question is as informed as anyone else. 
+* Making the map contents open and accessible will increase the likelihood of surfacing errors/deception "No way Person X has expertise of 4 on Topic A!"
+* Any other approach has the increased likelihood of bottle necking. With self-assessment, the burden is being maximally distributed.
+
+===== Use the results
+
+Once the map has been populated:
+
+* Analysis of the results (particularly colour coding the ratings) may highlight areas of weakness/single-points-of-failure, or under-utilized expertise.
+* The results can be used as input into <<strategize_personal_development,personal development strategies>>.
+
+==== Don't fall for the dogma of full-time specialist roles
+
+In some conventional software engineering methodologies, such as Scrum or Scaled Agile, some full-time specialist roles are considered mandatory (or strongly pushed), including Architect, Product Manager (<<foster_leadership_reject_management,Product Leader?>>), UI Designer, Scrum Master, Test Engineer, Technical Writer and so on.
+
+These are actually _responsibilities_ (or activities to be done), and don't dogmatically have to be full-time roles. It's perfectly reasonable for a responsibility to be covered without adding specialist roles. Within a given set of circumstances, a senior-level software engineer may be perfectly capable of performing the activities of a Product Manager, without overburdening or falling short in expertise... it depends.
+
+Following the idea of functional verticals, consider this general form of role title:
+
+"<Seniority> <Discipline> [- <Specialism>]" e.g. "Principal Software Engineer - Frontend"
+
+===== Product Owner/Manager
+
+Product management (leadership) roles are problematic. There's a great depth of learning in _creating and taking care of_ things. Career product people tend to lack this depth, and there's something distinctly 'career consultant' about their general lack of competence. One could argue they bring domain expertise - sure, but can they put it to good use? Can someone effectively tell others what to create, if they don't have expertise in how to create? (no)
+
+Should you create a product leadership role - with the decision making powers it entails - or do you just need:
+
+* A 'Subject Matter Expert' who can assist the people who actually create? (but without the product decision rights)
+* To develop greater business domain understanding in the creators?
+
+===== Scrum Master
+
+In other cases, full-time specialist roles can be positively destructive. The dogma of the Scrum Master is one of the worst things to ever happen to software engineering. The name itself is steeped in Scrum dogma.
+
+If you have a full-time Scrum Master with no meaningful expertise creating software (apprentice, journeyman craftsman), which seems to be disturbingly common, what help are they actually to senior engineer with decades of experience actually doing it? If a Scrum Master role exists, it's most often a reflection of:
+
+[arabic]
+1. The leadership of Software Engineering is incompetent, because they can't do *_their job_* of implementing, driving and maintaining best practice.
+2. The organization's leadership is dogmatically adhering to a methodology irrespective of what the realized benefits are, thus wasting money.
+
+All the activities a Scrum Master is supposed to perform should be covered by competent people in leadership roles, and before attempting to plug the gap with another person, there should be a serious conversation about why the gap exists.
+
+[.importantpoint]#Best practice is understood and implemented by competent practitioners.#
+
+===== Technical Writer
+
+[.importantpoint]#The best people to explain what a product does, how it works etc. are the people who designed and created it.#
+
+There's really no way around that fact (otherwise you'll be doing reverse engineering).
+
+A full-time specialist Technical Writer role can raise the standard of the writing and provide extra bandwidth to write, but there's no silver bullet to avoid the need for the _creators to write the first draft_. Seems obvious but you'd be surprised at how ignorant people can be of the obvious.
+
+==== Staff in adequate numbers for your expectations
+
+The world of unlimited resources is obviously a fiction for any organization. We live in an objective universe on a closed ball in space with a finite number of people available and a finite amount and distribution of expertise, and so on.
+
+I've never seen a silver bullet for understanding what 'adequate' means in terms of human resources. It's a highly context-specific problem whose input variables are many and varied, such as the business domain, the nature of the product/service portfolio, the cash resources, the landscape of competitive organizations, but to name a few.
+
+[.importantpoint]#All you can really do to plan staffing is rely on past experience and reason-in-the-context, then let the chips fall where they may, whilst being responsive to new learning and changing conditions.#
+
+In some cases, there are simple rules of thumbs available e.g. in IT, ratio of organizational headcount to IT department headcount.
+
+What should be much easier to identify with even a modicum of experience and reasoning ability, are minimum levels of resourcing necessary to achieve goals, below which the staff will be overworked, overstressed and likely to leave, leading to project/function collapse. As is often seen in phase dynamics, there's a period of sustained stress where no problem is apparent from a distance, then sudden change/collapse.
+
+A natural consequence of the inevitable limits of available resources, is the need to limit expectations of what may be achieved in a given timeframe.
+
+You'll notice that all of this requires expertise. Without expertise, no reasonable understanding of what's required can be formed, nor what's possible, nor the unavoidable reality of uncertainty, risk, and objective limits. Leadership/management without expertise or reasoning ability will inevitably behave unreasonably, and it's incredible how common this is.
+
+=== Personal Development
+
+==== Strategize personal development
+
+By inspecting the combination of:
+
+* <<define_role_profiles,Role profiles>>
+* <<review_individual_performance,Performance review results>>
+* <<map_expertise,Expertise mapping>>
+
+, you should be able to create individualized personal development strategies that clarify how to get someone to a given goal akin to "Became a senior salesperson" i.e. learn this, demonstrate that, experience that and so on.
+
+// Add cross reference to the ticketing system
+
+Like any other stream of work, personal development can be managed with tickets.
+
+==== Think in terms of craftsmanship
+
+Irrespective of the discipline under consideration, the craftsmanship model of career development is useful because it focuses on _what someone can do_, not _what there title is_.
+
+Essentially, we should all start as apprentices. Then we become journeymen. Eventually, we can choose to become master craftsmen, or diverge into some variation such leadership, sales, marketing but utilizing the foundational competence of building something.

@@ -8,12 +8,10 @@ exclude:
 - Gemfile.lock
 - Rakefile
 - asciidoctor/
+- font-awesome-4.7.0/
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    icons: font
-    idseparator: _
-    stylesdir: css
-    source-highlighter: coderay
+

@@ -15,7 +15,7 @@ This repository is hosted in GitHub and uses a GitHub Action to convert the arti
 
 One-time installation:
 
-1. Run the Ruby installer on my PC following: https://jekyllrb.com/docs/installation/windows/
+1. Run the Ruby installer (3.3.x works) on my PC following: https://jekyllrb.com/docs/installation/windows/
 2. Open a PowerShell terminal: `gem install jekyll bundler`
 3. Ensure `jekyll -v` displays the version. Restart the PC if necessary.
 4. Clone the Article repository locally e.g. to `~\Projects\MixedManagementMethod\Article`
@@ -42,4 +42,5 @@ The repository requires the following structure to work correctly:
 
 There are some https://docs.asciidoctor.org/asciidoc/latest/text/custom-inline-styles/[custom inline styles] that need to be formatted in CSS (search the `.adoc` sources for `[.<style name from the following list>]`).
 
+* `importantpoint`
 * `listitemterm`

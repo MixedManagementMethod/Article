@@ -10,8 +10,10 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :page-title: {doctitle}
 :page-description: {description}
 :imagesdir: ./images
+:stylesdir: css
+:source-highlighter: coderay
 :toc:
-:toclevels: 3
+:toclevels: 4
 
 include::sources/Introduction.adoc[]
 
@@ -25,4 +27,4 @@ include::sources/Practice.adoc[]
 
 include::sources/Support.adoc[]
 
-include::LICENSES.adoc[]
+include::LICENSE.adoc[]
