@@ -10,7 +10,7 @@ For a wide variety of individuals with varying personalities, values and experie
 
 From real world observation, the cultural principles/individual behaviours described here work well because it's in these areas that organizations fail (due to failing leadership).
 
-[.importantpoint]#"Great Culture = <<no-dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
+[.importantpoint]#Great Culture = <<no-dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }#
 
 Cultures are emergent properties that can appear spontaneously from happenstance, but the best cultures are purposefully driven.
 
