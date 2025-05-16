@@ -10,6 +10,8 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :page-title: {doctitle}
 :page-description: {description}
 :imagesdir: ./images
+:stylesdir: css
+:source-highlighter: coderay
 :toc:
 :toclevels: 4
 
