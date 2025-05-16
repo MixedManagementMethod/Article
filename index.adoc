@@ -11,6 +11,7 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :page-description: {description}
 :imagesdir: ./images
 :stylesdir: css
+:stylesheet: mmm
 :source-highlighter: coderay
 :toc:
 :toclevels: 4
