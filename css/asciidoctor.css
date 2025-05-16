@@ -189,11 +189,11 @@ body {
   color: rgba(0, 0, 0, 0.8);
   padding: 0;
   margin: 0;
-  font-family: "Noto Serif", "DejaVu Serif", serif;
+  font-family: sans-serif;
   line-height: 1;
   position: relative;
   cursor: auto;
-  tab-size: 4;
+  tab-size: 3;
   word-wrap: anywhere;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
