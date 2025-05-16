@@ -10,7 +10,7 @@ For a wide variety of individuals with varying personalities, values and experie
 
 From real world observation, the cultural principles/individual behaviours described here work well because it's in these areas that organizations fail (due to failing leadership).
 
-[.importantpoint]#"Great Culture = <<no_dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
+[.importantpoint]#"Great Culture = <<no-dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }"#
 
 Cultures are emergent properties that can appear spontaneously from happenstance, but the best cultures are purposefully driven.
 
@@ -65,11 +65,11 @@ The fictional TV series "House" whose title character extorts "Everybody lies!" 
 Clarifying the dividing lines between honest/plain/robust speaking from rude/unacceptable is part of the challenge. Try this in your communications of culture (or the ambiguously scoped 'ways of working'):
 
 * [.listitemterm]#Be honest and open.#
-   ** <<i_dont_know_is_a_valid_answer>>
-   ** <<i_disagree_is_a_valid_response>>
-   ** <<the_coverup_is_worse_than_the_crime>>
+   ** <<i-dont-know-is-a-valid-answer>>
+   ** <<i-disagree-is-a-valid-response>>
+   ** <<the-coverup-is-worse-than-the-crime>>
 * [.listitemterm]#It's always about the work.# 
-* [.listitemterm]#Be robust and forgive#, because <<honesty_requires_robustness_and_forgiveness,humans are messy>>
+* [.listitemterm]#Be robust and forgive#, because <<honesty-requires-robustness-and-forgiveness,humans are messy>>
 * [.listitemterm]#When it is about the person, be kind but strong.# 
 * [.listitemterm]#Recurring/severe problems are problems, not incidents.# The "jump on every instance right away" mentality observed in some management is insecure, fragile micromanagement.
 
@@ -173,9 +173,9 @@ In general, life is not a meritocracy. The longer you live and the wiser you bec
 
 Here, we'll focus on the right reasons. The other factors are explored elsewhere:
 
-* Right people: <<individual_performance>>
-* Right positions: <<organizational_structure>>
-* Right numbers: <<staff_in_adequate_numbers_for_your_expectations>>
+* Right people: <<individual-performance>>
+* Right positions: <<organizational-structure>>
+* Right numbers: <<staff-in-adequate-numbers-for-your-expectations>>
 
 [.importantpoint]#The best thing an organization can do for morale is establish and maintain a meritocracy.#
 
@@ -187,7 +187,7 @@ So, what are the _wrong_ reasons?
 
 * Promotion by default.
 * Corruption i.e. nepotism/favouritism/personal relationships.
-* Anything else disconnected from <<individual_performance>>.
+* Anything else disconnected from <<individual-performance>>.
 
 Steve Jobs stated the Bozo Explosion occurs because over time, bozos rise up the ranks and promote other bozos in their self-interest (high-performers make them look bad) and so pretty soon, you have a kakistocracy (the most unsuitable people have the most power). This is undoubtedly true in many organizations.
 
@@ -569,21 +569,21 @@ Leadership should author role profiles, whose contents:
 * Bring clarity to the human requirements for roles 
 * When reused, create alignment across multiple workflows.
 
-They should be structured at the top-level consistent with <<individual_performance,individual performance>> i.e. { Character, Expertise, Success }
+They should be structured at the top-level consistent with <<individual-performance,individual performance>> i.e. { Character, Expertise, Success }
 
 The contents of role profiles can be reused in multiple areas, creating alignment:
 
 * In recruitment ads.
 * When evaluating role candidates (new recruitment, internal promotion).
 * To guide individual performance reviews.
-* Identify gaps in expertise that need to be filled (when built into an <<map_expertise,expertise map>>).
-* Identify single points of failure (when built into an <<map_expertise,expertise map>>) - individuals whose absence/departure cripples productivity.
+* Identify gaps in expertise that need to be filled (when built into an <<map-expertise,expertise map>>).
+* Identify single points of failure (when built into an <<map-expertise,expertise map>>) - individuals whose absence/departure cripples productivity.
 
 ==== Map expertise
 
 There's a crappy term for a map of expertise in an organization - 'Skills Matrix'. The plain English, keep-it-simple name in the Mixed Management Methodology is 'Expertise Map'.
 
-As a reminder, <<expertise,expertise>> is one of the components of <<individual_performance,individual performance>>.
+As a reminder, <<expertise,expertise>> is one of the components of <<individual-performance,individual performance>>.
 
 ===== Design the map
 
@@ -601,11 +601,11 @@ When structuring your expertise map, break it down hierarchically by { disciplin
 * B2C retail (business domain)
   ** Data protection law
 
-The structure should be aligned with the expertise component of the relevant <<define_role_profiles,role profiles>>.
+The structure should be aligned with the expertise component of the relevant <<define-role-profiles,role profiles>>.
 
 ===== Populate the map
 
-The most effective and efficient approach to populating the map is _self-assessment_. Send out a form for/access to the spreadsheet and have people self-rate their expertise from [0, 4] (as per  <<adopt_our_individual_performance_rating_template, individual performance rating>>).
+The most effective and efficient approach to populating the map is _self-assessment_. Send out a form for/access to the spreadsheet and have people self-rate their expertise from [0, 4] (as per  <<adopt-our-individual-performance-rating-template, individual performance rating>>).
 
 Self-assessment is best, because:
 
@@ -618,11 +618,11 @@ Self-assessment is best, because:
 Once the map has been populated:
 
 * Analysis of the results (particularly colour coding the ratings) may highlight areas of weakness/single-points-of-failure, or under-utilized expertise.
-* The results can be used as input into <<strategize_personal_development,personal development strategies>>.
+* The results can be used as input into <<strategize-personal-development,personal development strategies>>.
 
 ==== Don't fall for the dogma of full-time specialist roles
 
-In some conventional software engineering methodologies, such as Scrum or Scaled Agile, some full-time specialist roles are considered mandatory (or strongly pushed), including Architect, Product Manager (<<foster_leadership_reject_management,Product Leader?>>), UI Designer, Scrum Master, Test Engineer, Technical Writer and so on.
+In some conventional software engineering methodologies, such as Scrum or Scaled Agile, some full-time specialist roles are considered mandatory (or strongly pushed), including Architect, Product Manager (<<foster-leadership-reject-management,Product Leader?>>), UI Designer, Scrum Master, Test Engineer, Technical Writer and so on.
 
 These are actually _responsibilities_ (or activities to be done), and don't dogmatically have to be full-time roles. It's perfectly reasonable for a responsibility to be covered without adding specialist roles. Within a given set of circumstances, a senior-level software engineer may be perfectly capable of performing the activities of a Product Manager, without overburdening or falling short in expertise... it depends.
 
@@ -683,9 +683,9 @@ You'll notice that all of this requires expertise. Without expertise, no reasona
 
 By inspecting the combination of:
 
-* <<define_role_profiles,Role profiles>>
-* <<review_individual_performance,Performance review results>>
-* <<map_expertise,Expertise mapping>>
+* <<define-role-profiles,Role profiles>>
+* <<review-individual-performance,Performance review results>>
+* <<map-expertise,Expertise mapping>>
 
 , you should be able to create individualized personal development strategies that clarify how to get someone to a given goal akin to "Became a senior salesperson" i.e. learn this, demonstrate that, experience that and so on.
 
