@@ -403,8 +403,7 @@ It's the most corrupt and incompetent management that fears transparency, and on
 
 [.importantpoint]#Relying on top-down transparency and accountability is why organizational rot starts with the 'lieutenants', who manipulate the information the flows between the 'troops' and the 'general'.#
 
-[quote,A conversation in the bunker]
-____
+----
 General: "I want 10,000 additional troops on the front line by tomorrow!"
 
 Lieutenant A: "Yes, of course!"
@@ -416,7 +415,7 @@ Lieutenant B :"Are you nuts, that's impossible!"
 Lieutenant A: "I'm not going to tell him that, are you?!"
 
 Lieutenant B: "No way, do I look like a want to eat a bullet?!"
-____
+----
 
 ==== Exclude no-one
 
