@@ -19,6 +19,273 @@ The most important thing is to be effective. Organizations -can- function with e
 
 Organizations can survive, even thrive, in spite of being inefficient but the consequences are time, expense and negative impact on morale where frustration builds, particularly amongst high performers who can see a better way. Inefficiency ultimately burns cash and people.
 
+==== Reject the 'metric-driven' dogma
+
+You might occasionally encounter dogma about the value of metrics:
+
+* "If you can't measure it, you can't manage it"
+* "We're metric/data driven" 
+
+// Add cross reference to OKRs
+
+For example, it seems pretty baked into the OKR methodology.
+
+At those times, it's worth knowing that it likely stems from mis-portrayal of what W. Edwards Deming (of the iconic text "The Deming Management Method") actually said.
+
+[quote,W. Edwards Deming, The New Economics]
+____
+It is wrong to suppose that if you can't measure it, you can't manage it – a costly myth.
+____
+
+Whether you want to describe reality quantitatively or qualitatively is entirely down to your best judgement of what's _feasible_, _practical_ and _valuable_.
+
+=== IT Infrastructure and tools
+
+The bar has been continually raised, such that the use of tools that were once the esoteric domain of software developers is now required in other disciplines, in order to perform effectively in a modern organization..
+
+They include Git SCM, markup, messaging, ticketing, data transformation and analytics, and increasingly AI-accelerated tools.
+
+Anyone clinging to the 'old ways' (email chaos, file attachments, spreadsheets for everything), and attempting to bluff their way through, is quickly exposed by the huge gains in effectiveness and efficiency of everyone else who invested in learning.
+
+This applies to any level of seniority, as the ability to lead in a competitive landscape requires the ability to:
+
+* Engage and understand your people
+* Envision and implement improvement 
+
+It's the difference between the 'builders' and the bluffers.
+
+==== Prefer integrated ecosystems/monoliths over best-in-class
+
+A recurring theme in many organizations, particularly driven by the adoption of SaaS tools, is complexity in their IT infrastructure due to:
+
+* A 'Cambrian explosion' of software tools driven by the naive mindset of "Adding another software tool will solve our problems".
+* A history of home brewing software tools.
+
+In these scenarios, the pain point is getting them to work together (integration).
+
+* Creating, reading, updating and deleting across fragmented, siloed data sources is a nightmare.
+* It's difficult to maintain consistency of design across multiple systems.
+
+Attempts to stitch them together with manual labour inevitably fail due to the cost and effort of continually doing so, though it's possible for an organization to survive, with effective-but-inefficient workflows, but usually in a constant state of decline.
+
+A permanent solution requires a combination of the following, with minimal fragmentation:
+
+* Investing in automated integrations (off the shelf, or home brewed).
+* Adopting coherent ecosystems (Microsoft's advantage, somewhat present with Atlassian) over a fragmented combination of best-in-class.
+* Building monolithic solutions with low code/no code app development e.g., Tadabase.
+
+==== Adopt task tracking (ticketing) for all
+
+After messaging (chat, email, voice/video calls etc) and shared file storage, a task tracking (ticketing) system is the most vital collaboration and organizational tool… and shockingly undervalued.
+
+Task tracking/ticketing software exists in many forms: Office 365 To Do, Google Tasks, Microsoft Project, Atlassian Jira, GitLab, Microsoft GitHub, Microsoft Azure DevOps, Service Now, Tadabase (home brewed, no-code web apps) and more.
+
+The fragmentation is a real problem, and the variations in functionality often only exist due to various business domain origins of the software - project management, software engineering, consumer apps, IT service management - or the internal politics of an organizations. Microsoft alone has 4 different task tracking tools with overlapping functionality - Office 365 To Do, MS Project, Azure Boards and GitHub Issues - and all of which have existed for years as half-baked solutions.
+
+Tickets are a digital record that represent a task, and:
+
+* Have a status field that represents the state of the task e.g. To Do.
+* Have a minimum set of required, default data fields e.g. Title, Description.
+* Have customizable fields to capture structured information/encode a workflow.
+* May be configurable with checklists for encoding workflow/gate keeping progress. In some systems, a checklist is recognized as a list of tickets.
+
+No matter what your position in the organisation's hierarchy (from CEO to entry level engineer), or your function (HR, Finance, Software Engineering), adopting task tracking tools brings the universal benefit of non-human memory for individuals and groups alike:
+
+* [.listitemterm]#Planning#. What could/is to be done in the future (aide memoire), when and by who.
+* [.listitemterm]#Traceability#. What happened, what was done by who. Give credit to people for their work. Institutionalize knowledge for the future, for repetition/improvement/reporting.
+* [.listitemterm]#Transparency#. Improve collaboration. See what others are doing and how they're doing it.
+* [.listitemterm]#Organization#. Consolidating and structuring information e.g., defining structured fields to capture information about a Bug - what went wrong, how was it fixed, how can it be prevented from happening again, what was it prevented from happening again.
+* [.listitemterm]#Consistency#. Workflows can be built into tickets (e.g., checklists) that are a list of topics to think about/tasks to do. "Have you done/thought about X?", as can rules that apply constraints to transitions between states.
+* [.listitemterm]#Continuous improvement#. Workflows built into ticketing systems can be improved. Learning and improvement can be driven by the tickets e.g., in a Bug ticket have a field called "How can it be prevented from happening again" and require it to be filled before the ticket can be closed.
+* [.listitemterm]#Accessibility#. Access (query, search) and visualize this information.
+
+It's astounding how many functions in how many organizations are dysfunctional, and could save themselves (and their collaborators) a huge amount of pain just with a ticketing system.
+
+For example, Boeing claimed there was 'no documentation' to explain why bolts were missing from a plane door that detached mid-flight. What they should have said was there was no ticket, and if there was, there's no useful information on it. Translation: "We don't have our basics together".
+
+===== Ensure task tracking is monolithic
+
+Having fragmented task tracking across multiple systems is difficult to manage and use e.g. how to run a query for past work when a) you're not sure who did it and b) different users are using different systems.
+
+Single-sources-of-truth are ideal - have all the organization use the same <<prefer-integrated-ecosystems-monoliths-over-best-in-class,monolithic system>>. 
+
+Prefer systems where ticket types, ticket fields (for data capture) and ticket state workflows are highly configurable i.e. Jira/GitHub/Azure DevOps/GitLab or no-code apps on Tadabase. If you have software engineers and non-software engineers in the same organization, it wouldn't be the end of the world to have the non-software engineers learn to use the tools of software engineers e.g. Jira/GitHub/Azure DevOps/GitLab.
+
+The alternative is at least to minimize the fragmentation, using as few systems as possible. You might have one system for most users and another specifically for software engineers. If you need to stitch systems together, you'll have to invest in automated, friction-free integration to ensure at least one is a single-source-of-truth e.g. use an integration to sync GitHub tickets to a home-brewed app's database.
+
+// Add a system diagram?
+
+===== Adopt our task tracking template
+
+If there's one thing engineering and technologists like to do is come up with yet more poorly chosen terminology... and then baking it into the tools so you can't get rid of it.
+
+* What's considered a `backlog` in software engineering terminology is actually a `queue` - backlog implies 'you're running behind', which is nonsense in most cases - the tickets in the backlog are just work you haven't gotten around to yet. If the people who originally chose this terminology bothered to use a dictionary, this misuse of terms wouldn't have detracted from clarity and wouldn't have introduced a corrosive accusatory tone everywhere (many task tracking tools (Jira, Azure DevOps) have 'backlog' baked in).
+* Azure DevOps uses `work item` instead of `ticket` - same number of syllables but the former is clumsy and awkward (at least in the English language). GitHub uses `issue`, which isn't any better. `Epic` is sometimes used to describe work to implement a discrete group of smaller product functions - this terminology is arcane, obtuse and software product development-specific (born out of 90s Agile). `Feature` is used the same way in other software development methodologies.
+
+There are plenty of articles around the internet about the myriad of terminology across different methodologies. What Mixed Management does is to pick the most universally useful, yet semantically unrestricted, terminology in our task tracking template.
+
+* `Backlog` because it's so universally baked into task tracking software, that it's generally too difficult to ditch.
+* `Ticket` is the item that represents a task.
+* `Project` to describe a grouping of tasks, whether product development related or not. It's universal and clear.
+* `Requirement` over `feature` or `story` as an intuitive term to label a product change. It's the most frictionless way of labelling a category of change without dragged down methodology-specific dogma (<<why-mixed,which the Mixed Management Method tries to avoid>>).
+
+You should consider at least two distinct type of backlog configuration:
+
+[arabic]
+. [.listitemterm]#General# e.g., team, department, strategic.
+. [.listitemterm]#Product# i.e. development and operations ('operations' meaning to support to the product).
+
+Each configuration has a distinct backlog hierarchy (based on ticket types), where a ticket in one level of the hierarchy can be grouped under (parented to) a ticket in a higher level. This enables a lossy, higher level (lower resolution) view on the contents of lower backlogs. 'Lossy' implies it's not necessary to assign a parent to every lower level ticket.
+
+Each level of the hierarchy contains tickets of a distinct set of types. The purpose of ticket types is to:
+
+* Categorize tickets as to the type of work they represent.
+* Capture different sets of information with fields.
+* Support different ticket states, and workflows between states.
+
+.General configuration hierarchy of backlogs
+[cols="1,1a,3a",options="header"]
+|===
+|Backlog (low level to high)
+|Ticket Types in this level
+|Description
+
+|`Tasks`
+|Only one: `Tasks`
+|The default, baseline backlog level where tasks are tracked.
+
+|`Project`
+|Only one: `Project`
+|Enable a higher-level view (lower resolution, lossy) of the work by parenting `Task` tickets to projects.
+
+|`Strategy``
+|Only one: `Objective`
+|Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
+|===
+
+.Product configuration hierarchy of backlogs
+[cols="1,1a,3a",options="header"]
+|===
+|Backlog (low level to high)
+|Ticket types in this level
+|Description
+
+|`Product`
+|Development:
+
+* Requirement
+* Documentation
+* Bug
+* DevOps
+* Tech
+* Release
+* Task
+
+Operations:
+
+* Support
+* Bug
+* Task
+
+|The default, baseline backlog level where product development and/or operation is tracked.
+
+|`Project`
+|Only one: `Project`
+|Enable a higher-level view (lower resolution, lossy) of the work by parenting `Product` tickets to projects.
+
+|`Strategy``
+|Only one: `Objective`
+|Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
+|===
+
+One can also consider hierarchical levels below `Tasks` and `Product` to break down work further into sub-tasks.
+
+.Ticket types
+[cols="1,3",options="header"]
+|===
+|Ticket Type
+|Description
+
+|Objective
+|Work related to a strategic objective.
+
+|Project
+|Work from lower-level tickets grouped together.
+
+|Task
+|Work that doesn't belong under any other type.
+
+|Bug
+|Work related to a problem in the product.
+
+|Requirement
+|Work that will result in an externally recognizable product change.
+
+|Documentation
+|Work related to product user/technical documentation.
+
+|Tech
+|Work to change the product under-the-hood.
+
+|DevOps
+|Work related to product development/operational infrastructure.
+
+|Release
+|Work related to releasing a version of the product.
+
+|Support
+|Work to support stakeholders. Tickets created by stakeholders.
+|===
+
+All tickets have a 'state', defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states
+
+
+
+==== Organize content into topics
+
+In an organization's software tools, users generate content and although search functionality is essential, structuring said content into topics is still vital to avoid unmanageable chaos.
+
+Mixed Management's suggestions for topics under which to group content:
+
+* General
+   ** Business
+   ** Culture
+   ** DevOps
+   ** Office
+   ** Planning and Reporting
+   ** Social
+   ** Standards
+* Functions
+   ** IT
+   ** People (HR)
+   ** Legal
+   ** Marketing
+   ** Sales
+* Product
+   ** <Product X>
+   ** <Product Y>
+* Technologies
+* Standards
+
+You can use these topics for:
+
+* Teams channels
+* Wiki/intranet sections
+* Document storage folders
+
+and more.
+
+==== Adopt documentation-as-code
+
+The bar has been continually raised, such that the use of tools that were once the esoteric domain of software engineers, is now required in domains such as Technical Writing, Marketing, Sales and more, in order to perform effectively in a modern organization.
+
+* Source code management/version control: https://git-scm.com/[Git], GitHub/GitLab/Azure DevOps/Bitbucket.
+* Markup languages: https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc], https://www.markdownguide.org/[markdown], https://mermaid.js.org/[Mermaid]
+
+https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc] is underrated. Unlike the more widely supported https://www.markdownguide.org/[markdown], AsciiDoc isn't fragmented into a dozen different variants ('flavours'). Instead, it's just a single, high quality, coherent, well-designed markup (text based authoring) language with great documentation (though its tooling ecosystem needs work)
+
+Similarly, using https://mermaid.js.org/[Mermaid] to author diagrams-as-text is underrated. It fits seamlessly into the whole approach of solely-text-based content authoring and there are increasingly more visual editors.
+
 === Communication
 
 Communication happens:
@@ -30,7 +297,7 @@ In any case, communication is the fundamental transmission of thoughts between p
 
 ==== Be clear, complete, concise (in that order)
 
-==== Clear
+===== Clear
 
 [.importantpoint]#Emotionally secure people embrace clarity and avoid jargon; insecure people obfuscate.#
 
@@ -44,7 +311,7 @@ Confusing, obscure, jargon-filled obscurity blocks all communication. This is a 
 * [.listitemterm]#Be conversational.# Play out an in-person conversation with the recipient in your head, and transcribe it word-for-word.
 * [.listitemterm]#Adopt 'beginner's mind'.# The recipient mind is a void, empty of what's contained in your mind. Your goal is to populate your thoughts in theirs.
 
-==== Complete
+===== Complete
 
 Completeness is the next most important aspect of communication. 
 
@@ -63,7 +330,7 @@ and another to say:
 "I was thinking about the problem, had an idea and thought we should talk about it. I looked at my calendar and have 2-4 free; when are you available?"
 * [.listitemterm]#Pushing information# reduces the likelihood of ambiguity, misunderstanding and creates opportunities for the recipient to engage.
 
-==== Concise
+===== Concise
 
 [.importantpoint]#Be 'minimal but sufficient'. People don't want to read for reading's sake; they want to understand.#
 
@@ -85,3 +352,318 @@ Imagine drawing the outline of a tree using dots - navigating between using so m
 
 // Add drawings of dotted tree outline
 
+==== Pause and sanity check your writing
+
+Whenever you're writing, take a step back and ask yourself if, from the perspective of the recipient:
+
+* [.lineitemterm]#Is it clear?# Am I using the simplest possible language? Can I test it on someone?
+* [.lineitemterm]#Is it complete?# Is there any missing information or additional context I can add?
+* [.lineitemterm]#Can I be more concise#, without loss of completeness or clarity?
+
+Making this behaviour a habit *will* improve the quality of your writing.
+
+==== Use the dictionary
+
+Technical problems/debt often originate in organizations from bad use of language:
+
+[arabic]
+. [.listitemterm]#Multiple, inconsistent terms for the same thing# e.g. 'pump down' and 'pump to base vacuum', or 'readback' and 'read back'. Reflects a lack of hygiene.
+. [.listitemterm]#Incorrect use of language.# Reflects a lack of intelligence and/ rigour - it's amazing how many humans would rather guess than invest a little bit of effort to find out. 
+
+This is cancerous to everything the organization does, because language is the foundation of communication and thinking. When the use of language is flawed, thoughts, and the communication of them, are scrambled and incoherent.
+
+Low performers who like to wallow in linguistic squalor do so to obfuscate their own incompetence. "It's just semantics" is a common exclamation to dismiss the value of literacy and articulacy. 
+
+On one occasion, a Director-level employee responded in a meeting to the use of a 'fancy word' with "Ooooh… (look at Mr. Smarty Pants using fancy words like 'asynchronous'! La de da!)". Moments like these are truly The Office meets Idiocracy.
+
+The solutions are simple:
+
+[arabic]
+. [.listitemterm]#"Pick one and stick with it!"#
+. [.listitemterm]#"Use the dictionary/thesaurus"#
+
+Literacy, articulacy and the correct use of language, needs to be an organization-wide value driven by Leadership, or you end up with department heads who communicate at the standard of F grade 10 year old... when you're trying to run an high performance organization, allowing that to happen is unacceptable.
+
+==== Use different mechanisms to best effect
+
+Documents, voice calls, chat messaging, emails, in-person discussion… these are various mechanisms for communication, and each have their pros and cons.
+
+[.importantpoint]#Having timestamped evidence of the communication facilitates transparency and honesty.#
+
+Emails and chat messages are a written record of communication, with timestamps. This kind of shared memory has value and should always be a consideration.
+
+[.importantpoint]#When email/chat becomes frustrating, move the conversation to voice/in-person.#
+
+For rapid communication with high frequency/high volume back and forth, email and messaging can become frustrating. Voice-calls and in-person meetings are better suited to continue the conversation.
+
+[.importantpoint]#Design/creative/problem solving discussions are best held in-person and around a whiteboard.#
+
+For design/creative/problem solving discussion, modern video calling has massively improved efficiency but the best conversations are still held in-person, and especially around a whiteboard. 
+
+* Humans are still physical and social creatures, so the in--person experience helps to build interpersonal bonds, and aid communication of emotional nuance.
+* The physical whiteboard is still by far the best productivity tool for human collaboration, for its ability to facilitate sketching, note-taking, in a rapid, interactive and iterative manner. 
+
+[.importantpoint]#Default to 'cameras on' in group video calls.#
+
+Being social creatures, seeing the face of others in a conversation aids communication of emotional nuance, building of interpersonal bonding and accountability for personal conduct. Whilst naturally some people are introverts, it's not healthy to allow them to hide - if they're in a conversation, then their involvement must have some potential value.
+
+==== Use ISO 8601 date format 'yyyy-MM-dd'
+
+This date format:
+
+* Removes US/UK ambiguity
+* Sorts correctly
+* Is concise
+* Is more readable with hyphens than underscores
+* Is easily parse-able
+
+When Leadership explicitly encourages this practice, it reduces friction around the organization.
+
+=== Meetings
+
+Meetings are a specific form of communication - _synchronous_ conversations. Their importance, and how pervasively destructively they're used, means they warrant particular attention.
+
+All the practices of good <<communication,communication>> naturally apply.
+
+==== Bring control, clarity, conciseness and comedy to meetings
+
+The most expensive part of most organizations is people's time. Meetings are synchronous conversations that can be converted into a cost figure, by calculating the prorated payroll burden of the participants' time..
+
+[.importantpoint]#Meetings are *expensive*. A bad meeting is an expensive waste. A good meeting brings a return on the investment.#
+
+The art of having a good meeting is:
+
+* [.listitemterm]#Control#. One person (the organizer) must be in control of the conversation. They must  drive the conversation by injecting purpose, direction and energy. They also must know when to let it 'breathe' and wander because discovery and exploration can be valuable to a conversation… and when to rein it in.
+* [.listitemterm]#Clarity#. The organizer must have clarity about the meeting in their own mind, and bring it to everyone else. 
+   ** Clarity is understanding what is _there_, _here_ and having some idea of how to get from _here_ to _there_.
+   ** The value of getting to _there_ should be clear; if not, the meeting is most likely wasting everyone's time.
+   ** Furthermore, as the conversation progresses, the organizer must be clarity to the progress - what understanding has been gained, what paths have been explored and so on.
+* [.listitemterm]#Conciseness#. Meetings should last as long as they need to... irrespective of the scheduled duration, and sometimes that equates to no meeting at all.
+* [.listitemterm]#Comedy#. Meetings can be tough, hard work and frustrating. The best meetings incorporate humour to great effect. While there's no certain way to inject this, as it's a product of the people involved, it's worth understanding that the best meetings are both useful and enjoyable, because of humour.
+
+==== Optimize the cadence of recurring meetings
+
+Numerous existing methodologies propose a variety of meetings/conversations, some on a regular cadence, some ad-hoc. For example:
+
+* Daily meetings ('standups')
+* Weekly team meetings
+* Ad-hoc post mortems
+* End of sprint/month retrospectives.
+* Start of sprint/month planning
+* Quarterly strategy meeting
+* Biannual top-down communications
+
+Too many organizations blindly throw their employees into bureaucratic hell by irresponsibly prescribing ever more meetings and not tuning their cadence and duration to be <<be-effective-and-efficient,effective and efficient>>. It's a perverse scenario when a "bureaucracy buster" initiative launched by management results in recommendations to eliminate many meetings that they dogmatically implemented, upon which the management vetos the effort and nothing changes.
+
+Whatever the meeting, whatever the methodology, consider tuning the *_duration_* and *_cadence_* to maximize first effectiveness, then efficiency. 
+
+Consider:
+
+* [.listitemterm]#What events are we responding to with this meeting?# e.g., daily meetings to discuss events that rarely occur within a month is wasteful.
+* [.listitemterm]#Should we have longer meetings less frequently?# A one hour fortnightly meeting can be just as effective as a half-hour weekly meeting, but more productive due to increasing flow of the conversation and reducing interruption of the participants' work.
+* [.listitemterm]#Is the return on investment actually worth it?# Increasing frequency increases the cost/investment. Many bad managers increase frequency out of fear and anxiety, ignoring the cost and the pain inflicted on the participants. If there's potential for reducing the frequent and/or duration with no significant impact, try it for a while.
+
+=== Optimize your daily meetings (standups)
+
+As with all meetings, daily meetings/standups need to be considered in terms of what they're trying to achieve, why and how best to do it.
+
+The term 'daily standup' to mean the daily meeting stems from the software engineering discipline,  and is loaded with dogmatic baggage. The dogma ranges from the blindly robotic (it must include topics X/Y/Z) to the ludicrous ("The participants need to be literally standing up"!). There are millions of posts and comments across the internet about how dogmatic daily standups have immiserated the lives of engineers, however it's been interpreted.
+
+The motivations for a daily meeting are:
+
+* Drive social interaction, particularly in hybrid/remote working (recommend <<use-different mechanisms-to-best-effect,'cameras on'>>).
+* Facilitate communication (erode silos), such as past activity.
+* Drive transparency on present activity.
+* Increase alignment on future activity.
+
+The conversation should center around a dashboard that includes:
+
+* The structure of the meeting (list of topics to cover as static text).
+* The round-robin rota (static text) of who should 'run the board' i.e. <<bring-control-clarity-conciseness-and-comedy-to-meetings,control the meeting>> (ensure it's brisk, efficient, subjects are taken 'offline' if they require further time). Rotating responsibility for the meeting is essential to break up the monotony of the same voice everyday, drive engagement and spread responsibility away from a single-point-of-failure.
+* Tickets queried from the ticketing system that provide content (where possible) relevant to each topic.
+
+This is an example you can derive your own structure from:
+
+[arabic]
+. [.listitemterm]#Support#. Operational support tickets may have been raised since the last meeting, and may need assignment/discussion.
+. [.listitemterm]#Bugs#. Product backlog bug tickets may have been raised since the last meeting, and may need assignment/discussion.
+. [.listitemterm]#Completed#. Tasks (ticket) that have been recently completed.
+. [.listitemterm]#Yesterday#. Activity/events that happened yesterday that anyone wants to discuss.
+. [.listitemterm]#Today#. Activity/events scheduled to occur today.
+. [.listitemterm]#Help#. An opportunity for any participant to cry for help.
+
+You should target your daily meetings to typically last 30 minutes, ranging between 15 and 45 minutes per the circumstances.
+
+=== Documentation
+
+As with meetings, documentation is a form of communication - _asynchronous_ conversation. The importance of documentation, and how pervasively destructively it's done, means it warrants particular attention.
+
+The practices of good <<communication,communication>> naturally apply.
+
+==== Consider all-forms of documentation
+
+Documentation can be manifested in many different ways, including some that you might not consider 'documentation' but actually are.
+
+* Intra-organizational
+   ** Chat/email messages
+   ** Meeting notes
+   ** Presentations
+   ** Tickets (contents, comments) e.g. team/department/operations backlogs
+   ** Intranet, wikis
+* Product user docs
+   ** User guides
+   ** Release notes
+   ** License terms and conditions
+   ** Troubleshooting
+   ** FAQs
+* Product technical docs (what was built, how it was built)
+   ** Tickets (contents, comments) in product development backlog, including design
+   ** Chat/email messages in product-oriented groups/teams/channels
+   ** Meeting notes
+   ** Architecture description
+   ** DevOps workflows and infrastructure description e.g. develop, release, deploy
+   ** SCM workflows and infrastructure description
+   ** Versioning scheme
+   ** Source code README e.g. description of filesystem structure in a repository
+   ** Source code inline comments
+   ** Licenses of used free open-source software (FOSS) and (software of unknown provenance) SOUP
+   ** Test plans, execution and results
+* Product marketing docs
+   ** Overview
+   ** Highlights
+   ** Benefits
+   ** Demo videos
+
+==== Drive a ubiquitous documentation mindset
+
+As it's communication, to document is to share knowledge between people, separated by space and/or time. Products, projects, even entire organizations, can be destroyed by lack of/bad quality documentation.
+
+[.importantpoint]#Good documentation is conscientiousness.#
+
+User-facing/product documentation should be a painless path to understanding your product and/or you.
+
+Intra-organizational documentation is institutional memory that serves to:
+
+* [.listitemterm]#Enable single-points-of-failure to be avoided# (“What happens if <Person X> is hit by a bus tomorrow?”) by eliminating knowledge silos and lost history
+* [.listitemterm]#Prevent rapidly escaping development costs# e.g. by requiring re-development
+* [.listitemterm]#Provide a template to success#
+* [.listitemterm]#Coordinate human activity#
+
+==== Use a style guide
+
+The use of templates generally:
+
+* Maximize the probability of high quality results
+* Drive consistency
+* Save development effort
+
+Style guides do the same thing for communication, but with language. Some examples that you could adopt:
+
+* https://learn.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide]
+* https://atlassian.design/content/language-and-grammar/[Atlassian Design System]
+* https://developers.google.com/style/[Google developer documentation style guide]
+
+==== Be conversational
+
+As documentation is written communication between people (across time and space), a useful technique to imagine you're talking directly to the reader as an in-person conversation, and transcribing what's said.
+
+Also mentioned in <<clear>>.
+
+==== The right structure avoids 80% of the problems
+
+The logical structure of documentation is comparable to the architectural loading bearing structure of a building. When it's unsound (illogical, inconsistent, ambiguous), you're in for a lot of (avoidable) pain.
+
+* [.listitemterm]#Coherent structure has a logic to it# e.g. systematically describing a product by functional areas, or the phase-based linear progress of a project.
+* [.listitemterm]#Think of the structure as a tree#. It has a natural flow from start to finish at the root level of the tree, then adds more content in a top-down way. 
+
+The problems created by re-inventing the square wheel can be avoided by copying the structure of similar documentation of other similar products.
+
+==== Have a bullet-point mentality
+
+Bullet-point lists are brilliant for imposing:
+
+* [.listitemterm]#Clarity, particularly visual clarity# by reducing density of text.
+* [.listitemterm]#Conciseness#, by eliminating verbiage.
+
+==== Provide examples
+
+One of the great documentation achievements in software engineering history was the https://doc.qt.io/[Trolltech Qt user documentation] around the 2010s - clear, complete, concise. A technique they used effectively that elevated their documentation above their peers, was to take every opportunity to illustrate a concept with tangible examples presented inline.
+
+==== Be visual
+
+As a natural extension of being concise, pictures and diagrams really are worth a thousand words.
+
+An underestimated technique to consider is using colour-coding to add meaning/logic/clarity to diagrams. For example, to separate distinct phases of a workflow by grouping elements.
+
+Something to strongly consider when creating diagrams in documentation is text-based authoring like Mermaid, so that the documentation sources are cleanly integrated in a <<adopt-documentation-as-code,documentation-as-code>> approach.
+
+==== Minimize the use of screengrabs
+
+In software user documentation, screengrabs should in theory be a useful element but unless you have a completely automated system for generation and adding into the documentation sources, they're a pain to deal with. When the UI/UX changes, they're instantly out of date and require updating (your mileage may vary depending on how stable the UI/UX is).
+
+In most cases, you can get away without them and just have a few key screengrabs. 
+
+==== Adopt documentation-as-code
+
+See <<adopt-documentation-as-code>>.
+
+==== Make notes as you go
+
+If you're documenting a workflow/process (e.g., establishing a new employee induction process, or how to release a new product version) or recording a history of what was done (e.g. handling a support ticket), *_make notes as you go_*.
+
+Don't leave it all to the end - you'll never recall it all.
+
+[quote,A University of Cambridge Sidney Sussex College professor]
+____
+At the start of each academic year, I can instantly identify the undergraduates that will succeed - they're the ones taking notes.
+____
+
+It's surprising how many recurring workflows exist in organizations that are never made far more efficient by recording how it's done. This results in a tremendous amount of unrecognized inefficiency.
+
+=== Decision making
+
+==== Everyone gets a say but someone makes a decision
+
+One of the most nonsensical pieces of dogma ever conceived is "let the team decide" - an intellectually vacuous extract from the book of manager-speak, that falls apart quickly under examination. Consider a group of 10 individuals making a decision.
+
+* The ideal situation with regards to decision making is uniform consensus - all 10 in agreement.
+* Say 9 agree and 1 disagrees… but that 1 has a long track of being right in similar decisions. "Let the team decide" means nothing. It could mean "majority rule", but that's calling for *blindness* to the individuals involved, reducing them to blobs.
+* Similarly, say 8 have no relevant expertise/experience, but 2 have lots… and the group is split 8 to 2 along those lines. Same problem.
+* Say a disagreement splits the group evenly. Then what? "Let the team decide" means nothing. Does it mean "majority rule"? What evidence is there that 50% is the threshold for optimal decision making? Why not 80%?
+
+How do we make decisions to maximize the probability of success? Reason dictates:
+
+* The nature of the individuals matters
+* Authority matters
+* The process matters
+
+The model for decision making in the Mixed Management Method is:
+
+[arabic]
+. Have open discussions where anyone involved can have a say.
+. More investigation and analysis may be required to progress the decision-making i.e., iterate
+. Some decisions will become apparent during this convergent process. For the most difficult decisions, it may reduce down to one person making it - authority matters. 
+
+==== The best reason and evidence wins
+
+Reasons not to make a decision:
+
+* "Because"
+* "I have 30 years of experience in this industry"
+* "Majority voted for it"
+
+
+
+=== Strategy
+
+
+
+
+
+////
+
+=== Plan
+
+What (Why), Who (Why), How, (Why), When (Why).
+
+////
