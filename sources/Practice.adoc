@@ -239,6 +239,66 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 
 All tickets have a 'state', defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states
 
+// Add Mermaid diagram
+
+[Mermaid, format=SVG]
+----
+---
+config:
+  theme: redux
+  layout: dagre
+---
+flowchart TD
+ subgraph s1["Proposed"]
+        n1["To Do"]
+  end
+ subgraph s2["Doing"]
+        n2["In Progress"]
+        n3["Paused"]
+        n4["Waiting"]
+  end
+ subgraph s3["Completed"]
+        n5["Done"]
+        n6@{ label: "Won't Do" }
+  end
+ subgraph s5["Active"]
+    direction LR
+        s1
+        s2
+        s3
+  end
+ subgraph s4["Soft-Deleted"]
+        n7["Deleted"]
+  end
+    s1 <--> s2
+    s2 <--> s3
+    s5 <--> s4
+    n2 <--> n3
+    n3 <--> n4
+    n4 <--> n2
+    n5 <--> n6
+    n1@{ shape: rect}
+    n2@{ shape: rect}
+    n3@{ shape: rect}
+    n4@{ shape: rect}
+    n5@{ shape: rect}
+    n6@{ shape: rect}
+    style n1 stroke:#2962FF
+    style n2 stroke:#FF6D00
+    style n3 stroke:#FF6D00
+    style n4 stroke:#FF6D00
+    style n5 stroke:#00C853
+    style n6 stroke:#00C853
+    style n7 stroke:#AA00FF
+    style s1 stroke:#2962FF
+    style s2 stroke:#FF6D00
+    style s3 stroke:#00C853
+    style s5 stroke:none
+    style s4 stroke:#AA00FF
+----
+
+* The states are grouped into categories.
+* The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!
 
 
 ==== Organize content into topics
