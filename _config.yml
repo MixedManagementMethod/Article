@@ -10,8 +10,11 @@ exclude:
 - asciidoctor/
 - font-awesome-4.7.0/
 asciidoc: {}
+keep_files:
+  - images
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-
+  extensions:
+    - asciidoctor-diagram
