@@ -371,7 +371,10 @@ Many time tracking attempts introduce painful friction, becoming a burden that e
 * [.listitemterm]#Highlight its usefulness to the individual#. "The next time your boss walks up to you and demands an explanation as to why Task X wasn't done, you can say 'I did Task Y, Task Z and wasted a large chunk of time on bureaucratic process ABC'".
 * [.listitemterm]#Make it a habit#. Like all note taking, if you leave it to the end, even the end of the day, you'll likely forget what you did. It needs to be a continuous habit (note: this is only possible with an efficient system).
 * [.listitemterm]#Only capture the minimal information required#. Limit 'when it happened' to just a date, and don't try to capture start/end times - it's too burdensome and not useful.
-   ** The essential information is { `Date`, `Ticket ID`/`Activity`, `Duration (minutes)`. }
+   ** The essential information is:
+      *** `Date`
+      *** `Ticket ID`/`Activity`
+      *** `Duration (minutes)`
    ** Strongly consider recording which part of the organizational structure the individual was operating in at the time the record represents. This is because people can move within an organization over time, so work done by a person that moved might be more difficult to parse in future queries. It may be possible to populate this information automatically e.g., by retrieving such information from an identity management system.
 * [.listitemterm]#Ensure the time tracking system is frictionless'. Clunky, burdensome time tracking software will kill your efforts, so you need to avoid this. Pain points can include duplicating past records easily, modifying existing records, and to do all in bulk. For example, Excel as a frontend is surprisingly frictionless because the records will be a table and Excel has all the functionality for easily working with tables. A web app, say a home-brewed one, really needs to avoid being restrictive and opinionated - flexible table-editing is better for adoption and use.
 * [.listitemterm]#Find consistent descriptions for non-ticketed activities#. There are activities that use up time but aren't tracked by tickets - purely because it would be too burdensome. For example:
@@ -385,13 +388,23 @@ Many time tracking attempts introduce painful friction, becoming a burden that e
 
 ==== Build cost-monitoring
 
-If you have high-quality, well-designed systems for:
+If you have high-quality, well-designed systems for managing:
 
 * Task tracking
 * Time tracking
-* Identity and payroll burden
+* Identity, and individualized cost burden
 
+Then you have all the data you need to implement cost-monitoring! Assuming you've designed your systems well and can access all the databases (e.g., via web APIs), you can implement cost-monitoring as an custom application that translates time to cost, mapping to tasks.
 
+A couple of factors to consider in developing the application:
+
+[arabic]
+. How much lag in time tracking you want it to support.
+   .. Even the most diligent note-taker can lag behind sometimes, due to busyness/absence.
+   .. Sometimes mistakes in past records need to be corrected.
+. How an individual's cost burden can vary over time (relates to when the task activity occurred)
+
+Since time tracking entries <<adopt-time-tracking-for-all,resolve to a day>>, individualized cost burden should also be determinable to a day.  
 
 ==== Organize content into topics
 
