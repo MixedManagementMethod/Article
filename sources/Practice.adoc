@@ -200,6 +200,8 @@ Operations:
 
 One can also consider hierarchical levels below `Tasks` and `Product` to break down work further into sub-tasks.
 
+// Add a colour column
+
 .Ticket types
 [cols="1,3",options="header"]
 |===
@@ -239,7 +241,9 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 
 All tickets have a 'state', defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
 
-[mmdc, format=SVG]
+//image::Dummy.png[]
+
+[mermaid, format=SVG]
 ....
 ---
 config:
@@ -305,6 +309,89 @@ flowchart TD
 * The states are grouped into categories.
 * The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!
 
+For the Bug ticket type (or similar fault-oriented tickets), we recommend building out text fields that describe the problem and resolution in a structured way.
+
+* (Describe the) Problem
+   ** Steps to Reproduce
+   ** Observed Behaviour/Outcome
+   ** Expected Behaviour/Outcome
+   ** Reported By
+   ** Accepted By
+   ** <Other contextual information e.g. affected product version>
+* (Describe the) Resolution
+   ** Root Cause/s
+   ** Workaround
+   ** Fix
+   ** Prevention
+
+===== Implement a soft-deletion state for tickets
+
+It's bad practice to allow users of a ticketing system to hard-delete tickets.
+
+* You lose the information permanently. It is unacceptable generally, but also for some standards compliance.
+* When tickets are hard-deleted in most ticketing systems, they fall outside of the search and query functions, which is a problem for discoverability.
+
+Therefore, it's best practice to:
+
+* Create a state in the workflows to represent deletion without actually doing it,
+* Then for all queries and views to be configured by default to filter out tickets in this state.
+
+In our reference template, the soft-deletion state is called `Deleted`. 
+
+===== Keep state workflows simple
+
+There are two ways to build a workflow into ticket configuration:
+
+[arabic]
+. [.listitemterm]#Horizontally#. Build a workflow into the set of possible state values, and define rules for transitioning between them e.g. add ever more states like `Verify`, `Validate`, `Release`.
+. [.listitemterm]#Vertically#. Build the workflow by breaking up the parent ticket into smaller child tickets, using an automation to generate the children from a template. `Verify`, `Validate`, `Release` would be three child `Task` tickets parented to "Add auto-save function" `Requirement`.
+
+Our recommendation is to prefer breaking down tasks by a structured workflow vertically, and to keep state workflows simple and general (as presented in this template). Adding complication into state workflows becomes quickly unwieldy, and is difficult to change (e.g., updating existing tickets, which can easily number in the thousands). 
+
+* Workflows do change as your organization learns and improves,
+* Different disciplines in an organization will require varying workflows, so you would have to manage a variety of state workflows were you to build them into the ticket states.
+* If modifying ticket states, you might run into problems updating existing tickets without affecting completed ones.
+
+Do yourself a favour and _keep state workflows simple_.
+
+==== Adopt time tracking for all
+
+After you've implemented the foundation of high-quality task tracking that provides activity records, you can build valuable time tracking upon it.
+
+[.importantpoint]#Time is money. The most expensive cost for many organizations is people. It's valuable to understand where people are investing their time.#
+
+The expense of people's time is why they're the first to get cut in hard times. Time tracking:
+
+* [.listitemterm]#Facilitates transparency and accountability# into what individuals and groups are doing
+* [.listitemterm]#Enables cost-monitoring# insights into the organization's activities. For consultancies/contractors, this is essential for billing.
+* [.listitemterm]#Enables effort estimation# by building a history of reference experiences.
+
+Many time tracking attempts introduce painful friction, becoming a burden that everyone complains about and eventually abandons. No wonder that so people rail against the concept.
+
+* [.listitemterm]#Highlight its usefulness to the individual#. "The next time your boss walks up to you and demands an explanation as to why Task X wasn't done, you can say 'I did Task Y, Task Z and wasted a large chunk of time on bureaucratic process ABC'".
+* [.listitemterm]#Make it a habit#. Like all note taking, if you leave it to the end, even the end of the day, you'll likely forget what you did. It needs to be a continuous habit (note: this is only possible with an efficient system).
+* [.listitemterm]#Only capture the minimal information required#. Limit 'when it happened' to just a date, and don't try to capture start/end times - it's too burdensome and not useful.
+   ** The essential information is { `Date`, `Ticket ID`/`Activity`, `Duration (minutes)`. }
+   ** Strongly consider recording which part of the organizational structure the individual was operating in at the time the record represents. This is because people can move within an organization over time, so work done by a person that moved might be more difficult to parse in future queries. It may be possible to populate this information automatically e.g., by retrieving such information from an identity management system.
+* [.listitemterm]#Ensure the time tracking system is frictionless'. Clunky, burdensome time tracking software will kill your efforts, so you need to avoid this. Pain points can include duplicating past records easily, modifying existing records, and to do all in bulk. For example, Excel as a frontend is surprisingly frictionless because the records will be a table and Excel has all the functionality for easily working with tables. A web app, say a home-brewed one, really needs to avoid being restrictive and opinionated - flexible table-editing is better for adoption and use.
+* [.listitemterm]#Find consistent descriptions for non-ticketed activities#. There are activities that use up time but aren't tracked by tickets - purely because it would be too burdensome. For example:
+   ** Settling in/packing up
+   ** Meal/toilet/chat break
+   ** Reading messages
+   ** Unticketed meetings e.g. daily meeting, organization-wide town halls
+   ** Other unticketed activities e.g. backlog curation
+   You need to find a way to drive/enforce consistent descriptions of these in your time tracking system's `Ticket ID/Activity` field, so that they can be filtered during analysis. The most likely way is to provide preset values for the field.
+* [.listitemterm]#Get task and time tracking running ASAP#. The sooner you get a time tracking (and task tracking) system up and running, the sooner you'll start building a history of organizational activity.
+
+==== Build cost-monitoring
+
+If you have high-quality, well-designed systems for:
+
+* Task tracking
+* Time tracking
+* Identity and payroll burden
+
+
 
 ==== Organize content into topics
 
@@ -312,7 +399,7 @@ In an organization's software tools, users generate content and although search 
 
 Mixed Management's suggestions for topics under which to group content:
 
-* General
+* _General_
    ** Business
    ** Culture
    ** DevOps
@@ -320,17 +407,17 @@ Mixed Management's suggestions for topics under which to group content:
    ** Planning and Reporting
    ** Social
    ** Standards
-* Functions
+* _Functions_
    ** IT
    ** People (HR)
    ** Legal
    ** Marketing
    ** Sales
-* Product
+* _Product_
    ** <Product X>
    ** <Product Y>
-* Technologies
-* Standards
+* _Technologies_
+* _Standards_
 
 You can use these topics for:
 
@@ -421,9 +508,9 @@ Imagine drawing the outline of a tree using dots - navigating between using so m
 
 Whenever you're writing, take a step back and ask yourself if, from the perspective of the recipient:
 
-* [.lineitemterm]#Is it clear?# Am I using the simplest possible language? Can I test it on someone?
-* [.lineitemterm]#Is it complete?# Is there any missing information or additional context I can add?
-* [.lineitemterm]#Can I be more concise#, without loss of completeness or clarity?
+* [.listitemterm]#Is it clear?# Am I using the simplest possible language? Can I test it on someone?
+* [.listitemterm]#Is it complete?# Is there any missing information or additional context I can add?
+* [.listitemterm]#Can I be more concise#, without loss of completeness or clarity?
 
 Making this behaviour a habit *will* improve the quality of your writing.
 
@@ -609,7 +696,7 @@ User-facing/product documentation should be a painless path to understanding you
 
 Intra-organizational documentation is institutional memory that serves to:
 
-* [.listitemterm]#Enable single-points-of-failure to be avoided# (“What happens if <Person X> is hit by a bus tomorrow?”) by eliminating knowledge silos and lost history
+* [.listitemterm]#Enable single-points-of-failure to be avoided# ("What happens if <Person X> is hit by a bus tomorrow?") by eliminating knowledge silos and lost history
 * [.listitemterm]#Prevent rapidly escaping development costs# e.g. by requiring re-development
 * [.listitemterm]#Provide a template to success#
 * [.listitemterm]#Coordinate human activity#
