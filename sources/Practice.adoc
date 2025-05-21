@@ -207,10 +207,10 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 |Description
 
 |`Objective`
-|Work related to a strategic objective.
+|Work related to a strategic objective. Used for Objectives in <<adopt-okrs,OKRs>>.
 
 |`Project`
-|Work from lower-level tickets grouped together.
+|Work from lower-level tickets grouped together. Also specifically used to track Key Results in <<adopt-okrs,OKRs>>.
 
 |`Task`
 |Work that doesn't belong under any other type.
@@ -830,7 +830,7 @@ Like product strategy, functional strategy (team, department, organization etc.)
 
 ==== Adopt OKRs
 
-Objective and Key Results (OKRs) are a conventional terminology for a simple concept, that's lightweight in use and adaptable to changing conditions.
+Objectives and Key Results (OKRs) are a conventional terminology for a simple concept, that's lightweight in use and adaptable to changing conditions.
 
 * [.listitemterm]#Objectives# are your high-level, aspirational, one-liner goals.
    ** e.g., "Improve product quality"
@@ -843,7 +843,7 @@ Adoption is simple:
 
 [arabic]
 . [.listitemterm]#Author/revisit on a regular cadence# e.g. schedule an annual/quarterly workshop, engaging interesting stakeholders.
-. [.listitemterm]#Track as `Objective` tickets# in a <<adopt-our-task-tracking-template,`Strategy` backlog>>.
+. [.listitemterm]#Track as tickets# (`Objective`, `Project` for key results) in a <<adopt-our-task-tracking-template,backlog>>.
 . [.listitemterm]#Create a status dashboard/query# in your ticketing system to provide at-a-glance status checking. Make it accessible to interested stakeholders.
 . [.listitemterm]#Monitor progress on a regular cadence# e.g., a monthly meeting centered around the status dashboard/query results and what's changed over the month.
 
@@ -877,6 +877,22 @@ In practice, one would incorporate The Studio Model into:
 * Routine conversations and meetings about product development, particularly design workshops.
 * The templates and checklists of one's project management/product development tool, as tasks/reminders to consider ('Definition of Done' gating).
 
+==== Build on this product devops workflow
+
+The Waterfall development talks about project phases. Rational Unified Process. Some software engineers refer to a Software Development Life-Cycle/SDLC. IEC 62304 talks about a software development process.
+
+In each of the cases, what they're talking about is a workflow for product development (dev) and operations (ops).
+
+The primary benefits of defining a workflow are:
+
+[arabic]
+. [.listitemterm]#Structuring activity to create consistency# and reduce the risk of missing steps.
+. [.listitemterm]#Establishing a common (verb-based) language# to reduce friction in communication.
+
+Any workflow is going to be highly specific to your circumstances (business domain, product/service, organizational structure e.g.) but Mixed Management can provide a basic workflow from which you can evolve your own.
+
+
+These activities shouldn’t be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
 
 
 ////
