@@ -21,20 +21,18 @@ Organizations can survive, even thrive, in spite of being inefficient but the co
 
 ==== Reject the 'metric-driven' dogma
 
-You might occasionally encounter dogma about the value of metrics:
+You might occasionally encounter dogma about the value of metrics (particularly around <<strategy,strategy>>):
 
 * "If you can't measure it, you can't manage it"
 * "We're metric/data driven" 
 
-// Add cross reference to OKRs
+For example, it seems <<adopt-okrs,pretty hard-baked into conventional OKR methodology>>.
 
-For example, it seems pretty baked into the OKR methodology.
-
-At those times, it's worth knowing that it likely stems from mis-portrayal of what W. Edwards Deming (of the iconic text "The Deming Management Method") actually said.
+At those times, it's worth knowing that this dogma likely stems from mis-portrayal of what W. Edwards Deming (of the iconic text "The Deming Management Method") actually said.
 
 [quote,W. Edwards Deming, The New Economics]
 ____
-It is wrong to suppose that if you can't measure it, you can't manage it – a costly myth.
+It is wrong to suppose that if you can't measure it, you can't manage it - a costly myth.
 ____
 
 Whether you want to describe reality quantitatively or qualitatively is entirely down to your best judgement of what's _feasible_, _practical_ and _valuable_.
@@ -89,7 +87,7 @@ Tickets are a digital record that represent a task, and:
 * Have customizable fields to capture structured information/encode a workflow.
 * May be configurable with checklists for encoding workflow/gate keeping progress. In some systems, a checklist is recognized as a list of tickets.
 
-No matter what your position in the organisation's hierarchy (from CEO to entry level engineer), or your function (HR, Finance, Software Engineering), adopting task tracking tools brings the universal benefit of non-human memory for individuals and groups alike:
+No matter what your position in the organization's hierarchy (from CEO to entry level engineer), or your function (HR, Finance, Software Engineering), adopting task tracking tools brings the universal benefit of non-human memory for individuals and groups alike:
 
 * [.listitemterm]#Planning#. What could/is to be done in the future (aide memoire), when and by who.
 * [.listitemterm]#Traceability#. What happened, what was done by who. Give credit to people for their work. Institutionalize knowledge for the future, for repetition/improvement/reporting.
@@ -173,19 +171,19 @@ Each level of the hierarchy contains tickets of a distinct set of types. The pur
 |`Product`
 |Development:
 
-* Requirement
-* Documentation
-* Bug
-* DevOps
-* Tech
-* Release
-* Task
+* `Requirement`
+* `Documentation`
+* `Bug`
+* `DevOps`
+* `Tech`
+* `Release`
+* `Task`
 
 Operations:
 
-* Support
-* Bug
-* Task
+* `Support`
+* `Bug`
+* `Task`
 
 |The default, baseline backlog level where product development and/or operation is tracked.
 
@@ -208,38 +206,38 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 |Ticket Type
 |Description
 
-|Objective
+|`Objective`
 |Work related to a strategic objective.
 
-|Project
+|`Project`
 |Work from lower-level tickets grouped together.
 
-|Task
+|`Task`
 |Work that doesn't belong under any other type.
 
-|Bug
+|`Bug`
 |Work related to a problem in the product.
 
-|Requirement
+|`Requirement`
 |Work that will result in an externally recognizable product change.
 
-|Documentation
+|`Documentation`
 |Work related to product user/technical documentation.
 
-|Tech
+|`Tech`
 |Work to change the product under-the-hood.
 
-|DevOps
+|`DevOps`
 |Work related to product development/operational infrastructure.
 
-|Release
+|`Release`
 |Work related to releasing a version of the product.
 
-|Support
+|`Support`
 |Work to support stakeholders. Tickets created by stakeholders.
 |===
 
-All tickets have a 'state', defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
+All tickets have a `state``, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
 
 //image::Dummy.png[]
 
@@ -309,20 +307,20 @@ flowchart TD
 * The states are grouped into categories.
 * The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!
 
-For the Bug ticket type (or similar fault-oriented tickets), we recommend building out text fields that describe the problem and resolution in a structured way.
+For the `Bug` ticket type (or similar fault-oriented tickets), we recommend building out text fields that describe the problem and resolution in a structured way.
 
 * (Describe the) Problem
-   ** Steps to Reproduce
-   ** Observed Behaviour/Outcome
-   ** Expected Behaviour/Outcome
-   ** Reported By
-   ** Accepted By
+   ** `Steps to Reproduce`
+   ** `Observed Behaviour/Outcome`
+   ** `Expected Behaviour/Outcome`
+   ** `Reported By`
+   ** `Accepted By`
    ** <Other contextual information e.g. affected product version>
 * (Describe the) Resolution
-   ** Root Cause/s
-   ** Workaround
-   ** Fix
-   ** Prevention
+   ** `Root Cause/s`
+   ** `Workaround`
+   ** `Fix`
+   ** `Prevention`
 
 ===== Implement a soft-deletion state for tickets
 
@@ -413,24 +411,26 @@ In an organization's software tools, users generate content and although search 
 Mixed Management's suggestions for topics under which to group content:
 
 * _General_
-   ** Business
-   ** Culture
-   ** DevOps
-   ** Office
-   ** Planning and Reporting
-   ** Social
-   ** Standards
+   ** `Business`
+   ** `Culture`
+   ** `DevOps`
+   ** `Office`
+   ** `Planning and Reporting`
+   ** `Social`
+   ** `Standards`
 * _Functions_
-   ** IT
-   ** People (HR)
-   ** Legal
-   ** Marketing
-   ** Sales
+   ** `IT`
+   ** `People` (HR)
+   ** `Legal`
+   ** `Marketing`
+   ** `Sales`
 * _Product_
-   ** <Product X>
-   ** <Product Y>
+   ** `<Product X>`
+   ** `<Product Y>`
 * _Technologies_
+   ** Whatever's relevant to your domain
 * _Standards_
+   ** Whatever's relevant to your domain
 
 You can use these topics for:
 
@@ -815,12 +815,37 @@ Reasons not to make a decision:
 
 * "Because"
 * "I have 30 years of experience in this industry"
-* "Majority voted for it"
-
-
+* "The majority voted for it"
 
 === Strategy
 
+// Add cross reference to product strategy
+
+Like product strategy, functional strategy (team, department, organization etc.) defines the highest-level of goals, what it means to achieve them and how they might be achieved. Strategy provides:
+
+[arabic]
+. [.listitemterm]#Alignment#. Everyone singing from the same hymn sheet.
+. [.listitemterm]#Clarity#. Eliminate confusion.
+. [.listitemterm]#Focus#. Signal, not the noise. 
+
+==== Adopt OKRs
+
+Objective and Key Results (OKRs) are a conventional terminology for a simple concept, that's lightweight in use and adaptable to changing conditions.
+
+* [.listitemterm]#Objectives# are your high-level, aspirational, one-liner goals.
+   ** e.g., "Improve product quality"
+* [.listitemterm]#Key Results# define what it means to achieve a particular objective.
+   ** They're children of Objectives.
+   ** Objectives have a one:many relationship with Key Results. Contrary to orthodoxy, Mixed Management believes a key result can be defined as a metric _OR_ <<reject-the-metric-driven-dogma,can just be a task to be done>>. 
+   ** e.g., "Provide user instructions", "Reduce known bug count by 75% from 100".
+
+Adoption is simple:
+
+[arabic]
+. [.listitemterm]#Author/revisit on a regular cadence# e.g. schedule an annual/quarterly workshop, engaging interesting stakeholders.
+. [.listitemterm]#Track as `Objective` tickets# in a <<adopt-our-task-tracking-template,`Strategy` backlog>>.
+. [.listitemterm]#Create a status dashboard/query# in your ticketing system to provide at-a-glance status checking. Make it accessible to interested stakeholders.
+. [.listitemterm]#Monitor progress on a regular cadence# e.g., a monthly meeting centered around the status dashboard/query results and what's changed over the month.
 
 
 
