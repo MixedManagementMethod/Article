@@ -891,9 +891,94 @@ The primary benefits of defining a workflow are:
 
 Any workflow is going to be highly specific to your circumstances (business domain, product/service, organizational structure e.g.) but Mixed Management can provide a basic workflow from which you can evolve your own.
 
+[Mermaid,format=SVG]
+----
+---
+config:
+  theme: default
+  layout: dagre
+---
+block-beta
+  columns 23
+  block:s1:3
+    columns 1
+    t1["Organize work"]
+    n1("Align")
+    n2("Prioritize")
+    space
+    space
+    space
+    space
+  end
+  space
+  block:s2:3
+    columns 1
+    t2["Understand problem"]
+    n3("Investigate")
+    n4("Analyze")
+    n5("Workshop")
+    space
+    space
+    space
+  end
+  space
+  block:s3:3
+    columns 1
+    t3["Design solution"]
+    n6("Design")
+    n7("Prototype")
+    n8("Workshop")
+    n9("Validate")
+    space
+    space
+  end
+  space
+  block:s4:3
+    columns 1
+    t4["Implement solution"]
+    n10("Code")
+    n11("Test")
+    n12("Document")
+    n13("Validate")
+    n14("Version")
+    n15("Release")
+  end
+  space
+  block:s5:3
+    columns 1
+    t5["Deploy solution"]
+    n16("Transfer")
+    n17("Install")
+    n18("Configure")
+    space
+    space
+    space
+  end
+  space
+  block:s6:3
+    columns 1
+    t6["Support solution"]
+    n19("Operate")
+    n20("Maintain")
+    n21("Dispose")
+    space
+    space
+    space
+  end
+  s1 --> s2
+  s2 --> s3
+  s3 --> s4
+  s4 --> s5
+  s5 --> s6
+  classDef title fill:none,stroke-width:0px;
+  class t1,t2,t3,t4,t5,t6 title
+  classDef development fill:#bff4ff;
+  class s1,s2,s3,s4 development
+  classDef operations fill:#f2fae9
+  class s5,s6 operations
+----
 
-These activities shouldn’t be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
-
+These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
 
 ////
 
