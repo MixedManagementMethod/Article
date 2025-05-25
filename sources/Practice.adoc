@@ -1017,6 +1017,14 @@ Forcing and exploring an explanation has always led to better results. Using the
 * Why?
 * How does it work?
 
+==== Don't reinvent the square wheel
+
+A motif in software engineering is the crime of reinventing the square wheel, leading to failure/collapse/expensive rework.
+
+If someone else has already invested the time and effort to design an existing implementation, accelerate your own efforts by leveraging theirs, when possible.
+
+Say, you're adding audit functionality to SaaS software. Oracle, Microsoft, Google all have developed audit functionality in a variety of their products.. common sense/basic intelligence says to take a look.
+
 
 
 ////
