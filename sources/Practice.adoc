@@ -1025,6 +1025,13 @@ If someone else has already invested the time and effort to design an existing i
 
 Say, you're adding audit functionality to SaaS software. Oracle, Microsoft, Google all have developed audit functionality in a variety of their products.. common sense/basic intelligence says to take a look.
 
+==== Iterate order and disorder to progress
+
+Progress in all its forms, whether a design workshop or product development in general, is seldom linear, predictable and uniform.
+
+Rather, progress is made in fits and starts, with periods of orderly forward movement interleaved with disorderliness, exploration and creativity... but over time, you're progressively traversing a spiral towards a destination.
+
+
 
 
 ////
