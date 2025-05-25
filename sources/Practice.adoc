@@ -1031,14 +1031,19 @@ Progress in all its forms, whether a design workshop or product development in g
 
 Rather, progress is made in fits and starts, with periods of orderly forward movement interleaved with disorderliness, exploration and creativity... but over time, you're progressively traversing a spiral towards a destination.
 
-
-
-
-////
-
 === Plan
 
-What (Why), Who (Why), How, (Why), When (Why).
+[quote,Mike Tyson]
+____
+Everybody has a plan until they get punched in the mouth;
+____
 
-////
+Planning in terms of clarity and alignment on _What_ you're going to do, _How_, in what order, by _Who_ and _Why_, is valuable.
+
+But incompetent manager-types tend to do two things:
+
+[arabic]
+. Confuse the plan with achieving goals e.g., confusing story points with what's been built.
+. Overestimate the ability of humans the future, by obsessing about _When_.
+
 
