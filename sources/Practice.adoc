@@ -980,6 +980,45 @@ block-beta
 
 These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
 
+=== Analysis & Design
+
+==== Think upfront to avoid expensive rework
+
+In academia, there's a phrase:
+
+[quote]
+____
+A day in the library saves a month in the lab.
+____
+
+It's a variation of "look before you leap". This holds true for a lot of disciplines.
+
+Trying to add an additional room to a house after the foundations have been laid and most of the structure has been built, is prohibitively expensive and difficult. Better to do it upfront when the building only exists on paper.
+
+This is true for the engineering of software. Be wise, and invest the time to 'analyze and design' upfront. The keywords to use are:
+
+* `Investigate`
+* `Workshop`
+
+Workshops - discursive sessions in front of a whiteboard, ideally - drive incredibly creative and productive conversations, as do solo investigations and analysis.
+
+However, you should accept the inevitable limitations on a-priori knowledge. If you're creating anything significant, it may be complex and novel. Thus, you should expect to be 'learning as you go'. 
+
+At some point, the return on investment on additional effort to analysis and design upfront diminishes to a point, where you just have to bite the bullet and get started.
+
+==== Explain it to prove you understand it
+
+An interesting motif of working with software engineers to lead product design has been seeing how the inability of software engineers to describe what they've built/will build in a presentation/demonstration/user documentation, is directly correlated with bad product design.
+
+Forcing and exploring an explanation has always led to better results. Using the { Who, What, Why, When, How, Where } approach generates simple questions that should have { clear, complete, concise } answers.
+
+* Who is this for?
+* What does it do?
+* Why?
+* How does it work?
+
+
+
 ////
 
 === Plan
@@ -987,3 +1026,4 @@ These activities shouldn't be treated as discrete phases with hard boundaries - 
 What (Why), Who (Why), How, (Why), When (Why).
 
 ////
+
