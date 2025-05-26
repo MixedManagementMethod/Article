@@ -1008,14 +1008,14 @@ At some point, the return on investment on additional effort to analysis and des
 
 ==== Explain it to prove you understand it
 
-An interesting motif of working with software engineers to lead product design has been seeing how the inability of software engineers to describe what they've built/will build in a presentation/demonstration/user documentation, is directly correlated with bad product design.
+An interesting motif of working with software engineers to design product has been seeing how the inability of software engineers to describe what they've built/will build in a presentation/demonstration/user documentation, is directly correlated with bad product design... and how commonly it occurs.
 
 Forcing and exploring an explanation has always led to better results. Using the { Who, What, Why, When, How, Where } approach generates simple questions that should have { clear, complete, concise } answers.
 
-* Who is this for?
-* What does it do?
-* Why?
-* How does it work?
+* _Who_ is this for?
+* _What_ does it do?
+* _Why_?
+* _How_ does it work?
 
 ==== Don't reinvent the square wheel
 
@@ -1023,7 +1023,7 @@ A motif in software engineering is the crime of reinventing the square wheel, le
 
 If someone else has already invested the time and effort to design an existing implementation, accelerate your own efforts by leveraging theirs, when possible.
 
-Say, you're adding audit functionality to SaaS software. Oracle, Microsoft, Google all have developed audit functionality in a variety of their products.. common sense/basic intelligence says to take a look.
+Say, you're adding 'audit' functionality to SaaS software. Oracle, Microsoft, Google all have developed audit functionality in a variety of their products.. common sense/basic intelligence says to take a look.
 
 ==== Iterate order and disorder to progress
 
@@ -1038,12 +1038,92 @@ ____
 Everybody has a plan until they get punched in the mouth;
 ____
 
-Planning in terms of clarity and alignment on _What_ you're going to do, _How_, in what order, by _Who_ and _Why_, is valuable.
+==== Focus on what matters
+
+Planning is valuable in so much that it can provide clarity and alignment on:
+
+[arabic]
+. _What_ is to be achieved
+. _Why_ achieve it
+. _How_ to achieve it
+   .. <<breakdown-work-into-manageable-pieces,_What_ is going to be done, in _what_ order>>
+   .. by _Who_
+. _When_
 
 But incompetent manager-types tend to do two things:
 
 [arabic]
-. Confuse the plan with achieving goals e.g., confusing story points with what's been built.
+. Confuse the plan with achieving goals e.g., obsessing about story points or tickets, instead of what's been built.
 . Overestimate the ability of humans the future, by obsessing about _When_.
 
+Notice that _when_ is at the bottom of the order of importance, <<treat-estimation-with-the-distain-it-deserves,and for good reason>>.
 
+==== Breakdown work into manageable pieces
+
+Projects (bodies of work) vary in size, complexity, uncertainty and dynamics, and in many cases, you'll want to break it up into manageable pieces. Rather than choking on an apple trying to swallow it whole, take multiple bites. 
+
+[.importantpoint]#Time-boxing is not necessarily helpful.#
+
+Scrum-worshippers dogmatically push the idea of monitoring progress using fixed time-boxes 'sprints'. This can be useful or destructive to productivity.
+
+What you're trying to monitor is <<focus-on-what-matters,progress>>. Progress can be broken up by time, architecture, functionality or other dimensions. If time-boxing doesn't add value, don't do it.
+
+At least tune the time boxes to meaningful intervals. Basecamp uses 6 week intervals because they've found that interval generally encapsulates most discrete units of work they do _in their circumstances_.
+
+A symptom of it being counterproductive is when contributors spend more time talking about how the work is organized/fit into the time boxes, <<focus-on-what-matters,than the work itself>>.
+
+[.importantpoint]#Slice up the cake vertically and horizontally as needed#
+
+Peak 'Agile' out of web development was dogmatically about splitting up software development progress by vertical (functional) slices across the entire web stack (frontend to the database). A downside of this approach is producing an incoherent, fragmented end product, as variation is introduced with each vertical slices.
+
+Layered architectures think about horizontal (architectural) slices of abstraction through the software/system. The downsides of progressing layer by layer included the longer time frame to get to a functional product, and the potential of moving goalposts (end user requirements) in the meantime.
+
+As <<adopt-the-studio_model,The Studio Model>> points out, properties of systems, including software, can be emergent. When building a house from scratch, you have to lay the foundations, then build up the structure before any rooms can be finished to a usable state - at which point you can progress room by room. So, there's a long period of no apparent creation of utility, then it all appears relatively suddenly towards the end.
+
+By <<no-dogma,avoiding dogmatism>> and <<think-upfront-to-avoid-expensive-rework,thinking upfront>>, you can break down development by combining both vertical and horizontal cuts, trading off the risks of fragmentation against delayed emergence of value.
+
+==== Treat estimation with the distain it deserves
+
+A rubbish movie delivered on time and to budget is still going to bomb at the box office and lose investors their money... so _when_ is far less important that _what_. The amount of time misallocated to _when_ over _what_ in organizations - i.e., becoming better predictors of the schedule of their failure - is regrettable but reflective of incompetent leadership that no foundation in the disciplines over which they're supposed to be leading.
+
+Nonetheless, there are perfectly reasonable reasons for wanting to it, in terms of managing risk and financial investment.
+
+Estimation and scheduling is about _predicting the future_ and setting cost/time expectations accordingly i.e. reserving time/money to do the work.
+
+The only problem is that humans suck at predicting the future. How many movie productions come in on time and under budget?!
+
+* [.listitemterm]#Different disciplines have very different dynamics#. 'The world of atoms' is very different from 'the world of bits', because the former is governed more by the laws of physics and the objective universe, whilst the latter is ultimately limited in the same way but more by thought. Thus, physical engineering disciplines have different timescales for development, different complexities for problem resolution, different ranges of possible solutions and more. 
+* [.listitemterm]#Creativity introduces lots of uncertainty#. Manufacturing processes are mechanical, repeatable and predictable, because they don't have human creativity at the heart of them. The time to imagine/innovate/envision is so much more uncertain. Work that is worth doing is often new and unfamiliar.
+* [.listitemterm]#We don't really know how long it takes to resolve a problem#, unless it has enough similarity to a previous encountered problem and solution. TV shows like 'Law & Order' give the impression that all mysteries are always neatly solved in 45 minutes, no matter who's dealing with it.
+* [.listitemterm]#Other work disrupts the best laid plans#. Rarely are people left to focus solely on one project, uninterrupted by other work streams.
+* [.listitemterm]#Learning might need to happen on the way# e.g. new skills, languages or tools. The time required to do work can depend strongly on the expertise of the people doing it.
+* [.listitemterm]#Unexpected supporting work might need to occur#, e.g. building infrastructure to support the development.
+
+For all these reasons and more (but remember to <<focus-on-what-matters,focus on what matters>>):
+
+[.importantpoint]#Good estimation = Experience + Pessimism#
+
+Estimation: How can you find experience to fed into estimation?
+
+* Ideally by interrogating a <<adopt-time-tracking-for-all,time tracking system>>.
+* Alternatively, t-shirt sizing is a useful, lightweight tool.
+
+Pessimism: A rule of thumb that I've seen work better than any other (and heard that other competent software engineering leaders had similarly concluded independently), is:
+
+[.importantpoint]#Whatever your initial estimation is, double it.#
+
+Part of the dynamic this rule of thumb fights against is the desire not to tell the truth, which is:
+
+* "It's probably going to take a lot longer than _you_ want it to"
+* <<i-dont-know-is-a-valid-answer,"I don't know">>
+
+The 'story point' concept was originally intended to avoid estimation altogether by estimating _complexity_, but was widely and rapidly perverted back to time estimation because truth telling is difficult.
+
+==== Adopt continuous transparency
+
+The better alternative to desperately clinging to the <<treat-estimation-with-the-distain-it-deserves,false hope of precise prediction of the future>>, is to provide at-a-glance continuous transparency.
+
+Make it obvious and clear what's being done in real time e.g., through access to status and progress dashboard.
+
+* [.listitemterm]#It engenders trust#, if you're acting in good faith.
+* [.listitemterm]#It enables issues, and discussions around them, to occur sooner#, before the issues, or their effects, become much worse.
