@@ -40,7 +40,7 @@ The repository requires the following structure to work correctly:
 
 == Formatting
 
-There are some https://docs.asciidoctor.org/asciidoc/latest/text/custom-inline-styles/[custom inline styles] that need to be formatted in CSS (search the `.adoc` sources for `[.<style name from the following list>]`).
+There are some https://docs.asciidoctor.org/asciidoc/latest/text/custom-inline-styles/[custom inline styles] that are defined in CSS (search the `.adoc` sources for `[.<style name from the following list>]`).
 
 * `importantpoint`
 * `listitemterm`

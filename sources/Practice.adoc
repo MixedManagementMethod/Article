@@ -1,3 +1,1129 @@
 == Practice
 
 As asserted in our <<framework,framework>>, practice is downstream of <<people,people>>.
+
+=== Best Practice
+
+==== Be effective and efficient
+
+To our mind, an essential phrase that should be widely used is:
+
+[.importantpoint]#Effective and Efficient (in that order of importance)#
+
+We recommend viewing all of your existing practices through the lens of being _effective_ and _efficient_.
+
+* [.listitemterm]#Effective# means to achieve the best outcome.
+* [.listitemterm]#Efficient# means to achieve it in the best possible way.
+
+The most important thing is to be effective. Organizations -can- function with effective workflows that are performed inefficiently. Even if you don't have the fanciest whizz bang automation, having a well documented, clear process (say, as checklist) is always the foundation. 
+
+Organizations can survive, even thrive, in spite of being inefficient but the consequences are time, expense and negative impact on morale where frustration builds, particularly amongst high performers who can see a better way. Inefficiency ultimately burns cash and people.
+
+==== Reject the 'metric-driven' dogma
+
+You might occasionally encounter dogma about the value of metrics (particularly around <<strategy,strategy>>):
+
+* "If you can't measure it, you can't manage it"
+* "We're metric/data driven" 
+
+For example, it seems <<adopt-okrs,pretty hard-baked into conventional OKR methodology>>.
+
+At those times, it's worth knowing that this dogma likely stems from mis-portrayal of what W. Edwards Deming (of the iconic text "The Deming Management Method") actually said.
+
+[quote,W. Edwards Deming, The New Economics]
+____
+It is wrong to suppose that if you can't measure it, you can't manage it - a costly myth.
+____
+
+Whether you want to describe reality quantitatively or qualitatively is entirely down to your best judgement of what's _feasible_, _practical_ and _valuable_.
+
+=== IT Infrastructure and tools
+
+The bar has been continually raised, such that the use of tools that were once the esoteric domain of software developers is now required in other disciplines, in order to perform effectively in a modern organization..
+
+They include Git SCM, markup, messaging, ticketing, data transformation and analytics, and increasingly AI-accelerated tools.
+
+Anyone clinging to the 'old ways' (email chaos, file attachments, spreadsheets for everything), and attempting to bluff their way through, is quickly exposed by the huge gains in effectiveness and efficiency of everyone else who invested in learning.
+
+This applies to any level of seniority, as the ability to lead in a competitive landscape requires the ability to:
+
+* Engage and understand your people
+* Envision and implement improvement 
+
+It's the difference between the 'builders' and the bluffers.
+
+==== Prefer integrated ecosystems/monoliths over best-in-class
+
+A recurring theme in many organizations, particularly driven by the adoption of SaaS tools, is complexity in their IT infrastructure due to:
+
+* A 'Cambrian explosion' of software tools driven by the naive mindset of "Adding another software tool will solve our problems".
+* A history of home brewing software tools.
+
+In these scenarios, the pain point is getting them to work together (integration).
+
+* Creating, reading, updating and deleting across fragmented, siloed data sources is a nightmare.
+* It's difficult to maintain consistency of design across multiple systems.
+
+Attempts to stitch them together with manual labour inevitably fail due to the cost and effort of continually doing so, though it's possible for an organization to survive, with effective-but-inefficient workflows, but usually in a constant state of decline.
+
+A permanent solution requires a combination of the following, with minimal fragmentation:
+
+* Investing in automated integrations (off the shelf, or home brewed).
+* Adopting coherent ecosystems (Microsoft's advantage, somewhat present with Atlassian) over a fragmented combination of best-in-class.
+* Building monolithic solutions with low code/no code app development e.g., Tadabase.
+
+==== Adopt task tracking (ticketing) for all
+
+After messaging (chat, email, voice/video calls etc) and shared file storage, a task tracking (ticketing) system is the most vital collaboration and organizational tool… and shockingly undervalued.
+
+Task tracking/ticketing software exists in many forms: Office 365 To Do, Google Tasks, Microsoft Project, Atlassian Jira, GitLab, Microsoft GitHub, Microsoft Azure DevOps, Service Now, Tadabase (home brewed, no-code web apps) and more.
+
+The fragmentation is a real problem, and the variations in functionality often only exist due to various business domain origins of the software - project management, software engineering, consumer apps, IT service management - or the internal politics of an organizations. Microsoft alone has 4 different task tracking tools with overlapping functionality - Office 365 To Do, MS Project, Azure Boards and GitHub Issues - and all of which have existed for years as half-baked solutions.
+
+Tickets are a digital record that represent a task, and:
+
+* Have a status field that represents the state of the task e.g. To Do.
+* Have a minimum set of required, default data fields e.g. Title, Description.
+* Have customizable fields to capture structured information/encode a workflow.
+* May be configurable with checklists for encoding workflow/gate keeping progress. In some systems, a checklist is recognized as a list of tickets.
+
+No matter what your position in the organization's hierarchy (from CEO to entry level engineer), or your function (HR, Finance, Software Engineering), adopting task tracking tools brings the universal benefit of non-human memory for individuals and groups alike:
+
+* [.listitemterm]#Planning#. What could/is to be done in the future (aide memoire), when and by who.
+* [.listitemterm]#Traceability#. What happened, what was done by who. Give credit to people for their work. Institutionalize knowledge for the future, for repetition/improvement/reporting.
+* [.listitemterm]#Transparency#. Improve collaboration. See what others are doing and how they're doing it.
+* [.listitemterm]#Organization#. Consolidating and structuring information e.g., defining structured fields to capture information about a Bug - what went wrong, how was it fixed, how can it be prevented from happening again, what was it prevented from happening again.
+* [.listitemterm]#Consistency#. Workflows can be built into tickets (e.g., checklists) that are a list of topics to think about/tasks to do. "Have you done/thought about X?", as can rules that apply constraints to transitions between states.
+* [.listitemterm]#Continuous improvement#. Workflows built into ticketing systems can be improved. Learning and improvement can be driven by the tickets e.g., in a Bug ticket have a field called "How can it be prevented from happening again" and require it to be filled before the ticket can be closed.
+* [.listitemterm]#Accessibility#. Access (query, search) and visualize this information.
+
+It's astounding how many functions in how many organizations are dysfunctional, and could save themselves (and their collaborators) a huge amount of pain just with a ticketing system.
+
+For example, Boeing claimed there was 'no documentation' to explain why bolts were missing from a plane door that detached mid-flight. What they should have said was there was no ticket, and if there was, there's no useful information on it. Translation: "We don't have our basics together".
+
+===== Ensure task tracking is monolithic
+
+Having fragmented task tracking across multiple systems is difficult to manage and use e.g. how to run a query for past work when a) you're not sure who did it and b) different users are using different systems.
+
+Single-sources-of-truth are ideal - have all the organization use the same <<prefer-integrated-ecosystems-monoliths-over-best-in-class,monolithic system>>. 
+
+Prefer systems where ticket types, ticket fields (for data capture) and ticket state workflows are highly configurable i.e. Jira/GitHub/Azure DevOps/GitLab or no-code apps on Tadabase. If you have software engineers and non-software engineers in the same organization, it wouldn't be the end of the world to have the non-software engineers learn to use the tools of software engineers e.g. Jira/GitHub/Azure DevOps/GitLab.
+
+The alternative is at least to minimize the fragmentation, using as few systems as possible. You might have one system for most users and another specifically for software engineers. If you need to stitch systems together, you'll have to invest in automated, friction-free integration to ensure at least one is a single-source-of-truth e.g. use an integration to sync GitHub tickets to a home-brewed app's database.
+
+// Add a system diagram?
+
+===== Adopt our task tracking template
+
+If there's one thing engineering and technologists like to do is come up with yet more poorly chosen terminology... and then baking it into the tools so you can't get rid of it.
+
+* What's considered a `backlog` in software engineering terminology is actually a `queue` - backlog implies 'you're running behind', which is nonsense in most cases - the tickets in the backlog are just work you haven't gotten around to yet. If the people who originally chose this terminology bothered to use a dictionary, this misuse of terms wouldn't have detracted from clarity and wouldn't have introduced a corrosive accusatory tone everywhere (many task tracking tools (Jira, Azure DevOps) have 'backlog' baked in).
+* Azure DevOps uses `work item` instead of `ticket` - same number of syllables but the former is clumsy and awkward (at least in the English language). GitHub uses `issue`, which isn't any better. `Epic` is sometimes used to describe work to implement a discrete group of smaller product functions - this terminology is arcane, obtuse and software product development-specific (born out of 90s Agile). `Feature` is used the same way in other software development methodologies.
+
+There are plenty of articles around the internet about the myriad of terminology across different methodologies. What Mixed Management does is to pick the most universally useful, yet semantically unrestricted, terminology in our task tracking template.
+
+* `Backlog` because it's so universally baked into task tracking software, that it's generally too difficult to ditch.
+* `Ticket` is the item that represents a task.
+* `Project` to describe a grouping of tasks, whether product development related or not. It's universal and clear.
+* `Requirement` over `feature` or `story` as an intuitive term to label a product change. It's the most frictionless way of labelling a category of change without dragged down methodology-specific dogma (<<why-mixed,which the Mixed Management Method tries to avoid>>).
+
+You should consider at least two distinct type of backlog configuration:
+
+[arabic]
+. [.listitemterm]#General# e.g., team, department, strategic.
+. [.listitemterm]#Product# i.e. development and operations ('operations' meaning to support to the product).
+
+Each configuration has a distinct backlog hierarchy (based on ticket types), where a ticket in one level of the hierarchy can be grouped under (parented to) a ticket in a higher level. This enables a lossy, higher level (lower resolution) view on the contents of lower backlogs. 'Lossy' implies it's not necessary to assign a parent to every lower level ticket.
+
+Each level of the hierarchy contains tickets of a distinct set of types. The purpose of ticket types is to:
+
+* Categorize tickets as to the type of work they represent.
+* Capture different sets of information with fields.
+* Support different ticket states, and workflows between states.
+
+.General configuration hierarchy of backlogs
+[cols="1,1a,3a",options="header"]
+|===
+|Backlog (low level to high)
+|Ticket Types in this level
+|Description
+
+|`Tasks`
+|Only one: `Tasks`
+|The default, baseline backlog level where tasks are tracked.
+
+|`Project`
+|Only one: `Project`
+|Enable a higher-level view (lower resolution, lossy) of the work by parenting `Task` tickets to projects.
+
+|`Strategy``
+|Only one: `Objective`
+|Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
+|===
+
+.Product configuration hierarchy of backlogs
+[cols="1,1a,3a",options="header"]
+|===
+|Backlog (low level to high)
+|Ticket types in this level
+|Description
+
+|`Product`
+|Development:
+
+* `Requirement`
+* `Documentation`
+* `Bug`
+* `DevOps`
+* `Tech`
+* `Release`
+* `Task`
+
+Operations:
+
+* `Support`
+* `Bug`
+* `Task`
+
+|The default, baseline backlog level where product development and/or operation is tracked.
+
+|`Project`
+|Only one: `Project`
+|Enable a higher-level view (lower resolution, lossy) of the work by parenting `Product` tickets to projects.
+
+|`Strategy``
+|Only one: `Objective`
+|Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
+|===
+
+One can also consider hierarchical levels below `Tasks` and `Product` to break down work further into sub-tasks.
+
+// Add a colour column
+
+.Ticket types
+[cols="1,3",options="header"]
+|===
+|Ticket Type
+|Description
+
+|`Objective`
+|Work related to a strategic objective. Used for Objectives in <<adopt-okrs,OKRs>>.
+
+|`Project`
+|Work from lower-level tickets grouped together. Also specifically used to track Key Results in <<adopt-okrs,OKRs>>.
+
+|`Task`
+|Work that doesn't belong under any other type.
+
+|`Bug`
+|Work related to a problem in the product.
+
+|`Requirement`
+|Work that will result in an externally recognizable product change.
+
+|`Documentation`
+|Work related to product user/technical documentation.
+
+|`Tech`
+|Work to change the product under-the-hood.
+
+|`DevOps`
+|Work related to product development/operational infrastructure.
+
+|`Release`
+|Work related to releasing a version of the product.
+
+|`Support`
+|Work to support stakeholders. Tickets created by stakeholders.
+|===
+
+All tickets have a `state``, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
+
+//image::Dummy.png[]
+
+[mermaid, format=SVG]
+....
+---
+config:
+  theme: default
+  layout: dagre
+---
+flowchart TD
+ subgraph s1["Proposed"]
+        n1["To Do"]
+  end
+ subgraph s2["Doing"]
+        n2["In Progress"]
+        n3["Paused"]
+        n4["Waiting"]
+  end
+ subgraph s3["Completed"]
+        n5["Done"]
+        n6@{ label: "Won't Do" }
+  end
+ subgraph s4["Soft-Deleted"]
+        n7["Deleted"]
+        end
+ subgraph s5[" "]
+    direction LR
+        s1
+        s2
+        s3
+  end
+ subgraph s6[" "]
+    direction LR
+        s4
+  end
+    s1 <--> s2
+    s2 <--> s3
+    s5 <--> s4
+    s1 <--> s3
+    n2 <--> n3
+    n3 <--> n4
+    n4 <--> n2
+    n5 <--> n6
+    n1@{ shape: rounded}
+    n2@{ shape: rounded}
+    n3@{ shape: rounded}
+    n4@{ shape: rounded}
+    n5@{ shape: rounded}
+    n6@{ shape: rounded}
+    n7@{ shape: rounded}
+    style n1 stroke:#2962FF
+    style n2 stroke:#FF6D00
+    style n3 stroke:#FF6D00
+    style n4 stroke:#FF6D00
+    style n5 stroke:#00C853
+    style n6 stroke:#00C853
+    style n7 stroke:#AA00FF
+    style s1 stroke:#2962FF
+    style s2 stroke:#FF6D00
+    style s3 stroke:#00C853
+    style s4 stroke:#AA00FF
+    style s5 stroke:none
+    style s6 stroke:none
+....
+
+* The states are grouped into categories.
+* The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!
+
+For the `Bug` ticket type (or similar fault-oriented tickets), we recommend building out text fields that describe the problem and resolution in a structured way.
+
+* (Describe the) Problem
+   ** `Steps to Reproduce`
+   ** `Observed Behaviour/Outcome`
+   ** `Expected Behaviour/Outcome`
+   ** `Reported By`
+   ** `Accepted By`
+   ** <Other contextual information e.g. affected product version>
+* (Describe the) Resolution
+   ** `Root Cause/s`
+   ** `Workaround`
+   ** `Fix`
+   ** `Prevention`
+
+===== Implement a soft-deletion state for tickets
+
+It's bad practice to allow users of a ticketing system to hard-delete tickets.
+
+* You lose the information permanently. It is unacceptable generally, but also for some standards compliance.
+* When tickets are hard-deleted in most ticketing systems, they fall outside of the search and query functions, which is a problem for discoverability.
+
+Therefore, it's best practice to:
+
+* Create a state in the workflows to represent deletion without actually doing it,
+* Then for all queries and views to be configured by default to filter out tickets in this state.
+
+In our reference template, the soft-deletion state is called `Deleted`. 
+
+===== Keep state workflows simple
+
+There are two ways to build a workflow into ticket configuration:
+
+[arabic]
+. [.listitemterm]#Horizontally#. Build a workflow into the set of possible state values, and define rules for transitioning between them e.g. add ever more states like `Verify`, `Validate`, `Release`.
+. [.listitemterm]#Vertically#. Build the workflow by breaking up the parent ticket into smaller child tickets, using an automation to generate the children from a template. `Verify`, `Validate`, `Release` would be three child `Task` tickets parented to "Add auto-save function" `Requirement`.
+
+Our recommendation is to prefer breaking down tasks by a structured workflow vertically, and to keep state workflows simple and general (as presented in this template). Adding complication into state workflows becomes quickly unwieldy, and is difficult to change (e.g., updating existing tickets, which can easily number in the thousands). 
+
+* Workflows do change as your organization learns and improves,
+* Different disciplines in an organization will require varying workflows, so you would have to manage a variety of state workflows were you to build them into the ticket states.
+* If modifying ticket states, you might run into problems updating existing tickets without affecting completed ones.
+
+Do yourself a favour and _keep state workflows simple_.
+
+==== Adopt time tracking for all
+
+After you've implemented the foundation of high-quality task tracking that provides activity records, you can build valuable time tracking upon it.
+
+[.importantpoint]#Time is money. The most expensive cost for many organizations is people. It's valuable to understand where people are investing their time.#
+
+The expense of people's time is why they're the first to get cut in hard times. Time tracking:
+
+* [.listitemterm]#Facilitates transparency and accountability# into what individuals and groups are doing
+* [.listitemterm]#Enables cost-monitoring# insights into the organization's activities. For consultancies/contractors, this is essential for billing.
+* [.listitemterm]#Enables effort estimation# by building a history of reference experiences.
+
+Many time tracking attempts introduce painful friction, becoming a burden that everyone complains about and eventually abandons. No wonder that so people rail against the concept.
+
+* [.listitemterm]#Highlight its usefulness to the individual#. "The next time your boss walks up to you and demands an explanation as to why Task X wasn't done, you can say 'I did Task Y, Task Z and wasted a large chunk of time on bureaucratic process ABC'".
+* [.listitemterm]#Make it a habit#. Like all note taking, if you leave it to the end, even the end of the day, you'll likely forget what you did. It needs to be a continuous habit (note: this is only possible with an efficient system).
+* [.listitemterm]#Only capture the minimal information required#. Limit 'when it happened' to just a date, and don't try to capture start/end times - it's too burdensome and not useful.
+   ** The essential information is:
+      *** `Date`
+      *** `Ticket ID`/`Activity`
+      *** `Duration (minutes)`
+   ** Strongly consider recording which part of the organizational structure the individual was operating in at the time the record represents. This is because people can move within an organization over time, so work done by a person that moved might be more difficult to parse in future queries. It may be possible to populate this information automatically e.g., by retrieving such information from an identity management system.
+* [.listitemterm]#Ensure the time tracking system is frictionless'. Clunky, burdensome time tracking software will kill your efforts, so you need to avoid this. Pain points can include duplicating past records easily, modifying existing records, and to do all in bulk. For example, Excel as a frontend is surprisingly frictionless because the records will be a table and Excel has all the functionality for easily working with tables. A web app, say a home-brewed one, really needs to avoid being restrictive and opinionated - flexible table-editing is better for adoption and use.
+* [.listitemterm]#Find consistent descriptions for non-ticketed activities#. There are activities that use up time but aren't tracked by tickets - purely because it would be too burdensome. For example:
+   ** Settling in/packing up
+   ** Meal/toilet/chat break
+   ** Reading messages
+   ** Unticketed meetings e.g. daily meeting, organization-wide town halls
+   ** Other unticketed activities e.g. backlog curation
+   You need to find a way to drive/enforce consistent descriptions of these in your time tracking system's `Ticket ID/Activity` field, so that they can be filtered during analysis. The most likely way is to provide preset values for the field.
+* [.listitemterm]#Get task and time tracking running ASAP#. The sooner you get a time tracking (and task tracking) system up and running, the sooner you'll start building a history of organizational activity.
+
+==== Build cost-monitoring
+
+If you have high-quality, well-designed systems for managing:
+
+* Task tracking
+* Time tracking
+* Identity, and individualized cost burden
+
+Then you have all the data you need to implement cost-monitoring! Assuming you've designed your systems well and can access all the databases (e.g., via web APIs), you can implement cost-monitoring as an custom application that translates time to cost, mapping to tasks.
+
+A couple of factors to consider in developing the application:
+
+[arabic]
+. How much lag in time tracking you want it to support.
+   .. Even the most diligent note-taker can lag behind sometimes, due to busyness/absence.
+   .. Sometimes mistakes in past records need to be corrected.
+. How an individual's cost burden can vary over time (relates to when the task activity occurred)
+
+Since time tracking entries <<adopt-time-tracking-for-all,resolve to a day>>, individualized cost burden should also be determinable to a day.  
+
+==== Organize content into topics
+
+In an organization's software tools, users generate content and although search functionality is essential, structuring said content into topics is still vital to avoid unmanageable chaos.
+
+Mixed Management's suggestions for topics under which to group content:
+
+* _General_
+   ** `Business`
+   ** `Culture`
+   ** `DevOps`
+   ** `Office`
+   ** `Planning and Reporting`
+   ** `Social`
+   ** `Standards`
+* _Functions_
+   ** `IT`
+   ** `People` (HR)
+   ** `Legal`
+   ** `Marketing`
+   ** `Sales`
+* _Product_
+   ** `<Product X>`
+   ** `<Product Y>`
+* _Technologies_
+   ** Whatever's relevant to your domain
+* _Standards_
+   ** Whatever's relevant to your domain
+
+You can use these topics for:
+
+* Teams channels
+* Wiki/intranet sections
+* Document storage folders
+
+and more.
+
+==== Adopt documentation-as-code
+
+The bar has been continually raised, such that the use of tools that were once the esoteric domain of software engineers, is now required in domains such as Technical Writing, Marketing, Sales and more, in order to perform effectively in a modern organization.
+
+* Source code management/version control: https://git-scm.com/[Git], GitHub/GitLab/Azure DevOps/Bitbucket.
+* Markup languages: https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc], https://www.markdownguide.org/[markdown], https://mermaid.js.org/[Mermaid]
+
+https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc] is underrated. Unlike the more widely supported https://www.markdownguide.org/[markdown], AsciiDoc isn't fragmented into a dozen different variants ('flavours'). Instead, it's just a single, high quality, coherent, well-designed markup (text based authoring) language with great documentation (though its tooling ecosystem needs work)
+
+Similarly, using https://mermaid.js.org/[Mermaid] to author diagrams-as-text is underrated. It fits seamlessly into the whole approach of solely-text-based content authoring and there are increasingly more visual editors.
+
+=== Communication
+
+Communication happens:
+
+* Across many mediums - written, oral, live, recorded.
+* In many forms - user documentation, technical documentations, design workshops, retrospectives, emails and messages, and more.
+
+In any case, communication is the fundamental transmission of thoughts between people, across space and time, and it's essential to be _effective and efficient_ to collaborate effectively.
+
+==== Be clear, complete, concise (in that order)
+
+===== Clear
+
+[.importantpoint]#Emotionally secure people embrace clarity and avoid jargon; insecure people obfuscate.#
+
+Clarity is the most important aspect of communication. If the communication is clear, then even if it's incomplete or verbose, the receiving person can work with what's there (such as asking for clarification or elaboration).
+
+Confusing, obscure, jargon-filled obscurity blocks all communication. This is a motif amongst mediocre people because they use obscurity as a shield, to prevent transparency and thus avoid - in their insecure minds - threats.
+
+[.importantpoint]#Use plain English. Be conversational. Adopt beginner's mind.#
+
+* [.listitemterm]#Use plain English# (jargon-free, acronym-free) whenever possible.
+* [.listitemterm]#Be conversational.# Play out an in-person conversation with the recipient in your head, and transcribe it word-for-word.
+* [.listitemterm]#Adopt 'beginner's mind'.# The recipient mind is a void, empty of what's contained in your mind. Your goal is to populate your thoughts in theirs.
+
+===== Complete
+
+Completeness is the next most important aspect of communication. 
+
+When information is missing from communication, the effect can range from reduced efficiency - the receiver is confused, has to think and ask questions back - to killing the communication altogether.
+
+Also, sometimes the sender can provide information that they didn't think was valuable to a discussion, but by pushing it around, its value was discovered.
+
+[.importantpoint]#Tell a story. Push information (sharing is caring).#
+
+* [.listitemterm]#'Telling a story'# is a useful technique for encouraging the pushing of information. It's one thing to say:
++
+"When are you available for a call tomorrow?""
++
+and another to say:
++
+"I was thinking about the problem, had an idea and thought we should talk about it. I looked at my calendar and have 2-4 free; when are you available?"
+* [.listitemterm]#Pushing information# reduces the likelihood of ambiguity, misunderstanding and creates opportunities for the recipient to engage.
+
+===== Concise
+
+[.importantpoint]#Be 'minimal but sufficient'. People don't want to read for reading's sake; they want to understand.#
+
+Communication is a means to an end, not an end in of itself. The resulting lack of conciseness from the latter mindset is a particular problem with professional technical writers because their livelihood manifests in writing, so they adopt a deluded mindset where they think the reader wants to read their writing - wrong!
+
+The reader wants to get something done, to do that they need to understand and the writing is just a means to end. "Blah blah blah, waffle, waffle, waffle" just gets in the way. 
+
+One of the cardinal sins seen in technical writing is pointless waffle repeating what people can already see for themselves, say on a screen. 
+
+----
+Documentation: "There is a field to enter X information"
+
+Reader: "Yes, I can see that for myself. I want to know what it means/does!"
+----
+
+Too much communication chokes productivity. Too little causes dysfunction.
+
+Imagine drawing the outline of a tree using dots - navigating between using so many dots that you draw a solid line, versus using so few dots that's no longer recognizable as a tree. The sweet spot is enough dots to convey the outline, without wasting effort on unnecessary dots.
+
+// Add drawings of dotted tree outline
+
+==== Pause and sanity check your writing
+
+Whenever you're writing, take a step back and ask yourself if, from the perspective of the recipient:
+
+* [.listitemterm]#Is it clear?# Am I using the simplest possible language? Can I test it on someone?
+* [.listitemterm]#Is it complete?# Is there any missing information or additional context I can add?
+* [.listitemterm]#Can I be more concise#, without loss of completeness or clarity?
+
+Making this behaviour a habit *will* improve the quality of your writing.
+
+==== Use the dictionary
+
+Technical problems/debt often originate in organizations from bad use of language:
+
+[arabic]
+. [.listitemterm]#Multiple, inconsistent terms for the same thing# e.g. 'pump down' and 'pump to base vacuum', or 'readback' and 'read back'. Reflects a lack of hygiene.
+. [.listitemterm]#Incorrect use of language.# Reflects a lack of intelligence and/ rigour - it's amazing how many humans would rather guess than invest a little bit of effort to find out. 
+
+This is cancerous to everything the organization does, because language is the foundation of communication and thinking. When the use of language is flawed, thoughts, and the communication of them, are scrambled and incoherent.
+
+Low performers who like to wallow in linguistic squalor do so to obfuscate their own incompetence. "It's just semantics" is a common exclamation to dismiss the value of literacy and articulacy. 
+
+On one occasion, a Director-level employee responded in a meeting to the use of a 'fancy word' with "Ooooh… (look at Mr. Smarty Pants using fancy words like 'asynchronous'! La de da!)". Moments like these are truly The Office meets Idiocracy.
+
+The solutions are simple:
+
+[arabic]
+. [.listitemterm]#"Pick one and stick with it!"#
+. [.listitemterm]#"Use the dictionary/thesaurus"#
+
+Literacy, articulacy and the correct use of language, needs to be an organization-wide value driven by Leadership, or you end up with department heads who communicate at the standard of F grade 10 year old... when you're trying to run an high performance organization, allowing that to happen is unacceptable.
+
+==== Use different mechanisms to best effect
+
+Documents, voice calls, chat messaging, emails, in-person discussion… these are various mechanisms for communication, and each have their pros and cons.
+
+[.importantpoint]#Having timestamped evidence of the communication facilitates transparency and honesty.#
+
+Emails and chat messages are a written record of communication, with timestamps. This kind of shared memory has value and should always be a consideration.
+
+[.importantpoint]#When email/chat becomes frustrating, move the conversation to voice/in-person.#
+
+For rapid communication with high frequency/high volume back and forth, email and messaging can become frustrating. Voice-calls and in-person meetings are better suited to continue the conversation.
+
+[.importantpoint]#Design/creative/problem solving discussions are best held in-person and around a whiteboard.#
+
+For design/creative/problem solving discussion, modern video calling has massively improved efficiency but the best conversations are still held in-person, and especially around a whiteboard. 
+
+* Humans are still physical and social creatures, so the in--person experience helps to build interpersonal bonds, and aid communication of emotional nuance.
+* The physical whiteboard is still by far the best productivity tool for human collaboration, for its ability to facilitate sketching, note-taking, in a rapid, interactive and iterative manner. 
+
+[.importantpoint]#Default to 'cameras on' in group video calls.#
+
+Being social creatures, seeing the face of others in a conversation aids communication of emotional nuance, building of interpersonal bonding and accountability for personal conduct. Whilst naturally some people are introverts, it's not healthy to allow them to hide - if they're in a conversation, then their involvement must have some potential value.
+
+==== Use ISO 8601 date format 'yyyy-MM-dd'
+
+This date format:
+
+* Removes US/UK ambiguity
+* Sorts correctly
+* Is concise
+* Is more readable with hyphens than underscores
+* Is easily parse-able
+
+When Leadership explicitly encourages this practice, it reduces friction around the organization.
+
+=== Meetings
+
+Meetings are a specific form of communication - _synchronous_ conversations. Their importance, and how pervasively destructively they're used, means they warrant particular attention.
+
+All the practices of good <<communication,communication>> naturally apply.
+
+==== Bring control, clarity, conciseness and comedy to meetings
+
+The most expensive part of most organizations is people's time. Meetings are synchronous conversations that can be converted into a cost figure, by calculating the prorated payroll burden of the participants' time..
+
+[.importantpoint]#Meetings are *expensive*. A bad meeting is an expensive waste. A good meeting brings a return on the investment.#
+
+The art of having a good meeting is:
+
+* [.listitemterm]#Control#. One person (the organizer) must be in control of the conversation. They must  drive the conversation by injecting purpose, direction and energy. They also must know when to let it 'breathe' and wander because discovery and exploration can be valuable to a conversation… and when to rein it in.
+* [.listitemterm]#Clarity#. The organizer must have clarity about the meeting in their own mind, and bring it to everyone else. 
+   ** Clarity is understanding what is _there_, _here_ and having some idea of how to get from _here_ to _there_.
+   ** The value of getting to _there_ should be clear; if not, the meeting is most likely wasting everyone's time.
+   ** Furthermore, as the conversation progresses, the organizer must be clarity to the progress - what understanding has been gained, what paths have been explored and so on.
+* [.listitemterm]#Conciseness#. Meetings should last as long as they need to... irrespective of the scheduled duration, and sometimes that equates to no meeting at all.
+* [.listitemterm]#Comedy#. Meetings can be tough, hard work and frustrating. The best meetings incorporate humour to great effect. While there's no certain way to inject this, as it's a product of the people involved, it's worth understanding that the best meetings are both useful and enjoyable, because of humour.
+
+==== Optimize the cadence of recurring meetings
+
+Numerous existing methodologies propose a variety of meetings/conversations, some on a regular cadence, some ad-hoc. For example:
+
+* Daily meetings ('standups')
+* Weekly team meetings
+* Ad-hoc post mortems
+* End of sprint/month retrospectives.
+* Start of sprint/month planning
+* Quarterly strategy meeting
+* Biannual top-down communications
+
+Too many organizations blindly throw their employees into bureaucratic hell by irresponsibly prescribing ever more meetings and not tuning their cadence and duration to be <<be-effective-and-efficient,effective and efficient>>. It's a perverse scenario when a "bureaucracy buster" initiative launched by management results in recommendations to eliminate many meetings that they dogmatically implemented, upon which the management vetos the effort and nothing changes.
+
+Whatever the meeting, whatever the methodology, consider tuning the *_duration_* and *_cadence_* to maximize first effectiveness, then efficiency. 
+
+Consider:
+
+* [.listitemterm]#What events are we responding to with this meeting?# e.g., daily meetings to discuss events that rarely occur within a month is wasteful.
+* [.listitemterm]#Should we have longer meetings less frequently?# A one hour fortnightly meeting can be just as effective as a half-hour weekly meeting, but more productive due to increasing flow of the conversation and reducing interruption of the participants' work.
+* [.listitemterm]#Is the return on investment actually worth it?# Increasing frequency increases the cost/investment. Many bad managers increase frequency out of fear and anxiety, ignoring the cost and the pain inflicted on the participants. If there's potential for reducing the frequent and/or duration with no significant impact, try it for a while.
+
+=== Optimize your daily meetings (standups)
+
+As with all meetings, daily meetings/standups need to be considered in terms of what they're trying to achieve, why and how best to do it.
+
+The term 'daily standup' to mean the daily meeting stems from the software engineering discipline,  and is loaded with dogmatic baggage. The dogma ranges from the blindly robotic (it must include topics X/Y/Z) to the ludicrous ("The participants need to be literally standing up"!). There are millions of posts and comments across the internet about how dogmatic daily standups have immiserated the lives of engineers, however it's been interpreted.
+
+The motivations for a daily meeting are:
+
+* Drive social interaction, particularly in hybrid/remote working (recommend <<use-different mechanisms-to-best-effect,'cameras on'>>).
+* Facilitate communication (erode silos), such as past activity.
+* Drive transparency on present activity.
+* Increase alignment on future activity.
+
+The conversation should center around a dashboard that includes:
+
+* The structure of the meeting (list of topics to cover as static text).
+* The round-robin rota (static text) of who should 'run the board' i.e. <<bring-control-clarity-conciseness-and-comedy-to-meetings,control the meeting>> (ensure it's brisk, efficient, subjects are taken 'offline' if they require further time). Rotating responsibility for the meeting is essential to break up the monotony of the same voice everyday, drive engagement and spread responsibility away from a single-point-of-failure.
+* Tickets queried from the ticketing system that provide content (where possible) relevant to each topic.
+
+This is an example you can derive your own structure from:
+
+[arabic]
+. [.listitemterm]#Support#. Operational support tickets may have been raised since the last meeting, and may need assignment/discussion.
+. [.listitemterm]#Bugs#. Product backlog bug tickets may have been raised since the last meeting, and may need assignment/discussion.
+. [.listitemterm]#Completed#. Tasks (ticket) that have been recently completed.
+. [.listitemterm]#Yesterday#. Activity/events that happened yesterday that anyone wants to discuss.
+. [.listitemterm]#Today#. Activity/events scheduled to occur today.
+. [.listitemterm]#Help#. An opportunity for any participant to cry for help.
+
+You should target your daily meetings to typically last 30 minutes, ranging between 15 and 45 minutes per the circumstances.
+
+=== Documentation
+
+As with meetings, documentation is a form of communication - _asynchronous_ conversation. The importance of documentation, and how pervasively destructively it's done, means it warrants particular attention.
+
+The practices of good <<communication,communication>> naturally apply.
+
+==== Consider all-forms of documentation
+
+Documentation can be manifested in many different ways, including some that you might not consider 'documentation' but actually are.
+
+* Intra-organizational
+   ** Chat/email messages
+   ** Meeting notes
+   ** Presentations
+   ** Tickets (contents, comments) e.g. team/department/operations backlogs
+   ** Intranet, wikis
+* Product user docs
+   ** User guides
+   ** Release notes
+   ** License terms and conditions
+   ** Troubleshooting
+   ** FAQs
+* Product technical docs (what was built, how it was built)
+   ** Tickets (contents, comments) in product development backlog, including design
+   ** Chat/email messages in product-oriented groups/teams/channels
+   ** Meeting notes
+   ** Architecture description
+   ** DevOps workflows and infrastructure description e.g. develop, release, deploy
+   ** SCM workflows and infrastructure description
+   ** Versioning scheme
+   ** Source code README e.g. description of filesystem structure in a repository
+   ** Source code inline comments
+   ** Licenses of used free open-source software (FOSS) and (software of unknown provenance) SOUP
+   ** Test plans, execution and results
+* Product marketing docs
+   ** Overview
+   ** Highlights
+   ** Benefits
+   ** Demo videos
+
+==== Drive a ubiquitous documentation mindset
+
+As it's communication, to document is to share knowledge between people, separated by space and/or time. Products, projects, even entire organizations, can be destroyed by lack of/bad quality documentation.
+
+[.importantpoint]#Good documentation is conscientiousness.#
+
+User-facing/product documentation should be a painless path to understanding your product and/or you.
+
+Intra-organizational documentation is institutional memory that serves to:
+
+* [.listitemterm]#Enable single-points-of-failure to be avoided# ("What happens if <Person X> is hit by a bus tomorrow?") by eliminating knowledge silos and lost history
+* [.listitemterm]#Prevent rapidly escaping development costs# e.g. by requiring re-development
+* [.listitemterm]#Provide a template to success#
+* [.listitemterm]#Coordinate human activity#
+
+==== Use a style guide
+
+The use of templates generally:
+
+* Maximize the probability of high quality results
+* Drive consistency
+* Save development effort
+
+Style guides do the same thing for communication, but with language. Some examples that you could adopt:
+
+* https://learn.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide]
+* https://atlassian.design/content/language-and-grammar/[Atlassian Design System]
+* https://developers.google.com/style/[Google developer documentation style guide]
+
+==== Be conversational
+
+As documentation is written communication between people (across time and space), a useful technique to imagine you're talking directly to the reader as an in-person conversation, and transcribing what's said.
+
+Also mentioned in <<clear>>.
+
+==== The right structure avoids 80% of the problems
+
+The logical structure of documentation is comparable to the architectural loading bearing structure of a building. When it's unsound (illogical, inconsistent, ambiguous), you're in for a lot of (avoidable) pain.
+
+* [.listitemterm]#Coherent structure has a logic to it# e.g. systematically describing a product by functional areas, or the phase-based linear progress of a project.
+* [.listitemterm]#Think of the structure as a tree#. It has a natural flow from start to finish at the root level of the tree, then adds more content in a top-down way. 
+
+The problems created by re-inventing the square wheel can be avoided by copying the structure of similar documentation of other similar products.
+
+==== Have a bullet-point mentality
+
+Bullet-point lists are brilliant for imposing:
+
+* [.listitemterm]#Clarity, particularly visual clarity# by reducing density of text.
+* [.listitemterm]#Conciseness#, by eliminating verbiage.
+
+==== Provide examples
+
+One of the great documentation achievements in software engineering history was the https://doc.qt.io/[Trolltech Qt user documentation] around the 2010s - clear, complete, concise. A technique they used effectively that elevated their documentation above their peers, was to take every opportunity to illustrate a concept with tangible examples presented inline.
+
+==== Be visual
+
+As a natural extension of being concise, pictures and diagrams really are worth a thousand words.
+
+An underestimated technique to consider is using colour-coding to add meaning/logic/clarity to diagrams. For example, to separate distinct phases of a workflow by grouping elements.
+
+Something to strongly consider when creating diagrams in documentation is text-based authoring like Mermaid, so that the documentation sources are cleanly integrated in a <<adopt-documentation-as-code,documentation-as-code>> approach.
+
+==== Minimize the use of screengrabs
+
+In software user documentation, screengrabs should in theory be a useful element but unless you have a completely automated system for generation and adding into the documentation sources, they're a pain to deal with. When the UI/UX changes, they're instantly out of date and require updating (your mileage may vary depending on how stable the UI/UX is).
+
+In most cases, you can get away without them and just have a few key screengrabs. 
+
+==== Adopt documentation-as-code
+
+See <<adopt-documentation-as-code>>.
+
+==== Make notes as you go
+
+If you're documenting a workflow/process (e.g., establishing a new employee induction process, or how to release a new product version) or recording a history of what was done (e.g. handling a support ticket), *_make notes as you go_*.
+
+Don't leave it all to the end - you'll never recall it all.
+
+[quote,A University of Cambridge Sidney Sussex College professor]
+____
+At the start of each academic year, I can instantly identify the undergraduates that will succeed - they're the ones taking notes.
+____
+
+It's surprising how many recurring workflows exist in organizations that are never made far more efficient by recording how it's done. This results in a tremendous amount of unrecognized inefficiency.
+
+=== Decision making
+
+==== Everyone gets a say but someone makes a decision
+
+One of the most nonsensical pieces of dogma ever conceived is "let the team decide" - an intellectually vacuous extract from the book of manager-speak, that falls apart quickly under examination. Consider a group of 10 individuals making a decision.
+
+* The ideal situation with regards to decision making is uniform consensus - all 10 in agreement.
+* Say 9 agree and 1 disagrees… but that 1 has a long track of being right in similar decisions. "Let the team decide" means nothing. It could mean "majority rule", but that's calling for *blindness* to the individuals involved, reducing them to blobs.
+* Similarly, say 8 have no relevant expertise/experience, but 2 have lots… and the group is split 8 to 2 along those lines. Same problem.
+* Say a disagreement splits the group evenly. Then what? "Let the team decide" means nothing. Does it mean "majority rule"? What evidence is there that 50% is the threshold for optimal decision making? Why not 80%?
+
+How do we make decisions to maximize the probability of success? Reason dictates:
+
+* The nature of the individuals matters
+* Authority matters
+* The process matters
+
+The model for decision making in the Mixed Management Method is:
+
+[arabic]
+. Have open discussions where anyone involved can have a say.
+. More investigation and analysis may be required to progress the decision-making i.e., iterate
+. Some decisions will become apparent during this convergent process. For the most difficult decisions, it may reduce down to one person making it - authority matters. 
+
+==== The best reason and evidence wins
+
+Reasons not to make a decision:
+
+* "Because"
+* "I have 30 years of experience in this industry"
+* "The majority voted for it"
+
+=== Strategy
+
+// Add cross reference to product strategy
+
+Like product strategy, functional strategy (team, department, organization etc.) defines the highest-level of goals, what it means to achieve them and how they might be achieved. Strategy provides:
+
+[arabic]
+. [.listitemterm]#Alignment#. Everyone singing from the same hymn sheet.
+. [.listitemterm]#Clarity#. Eliminate confusion.
+. [.listitemterm]#Focus#. Signal, not the noise. 
+
+==== Adopt OKRs
+
+Objectives and Key Results (OKRs) are a conventional terminology for a simple concept, that's lightweight in use and adaptable to changing conditions.
+
+* [.listitemterm]#Objectives# are your high-level, aspirational, one-liner goals.
+   ** e.g., "Improve product quality"
+* [.listitemterm]#Key Results# define what it means to achieve a particular objective.
+   ** They're children of Objectives.
+   ** Objectives have a one:many relationship with Key Results. Contrary to orthodoxy, Mixed Management believes a key result can be defined as a metric _OR_ <<reject-the-metric-driven-dogma,can just be a task to be done>>. 
+   ** e.g., "Provide user instructions", "Reduce known bug count by 75% from 100".
+
+Adoption is simple:
+
+[arabic]
+. [.listitemterm]#Author/revisit on a regular cadence# e.g. schedule an annual/quarterly workshop, engaging interesting stakeholders.
+. [.listitemterm]#Track as tickets# (`Objective`, `Project` for key results) in a <<adopt-our-task-tracking-template,backlog>>.
+. [.listitemterm]#Create a status dashboard/query# in your ticketing system to provide at-a-glance status checking. Make it accessible to interested stakeholders.
+. [.listitemterm]#Monitor progress on a regular cadence# e.g., a monthly meeting centered around the status dashboard/query results and what's changed over the month.
+
+=== Workflow
+
+==== Adopt The Studio Model
+
+The core philosophy of the Mixed Management Method includes "<<no-dogma>>" i.e. encouraging a pragmatic, 'toolbox' mindset.
+
+With respect to software engineering, or perhaps any discipline that creates and builds, a development model that is extremely underrated is https://www.forbes.com/sites/cognitiveworld/2019/08/28/agile-and-the-studio-model/[The Studio Model (by Kurt Cagle)]. It draws an analogy with how films and TV shows are made.
+
+[arabic]
+. Tailor your approach depending on what you're making (film/TV show)
+. Write a pitch (highest level concept of what and why#)
+. Write a script (what)
+. Storyboard (what)
+. Cast the parts (who)
+. Raise finance (how)
+. Plan production (how, when, who)
+. Film
+. Do post-production
+. Promote the film
+. Release the film
+
+The beauty of The Studio Model is that the language and the practices are universally and intuitively understood, because they're so widely embedded in popular culture.
+
+Note that "when" doesn't come into the picture for a long time, because it makes no sense to focus on scheduling when you have no idea what you're trying to achieve, why and how. Think of the ubiquitous incompetent manager who harps on about "when" and nothing about what/how/why/who because their lack of expertise means that's all they can say.
+
+In practice, one would incorporate The Studio Model into:
+
+* Routine conversations and meetings about product development, particularly design workshops.
+* The templates and checklists of one's project management/product development tool, as tasks/reminders to consider ('Definition of Done' gating).
+
+==== Build on this product devops workflow
+
+The Waterfall development talks about project phases. Rational Unified Process. Some software engineers refer to a Software Development Life-Cycle/SDLC. IEC 62304 talks about a software development process.
+
+In each of the cases, what they're talking about is a workflow for product development (dev) and operations (ops).
+
+The primary benefits of defining a workflow are:
+
+[arabic]
+. [.listitemterm]#Structuring activity to create consistency# and reduce the risk of missing steps.
+. [.listitemterm]#Establishing a common (verb-based) language# to reduce friction in communication.
+
+Any workflow is going to be highly specific to your circumstances (business domain, product/service, organizational structure e.g.) but Mixed Management can provide a basic workflow from which you can evolve your own.
+
+[Mermaid,format=SVG]
+----
+---
+config:
+  theme: default
+  layout: dagre
+---
+block-beta
+  columns 23
+  block:s1:3
+    columns 1
+    t1["Organize work"]
+    n1("Align")
+    n2("Prioritize")
+    space
+    space
+    space
+    space
+  end
+  space
+  block:s2:3
+    columns 1
+    t2["Understand problem"]
+    n3("Investigate")
+    n4("Analyze")
+    n5("Workshop")
+    space
+    space
+    space
+  end
+  space
+  block:s3:3
+    columns 1
+    t3["Design solution"]
+    n6("Design")
+    n7("Prototype")
+    n8("Workshop")
+    n9("Validate")
+    space
+    space
+  end
+  space
+  block:s4:3
+    columns 1
+    t4["Implement solution"]
+    n10("Code")
+    n11("Test")
+    n12("Document")
+    n13("Validate")
+    n14("Version")
+    n15("Release")
+  end
+  space
+  block:s5:3
+    columns 1
+    t5["Deploy solution"]
+    n16("Transfer")
+    n17("Install")
+    n18("Configure")
+    space
+    space
+    space
+  end
+  space
+  block:s6:3
+    columns 1
+    t6["Support solution"]
+    n19("Operate")
+    n20("Maintain")
+    n21("Dispose")
+    space
+    space
+    space
+  end
+  s1 --> s2
+  s2 --> s3
+  s3 --> s4
+  s4 --> s5
+  s5 --> s6
+  classDef title fill:none,stroke-width:0px;
+  class t1,t2,t3,t4,t5,t6 title
+  classDef development fill:#bff4ff;
+  class s1,s2,s3,s4 development
+  classDef operations fill:#f2fae9
+  class s5,s6 operations
+----
+
+These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
+
+=== Analysis & Design
+
+==== Think upfront to avoid expensive rework
+
+In academia, there's a phrase:
+
+[quote]
+____
+A day in the library saves a month in the lab.
+____
+
+It's a variation of "look before you leap". This holds true for a lot of disciplines.
+
+Trying to add an additional room to a house after the foundations have been laid and most of the structure has been built, is prohibitively expensive and difficult. Better to do it upfront when the building only exists on paper.
+
+This is true for the engineering of software. Be wise, and invest the time to 'analyze and design' upfront. The keywords to use are:
+
+* `Investigate`
+* `Workshop`
+
+Workshops - discursive sessions in front of a whiteboard, ideally - drive incredibly creative and productive conversations, as do solo investigations and analysis.
+
+However, you should accept the inevitable limitations on a-priori knowledge. If you're creating anything significant, it may be complex and novel. Thus, you should expect to be 'learning as you go'. 
+
+At some point, the return on investment on additional effort to analysis and design upfront diminishes to a point, where you just have to bite the bullet and get started.
+
+==== Explain it to prove you understand it
+
+An interesting motif of working with software engineers to design product has been seeing how the inability of software engineers to describe what they've built/will build in a presentation/demonstration/user documentation, is directly correlated with bad product design... and how commonly it occurs.
+
+Forcing and exploring an explanation has always led to better results. Using the { Who, What, Why, When, How, Where } approach generates simple questions that should have { clear, complete, concise } answers.
+
+* _Who_ is this for?
+* _What_ does it do?
+* _Why_?
+* _How_ does it work?
+
+==== Don't reinvent the square wheel
+
+A motif in software engineering is the crime of reinventing the square wheel, leading to failure/collapse/expensive rework.
+
+If someone else has already invested the time and effort to design an existing implementation, accelerate your own efforts by leveraging theirs, when possible.
+
+Say, you're adding 'audit' functionality to SaaS software. Oracle, Microsoft, Google all have developed audit functionality in a variety of their products.. common sense/basic intelligence says to take a look.
+
+==== Iterate order and disorder to progress
+
+Progress in all its forms, whether a design workshop or product development in general, is seldom linear, predictable and uniform.
+
+Rather, progress is made in fits and starts, with periods of orderly forward movement interleaved with disorderliness, exploration and creativity... but over time, you're progressively traversing a spiral towards a destination.
+
+=== Plan
+
+[quote,Mike Tyson]
+____
+Everybody has a plan until they get punched in the mouth;
+____
+
+==== Focus on what matters
+
+Planning is valuable in so much that it can provide clarity and alignment on:
+
+[arabic]
+. _What_ is to be achieved
+. _Why_ achieve it
+. _How_ to achieve it
+   .. <<breakdown-work-into-manageable-pieces,_What_ is going to be done, in _what_ order>>
+   .. by _Who_
+. _When_
+
+But incompetent manager-types tend to do two things:
+
+[arabic]
+. Confuse the plan with achieving goals e.g., obsessing about story points or tickets, instead of what's been built.
+. Overestimate the ability of humans the future, by obsessing about _When_.
+
+Notice that _when_ is at the bottom of the order of importance, <<treat-estimation-with-the-distain-it-deserves,and for good reason>>.
+
+==== Breakdown work into manageable pieces
+
+Projects (bodies of work) vary in size, complexity, uncertainty and dynamics, and in many cases, you'll want to break it up into manageable pieces. Rather than choking on an apple trying to swallow it whole, take multiple bites. 
+
+[.importantpoint]#Time-boxing is not necessarily helpful.#
+
+Scrum-worshippers dogmatically push the idea of monitoring progress using fixed time-boxes 'sprints'. This can be useful or destructive to productivity.
+
+What you're trying to monitor is <<focus-on-what-matters,progress>>. Progress can be broken up by time, architecture, functionality or other dimensions. If time-boxing doesn't add value, don't do it.
+
+At least tune the time boxes to meaningful intervals. Basecamp uses 6 week intervals because they've found that interval generally encapsulates most discrete units of work they do _in their circumstances_.
+
+A symptom of it being counterproductive is when contributors spend more time talking about how the work is organized/fit into the time boxes, <<focus-on-what-matters,than the work itself>>.
+
+[.importantpoint]#Slice up the cake vertically and horizontally as needed#
+
+Peak 'Agile' out of web development was dogmatically about splitting up software development progress by vertical (functional) slices across the entire web stack (frontend to the database). A downside of this approach is producing an incoherent, fragmented end product, as variation is introduced with each vertical slices.
+
+Layered architectures think about horizontal (architectural) slices of abstraction through the software/system. The downsides of progressing layer by layer included the longer time frame to get to a functional product, and the potential of moving goalposts (end user requirements) in the meantime.
+
+As <<adopt-the-studio_model,The Studio Model>> points out, properties of systems, including software, can be emergent. When building a house from scratch, you have to lay the foundations, then build up the structure before any rooms can be finished to a usable state - at which point you can progress room by room. So, there's a long period of no apparent creation of utility, then it all appears relatively suddenly towards the end.
+
+By <<no-dogma,avoiding dogmatism>> and <<think-upfront-to-avoid-expensive-rework,thinking upfront>>, you can break down development by combining both vertical and horizontal cuts, trading off the risks of fragmentation against delayed emergence of value.
+
+==== Treat estimation with the distain it deserves
+
+A rubbish movie delivered on time and to budget is still going to bomb at the box office and lose investors their money... so _when_ is far less important that _what_. The amount of time misallocated to _when_ over _what_ in organizations - i.e., becoming better predictors of the schedule of their failure - is regrettable but reflective of incompetent leadership that no foundation in the disciplines over which they're supposed to be leading.
+
+Nonetheless, there are perfectly reasonable reasons for wanting to it, in terms of managing risk and financial investment.
+
+Estimation and scheduling is about _predicting the future_ and setting cost/time expectations accordingly i.e. reserving time/money to do the work.
+
+The only problem is that humans suck at predicting the future. How many movie productions come in on time and under budget?!
+
+* [.listitemterm]#Different disciplines have very different dynamics#. 'The world of atoms' is very different from 'the world of bits', because the former is governed more by the laws of physics and the objective universe, whilst the latter is ultimately limited in the same way but more by thought. Thus, physical engineering disciplines have different timescales for development, different complexities for problem resolution, different ranges of possible solutions and more. 
+* [.listitemterm]#Creativity introduces lots of uncertainty#. Manufacturing processes are mechanical, repeatable and predictable, because they don't have human creativity at the heart of them. The time to imagine/innovate/envision is so much more uncertain. Work that is worth doing is often new and unfamiliar.
+* [.listitemterm]#We don't really know how long it takes to resolve a problem#, unless it has enough similarity to a previous encountered problem and solution. TV shows like 'Law & Order' give the impression that all mysteries are always neatly solved in 45 minutes, no matter who's dealing with it.
+* [.listitemterm]#Other work disrupts the best laid plans#. Rarely are people left to focus solely on one project, uninterrupted by other work streams.
+* [.listitemterm]#Learning might need to happen on the way# e.g. new skills, languages or tools. The time required to do work can depend strongly on the expertise of the people doing it.
+* [.listitemterm]#Unexpected supporting work might need to occur#, e.g. building infrastructure to support the development.
+
+For all these reasons and more (but remember to <<focus-on-what-matters,focus on what matters>>):
+
+[.importantpoint]#Good estimation = Experience + Pessimism#
+
+Estimation: How can you find experience to fed into estimation?
+
+* Ideally by interrogating a <<adopt-time-tracking-for-all,time tracking system>>.
+* Alternatively, t-shirt sizing is a useful, lightweight tool.
+
+Pessimism: A rule of thumb that I've seen work better than any other (and heard that other competent software engineering leaders had similarly concluded independently), is:
+
+[.importantpoint]#Whatever your initial estimation is, double it.#
+
+Part of the dynamic this rule of thumb fights against is the desire not to tell the truth, which is:
+
+* "It's probably going to take a lot longer than _you_ want it to"
+* <<i-dont-know-is-a-valid-answer,"I don't know">>
+
+The 'story point' concept was originally intended to avoid estimation altogether by estimating _complexity_, but was widely and rapidly perverted back to time estimation because truth telling is difficult.
+
+==== Adopt continuous transparency
+
+The better alternative to desperately clinging to the <<treat-estimation-with-the-distain-it-deserves,false hope of precise prediction of the future>>, is to provide at-a-glance continuous transparency.
+
+Make it obvious and clear what's being done in real time e.g., through access to status and progress dashboard.
+
+* [.listitemterm]#It engenders trust#, if you're acting in good faith.
+* [.listitemterm]#It enables issues, and discussions around them, to occur sooner#, before the issues, or their effects, become much worse.

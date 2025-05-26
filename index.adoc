@@ -10,6 +10,7 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :page-title: {doctitle}
 :page-description: {description}
 :imagesdir: ./images
+//:diagramsdir: ./diagrams
 :stylesdir: css
 :stylesheet: mmm
 :source-highlighter: coderay

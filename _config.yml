@@ -9,9 +9,12 @@ exclude:
 - Rakefile
 - asciidoctor/
 - font-awesome-4.7.0/
+#keep_files:
+#- ./diagrams
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-
+  extensions:
+    - asciidoctor-diagram/mermaid
