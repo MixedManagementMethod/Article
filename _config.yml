@@ -1,7 +1,7 @@
 title: Mixed Management Method
-# uncomment baseurl if you want to publish the site to a subfolder
-#baseurl: /blog
-description: 
+description: An opinionated, anti-dogmatic, universal methodology for organizational management/leadership.
+theme: just-the-docs
+url: https://mixedmanagementmethod.github.io/Article/
 exclude:
 - README.adoc
 - Gemfile
@@ -9,12 +9,15 @@ exclude:
 - Rakefile
 - asciidoctor/
 - font-awesome-4.7.0/
-#keep_files:
-#- ./diagrams
+nav_enabled: true # Enable the side/mobile menu globally
+
 asciidoc: {}
+
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
   extensions:
-    - asciidoctor-diagram/mermaid
+
+mermaid:
+  version: "11.6.0" # https://cdn.jsdelivr.net/npm/mermaid/

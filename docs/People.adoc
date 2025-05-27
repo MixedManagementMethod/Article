@@ -1,3 +1,8 @@
+---
+title: People
+nav_order: 3
+---
+
 == People
 
 The right people can lift your organization/product/practices to unparalleled heights. The wrong people in the wrong positions for the wrong reasons can completely destroy it... and it only takes one.

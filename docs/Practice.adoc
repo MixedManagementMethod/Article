@@ -1,3 +1,8 @@
+---
+title: Practice
+nav_order: 5
+---
+
 == Practice
 
 As asserted in our <<framework,framework>>, practice is downstream of <<people,people>>.
@@ -891,13 +896,8 @@ The primary benefits of defining a workflow are:
 
 Any workflow is going to be highly specific to your circumstances (business domain, product/service, organizational structure e.g.) but Mixed Management can provide a basic workflow from which you can evolve your own.
 
-[Mermaid,format=SVG]
-----
----
-config:
-  theme: default
-  layout: dagre
----
+++++
+<pre class="language-mermaid">
 block-beta
   columns 23
   block:s1:3
@@ -976,7 +976,8 @@ block-beta
   class s1,s2,s3,s4 development
   classDef operations fill:#f2fae9
   class s5,s6 operations
-----
+</pre>
+++++
 
 These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
 

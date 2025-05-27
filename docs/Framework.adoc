@@ -1,3 +1,8 @@
+---
+title: Framework
+nav_order: 2
+---
+
 == Framework
 
 The Mixed Management Method framework is:

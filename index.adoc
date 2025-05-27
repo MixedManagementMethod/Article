@@ -1,5 +1,5 @@
 = Mixed Management Method
-Jeffrey Chongsathien <jwkc2@cantab.net>
+Jeffrey Chongsathien <jeffrey.chongsathien@gmail.com>
 :description: Documentation of the Mixed Management Method
 :doctype: article
 :keywords: management, leadership, organization, methodology, engineering, software
@@ -10,23 +10,22 @@ Jeffrey Chongsathien <jwkc2@cantab.net>
 :page-title: {doctitle}
 :page-description: {description}
 :imagesdir: ./images
-//:diagramsdir: ./diagrams
 :stylesdir: css
 :stylesheet: mmm
 :source-highlighter: coderay
 :toc:
 :toclevels: 4
 
-include::sources/Introduction.adoc[]
+include::docs/Introduction.adoc[]
 
-include::sources/Framework.adoc[]
+include::docs/Framework.adoc[]
 
-include::sources/People.adoc[]
+include::docs/People.adoc[]
 
-include::sources/Product.adoc[]
+include::docs/Product.adoc[]
 
-include::sources/Practice.adoc[]
+include::docs/Practice.adoc[]
 
-include::sources/Support.adoc[]
+include::docs/Support.adoc[]
 
 include::LICENSE.adoc[]

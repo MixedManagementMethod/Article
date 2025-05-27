@@ -1,3 +1,8 @@
+---
+title: Introduction
+nav_order: 1
+---
+
 == Introduction
 
 === What is the Mixed Management Method?
