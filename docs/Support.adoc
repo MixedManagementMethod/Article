@@ -3,12 +3,12 @@ title: Support
 nav_order: 6
 ---
 
-== Support
+= Support
 
-=== Consulting
+== Consulting
 
 <TBD>
 
-=== Donations
+== Donations
 
 <TBD>

@@ -1,23 +1,40 @@
+# Documentation: https://jekyllrb.com/docs/
+
+theme: just-the-docs
 title: Mixed Management Method
 description: An opinionated, anti-dogmatic, universal methodology for organizational management/leadership.
-theme: just-the-docs
 url: https://mixedmanagementmethod.github.io/Article/
 exclude:
 - README.adoc
 - Gemfile
 - Gemfile.lock
-- Rakefile
 - asciidoctor/
 - font-awesome-4.7.0/
+
+# Documentation: https://just-the-docs.com/
 nav_enabled: true # Enable the side/mobile menu globally
 
-asciidoc: {}
+# Documentation: https://github.com/asciidoctor/jekyll-asciidoc
+
+asciidoc:
+  processor: asciidoctor
+  ext: asciidoc,adoc
 
 asciidoctor:
-  base_dir: :docdir
+  base_dir: :docdir # Base directory tracks the directory of the document being processed
   safe: unsafe
   attributes:
-  extensions:
+    :author: Jeffrey Chongsathien
+    :email: jeffrey.chongsathien@gmail.com
+    :description: Documentation of the Mixed Management Method
+    :doctype: article
+    :keywords: management, leadership, organization, methodology, engineering, software
+    :showtitle:
+    :icons: font
+    :page-title: {doctitle}
+    :page-description: {description}
+    :imagesdir: ./images
+    :source-highlighter: coderay
 
 mermaid:
   version: "11.6.0" # https://cdn.jsdelivr.net/npm/mermaid/

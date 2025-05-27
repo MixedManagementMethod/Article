@@ -3,13 +3,13 @@ title: Practice
 nav_order: 5
 ---
 
-== Practice
+= Practice
 
 As asserted in our <<framework,framework>>, practice is downstream of <<people,people>>.
 
-=== Best Practice
+== Best Practice
 
-==== Be effective and efficient
+=== Be effective and efficient
 
 To our mind, an essential phrase that should be widely used is:
 
@@ -24,7 +24,7 @@ The most important thing is to be effective. Organizations -can- function with e
 
 Organizations can survive, even thrive, in spite of being inefficient but the consequences are time, expense and negative impact on morale where frustration builds, particularly amongst high performers who can see a better way. Inefficiency ultimately burns cash and people.
 
-==== Reject the 'metric-driven' dogma
+=== Reject the 'metric-driven' dogma
 
 You might occasionally encounter dogma about the value of metrics (particularly around <<strategy,strategy>>):
 
@@ -42,7 +42,7 @@ ____
 
 Whether you want to describe reality quantitatively or qualitatively is entirely down to your best judgement of what's _feasible_, _practical_ and _valuable_.
 
-=== IT Infrastructure and tools
+== IT Infrastructure and tools
 
 The bar has been continually raised, such that the use of tools that were once the esoteric domain of software developers is now required in other disciplines, in order to perform effectively in a modern organization..
 
@@ -57,7 +57,7 @@ This applies to any level of seniority, as the ability to lead in a competitive 
 
 It's the difference between the 'builders' and the bluffers.
 
-==== Prefer integrated ecosystems/monoliths over best-in-class
+=== Prefer integrated ecosystems/monoliths over best-in-class
 
 A recurring theme in many organizations, particularly driven by the adoption of SaaS tools, is complexity in their IT infrastructure due to:
 
@@ -77,7 +77,7 @@ A permanent solution requires a combination of the following, with minimal fragm
 * Adopting coherent ecosystems (Microsoft's advantage, somewhat present with Atlassian) over a fragmented combination of best-in-class.
 * Building monolithic solutions with low code/no code app development e.g., Tadabase.
 
-==== Adopt task tracking (ticketing) for all
+=== Adopt task tracking (ticketing) for all
 
 After messaging (chat, email, voice/video calls etc) and shared file storage, a task tracking (ticketing) system is the most vital collaboration and organizational tool… and shockingly undervalued.
 
@@ -106,7 +106,7 @@ It's astounding how many functions in how many organizations are dysfunctional, 
 
 For example, Boeing claimed there was 'no documentation' to explain why bolts were missing from a plane door that detached mid-flight. What they should have said was there was no ticket, and if there was, there's no useful information on it. Translation: "We don't have our basics together".
 
-===== Ensure task tracking is monolithic
+==== Ensure task tracking is monolithic
 
 Having fragmented task tracking across multiple systems is difficult to manage and use e.g. how to run a query for past work when a) you're not sure who did it and b) different users are using different systems.
 
@@ -118,7 +118,7 @@ The alternative is at least to minimize the fragmentation, using as few systems 
 
 // Add a system diagram?
 
-===== Adopt our task tracking template
+==== Adopt our task tracking template
 
 If there's one thing engineering and technologists like to do is come up with yet more poorly chosen terminology... and then baking it into the tools so you can't get rid of it.
 
@@ -327,7 +327,7 @@ For the `Bug` ticket type (or similar fault-oriented tickets), we recommend buil
    ** `Fix`
    ** `Prevention`
 
-===== Implement a soft-deletion state for tickets
+==== Implement a soft-deletion state for tickets
 
 It's bad practice to allow users of a ticketing system to hard-delete tickets.
 
@@ -341,7 +341,7 @@ Therefore, it's best practice to:
 
 In our reference template, the soft-deletion state is called `Deleted`. 
 
-===== Keep state workflows simple
+==== Keep state workflows simple
 
 There are two ways to build a workflow into ticket configuration:
 
@@ -357,7 +357,7 @@ Our recommendation is to prefer breaking down tasks by a structured workflow ver
 
 Do yourself a favour and _keep state workflows simple_.
 
-==== Adopt time tracking for all
+=== Adopt time tracking for all
 
 After you've implemented the foundation of high-quality task tracking that provides activity records, you can build valuable time tracking upon it.
 
@@ -389,7 +389,7 @@ Many time tracking attempts introduce painful friction, becoming a burden that e
    You need to find a way to drive/enforce consistent descriptions of these in your time tracking system's `Ticket ID/Activity` field, so that they can be filtered during analysis. The most likely way is to provide preset values for the field.
 * [.listitemterm]#Get task and time tracking running ASAP#. The sooner you get a time tracking (and task tracking) system up and running, the sooner you'll start building a history of organizational activity.
 
-==== Build cost-monitoring
+=== Build cost-monitoring
 
 If you have high-quality, well-designed systems for managing:
 
@@ -409,7 +409,7 @@ A couple of factors to consider in developing the application:
 
 Since time tracking entries <<adopt-time-tracking-for-all,resolve to a day>>, individualized cost burden should also be determinable to a day.  
 
-==== Organize content into topics
+=== Organize content into topics
 
 In an organization's software tools, users generate content and although search functionality is essential, structuring said content into topics is still vital to avoid unmanageable chaos.
 
@@ -445,7 +445,7 @@ You can use these topics for:
 
 and more.
 
-==== Adopt documentation-as-code
+=== Adopt documentation-as-code
 
 The bar has been continually raised, such that the use of tools that were once the esoteric domain of software engineers, is now required in domains such as Technical Writing, Marketing, Sales and more, in order to perform effectively in a modern organization.
 
@@ -456,7 +456,7 @@ https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc] is underrated. Unlike th
 
 Similarly, using https://mermaid.js.org/[Mermaid] to author diagrams-as-text is underrated. It fits seamlessly into the whole approach of solely-text-based content authoring and there are increasingly more visual editors.
 
-=== Communication
+== Communication
 
 Communication happens:
 
@@ -465,9 +465,9 @@ Communication happens:
 
 In any case, communication is the fundamental transmission of thoughts between people, across space and time, and it's essential to be _effective and efficient_ to collaborate effectively.
 
-==== Be clear, complete, concise (in that order)
+=== Be clear, complete, concise (in that order)
 
-===== Clear
+==== Clear
 
 [.importantpoint]#Emotionally secure people embrace clarity and avoid jargon; insecure people obfuscate.#
 
@@ -481,7 +481,7 @@ Confusing, obscure, jargon-filled obscurity blocks all communication. This is a 
 * [.listitemterm]#Be conversational.# Play out an in-person conversation with the recipient in your head, and transcribe it word-for-word.
 * [.listitemterm]#Adopt 'beginner's mind'.# The recipient mind is a void, empty of what's contained in your mind. Your goal is to populate your thoughts in theirs.
 
-===== Complete
+==== Complete
 
 Completeness is the next most important aspect of communication. 
 
@@ -500,7 +500,7 @@ and another to say:
 "I was thinking about the problem, had an idea and thought we should talk about it. I looked at my calendar and have 2-4 free; when are you available?"
 * [.listitemterm]#Pushing information# reduces the likelihood of ambiguity, misunderstanding and creates opportunities for the recipient to engage.
 
-===== Concise
+==== Concise
 
 [.importantpoint]#Be 'minimal but sufficient'. People don't want to read for reading's sake; they want to understand.#
 
@@ -522,7 +522,7 @@ Imagine drawing the outline of a tree using dots - navigating between using so m
 
 // Add drawings of dotted tree outline
 
-==== Pause and sanity check your writing
+=== Pause and sanity check your writing
 
 Whenever you're writing, take a step back and ask yourself if, from the perspective of the recipient:
 
@@ -532,7 +532,7 @@ Whenever you're writing, take a step back and ask yourself if, from the perspect
 
 Making this behaviour a habit *will* improve the quality of your writing.
 
-==== Use the dictionary
+=== Use the dictionary
 
 Technical problems/debt often originate in organizations from bad use of language:
 
@@ -554,7 +554,7 @@ The solutions are simple:
 
 Literacy, articulacy and the correct use of language, needs to be an organization-wide value driven by Leadership, or you end up with department heads who communicate at the standard of F grade 10 year old... when you're trying to run an high performance organization, allowing that to happen is unacceptable.
 
-==== Use different mechanisms to best effect
+=== Use different mechanisms to best effect
 
 Documents, voice calls, chat messaging, emails, in-person discussion… these are various mechanisms for communication, and each have their pros and cons.
 
@@ -577,7 +577,7 @@ For design/creative/problem solving discussion, modern video calling has massive
 
 Being social creatures, seeing the face of others in a conversation aids communication of emotional nuance, building of interpersonal bonding and accountability for personal conduct. Whilst naturally some people are introverts, it's not healthy to allow them to hide - if they're in a conversation, then their involvement must have some potential value.
 
-==== Use ISO 8601 date format 'yyyy-MM-dd'
+=== Use ISO 8601 date format 'yyyy-MM-dd'
 
 This date format:
 
@@ -589,13 +589,13 @@ This date format:
 
 When Leadership explicitly encourages this practice, it reduces friction around the organization.
 
-=== Meetings
+== Meetings
 
 Meetings are a specific form of communication - _synchronous_ conversations. Their importance, and how pervasively destructively they're used, means they warrant particular attention.
 
 All the practices of good <<communication,communication>> naturally apply.
 
-==== Bring control, clarity, conciseness and comedy to meetings
+=== Bring control, clarity, conciseness and comedy to meetings
 
 The most expensive part of most organizations is people's time. Meetings are synchronous conversations that can be converted into a cost figure, by calculating the prorated payroll burden of the participants' time..
 
@@ -611,7 +611,7 @@ The art of having a good meeting is:
 * [.listitemterm]#Conciseness#. Meetings should last as long as they need to... irrespective of the scheduled duration, and sometimes that equates to no meeting at all.
 * [.listitemterm]#Comedy#. Meetings can be tough, hard work and frustrating. The best meetings incorporate humour to great effect. While there's no certain way to inject this, as it's a product of the people involved, it's worth understanding that the best meetings are both useful and enjoyable, because of humour.
 
-==== Optimize the cadence of recurring meetings
+=== Optimize the cadence of recurring meetings
 
 Numerous existing methodologies propose a variety of meetings/conversations, some on a regular cadence, some ad-hoc. For example:
 
@@ -633,7 +633,7 @@ Consider:
 * [.listitemterm]#Should we have longer meetings less frequently?# A one hour fortnightly meeting can be just as effective as a half-hour weekly meeting, but more productive due to increasing flow of the conversation and reducing interruption of the participants' work.
 * [.listitemterm]#Is the return on investment actually worth it?# Increasing frequency increases the cost/investment. Many bad managers increase frequency out of fear and anxiety, ignoring the cost and the pain inflicted on the participants. If there's potential for reducing the frequent and/or duration with no significant impact, try it for a while.
 
-=== Optimize your daily meetings (standups)
+== Optimize your daily meetings (standups)
 
 As with all meetings, daily meetings/standups need to be considered in terms of what they're trying to achieve, why and how best to do it.
 
@@ -664,13 +664,13 @@ This is an example you can derive your own structure from:
 
 You should target your daily meetings to typically last 30 minutes, ranging between 15 and 45 minutes per the circumstances.
 
-=== Documentation
+== Documentation
 
 As with meetings, documentation is a form of communication - _asynchronous_ conversation. The importance of documentation, and how pervasively destructively it's done, means it warrants particular attention.
 
 The practices of good <<communication,communication>> naturally apply.
 
-==== Consider all-forms of documentation
+=== Consider all-forms of documentation
 
 Documentation can be manifested in many different ways, including some that you might not consider 'documentation' but actually are.
 
@@ -704,7 +704,7 @@ Documentation can be manifested in many different ways, including some that you 
    ** Benefits
    ** Demo videos
 
-==== Drive a ubiquitous documentation mindset
+=== Drive a ubiquitous documentation mindset
 
 As it's communication, to document is to share knowledge between people, separated by space and/or time. Products, projects, even entire organizations, can be destroyed by lack of/bad quality documentation.
 
@@ -719,7 +719,7 @@ Intra-organizational documentation is institutional memory that serves to:
 * [.listitemterm]#Provide a template to success#
 * [.listitemterm]#Coordinate human activity#
 
-==== Use a style guide
+=== Use a style guide
 
 The use of templates generally:
 
@@ -733,13 +733,13 @@ Style guides do the same thing for communication, but with language. Some exampl
 * https://atlassian.design/content/language-and-grammar/[Atlassian Design System]
 * https://developers.google.com/style/[Google developer documentation style guide]
 
-==== Be conversational
+=== Be conversational
 
 As documentation is written communication between people (across time and space), a useful technique to imagine you're talking directly to the reader as an in-person conversation, and transcribing what's said.
 
 Also mentioned in <<clear>>.
 
-==== The right structure avoids 80% of the problems
+=== The right structure avoids 80% of the problems
 
 The logical structure of documentation is comparable to the architectural loading bearing structure of a building. When it's unsound (illogical, inconsistent, ambiguous), you're in for a lot of (avoidable) pain.
 
@@ -748,18 +748,18 @@ The logical structure of documentation is comparable to the architectural loadin
 
 The problems created by re-inventing the square wheel can be avoided by copying the structure of similar documentation of other similar products.
 
-==== Have a bullet-point mentality
+=== Have a bullet-point mentality
 
 Bullet-point lists are brilliant for imposing:
 
 * [.listitemterm]#Clarity, particularly visual clarity# by reducing density of text.
 * [.listitemterm]#Conciseness#, by eliminating verbiage.
 
-==== Provide examples
+=== Provide examples
 
 One of the great documentation achievements in software engineering history was the https://doc.qt.io/[Trolltech Qt user documentation] around the 2010s - clear, complete, concise. A technique they used effectively that elevated their documentation above their peers, was to take every opportunity to illustrate a concept with tangible examples presented inline.
 
-==== Be visual
+=== Be visual
 
 As a natural extension of being concise, pictures and diagrams really are worth a thousand words.
 
@@ -767,17 +767,17 @@ An underestimated technique to consider is using colour-coding to add meaning/lo
 
 Something to strongly consider when creating diagrams in documentation is text-based authoring like Mermaid, so that the documentation sources are cleanly integrated in a <<adopt-documentation-as-code,documentation-as-code>> approach.
 
-==== Minimize the use of screengrabs
+=== Minimize the use of screengrabs
 
 In software user documentation, screengrabs should in theory be a useful element but unless you have a completely automated system for generation and adding into the documentation sources, they're a pain to deal with. When the UI/UX changes, they're instantly out of date and require updating (your mileage may vary depending on how stable the UI/UX is).
 
 In most cases, you can get away without them and just have a few key screengrabs. 
 
-==== Adopt documentation-as-code
+=== Adopt documentation-as-code
 
 See <<adopt-documentation-as-code>>.
 
-==== Make notes as you go
+=== Make notes as you go
 
 If you're documenting a workflow/process (e.g., establishing a new employee induction process, or how to release a new product version) or recording a history of what was done (e.g. handling a support ticket), *_make notes as you go_*.
 
@@ -790,9 +790,9 @@ ____
 
 It's surprising how many recurring workflows exist in organizations that are never made far more efficient by recording how it's done. This results in a tremendous amount of unrecognized inefficiency.
 
-=== Decision making
+== Decision making
 
-==== Everyone gets a say but someone makes a decision
+=== Everyone gets a say but someone makes a decision
 
 One of the most nonsensical pieces of dogma ever conceived is "let the team decide" - an intellectually vacuous extract from the book of manager-speak, that falls apart quickly under examination. Consider a group of 10 individuals making a decision.
 
@@ -814,7 +814,7 @@ The model for decision making in the Mixed Management Method is:
 . More investigation and analysis may be required to progress the decision-making i.e., iterate
 . Some decisions will become apparent during this convergent process. For the most difficult decisions, it may reduce down to one person making it - authority matters. 
 
-==== The best reason and evidence wins
+=== The best reason and evidence wins
 
 Reasons not to make a decision:
 
@@ -822,7 +822,7 @@ Reasons not to make a decision:
 * "I have 30 years of experience in this industry"
 * "The majority voted for it"
 
-=== Strategy
+== Strategy
 
 // Add cross reference to product strategy
 
@@ -833,7 +833,7 @@ Like product strategy, functional strategy (team, department, organization etc.)
 . [.listitemterm]#Clarity#. Eliminate confusion.
 . [.listitemterm]#Focus#. Signal, not the noise. 
 
-==== Adopt OKRs
+=== Adopt OKRs
 
 Objectives and Key Results (OKRs) are a conventional terminology for a simple concept, that's lightweight in use and adaptable to changing conditions.
 
@@ -852,9 +852,9 @@ Adoption is simple:
 . [.listitemterm]#Create a status dashboard/query# in your ticketing system to provide at-a-glance status checking. Make it accessible to interested stakeholders.
 . [.listitemterm]#Monitor progress on a regular cadence# e.g., a monthly meeting centered around the status dashboard/query results and what's changed over the month.
 
-=== Workflow
+== Workflow
 
-==== Adopt The Studio Model
+=== Adopt The Studio Model
 
 The core philosophy of the Mixed Management Method includes "<<no-dogma>>" i.e. encouraging a pragmatic, 'toolbox' mindset.
 
@@ -882,7 +882,7 @@ In practice, one would incorporate The Studio Model into:
 * Routine conversations and meetings about product development, particularly design workshops.
 * The templates and checklists of one's project management/product development tool, as tasks/reminders to consider ('Definition of Done' gating).
 
-==== Build on this product devops workflow
+=== Build on this product devops workflow
 
 The Waterfall development talks about project phases. Rational Unified Process. Some software engineers refer to a Software Development Life-Cycle/SDLC. IEC 62304 talks about a software development process.
 
@@ -981,9 +981,9 @@ block-beta
 
 These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
 
-=== Analysis & Design
+== Analysis & Design
 
-==== Think upfront to avoid expensive rework
+=== Think upfront to avoid expensive rework
 
 In academia, there's a phrase:
 
@@ -1007,7 +1007,7 @@ However, you should accept the inevitable limitations on a-priori knowledge. If 
 
 At some point, the return on investment on additional effort to analysis and design upfront diminishes to a point, where you just have to bite the bullet and get started.
 
-==== Explain it to prove you understand it
+=== Explain it to prove you understand it
 
 An interesting motif of working with software engineers to design product has been seeing how the inability of software engineers to describe what they've built/will build in a presentation/demonstration/user documentation, is directly correlated with bad product design... and how commonly it occurs.
 
@@ -1018,7 +1018,7 @@ Forcing and exploring an explanation has always led to better results. Using the
 * _Why_?
 * _How_ does it work?
 
-==== Don't reinvent the square wheel
+=== Don't reinvent the square wheel
 
 A motif in software engineering is the crime of reinventing the square wheel, leading to failure/collapse/expensive rework.
 
@@ -1026,20 +1026,20 @@ If someone else has already invested the time and effort to design an existing i
 
 Say, you're adding 'audit' functionality to SaaS software. Oracle, Microsoft, Google all have developed audit functionality in a variety of their products.. common sense/basic intelligence says to take a look.
 
-==== Iterate order and disorder to progress
+=== Iterate order and disorder to progress
 
 Progress in all its forms, whether a design workshop or product development in general, is seldom linear, predictable and uniform.
 
 Rather, progress is made in fits and starts, with periods of orderly forward movement interleaved with disorderliness, exploration and creativity... but over time, you're progressively traversing a spiral towards a destination.
 
-=== Plan
+== Plan
 
 [quote,Mike Tyson]
 ____
 Everybody has a plan until they get punched in the mouth;
 ____
 
-==== Focus on what matters
+=== Focus on what matters
 
 Planning is valuable in so much that it can provide clarity and alignment on:
 
@@ -1059,7 +1059,7 @@ But incompetent manager-types tend to do two things:
 
 Notice that _when_ is at the bottom of the order of importance, <<treat-estimation-with-the-distain-it-deserves,and for good reason>>.
 
-==== Breakdown work into manageable pieces
+=== Breakdown work into manageable pieces
 
 Projects (bodies of work) vary in size, complexity, uncertainty and dynamics, and in many cases, you'll want to break it up into manageable pieces. Rather than choking on an apple trying to swallow it whole, take multiple bites. 
 
@@ -1083,7 +1083,7 @@ As <<adopt-the-studio_model,The Studio Model>> points out, properties of systems
 
 By <<no-dogma,avoiding dogmatism>> and <<think-upfront-to-avoid-expensive-rework,thinking upfront>>, you can break down development by combining both vertical and horizontal cuts, trading off the risks of fragmentation against delayed emergence of value.
 
-==== Treat estimation with the distain it deserves
+=== Treat estimation with the distain it deserves
 
 A rubbish movie delivered on time and to budget is still going to bomb at the box office and lose investors their money... so _when_ is far less important that _what_. The amount of time misallocated to _when_ over _what_ in organizations - i.e., becoming better predictors of the schedule of their failure - is regrettable but reflective of incompetent leadership that no foundation in the disciplines over which they're supposed to be leading.
 
@@ -1120,7 +1120,7 @@ Part of the dynamic this rule of thumb fights against is the desire not to tell 
 
 The 'story point' concept was originally intended to avoid estimation altogether by estimating _complexity_, but was widely and rapidly perverted back to time estimation because truth telling is difficult.
 
-==== Adopt continuous transparency
+=== Adopt continuous transparency
 
 The better alternative to desperately clinging to the <<treat-estimation-with-the-distain-it-deserves,false hope of precise prediction of the future>>, is to provide at-a-glance continuous transparency.
 

@@ -3,6 +3,6 @@ title: Product
 nav_order: 4
 ---
 
-== Product
+= Product
 
 As asserted in our <<framework,framework>>, product is downstream of <<people,people>>.
