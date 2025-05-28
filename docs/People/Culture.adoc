@@ -6,6 +6,11 @@ nav_order: 1
 
 [#page-culture]
 = Culture
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
 
 == Culture
 

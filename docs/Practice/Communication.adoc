@@ -6,6 +6,11 @@ nav_order: 3
 
 [#page-communication]
 = Communication
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
 
 == Communication
 

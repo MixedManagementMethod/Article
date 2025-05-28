@@ -6,6 +6,11 @@ nav_order: 4
 
 [#page-meetings]
 = Meetings
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
 
 == Meetings
 

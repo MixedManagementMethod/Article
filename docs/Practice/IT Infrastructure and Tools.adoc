@@ -6,6 +6,11 @@ nav_order: 2
 
 [#page-it-infrastructure-and-tools]
 = IT Infrastructure and Tools
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
 
 == IT Infrastructure and Tools
 
