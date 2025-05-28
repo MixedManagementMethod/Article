@@ -1,0 +1,48 @@
+---
+title: Best Practice
+parent: Practice
+nav_order: 1
+---
+
+[#page-best-practice]
+= Best Practice
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
+
+== Best Practice
+
+== Be effective and efficient
+
+To our mind, an essential phrase that should be widely used is:
+
+[.importantpoint]#Effective and Efficient (in that order of importance)#
+
+We recommend viewing all of your existing practices through the lens of being _effective_ and _efficient_.
+
+* [.listitemterm]#Effective# means to achieve the best outcome.
+* [.listitemterm]#Efficient# means to achieve it in the best possible way.
+
+The most important thing is to be effective. Organizations -can- function with effective workflows that are performed inefficiently. Even if you don't have the fanciest whizz bang automation, having a well documented, clear process (say, as checklist) is always the foundation. 
+
+Organizations can survive, even thrive, in spite of being inefficient but the consequences are time, expense and negative impact on morale where frustration builds, particularly amongst high performers who can see a better way. Inefficiency ultimately burns cash and people.
+
+== Reject the 'metric-driven' dogma
+
+You might occasionally encounter dogma about the value of metrics (particularly around <<Strategy#strategy,strategy>>):
+
+* "If you can't measure it, you can't manage it"
+* "We're metric/data driven" 
+
+For example, it seems <<Strategy#adopt-okrs,pretty hard-baked into conventional OKR methodology>>.
+
+At those times, it's worth knowing that this dogma likely stems from mis-portrayal of what W. Edwards Deming (of the iconic text "The Deming Management Method") actually said.
+
+[quote,W. Edwards Deming, The New Economics]
+____
+It is wrong to suppose that if you can't measure it, you can't manage it - a costly myth.
+____
+
+Whether you want to describe reality quantitatively or qualitatively is entirely down to your best judgement of what's _feasible_, _practical_ and _valuable_.

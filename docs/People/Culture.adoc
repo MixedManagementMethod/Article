@@ -1,0 +1,252 @@
+---
+title: Culture
+parent: People
+nav_order: 1
+---
+
+[#page-culture]
+= Culture
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
+
+== Culture
+
+As asserted in our <<../Framework#framework,framework>>, 'people' is the root element of any organization.
+
+For a wide variety of individuals with varying personalities, values and experiences, to work together effectively requires a degree of alignment i.e. a _culture_.
+
+From real world observation, the cultural principles/individual behaviours described here work well because it's in these areas that organizations fail (due to failing leadership).
+
+[.importantpoint]#Great Culture = <<no-dogma>> + { <<honesty,Honesty>>, <<transparency,Transparency>>, <<meritocracy,Meritocracy>> }#
+
+Cultures are emergent properties that can appear spontaneously from happenstance, but the best cultures are purposefully driven.
+
+[.importantpoint]#Culture must be defined, communicated, driven, monitored and maintained by competent leaders.#
+
+By the authority afforded to them by their positions, leaders affect the culture more than anyone else, because the effects of their behaviours amplify across the organization (to varying degrees). Companies that survive beyond the startup phase tend to bear the hallmarks of the culture of the founders long after they've gone. A culture of being a counterproductive cheapskate on computing equipment established by a founder, will most likely echo down the years unless explicitly corrected.
+
+Some mechanisms to drive and maintain a culture are:
+
+* [.listitemterm]#By communication# (publish article on an intranet/wiki, do presentations)
+* [.listitemterm]#By example# (live by example, elaborate by adding your own lived experiences)
+* [.listitemterm]#By exercise# (regularly scheduled discussions, building into checklists for consideration in discussions like retrospectives)
+* [.listitemterm]#By people# (recruit/promote people who embody the culture)
+
+== No dogma
+
+[.importantpoint]#Specific solutions for specific problems in specific contexts and circumstances.#
+
+The Mixed Management Method encourages a 'pick and mix/toolbox' and 'continuous improvement' mindsets. As such, it encourages you to be introspective, and compare the outcome of practice to theory.
+
+While the Mixed Management Method provides a framework of foundational wisdom to apply to any organization, it inevitably builds on ideas and practices developed in other methodologies. They all have elements that are useful in some circumstances, and are highly destructive in others, when applied dogmatically.
+
+It's no good evangelizing forks to eat soup, but dogmatic people will (insert name of prominent software engineering methodology of your choice). Moreover, they'll make people eat soup with forks and never admit both they're wrong and making others miserable, despite reason and evidence to the contrary. There's always a mindless disconnect between their mental model, and the reality of the circumstances in front of them. It's this disconnect that makes them so miserable to engage with.
+
+They often have MBAs - an expensive sunk cost that requires justification.
+
+== Honesty
+
+=== Dishonesty is cancer
+
+Corruption, in all it's forms, breeds dysfunction and decay, and it's starts with not speaking the truth and the whole truth to yourself and others.
+
+* "I'm _certain_ this is the case"
+* "I'm doing this for reason X, _not_ reason Y"
+* "I _am_ good at what I do"
+* "I _am qualified_ for this job"
+* "I _do think_ that's right"
+* "I have _no_ other thoughts to share"
+
+The reasons behind this?
+
+* Self-interest, emotionally manifesting as fear or greed.
+* Weakness of character.
+
+Great cultures:
+
+* Encourage honesty at all times.
+* Recruit people who have a history of speaking truth to power.
+
+The fictional TV series "House" whose title character extorts "Everybody lies!" embraces in inevitability of the weakness of human nature. Creation of a great organizational culture requires aspiring to the best of it.
+
+Clarifying the dividing lines between honest/plain/robust speaking from rude/unacceptable is part of the challenge. Try this in your communications of culture (or the ambiguously scoped 'ways of working'):
+
+* [.listitemterm]#Be honest and open.#
+   ** <<i-dont-know-is-a-valid-answer>>
+   ** <<i-disagree-is-a-valid-response>>
+   ** <<the-coverup-is-worse-than-the-crime>>
+* [.listitemterm]#It's always about the work.# 
+* [.listitemterm]#Be robust and forgive#, because <<honesty-requires-robustness-and-forgiveness,humans are messy>>
+* [.listitemterm]#When it is about the person, be kind but strong.# 
+* [.listitemterm]#Recurring/severe problems are problems, not incidents.# The "jump on every instance right away" mentality observed in some management is insecure, fragile micromanagement.
+
+=== "I don't know" is a valid answer
+
+Punishing responses like "I don't know" is simply a desperate fear-based attempt to deny reality. A healthy culture encourages facing into reality, not retreating from it.
+
+"Let's find out" is a productive follow-up to "I don't know".
+
+=== "I disagree" is a valid response
+
+Destructive, excessive authoritarianism hates free, robust speech, stemming from a deeply insecure, weak mindset. In contrast, mentally secure, strong leaders don't fear disagreement - they encourage it, in order to produce the best results possible.
+
+Healthy, productive environments with good morale aren't characterized by fear and paranoia.
+
+=== Honesty requires robustness and forgiveness
+
+As a consequence of free and honest speech, emotional robustness must be encouraged. That's not to say organizations should foster toxic behaviour, but equally as poisonous is cry-bully weakness. Speech should be focussed on getting the best possible outcomes for the work.
+
+However, we're flawed, emotional human beings, and we must embrace that - by allowing for our humanity and forgiving its edge cases.
+
+Interestingly, nationality can play a key part in this too. Some national cultures are at an extreme end of the honesty spectrum because the answer to any question is always 'Yes', even when it's factually not true.
+
+* "Has this task been completed?" "Yes"
+* "Can we do this by tomorrow?" "Yes"
+
+There can be many reasons for this (philosophical and religious history, history of extreme authoritarianism, to name but two) but irrespective of why, this makes collaboration difficult for obvious reasons.
+
+At the other extreme end of honesty spectrum are national cultures in which speaking openly and honestly is embraced, to the point where people from cultures that value 'politeness' and being 'nice' can't cope with what they perceive as shocking rudeness. What they don't realize is that their perception of 'politeness/nice' actually requires large amounts of energy for constant low/mid-level lying and obfuscation of the truth. 
+
+* "That's a terrible idea"
+* "No, we'd be crazy to choose X over Y"
+
+Thus, they lack the strength of character to cope with real honesty, because they have thin skins. They also can't navigate the nuance between _actual rudeness_ and _honest, plain speaking_. 
+
+The statement "That's a bad idea" is factually not the same as "You're bad at this", except in the weak mind of a thin-skinned person.
+
+Interestingly, cultures that value honesty and openness have an affinity with engineering, and it's obvious why. Science and technology requires a foundation of reason, evidence and human discourse.
+
+All of this discussion is to say that national culture can change the backdrop against which you're operating, but nonetheless the value of infusing honesty (and transparency) into the heart of your organizational culture remains the same.
+
+=== The coverup is worse than the crime
+
+When mistakes and bad decisions do happen, inability to speak honestly prevents the kind of retrospective needed to understand what happened and to prevent it happening again i.e. it prevents improvement (at all levels). This naturally breeds resentment and low morale in higher performers of good character, as they watch dysfunctionally perpetuate and grow, and injustice prevail.
+
+== Transparency
+
+=== Speak your mind
+
+When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
+
+// Add a cross reference to decision-making.
+
+The best possible decisions are made more likely by a discursive process prior to the decision.
+
+=== Silos are evil
+
+Silos are the evil tools of toxic narcissists and the cancer of organizations. By creating silos:
+
+* Individuals can get away with all kinds of undesirable/unacceptable behaviours e.g. bad quality work, bad interpersonal interactions 
+* Individuals can blackmail organizations into continuing employment, leveraging the potential knowledge loss on their departure. "It's in his/her head"
+
+Competent leadership must identify and fight silos continuously, lest the cancer grow and even metastasize.
+
+=== Responsibility, not Ownership
+
+A motif in the Mixed Management Method is how the improper use of language causes problems. One such case in conventional methodologies is "ownership" e.g. a 'Product Owner' role title. The problem is that 'ownership':
+
+* [.listitemterm]#Encourages a siloing mindset.# "It's MY stapler! You can't use it!".
+* [.listitemterm]#Is usually legally false.# The stapler belongs to Acme LLC, and it's just provided to the employee for their activity in return for payment.
+
+[.importantpoint]#The correct, healthy term is 'responsibility', as in "Take responsibility" and "It's my responsibility".#
+
+=== Push knowledge
+
+A healthy culture promotes habitual building of _institutional knowledge_. It should be a habit of all individuals in the organization to record *_what_* they did, and *_how_* they did it.
+
+The basic principle is:
+
+[.importantpoint]#One day, it's going to be you trying to find out what on Earth happened, and you'll be grateful for someone keeping good notes.#
+
+This is effectively anti-siloing.
+
+// Add cross reference to the ticketing system
+
+Some mechanisms to push knowledge:
+
+* [.listitemterm]#Messaging apps# like Teams/Slack, where conservations occur in shared spaces, as opposed to email silos.
+* [.listitemterm]#An organization-wide task tracking (ticketing) system.# The history is captured in the ticket fields, particularly the comments, where notes of thoughts and actions should be kept.
+* [.listitemterm]#Publishing on intranet/wiki articles# e.g. “How we do <this>”.
+
+The level of dysfunction in an organization, and sub-sections of it, is always obvious from its email/messaging, ticketing and intranet/wiki and ticketing infrastructure and practices.
+
+It's no different from a Ramsay's Kitchen Nightmares restaurant kitchen that doesn't have tickets for the orders, doesn't have effective communications, doesn't have systems to cooks training up, has a messy and disorganized layout etc.
+
+== Meritocracy
+
+In general, life is not a meritocracy. The longer you live and the wiser you become, the more you realize that life is insanity and happenstance. That's no reason for your organization to be the same.
+
+=== The right people in the right positions, and the right numbers, for the right reasons
+
+Here, we'll focus on the right reasons. The other factors are explored elsewhere:
+
+* Right people: <<Individual Performance#individual-performance,Individual Performance>>
+* Right positions: <<Organizational Structure#organizational-structure,Organizational Structure>>
+* Right numbers: <<Organizational Structure#staff-in-adequate-numbers-for-your-expectations,Staff in adequate numbers for your expectations>>
+
+[.importantpoint]#The best thing an organization can do for morale is establish and maintain a meritocracy.#
+
+It's important for people to be able to look at someone in a more senior position in the hierarchy and acknowledge (even if harbouring jealousy) "Yes, I understand why that person has that position." 
+
+If they can't do that, then (justified) resentment builds, leading to negative behaviours and expensive employee turnover (expensive because turnover of skilled employees is always expensive, as much of the accumulated experience and learning is gone).
+ 
+So, what are the _wrong_ reasons?
+
+* Promotion by default.
+* Corruption i.e. nepotism/favouritism/personal relationships.
+* Anything else disconnected from <<Individual Performance#individual-performance, individual performance>>.
+
+Steve Jobs stated the Bozo Explosion occurs because over time, bozos rise up the ranks and promote other bozos in their self-interest (high-performers make them look bad) and so pretty soon, you have a kakistocracy (the most unsuitable people have the most power). This is undoubtedly true in many organizations.
+
+_Promotion 'by default'_ occurs because a position in the hierarchy becomes vacant and the easiest thing to do is bump up the next person. Internal candidates often advantages: 
+
+* Having product/organizational knowledge
+* Being “the devil you know” (de-risking by familiarity). 
+
+However, meritocratic promotion means treating it the same as hiring for a new position. 
+
+* Is the internal candidate capable of the new position, not the one they have? e.g. do they meet all aspects of the role profile.
+* Do they understand what change is desired, how to get there, and can get the organization there?
+
+_Corruption_ is essentially all the reasons other than merit. As evidenced by history and psychological studies like the Milgram Experiment, the Stanford Experiment and COVID19:
+
+[.importantpoint]#Most humans most of the time are amoral, and immoral.# 
+
+We all like to think we are people who are:
+
+* Well informed
+* Think critically
+* Stand up to abuses of power
+* Speak out against injustice
+* Do the noble thing and sacrifice for what's right.
+
+The reality is that this describes the minority of humans. Our biological operating system is coded for:
+
+* Subservience
+* Group think
+* Selfishness
+* Greed
+* Cowardice
+
+Further, our cultural 'applications' that run on the biological operating system have highly limited reach and effectiveness. Given a choice between doing the right thing - morally, for the organization, for others - and suffering a loss of income, *_most people, most of the time choose self-interest_*. 
+
+Moreover, our economic system and societal power structures promote the worst aspects of our biological operating system, by turning people who are not independently wealthy (i.e. don't have to think about money) into "rats in a drum" (to quote Raoul Silva from the film 'Skyfall'). Over-promoted incompetence will always protect itself, because "the rats will eat rat".
+
+There is no cure for the human condition, but truly well-run organizations are designed for immunity against it.
+
+[.importantpoint]#The only way to prevent/address the disease of human nature is the establishment and maintenance of high-performance meritocracy, centered on individual performance.# 
+
+As organizations are inevitably hierarchical power structures, *_the only effective way to drive this is from the top_*, with aggressive and wise action by the highest levels of leadership. Steve Jobs did this on his return to Apple, where within weeks he cut a scythe through entire layers of dysfunctional middle management and saved suppressed high performers like Jony Ive, by doing a one-man, organization-wide performance review.
+
+=== Longevity is not an intrinsic good
+
+Longevity of individuals at an organization is a double-edged sword. 
+
+* [.listitemterm]#Longevity might not correlate to in-depth knowledge of the product/business.# It’s perfectly possible for bad employees to persist for a long time and learn nothing.
+* [.listitemterm]#Longevity can mean bad learning.# If someone has decades of experience at a dysfunctional company, all they learn is how to be dysfunctional, with lots of bad ideas and bad ideas.
+* [.listitemterm]#Longevity can mean stagnation.# Unless exposed to new ideas and experiences within their tenure at the organization, longevity results in very limited people. This is most obvious when joining an organization at meeting the long-timers - great depth of product knowledge, carries the company history, shocking limitations of technique and contemporary practices.
+
+Longevity should be treated with thoughtfulness like any other individual attributes, but the worst thing to do is blindly treat is as an intrinsic good.

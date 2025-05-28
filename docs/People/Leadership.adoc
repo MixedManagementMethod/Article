@@ -1,0 +1,80 @@
+---
+title: Leadership
+parent: People
+nav_order: 4
+---
+
+[#page-leadership]
+= Leadership
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
+
+== Leadership
+
+== Foster leadership, reject management
+
+[.importantpoint]#Every organization should replace the word 'manager' in job titles, with 'leader'.#
+
+Managers are a very different breed from leaders, and it mostly boils down to lack of character and lack of competence.
+
+* Managers [.lineitemterm]#rearrange the deck chairs on the Titanic# while it's sinking to keep everyone 'happy' out of self-interest. In contrast, leaders spot the iceberg early, then do everything within their power to prevent crashing into it (and if it does crash, lead the response).
+* Managers [.lineitemterm]#fight the fights they can win#, not the fights that are right.
+* Managers [.lineitemterm]#prioritize { Me, Men (that serve Me), Mission }#. Leaders do the opposite.
+* Managers [.lineitemterm]#prefer spreadsheets over people#.
+* Managers [.lineitemterm]#are B/C players, who hire and promote D/E players# out of self-interest. Leaders are A players, who hire and promote A/A+ players.
+
+Typical manager character traits include:
+
+* Clock watching
+* Stealing/ignoring of credit for good work
+* Driving out of high performers
+* Manipulation of the narrative by controlling and shaping information flowing to the higher levels in the hierarchy
+* Hire and promote loyalists, not high-performers
+
+On the competence side, the word 'manager' only serves to obfuscate the necessity of competence and domain expertise i.e. defends the concept of the general manager. 
+
+You cannot take the manager of a grocery store, put them in charge of the cardio-thoracic surgery department of a hospital overnight and not expect the likelihood of people dying. For a managing director of a technology company to exclaim _"Of course there's such a thing as a (general) manager... look at me... I know nothing about our product and I'm a charge!"_ would be insanity.
+
+The only possible reason that a person can have for defending the idea that competence is not a fundamental requirement for senior positions, is to attempt to defend their own lack of it. Sadly, this seems to be particularly widespread in Software Engineering, as the intangible, magical thing that is software must therefore cost nothing to create, take no time, cause no difficulty, and therefore can be led by people *_who've never done it_* (!). This always leads to disaster.
+
+With a '<Discipline/Function/Product> Leader' title, it's quickly obvious when the shoes don't fit.
+
+[quote,Steve Jobs (1985)]
+____
+We went through that stage in Apple where we went out and thought "Oh, we're going to be a big company... let's hire professional management". We went out and hired a bunch of professional management. It didn't work at all. Most of them were bozos. They knew how to manage but they didn't know how to do anything!
+____
+
+== Foster great leadership
+
+[.importantpoint]#To be a great leader, do what great leaders do.#
+
+We can think of this in terms of the elements of individual performance.
+
+=== Character
+
+* Has all of the character traits described in <<Individual Performance#character,character>> but in the case of leadership, is coupled to power over other people.
+* Prioritizes *_Mission, Men, Me_* (in that order) i.e. does what's right for the work and others, not what's convenient or self-interested.
+* Leads from the front, and/or coaches from behind, as required.
+* Has the strength of character to make decisions, and the humility to listen/debate/consult.
+* Is authoritative, but a disciplinarian or mentor as needed.
+* Has a sense of humour and uses it to make tough work and meetings easier.
+* Capable under pressure (but that doesn't mean robotic, or even necessarily calm)
+* Gives credit where credit's due.
+
+=== Expertise
+
+* Is as competent as their peers or more so, at any level of seniority (think military leaders who haven't risen up the ranks on the front lines).
+* Communicates effectively with clarity, completeness and conciseness.
+* Able to:
+   ** Understand 'here'
+   ** Define a vision of 'there'
+   ** Understand how to get from here to there
+   ** Communicate how to get from here to there
+   ** Execute
+
+=== Success
+
+* Is mostly right. Makes the best possible decisions and achieve the best possible results. The most common trait of people who are frequently wrong is the unwillingness to consider being wrong due to fear and insecurity. No secure person has a problem declaring publicly "Damn, I'm wrong, aren't I?!"

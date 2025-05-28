@@ -1,0 +1,64 @@
+---
+title: Analysis and Design
+parent: Practice
+nav_order: 9
+---
+
+[#page-analysis-and-design]
+= Analysis and Design
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
+
+== Analysis & Design
+
+== Think upfront to avoid expensive rework
+
+In academia, there's a phrase:
+
+[quote]
+____
+A day in the library saves a month in the lab.
+____
+
+It's a variation of "look before you leap". This holds true for a lot of disciplines.
+
+Trying to add an additional room to a house after the foundations have been laid and most of the structure has been built, is prohibitively expensive and difficult. Better to do it upfront when the building only exists on paper.
+
+This is true for the engineering of software. Be wise, and invest the time to 'analyze and design' upfront. The keywords to use are:
+
+* `Investigate`
+* `Workshop`
+
+Workshops - discursive sessions in front of a whiteboard, ideally - drive incredibly creative and productive conversations, as do solo investigations and analysis.
+
+However, you should accept the inevitable limitations on a-priori knowledge. If you're creating anything significant, it may be complex and novel. Thus, you should expect to be 'learning as you go'. 
+
+At some point, the return on investment on additional effort to analysis and design upfront diminishes to a point, where you just have to bite the bullet and get started.
+
+== Explain it to prove you understand it
+
+An interesting motif of working with software engineers to design product has been seeing how the inability of software engineers to describe what they've built/will build in a presentation/demonstration/user documentation, is directly correlated with bad product design... and how commonly it occurs.
+
+Forcing and exploring an explanation has always led to better results. Using the { Who, What, Why, When, How, Where } approach generates simple questions that should have { clear, complete, concise } answers.
+
+* _Who_ is this for?
+* _What_ does it do?
+* _Why_?
+* _How_ does it work?
+
+== Don't reinvent the square wheel
+
+A motif in software engineering is the crime of reinventing the square wheel, leading to failure/collapse/expensive rework.
+
+If someone else has already invested the time and effort to design an existing implementation, accelerate your own efforts by leveraging theirs, when possible.
+
+Say, you're adding 'audit' functionality to SaaS software. Oracle, Microsoft, Google all have developed audit functionality in a variety of their products.. common sense/basic intelligence says to take a look.
+
+== Iterate order and disorder to progress
+
+Progress in all its forms, whether a design workshop or product development in general, is seldom linear, predictable and uniform.
+
+Rather, progress is made in fits and starts, with periods of orderly forward movement interleaved with disorderliness, exploration and creativity... but over time, you're progressively traversing a spiral towards a destination.

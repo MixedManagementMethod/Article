@@ -1,0 +1,43 @@
+---
+title: Strategy
+parent: Practice
+nav_order: 7
+---
+
+[#page-strategy]
+= Strategy
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
+
+== Strategy
+
+// Add cross reference to product strategy
+
+Like product strategy, functional strategy (team, department, organization etc.) defines the highest-level of goals, what it means to achieve them and how they might be achieved. Strategy provides:
+
+[arabic]
+. [.listitemterm]#Alignment#. Everyone singing from the same hymn sheet.
+. [.listitemterm]#Clarity#. Eliminate confusion.
+. [.listitemterm]#Focus#. Signal, not the noise. 
+
+== Adopt OKRs
+
+Objectives and Key Results (OKRs) are a conventional terminology for a simple concept, that's lightweight in use and adaptable to changing conditions.
+
+* [.listitemterm]#Objectives# are your high-level, aspirational, one-liner goals.
+   ** e.g., "Improve product quality"
+* [.listitemterm]#Key Results# define what it means to achieve a particular objective.
+   ** They're children of Objectives.
+   ** Objectives have a one:many relationship with Key Results. Contrary to orthodoxy, Mixed Management believes a key result can be defined as a metric _OR_ <<Best Practice#reject-the-metric-driven-dogma,can just be a task to be done>>. 
+   ** e.g., "Provide user instructions", "Reduce known bug count by 75% from 100".
+
+Adoption is simple:
+
+[arabic]
+. [.listitemterm]#Author/revisit on a regular cadence# e.g. schedule an annual/quarterly workshop, engaging interesting stakeholders.
+. [.listitemterm]#Track as tickets# (`Objective`, `Project` for key results) in a <<IT Infrastructure and Tools#adopt-our-task-tracking-template,backlog>>.
+. [.listitemterm]#Create a status dashboard/query# in your ticketing system to provide at-a-glance status checking. Make it accessible to interested stakeholders.
+. [.listitemterm]#Monitor progress on a regular cadence# e.g., a monthly meeting centered around the status dashboard/query results and what's changed over the month.

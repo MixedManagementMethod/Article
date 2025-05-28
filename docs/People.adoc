@@ -1,0 +1,11 @@
+---
+title: People
+nav_order: 3
+---
+
+[#page-people]
+= People
+
+== People
+
+[.importantpoint]#The right people can lift your organization/product/practices to unparalleled heights. The wrong people/person in the wrong positions for the wrong reasons can completely destroy it.#

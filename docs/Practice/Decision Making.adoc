@@ -1,0 +1,45 @@
+---
+title: Decision Making
+parent: Practice
+nav_order: 6
+---
+
+[#page-decision-making]
+= Decision Making
+:toc: macro
+:toc-title: Contents
+:toc-levels: 3
+
+toc::[]
+
+== Decision making
+
+== Everyone gets a say but someone makes a decision
+
+One of the most nonsensical pieces of dogma ever conceived is "let the team decide" - an intellectually vacuous extract from the book of manager-speak, that falls apart quickly under examination. Consider a group of 10 individuals making a decision.
+
+* The ideal situation with regards to decision making is uniform consensus - all 10 in agreement.
+* Say 9 agree and 1 disagrees… but that 1 has a long track of being right in similar decisions. "Let the team decide" means nothing. It could mean "majority rule", but that's calling for *blindness* to the individuals involved, reducing them to blobs.
+* Similarly, say 8 have no relevant expertise/experience, but 2 have lots… and the group is split 8 to 2 along those lines. Same problem.
+* Say a disagreement splits the group evenly. Then what? "Let the team decide" means nothing. Does it mean "majority rule"? What evidence is there that 50% is the threshold for optimal decision making? Why not 80%?
+
+How do we make decisions to maximize the probability of success? Reason dictates:
+
+* The nature of the individuals matters
+* Authority matters
+* The process matters
+
+The model for decision making in the Mixed Management Method is:
+
+[arabic]
+. Have open discussions where anyone involved can have a say.
+. More investigation and analysis may be required to progress the decision-making i.e., iterate
+. Some decisions will become apparent during this convergent process. For the most difficult decisions, it may reduce down to one person making it - authority matters. 
+
+== The best reason and evidence wins
+
+Reasons not to make a decision:
+
+* "Because"
+* "I have 30 years of experience in this industry"
+* "The majority voted for it"

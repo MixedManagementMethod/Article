@@ -1,20 +1,25 @@
 # see https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml for reference
 name: Publish to GitHub Pages
+
+# Trigger on any of these conditions
+# - push to main/master branch
+# - manual trigger (workflow_dispatch)
 on:
-  # Trigger on any of these conditions
-  # - push to main/master branch
   push:
     branches: [main, master]
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Allow one concurrent deployment
 concurrency:
   group: github-pages
   cancel-in-progress: false
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,21 +29,26 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+
+    - name: Install Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
+        cache-version: 0
+
     - name: Configure Pages
       id: pages
       uses: actions/configure-pages@v3
-    - name: Install Ruby and Jekyll
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2'
-        bundler-cache: true
-        cache-version: 0
-    - name: Generate Site
+
+    - name: Generate site # Outputs to './_site' directory by default
       run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
       env:
         JEKYLL_ENV: production
-    - name: Upload Artifacts
+
+    - name: Upload artifacts # Upload from './_site' directory
       uses: actions/upload-pages-artifact@v3
+
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
