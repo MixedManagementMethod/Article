@@ -4,15 +4,9 @@ parent: Practice
 nav_order: 2
 ---
 
-[#page-it-infrastructure-and-tools]
 = IT Infrastructure and Tools
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== IT Infrastructure and Tools
 
 The bar has been continually raised, such that the use of tools that were once the esoteric domain of software developers is now required in other disciplines, in order to perform effectively in a modern organization..
 
@@ -214,7 +208,9 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 
 All tickets have a `state`, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
 
-image::images/States-Workflow.drawio.svg[Workflow]
+.Ticket state workflow
+[#image-state-workflow]
+image::images/State-Workflow.drawio.svg[Ticket state workflow]
 
 * The states are grouped into categories.
 * The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!

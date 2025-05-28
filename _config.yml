@@ -10,8 +10,6 @@ exclude:
   - Gemfile.lock
   - asciidoctor/
   - font-awesome-4.7.0/
-#plugins:
-#  - jekyll-mermaid
 
 # Documentation: https://just-the-docs.com/
 nav_enabled: true # Enable the side/mobile menu globally
@@ -26,16 +24,13 @@ asciidoctor:
   base_dir: :docdir # Base directory tracks the directory of the document being processed
   safe: unsafe
   attributes:
-    :author: Jeffrey Chongsathien
-    :email: jeffrey.chongsathien@gmail.com
-    :description: Documentation of the Mixed Management Method
-    :doctype: article
-    :keywords: management, leadership, organization, methodology, engineering, software
-    :icons: font
-    :page-title: {doctitle}
-    :page-description: {description}
-    :imagesdir: ./images
-    :source-highlighter: coderay
-
-#mermaid:
-#  version: "11.6.0" # https://cdn.jsdelivr.net/npm/mermaid/
+    author: Jeffrey Chongsathien
+    email: jeffrey.chongsathien@gmail.com
+    description: Documentation of the Mixed Management Method
+    showtitle: ''
+    toc: macro
+    toc-title: Contents
+    toc-levels: 3
+    figure-caption!: '' # Turn off the Figure prefix on image captions
+    table-caption!: ''  # Turn off the Table prefix on table titles
+    source-highlighter: coderay # Use CodeRay for source block highlighting

@@ -1,11 +1,13 @@
 ---
-title: Introduction
+title: Overview
 layout: home
 nav_order: 1
 permalink: /
 ---
 
-= Introduction
+= Overview
+
+toc::[]
 
 == What is the Mixed Management Method?
 

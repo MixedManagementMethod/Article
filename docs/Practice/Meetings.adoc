@@ -4,15 +4,9 @@ parent: Practice
 nav_order: 4
 ---
 
-[#page-meetings]
 = Meetings
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Meetings
 
 Meetings are a specific form of communication - _synchronous_ conversations. Their importance, and how pervasively destructively they're used, means they warrant particular attention.
 

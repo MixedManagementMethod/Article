@@ -4,15 +4,9 @@ parent: People
 nav_order: 1
 ---
 
-[#page-culture]
 = Culture
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Culture
 
 As asserted in our <<../Framework#framework,framework>>, 'people' is the root element of any organization.
 

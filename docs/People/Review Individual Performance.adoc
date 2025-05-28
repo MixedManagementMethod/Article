@@ -4,15 +4,9 @@ parent: People
 nav_order: 3
 ---
 
-[#page-review-individual-performance]
 = Review Individual Performance
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Review Individual Performance
 
 Conventional performance review practices pushed by HR professional are _ineffective_ (by their philosophy and design) and _inefficient_ (by their software-based implementation, consumption of effort they force on everyone else without suffering the effects). 
 

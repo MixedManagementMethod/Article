@@ -4,15 +4,9 @@ parent: People
 nav_order: 6
 ---
 
-[#page-personal-development]
 = Personal Development
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Personal Development
 
 == Strategize personal development
 

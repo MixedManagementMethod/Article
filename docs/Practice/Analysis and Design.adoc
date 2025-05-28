@@ -4,15 +4,9 @@ parent: Practice
 nav_order: 9
 ---
 
-[#page-analysis-and-design]
 = Analysis and Design
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Analysis & Design
 
 == Think upfront to avoid expensive rework
 

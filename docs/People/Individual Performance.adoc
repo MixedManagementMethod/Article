@@ -4,15 +4,9 @@ parent: People
 nav_order: 2
 ---
 
-[#page-individual-performance]
 = Individual Performance
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Individual Performance
 
 Individual Performance, as a basis for meritocracy, should be considered as a rated/considered combination of:
 

@@ -4,15 +4,9 @@ parent: Practice
 nav_order: 8
 ---
 
-[#page-workflow]
 = Workflow
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Workflow
 
 == Adopt The Studio Model
 
@@ -56,6 +50,8 @@ The primary benefits of defining a workflow are:
 
 Any workflow is going to be highly specific to your circumstances (business domain, product/service, organizational structure e.g.) but Mixed Management can provide a basic workflow from which you can evolve your own.
 
-image::images/DevOps-Workflow.drawio.svg[Workflow]
+.DevOps workflow
+[#image-devops-workflow]
+image::images/DevOps-Workflow.drawio.svg[DevOps workflow]
 
 These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.

@@ -3,9 +3,6 @@ title: Practice
 nav_order: 5
 ---
 
-[#page-practice]
 = Practice
-
-== Practice
 
 As asserted in our <<Framework#framework,framework>>, practice is downstream of <<People#people,people>>.
