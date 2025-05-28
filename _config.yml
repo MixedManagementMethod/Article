@@ -17,8 +17,8 @@ nav_enabled: true # Enable the side/mobile menu globally
 # Documentation: https://github.com/asciidoctor/jekyll-asciidoc
 
 asciidoc:
-  processor: asciidoctor
-  ext: asciidoc,adoc
+  processor: asciidoctor  # Default, but stated here for informative purposes
+  ext: asciidoc,adoc      # Default, but stated here for informative purposes
 
 asciidoctor:
   base_dir: :docdir # Base directory tracks the directory of the document being processed
@@ -29,7 +29,6 @@ asciidoctor:
     :description: Documentation of the Mixed Management Method
     :doctype: article
     :keywords: management, leadership, organization, methodology, engineering, software
-    :showtitle:
     :icons: font
     :page-title: {doctitle}
     :page-description: {description}
