@@ -23,7 +23,6 @@ group :jekyll_plugins do
   #gem 'jekyll-asciidoc', '~> 3.0.0'
   gem 'jekyll-asciidoc'
 
-  # Mermaid
-  # https://github.com/jeffreytse/jekyll-spaceship
-  #gem 'jekyll-mermaid'
+  # Jekyll plugin to propagate the site.github namespace and set default values for use with GitHub Pages
+  gem 'jekyll-github-metadata'
 end
