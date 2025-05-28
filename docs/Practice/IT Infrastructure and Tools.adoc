@@ -131,7 +131,7 @@ Each level of the hierarchy contains tickets of a distinct set of types. The pur
 |Only one: `Project`
 |Enable a higher-level view (lower resolution, lossy) of the work by parenting `Task` tickets to projects.
 
-|`Strategy``
+|`Strategy`
 |Only one: `Objective`
 |Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
 |===
@@ -166,7 +166,7 @@ Operations:
 |Only one: `Project`
 |Enable a higher-level view (lower resolution, lossy) of the work by parenting `Product` tickets to projects.
 
-|`Strategy``
+|`Strategy`
 |Only one: `Objective`
 |Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
 |===
@@ -212,7 +212,7 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 |Work to support stakeholders. Tickets created by stakeholders.
 |===
 
-All tickets have a `state``, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
+All tickets have a `state`, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
 
 image::images/States-Workflow.drawio.svg[Workflow]
 
