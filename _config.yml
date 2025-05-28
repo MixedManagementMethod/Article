@@ -9,6 +9,9 @@ exclude:
   - Gemfile.lock
   - asciidoctor/
   - font-awesome-4.7.0/
+plugins:
+  - jekyll-asciidoc
+  - jekyll-github-metadata
 
 # https://just-the-docs.com/
 theme: just-the-docs
