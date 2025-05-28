@@ -108,7 +108,7 @@ As a natural extension of being concise, pictures and diagrams really are worth 
 
 An underestimated technique to consider is using colour-coding to add meaning/logic/clarity to diagrams. For example, to separate distinct phases of a workflow by grouping elements.
 
-Something to strongly consider when creating diagrams in documentation is text-based authoring like Mermaid, so that the documentation sources are cleanly integrated in a <<IT Infrastructure and Tools#adopt-documentation-as-code,documentation-as-code>> approach.
+Something to strongly consider when creating diagrams in documentation is text-based authoring like Mermaid, so that the documentation sources are cleanly integrated in a <<IT Infrastructure and Tools#adopt-documentation-as-code,documentation-as-code>> approach. Alternatively, drawio is fantastic for diagramming.
 
 == Minimize the use of screengrabs
 

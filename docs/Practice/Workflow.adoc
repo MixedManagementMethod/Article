@@ -51,7 +51,7 @@ The primary benefits of defining a workflow are:
 
 Any workflow is going to be highly specific to your circumstances (business domain, product/service, organizational structure e.g.) but Mixed Management can provide a basic workflow from which you can evolve your own.
 
-image::images/Workflow.drawio.svg[Workflow]
+image::images/DevOps-Workflow.drawio.svg[Workflow]
 
 ////
 // I couldn't get Mermaid rendering to work, so I just used draw.io

@@ -209,15 +209,12 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 
 All tickets have a `state``, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
 
-//image::Dummy.png[]
+image::images/States-Workflow.drawio.svg[Workflow]
 
+////
+// I couldn't get Mermaid rendering to work, so I just used draw.io
 [mermaid, format=SVG]
 ....
----
-config:
-  theme: default
-  layout: dagre
----
 flowchart TD
  subgraph s1["Proposed"]
         n1["To Do"]
@@ -272,7 +269,7 @@ flowchart TD
     style s4 stroke:#AA00FF
     style s5 stroke:none
     style s6 stroke:none
-....
+////
 
 * The states are grouped into categories.
 * The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!
