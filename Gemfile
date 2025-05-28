@@ -22,4 +22,8 @@ group :jekyll_plugins do
   # https://github.com/asciidoctor/jekyll-asciidoc
   #gem 'jekyll-asciidoc', '~> 3.0.0'
   gem 'jekyll-asciidoc'
+
+  # Mermaid
+  # https://github.com/jeffreytse/jekyll-spaceship
+  #gem 'jekyll-mermaid'
 end

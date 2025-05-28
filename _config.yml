@@ -5,11 +5,13 @@ title: Mixed Management Method
 description: An opinionated, anti-dogmatic, universal methodology for organizational management/leadership.
 url: https://mixedmanagementmethod.github.io/Article/
 exclude:
-- README.adoc
-- Gemfile
-- Gemfile.lock
-- asciidoctor/
-- font-awesome-4.7.0/
+  - README.adoc
+  - Gemfile
+  - Gemfile.lock
+  - asciidoctor/
+  - font-awesome-4.7.0/
+#plugins:
+#  - jekyll-mermaid
 
 # Documentation: https://just-the-docs.com/
 nav_enabled: true # Enable the side/mobile menu globally
@@ -35,5 +37,5 @@ asciidoctor:
     :imagesdir: ./images
     :source-highlighter: coderay
 
-mermaid:
-  version: "11.6.0" # https://cdn.jsdelivr.net/npm/mermaid/
+#mermaid:
+#  version: "11.6.0" # https://cdn.jsdelivr.net/npm/mermaid/
