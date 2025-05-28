@@ -3,6 +3,9 @@ title: Product
 nav_order: 4
 ---
 
+[#page-product]
 = Product
 
-As asserted in our <<framework,framework>>, product is downstream of <<people,people>>.
+== Product
+
+As asserted in our <<Framework#framework,framework>>, product is downstream of <<People#people,people>>.

@@ -3,7 +3,10 @@ title: Support
 nav_order: 6
 ---
 
+[#page-support]
 = Support
+
+== Support
 
 == Consulting
 

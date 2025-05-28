@@ -9,7 +9,7 @@ nav_order: 1
 
 == Culture
 
-As asserted in our <<framework,framework>>, 'people' is the root element of any organization.
+As asserted in our <<../Framework#framework,framework>>, 'people' is the root element of any organization.
 
 For a wide variety of individuals with varying personalities, values and experiences, to work together effectively requires a degree of alignment i.e. a _culture_.
 
@@ -42,9 +42,9 @@ It's no good evangelizing forks to eat soup, but dogmatic people will (insert na
 
 They often have MBAs - an expensive sunk cost that requires justification.
 
-=== Honesty
+== Honesty
 
-==== Dishonesty is cancer
+=== Dishonesty is cancer
 
 Corruption, in all it's forms, breeds dysfunction and decay, and it's starts with not speaking the truth and the whole truth to yourself and others.
 
@@ -78,19 +78,19 @@ Clarifying the dividing lines between honest/plain/robust speaking from rude/una
 * [.listitemterm]#When it is about the person, be kind but strong.# 
 * [.listitemterm]#Recurring/severe problems are problems, not incidents.# The "jump on every instance right away" mentality observed in some management is insecure, fragile micromanagement.
 
-==== "I don't know" is a valid answer
+=== "I don't know" is a valid answer
 
 Punishing responses like "I don't know" is simply a desperate fear-based attempt to deny reality. A healthy culture encourages facing into reality, not retreating from it.
 
 "Let's find out" is a productive follow-up to "I don't know".
 
-==== "I disagree" is a valid response
+=== "I disagree" is a valid response
 
 Destructive, excessive authoritarianism hates free, robust speech, stemming from a deeply insecure, weak mindset. In contrast, mentally secure, strong leaders don't fear disagreement - they encourage it, in order to produce the best results possible.
 
 Healthy, productive environments with good morale aren't characterized by fear and paranoia.
 
-==== Honesty requires robustness and forgiveness
+=== Honesty requires robustness and forgiveness
 
 As a consequence of free and honest speech, emotional robustness must be encouraged. That's not to say organizations should foster toxic behaviour, but equally as poisonous is cry-bully weakness. Speech should be focussed on getting the best possible outcomes for the work.
 
@@ -116,13 +116,13 @@ Interestingly, cultures that value honesty and openness have an affinity with en
 
 All of this discussion is to say that national culture can change the backdrop against which you're operating, but nonetheless the value of infusing honesty (and transparency) into the heart of your organizational culture remains the same.
 
-==== The coverup is worse than the crime
+=== The coverup is worse than the crime
 
 When mistakes and bad decisions do happen, inability to speak honestly prevents the kind of retrospective needed to understand what happened and to prevent it happening again i.e. it prevents improvement (at all levels). This naturally breeds resentment and low morale in higher performers of good character, as they watch dysfunctionally perpetuate and grow, and injustice prevail.
 
-=== Transparency
+== Transparency
 
-==== Speak your mind
+=== Speak your mind
 
 When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
 
@@ -130,7 +130,7 @@ When a toxic culture implemented/fostered by toxic management, doesn't allow peo
 
 The best possible decisions are made more likely by a discursive process prior to the decision.
 
-==== Silos are evil
+=== Silos are evil
 
 Silos are the evil tools of toxic narcissists and the cancer of organizations. By creating silos:
 
@@ -139,7 +139,7 @@ Silos are the evil tools of toxic narcissists and the cancer of organizations. B
 
 Competent leadership must identify and fight silos continuously, lest the cancer grow and even metastasize.
 
-==== Responsibility, not Ownership
+=== Responsibility, not Ownership
 
 A motif in the Mixed Management Method is how the improper use of language causes problems. One such case in conventional methodologies is "ownership" e.g. a 'Product Owner' role title. The problem is that 'ownership':
 
@@ -148,7 +148,7 @@ A motif in the Mixed Management Method is how the improper use of language cause
 
 [.importantpoint]#The correct, healthy term is 'responsibility', as in "Take responsibility" and "It's my responsibility".#
 
-==== Push knowledge
+=== Push knowledge
 
 A healthy culture promotes habitual building of _institutional knowledge_. It should be a habit of all individuals in the organization to record *_what_* they did, and *_how_* they did it.
 
@@ -170,17 +170,17 @@ The level of dysfunction in an organization, and sub-sections of it, is always o
 
 It's no different from a Ramsay's Kitchen Nightmares restaurant kitchen that doesn't have tickets for the orders, doesn't have effective communications, doesn't have systems to cooks training up, has a messy and disorganized layout etc.
 
-=== Meritocracy
+== Meritocracy
 
 In general, life is not a meritocracy. The longer you live and the wiser you become, the more you realize that life is insanity and happenstance. That's no reason for your organization to be the same.
 
-==== The right people in the right positions, and the right numbers, for the right reasons
+=== The right people in the right positions, and the right numbers, for the right reasons
 
 Here, we'll focus on the right reasons. The other factors are explored elsewhere:
 
-* Right people: <<individual-performance>>
-* Right positions: <<organizational-structure>>
-* Right numbers: <<staff-in-adequate-numbers-for-your-expectations>>
+* Right people: <<Individual Performance#individual-performance,Individual Performance>>
+* Right positions: <<Organizational Structure#organizational-structure,Organizational Structure>>
+* Right numbers: <<Organizational Structure#staff-in-adequate-numbers-for-your-expectations,Staff in adequate numbers for your expectations>>
 
 [.importantpoint]#The best thing an organization can do for morale is establish and maintain a meritocracy.#
 
@@ -192,7 +192,7 @@ So, what are the _wrong_ reasons?
 
 * Promotion by default.
 * Corruption i.e. nepotism/favouritism/personal relationships.
-* Anything else disconnected from <<individual-performance>>.
+* Anything else disconnected from <<Individual Performance#individual-performance, individual performance>>.
 
 Steve Jobs stated the Bozo Explosion occurs because over time, bozos rise up the ranks and promote other bozos in their self-interest (high-performers make them look bad) and so pretty soon, you have a kakistocracy (the most unsuitable people have the most power). This is undoubtedly true in many organizations.
 
@@ -236,7 +236,7 @@ There is no cure for the human condition, but truly well-run organizations are d
 
 As organizations are inevitably hierarchical power structures, *_the only effective way to drive this is from the top_*, with aggressive and wise action by the highest levels of leadership. Steve Jobs did this on his return to Apple, where within weeks he cut a scythe through entire layers of dysfunctional middle management and saved suppressed high performers like Jony Ive, by doing a one-man, organization-wide performance review.
 
-==== Longevity is not an intrinsic good
+=== Longevity is not an intrinsic good
 
 Longevity of individuals at an organization is a double-edged sword. 
 

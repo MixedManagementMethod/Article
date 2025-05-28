@@ -1,0 +1,83 @@
+---
+title: Meetings
+parent: Practice
+nav_order: 4
+---
+
+[#page-meetings]
+= Meetings
+
+== Meetings
+
+Meetings are a specific form of communication - _synchronous_ conversations. Their importance, and how pervasively destructively they're used, means they warrant particular attention.
+
+All the practices of good <<Communication#communication,communication>> naturally apply.
+
+== Bring control, clarity, conciseness and comedy to meetings
+
+The most expensive part of most organizations is people's time. Meetings are synchronous conversations that can be converted into a cost figure, by calculating the prorated payroll burden of the participants' time..
+
+[.importantpoint]#Meetings are *expensive*. A bad meeting is an expensive waste. A good meeting brings a return on the investment.#
+
+The art of having a good meeting is:
+
+* [.listitemterm]#Control#. One person (the organizer) must be in control of the conversation. They must  drive the conversation by injecting purpose, direction and energy. They also must know when to let it 'breathe' and wander because discovery and exploration can be valuable to a conversation… and when to rein it in.
+* [.listitemterm]#Clarity#. The organizer must have clarity about the meeting in their own mind, and bring it to everyone else. 
+   ** Clarity is understanding what is _there_, _here_ and having some idea of how to get from _here_ to _there_.
+   ** The value of getting to _there_ should be clear; if not, the meeting is most likely wasting everyone's time.
+   ** Furthermore, as the conversation progresses, the organizer must be clarity to the progress - what understanding has been gained, what paths have been explored and so on.
+* [.listitemterm]#Conciseness#. Meetings should last as long as they need to... irrespective of the scheduled duration, and sometimes that equates to no meeting at all.
+* [.listitemterm]#Comedy#. Meetings can be tough, hard work and frustrating. The best meetings incorporate humour to great effect. While there's no certain way to inject this, as it's a product of the people involved, it's worth understanding that the best meetings are both useful and enjoyable, because of humour.
+
+== Optimize the cadence of recurring meetings
+
+Numerous existing methodologies propose a variety of meetings/conversations, some on a regular cadence, some ad-hoc. For example:
+
+* Daily meetings ('standups')
+* Weekly team meetings
+* Ad-hoc post mortems
+* End of sprint/month retrospectives.
+* Start of sprint/month planning
+* Quarterly strategy meeting
+* Biannual top-down communications
+
+Too many organizations blindly throw their employees into bureaucratic hell by irresponsibly prescribing ever more meetings and not tuning their cadence and duration to be <<Best Practice#be-effective-and-efficient,effective and efficient>>. It's a perverse scenario when a "bureaucracy buster" initiative launched by management results in recommendations to eliminate many meetings that they dogmatically implemented, upon which the management vetos the effort and nothing changes.
+
+Whatever the meeting, whatever the methodology, consider tuning the *_duration_* and *_cadence_* to maximize first effectiveness, then efficiency. 
+
+Consider:
+
+* [.listitemterm]#What events are we responding to with this meeting?# e.g., daily meetings to discuss events that rarely occur within a month is wasteful.
+* [.listitemterm]#Should we have longer meetings less frequently?# A one hour fortnightly meeting can be just as effective as a half-hour weekly meeting, but more productive due to increasing flow of the conversation and reducing interruption of the participants' work.
+* [.listitemterm]#Is the return on investment actually worth it?# Increasing frequency increases the cost/investment. Many bad managers increase frequency out of fear and anxiety, ignoring the cost and the pain inflicted on the participants. If there's potential for reducing the frequent and/or duration with no significant impact, try it for a while.
+
+== Optimize your daily meetings (standups)
+
+As with all meetings, daily meetings/standups need to be considered in terms of what they're trying to achieve, why and how best to do it.
+
+The term 'daily standup' to mean the daily meeting stems from the software engineering discipline,  and is loaded with dogmatic baggage. The dogma ranges from the blindly robotic (it must include topics X/Y/Z) to the ludicrous ("The participants need to be literally standing up"!). There are millions of posts and comments across the internet about how dogmatic daily standups have immiserated the lives of engineers, however it's been interpreted.
+
+The motivations for a daily meeting are:
+
+* Drive social interaction, particularly in hybrid/remote working (recommend <<Communication#use-different-mechanisms-to-best-effect,'cameras on'>>).
+* Facilitate communication (erode silos), such as past activity.
+* Drive transparency on present activity.
+* Increase alignment on future activity.
+
+The conversation should center around a dashboard that includes:
+
+* The structure of the meeting (list of topics to cover as static text).
+* The round-robin rota (static text) of who should 'run the board' i.e. <<bring-control-clarity-conciseness-and-comedy-to-meetings,control the meeting>> (ensure it's brisk, efficient, subjects are taken 'offline' if they require further time). Rotating responsibility for the meeting is essential to break up the monotony of the same voice everyday, drive engagement and spread responsibility away from a single-point-of-failure.
+* Tickets queried from the ticketing system that provide content (where possible) relevant to each topic.
+
+This is an example you can derive your own structure from:
+
+[arabic]
+. [.listitemterm]#Support#. Operational support tickets may have been raised since the last meeting, and may need assignment/discussion.
+. [.listitemterm]#Bugs#. Product backlog bug tickets may have been raised since the last meeting, and may need assignment/discussion.
+. [.listitemterm]#Completed#. Tasks (ticket) that have been recently completed.
+. [.listitemterm]#Yesterday#. Activity/events that happened yesterday that anyone wants to discuss.
+. [.listitemterm]#Today#. Activity/events scheduled to occur today.
+. [.listitemterm]#Help#. An opportunity for any participant to cry for help.
+
+You should target your daily meetings to typically last 30 minutes, ranging between 15 and 45 minutes per the circumstances.

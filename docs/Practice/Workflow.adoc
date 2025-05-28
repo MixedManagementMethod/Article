@@ -1,0 +1,137 @@
+---
+title: Workflow
+parent: Practice
+nav_order: 8
+---
+
+[#page-workflow]
+= Workflow
+
+== Workflow
+
+== Adopt The Studio Model
+
+The core philosophy of the Mixed Management Method includes "<<../People/Culture#no-dogma,no dogma>>" i.e. encouraging a pragmatic, 'toolbox' mindset.
+
+With respect to software engineering, or perhaps any discipline that creates and builds, a development model that is extremely underrated is https://www.forbes.com/sites/cognitiveworld/2019/08/28/agile-and-the-studio-model/[The Studio Model (by Kurt Cagle)]. It draws an analogy with how films and TV shows are made.
+
+[arabic]
+. Tailor your approach depending on what you're making (film/TV show)
+. Write a pitch (highest level concept of what and why#)
+. Write a script (what)
+. Storyboard (what)
+. Cast the parts (who)
+. Raise finance (how)
+. Plan production (how, when, who)
+. Film
+. Do post-production
+. Promote the film
+. Release the film
+
+The beauty of The Studio Model is that the language and the practices are universally and intuitively understood, because they're so widely embedded in popular culture.
+
+Note that "when" doesn't come into the picture for a long time, because it makes no sense to focus on scheduling when you have no idea what you're trying to achieve, why and how. Think of the ubiquitous incompetent manager who harps on about "when" and nothing about what/how/why/who because their lack of expertise means that's all they can say.
+
+In practice, one would incorporate The Studio Model into:
+
+* Routine conversations and meetings about product development, particularly design workshops.
+* The templates and checklists of one's project management/product development tool, as tasks/reminders to consider ('Definition of Done' gating).
+
+== Build on this product devops workflow
+
+The Waterfall development talks about project phases. Rational Unified Process. Some software engineers refer to a Software Development Life-Cycle/SDLC. IEC 62304 talks about a software development process.
+
+In each of the cases, what they're talking about is a workflow for product development (dev) and operations (ops).
+
+The primary benefits of defining a workflow are:
+
+[arabic]
+. [.listitemterm]#Structuring activity to create consistency# and reduce the risk of missing steps.
+. [.listitemterm]#Establishing a common (verb-based) language# to reduce friction in communication.
+
+Any workflow is going to be highly specific to your circumstances (business domain, product/service, organizational structure e.g.) but Mixed Management can provide a basic workflow from which you can evolve your own.
+
+++++
+<pre class="language-mermaid">
+block-beta
+  columns 23
+  block:s1:3
+    columns 1
+    t1["Organize work"]
+    n1("Align")
+    n2("Prioritize")
+    space
+    space
+    space
+    space
+  end
+  space
+  block:s2:3
+    columns 1
+    t2["Understand problem"]
+    n3("Investigate")
+    n4("Analyze")
+    n5("Workshop")
+    space
+    space
+    space
+  end
+  space
+  block:s3:3
+    columns 1
+    t3["Design solution"]
+    n6("Design")
+    n7("Prototype")
+    n8("Workshop")
+    n9("Validate")
+    space
+    space
+  end
+  space
+  block:s4:3
+    columns 1
+    t4["Implement solution"]
+    n10("Code")
+    n11("Test")
+    n12("Document")
+    n13("Validate")
+    n14("Version")
+    n15("Release")
+  end
+  space
+  block:s5:3
+    columns 1
+    t5["Deploy solution"]
+    n16("Transfer")
+    n17("Install")
+    n18("Configure")
+    space
+    space
+    space
+  end
+  space
+  block:s6:3
+    columns 1
+    t6["Support solution"]
+    n19("Operate")
+    n20("Maintain")
+    n21("Dispose")
+    space
+    space
+    space
+  end
+  s1 --> s2
+  s2 --> s3
+  s3 --> s4
+  s4 --> s5
+  s5 --> s6
+  classDef title fill:none,stroke-width:0px;
+  class t1,t2,t3,t4,t5,t6 title
+  classDef development fill:#bff4ff;
+  class s1,s2,s3,s4 development
+  classDef operations fill:#f2fae9
+  class s5,s6 operations
+</pre>
+++++
+
+These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.

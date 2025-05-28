@@ -1,0 +1,141 @@
+---
+title: Communication
+parent: Practice
+nav_order: 3
+---
+
+[#page-communication]
+= Communication
+
+== Communication
+
+Communication happens:
+
+* Across many mediums - written, oral, live, recorded.
+* In many forms - user documentation, technical documentations, design workshops, retrospectives, emails and messages, and more.
+
+In any case, communication is the fundamental transmission of thoughts between people, across space and time, and it's essential to be _effective and efficient_ to collaborate effectively.
+
+== Be clear, complete, concise (in that order)
+
+=== Clear
+
+[.importantpoint]#Emotionally secure people embrace clarity and avoid jargon; insecure people obfuscate.#
+
+Clarity is the most important aspect of communication. If the communication is clear, then even if it's incomplete or verbose, the receiving person can work with what's there (such as asking for clarification or elaboration).
+
+Confusing, obscure, jargon-filled obscurity blocks all communication. This is a motif amongst mediocre people because they use obscurity as a shield, to prevent transparency and thus avoid - in their insecure minds - threats.
+
+[.importantpoint]#Use plain English. Be conversational. Adopt beginner's mind.#
+
+* [.listitemterm]#Use plain English# (jargon-free, acronym-free) whenever possible.
+* [.listitemterm]#Be conversational.# Play out an in-person conversation with the recipient in your head, and transcribe it word-for-word.
+* [.listitemterm]#Adopt 'beginner's mind'.# The recipient mind is a void, empty of what's contained in your mind. Your goal is to populate your thoughts in theirs.
+
+=== Complete
+
+Completeness is the next most important aspect of communication. 
+
+When information is missing from communication, the effect can range from reduced efficiency - the receiver is confused, has to think and ask questions back - to killing the communication altogether.
+
+Also, sometimes the sender can provide information that they didn't think was valuable to a discussion, but by pushing it around, its value was discovered.
+
+[.importantpoint]#Tell a story. Push information (sharing is caring).#
+
+* [.listitemterm]#'Telling a story'# is a useful technique for encouraging the pushing of information. It's one thing to say:
++
+"When are you available for a call tomorrow?""
++
+and another to say:
++
+"I was thinking about the problem, had an idea and thought we should talk about it. I looked at my calendar and have 2-4 free; when are you available?"
+* [.listitemterm]#Pushing information# reduces the likelihood of ambiguity, misunderstanding and creates opportunities for the recipient to engage.
+
+=== Concise
+
+[.importantpoint]#Be 'minimal but sufficient'. People don't want to read for reading's sake; they want to understand.#
+
+Communication is a means to an end, not an end in of itself. The resulting lack of conciseness from the latter mindset is a particular problem with professional technical writers because their livelihood manifests in writing, so they adopt a deluded mindset where they think the reader wants to read their writing - wrong!
+
+The reader wants to get something done, to do that they need to understand and the writing is just a means to end. "Blah blah blah, waffle, waffle, waffle" just gets in the way. 
+
+One of the cardinal sins seen in technical writing is pointless waffle repeating what people can already see for themselves, say on a screen. 
+
+----
+Documentation: "There is a field to enter X information"
+
+Reader: "Yes, I can see that for myself. I want to know what it means/does!"
+----
+
+Too much communication chokes productivity. Too little causes dysfunction.
+
+Imagine drawing the outline of a tree using dots - navigating between using so many dots that you draw a solid line, versus using so few dots that's no longer recognizable as a tree. The sweet spot is enough dots to convey the outline, without wasting effort on unnecessary dots.
+
+// Add drawings of dotted tree outline
+
+== Pause and sanity check your writing
+
+Whenever you're writing, take a step back and ask yourself if, from the perspective of the recipient:
+
+* [.listitemterm]#Is it clear?# Am I using the simplest possible language? Can I test it on someone?
+* [.listitemterm]#Is it complete?# Is there any missing information or additional context I can add?
+* [.listitemterm]#Can I be more concise#, without loss of completeness or clarity?
+
+Making this behaviour a habit *will* improve the quality of your writing.
+
+== Use the dictionary
+
+Technical problems/debt often originate in organizations from bad use of language:
+
+[arabic]
+. [.listitemterm]#Multiple, inconsistent terms for the same thing# e.g. 'pump down' and 'pump to base vacuum', or 'readback' and 'read back'. Reflects a lack of hygiene.
+. [.listitemterm]#Incorrect use of language.# Reflects a lack of intelligence and/ rigour - it's amazing how many humans would rather guess than invest a little bit of effort to find out. 
+
+This is cancerous to everything the organization does, because language is the foundation of communication and thinking. When the use of language is flawed, thoughts, and the communication of them, are scrambled and incoherent.
+
+Low performers who like to wallow in linguistic squalor do so to obfuscate their own incompetence. "It's just semantics" is a common exclamation to dismiss the value of literacy and articulacy. 
+
+On one occasion, a Director-level employee responded in a meeting to the use of a 'fancy word' with "Ooooh… (look at Mr. Smarty Pants using fancy words like 'asynchronous'! La de da!)". Moments like these are truly The Office meets Idiocracy.
+
+The solutions are simple:
+
+[arabic]
+. [.listitemterm]#"Pick one and stick with it!"#
+. [.listitemterm]#"Use the dictionary/thesaurus"#
+
+Literacy, articulacy and the correct use of language, needs to be an organization-wide value driven by Leadership, or you end up with department heads who communicate at the standard of F grade 10 year old... when you're trying to run an high performance organization, allowing that to happen is unacceptable.
+
+== Use different mechanisms to best effect
+
+Documents, voice calls, chat messaging, emails, in-person discussion… these are various mechanisms for communication, and each have their pros and cons.
+
+[.importantpoint]#Having timestamped evidence of the communication facilitates transparency and honesty.#
+
+Emails and chat messages are a written record of communication, with timestamps. This kind of shared memory has value and should always be a consideration.
+
+[.importantpoint]#When email/chat becomes frustrating, move the conversation to voice/in-person.#
+
+For rapid communication with high frequency/high volume back and forth, email and messaging can become frustrating. Voice-calls and in-person meetings are better suited to continue the conversation.
+
+[.importantpoint]#Design/creative/problem solving discussions are best held in-person and around a whiteboard.#
+
+For design/creative/problem solving discussion, modern video calling has massively improved efficiency but the best conversations are still held in-person, and especially around a whiteboard. 
+
+* Humans are still physical and social creatures, so the in--person experience helps to build interpersonal bonds, and aid communication of emotional nuance.
+* The physical whiteboard is still by far the best productivity tool for human collaboration, for its ability to facilitate sketching, note-taking, in a rapid, interactive and iterative manner. 
+
+[.importantpoint]#Default to 'cameras on' in group video calls.#
+
+Being social creatures, seeing the face of others in a conversation aids communication of emotional nuance, building of interpersonal bonding and accountability for personal conduct. Whilst naturally some people are introverts, it's not healthy to allow them to hide - if they're in a conversation, then their involvement must have some potential value.
+
+== Use ISO 8601 date format 'yyyy-MM-dd'
+
+This date format:
+
+* Removes US/UK ambiguity
+* Sorts correctly
+* Is concise
+* Is more readable with hyphens than underscores
+* Is easily parse-able
+
+When Leadership explicitly encourages this practice, it reduces friction around the organization.

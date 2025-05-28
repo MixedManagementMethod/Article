@@ -1,0 +1,134 @@
+---
+title: Documentation
+parent: Practice
+nav_order: 5
+---
+
+[#page-documentation]
+= Documentation
+
+== Documentation
+
+As with meetings, documentation is a form of communication - _asynchronous_ conversation. The importance of documentation, and how pervasively destructively it's done, means it warrants particular attention.
+
+The practices of good <<Communication#communication,communication>> naturally apply.
+
+== Consider all-forms of documentation
+
+Documentation can be manifested in many different ways, including some that you might not consider 'documentation' but actually are.
+
+* Intra-organizational
+   ** Chat/email messages
+   ** Meeting notes
+   ** Presentations
+   ** Tickets (contents, comments) e.g. team/department/operations backlogs
+   ** Intranet, wikis
+* Product user docs
+   ** User guides
+   ** Release notes
+   ** License terms and conditions
+   ** Troubleshooting
+   ** FAQs
+* Product technical docs (what was built, how it was built)
+   ** Tickets (contents, comments) in product development backlog, including design
+   ** Chat/email messages in product-oriented groups/teams/channels
+   ** Meeting notes
+   ** Architecture description
+   ** DevOps workflows and infrastructure description e.g. develop, release, deploy
+   ** SCM workflows and infrastructure description
+   ** Versioning scheme
+   ** Source code README e.g. description of filesystem structure in a repository
+   ** Source code inline comments
+   ** Licenses of used free open-source software (FOSS) and (software of unknown provenance) SOUP
+   ** Test plans, execution and results
+* Product marketing docs
+   ** Overview
+   ** Highlights
+   ** Benefits
+   ** Demo videos
+
+== Drive a ubiquitous documentation mindset
+
+As it's communication, to document is to share knowledge between people, separated by space and/or time. Products, projects, even entire organizations, can be destroyed by lack of/bad quality documentation.
+
+[.importantpoint]#Good documentation is conscientiousness.#
+
+User-facing/product documentation should be a painless path to understanding your product and/or you.
+
+Intra-organizational documentation is institutional memory that serves to:
+
+* [.listitemterm]#Enable single-points-of-failure to be avoided# ("What happens if <Person X> is hit by a bus tomorrow?") by eliminating knowledge silos and lost history
+* [.listitemterm]#Prevent rapidly escaping development costs# e.g. by requiring re-development
+* [.listitemterm]#Provide a template to success#
+* [.listitemterm]#Coordinate human activity#
+
+== Use a style guide
+
+The use of templates generally:
+
+* Maximize the probability of high quality results
+* Drive consistency
+* Save development effort
+
+Style guides do the same thing for communication, but with language. Some examples that you could adopt:
+
+* https://learn.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide]
+* https://atlassian.design/content/language-and-grammar/[Atlassian Design System]
+* https://developers.google.com/style/[Google developer documentation style guide]
+
+== Be conversational
+
+As documentation is written communication between people (across time and space), a useful technique to imagine you're talking directly to the reader as an in-person conversation, and transcribing what's said.
+
+Also mentioned in "<<Communication#be-clear-complete-concise-in-that-order,Be clear, complete, concise (in that order)>>".
+
+== The right structure avoids 80% of the problems
+
+The logical structure of documentation is comparable to the architectural loading bearing structure of a building. When it's unsound (illogical, inconsistent, ambiguous), you're in for a lot of (avoidable) pain.
+
+* [.listitemterm]#Coherent structure has a logic to it# e.g. systematically describing a product by functional areas, or the phase-based linear progress of a project.
+* [.listitemterm]#Think of the structure as a tree#. It has a natural flow from start to finish at the root level of the tree, then adds more content in a top-down way. 
+
+The problems created by re-inventing the square wheel can be avoided by copying the structure of similar documentation of other similar products.
+
+== Have a bullet-point mentality
+
+Bullet-point lists are brilliant for imposing:
+
+* [.listitemterm]#Clarity, particularly visual clarity# by reducing density of text.
+* [.listitemterm]#Conciseness#, by eliminating verbiage.
+
+== Provide examples
+
+One of the great documentation achievements in software engineering history was the https://doc.qt.io/[Trolltech Qt user documentation] around the 2010s - clear, complete, concise. A technique they used effectively that elevated their documentation above their peers, was to take every opportunity to illustrate a concept with tangible examples presented inline.
+
+== Be visual
+
+As a natural extension of being concise, pictures and diagrams really are worth a thousand words.
+
+An underestimated technique to consider is using colour-coding to add meaning/logic/clarity to diagrams. For example, to separate distinct phases of a workflow by grouping elements.
+
+Something to strongly consider when creating diagrams in documentation is text-based authoring like Mermaid, so that the documentation sources are cleanly integrated in a <<IT Infrastructure and Tools#adopt-documentation-as-code,documentation-as-code>> approach.
+
+== Minimize the use of screengrabs
+
+In software user documentation, screengrabs should in theory be a useful element but unless you have a completely automated system for generation and adding into the documentation sources, they're a pain to deal with. When the UI/UX changes, they're instantly out of date and require updating (your mileage may vary depending on how stable the UI/UX is).
+
+In most cases, you can get away without them and just have a few key screengrabs. 
+
+== Adopt documentation-as-code
+
+See "<<IT Infrastructure and Tools#adopt-documentation-as-code,Adopt documentation-as-code>>".
+
+== Make notes as you go
+
+If you're documenting a workflow/process (e.g., establishing a new employee induction process, or how to release a new product version) or recording a history of what was done (e.g. handling a support ticket), *_make notes as you go_*.
+
+Don't leave it all to the end - you'll never recall it all.
+
+[quote,A University of Cambridge Sidney Sussex College professor]
+____
+At the start of each academic year, I can instantly identify the undergraduates that will succeed - they're the ones taking notes.
+____
+
+It's surprising how many recurring workflows exist in organizations that are never made far more efficient by recording how it's done. This results in a tremendous amount of unrecognized inefficiency.

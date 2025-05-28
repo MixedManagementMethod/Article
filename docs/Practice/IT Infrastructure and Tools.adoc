@@ -1,0 +1,422 @@
+---
+title: IT Infrastructure and Tools
+parent: Practice
+nav_order: 2
+---
+
+[#page-it-infrastructure-and-tools]
+= IT Infrastructure and Tools
+
+== IT Infrastructure and Tools
+
+The bar has been continually raised, such that the use of tools that were once the esoteric domain of software developers is now required in other disciplines, in order to perform effectively in a modern organization..
+
+They include Git SCM, markup, messaging, ticketing, data transformation and analytics, and increasingly AI-accelerated tools.
+
+Anyone clinging to the 'old ways' (email chaos, file attachments, spreadsheets for everything), and attempting to bluff their way through, is quickly exposed by the huge gains in effectiveness and efficiency of everyone else who invested in learning.
+
+This applies to any level of seniority, as the ability to lead in a competitive landscape requires the ability to:
+
+* Engage and understand your people
+* Envision and implement improvement 
+
+It's the difference between the 'builders' and the bluffers.
+
+== Prefer integrated ecosystems/monoliths over best-in-class
+
+A recurring theme in many organizations, particularly driven by the adoption of SaaS tools, is complexity in their IT infrastructure due to:
+
+* A 'Cambrian explosion' of software tools driven by the naive mindset of "Adding another software tool will solve our problems".
+* A history of home brewing software tools.
+
+In these scenarios, the pain point is getting them to work together (integration).
+
+* Creating, reading, updating and deleting across fragmented, siloed data sources is a nightmare.
+* It's difficult to maintain consistency of design across multiple systems.
+
+Attempts to stitch them together with manual labour inevitably fail due to the cost and effort of continually doing so, though it's possible for an organization to survive, with effective-but-inefficient workflows, but usually in a constant state of decline.
+
+A permanent solution requires a combination of the following, with minimal fragmentation:
+
+* Investing in automated integrations (off the shelf, or home brewed).
+* Adopting coherent ecosystems (Microsoft's advantage, somewhat present with Atlassian) over a fragmented combination of best-in-class.
+* Building monolithic solutions with low code/no code app development e.g., Tadabase.
+
+== Adopt task tracking (ticketing) for all
+
+After messaging (chat, email, voice/video calls etc) and shared file storage, a task tracking (ticketing) system is the most vital collaboration and organizational tool… and shockingly undervalued.
+
+Task tracking/ticketing software exists in many forms: Office 365 To Do, Google Tasks, Microsoft Project, Atlassian Jira, GitLab, Microsoft GitHub, Microsoft Azure DevOps, Service Now, Tadabase (home brewed, no-code web apps) and more.
+
+The fragmentation is a real problem, and the variations in functionality often only exist due to various business domain origins of the software - project management, software engineering, consumer apps, IT service management - or the internal politics of an organizations. Microsoft alone has 4 different task tracking tools with overlapping functionality - Office 365 To Do, MS Project, Azure Boards and GitHub Issues - and all of which have existed for years as half-baked solutions.
+
+Tickets are a digital record that represent a task, and:
+
+* Have a status field that represents the state of the task e.g. To Do.
+* Have a minimum set of required, default data fields e.g. Title, Description.
+* Have customizable fields to capture structured information/encode a workflow.
+* May be configurable with checklists for encoding workflow/gate keeping progress. In some systems, a checklist is recognized as a list of tickets.
+
+No matter what your position in the organization's hierarchy (from CEO to entry level engineer), or your function (HR, Finance, Software Engineering), adopting task tracking tools brings the universal benefit of non-human memory for individuals and groups alike:
+
+* [.listitemterm]#Planning#. What could/is to be done in the future (aide memoire), when and by who.
+* [.listitemterm]#Traceability#. What happened, what was done by who. Give credit to people for their work. Institutionalize knowledge for the future, for repetition/improvement/reporting.
+* [.listitemterm]#Transparency#. Improve collaboration. See what others are doing and how they're doing it.
+* [.listitemterm]#Organization#. Consolidating and structuring information e.g., defining structured fields to capture information about a Bug - what went wrong, how was it fixed, how can it be prevented from happening again, what was it prevented from happening again.
+* [.listitemterm]#Consistency#. Workflows can be built into tickets (e.g., checklists) that are a list of topics to think about/tasks to do. "Have you done/thought about X?", as can rules that apply constraints to transitions between states.
+* [.listitemterm]#Continuous improvement#. Workflows built into ticketing systems can be improved. Learning and improvement can be driven by the tickets e.g., in a Bug ticket have a field called "How can it be prevented from happening again" and require it to be filled before the ticket can be closed.
+* [.listitemterm]#Accessibility#. Access (query, search) and visualize this information.
+
+It's astounding how many functions in how many organizations are dysfunctional, and could save themselves (and their collaborators) a huge amount of pain just with a ticketing system.
+
+For example, Boeing claimed there was 'no documentation' to explain why bolts were missing from a plane door that detached mid-flight. What they should have said was there was no ticket, and if there was, there's no useful information on it. Translation: "We don't have our basics together".
+
+=== Ensure task tracking is monolithic
+
+Having fragmented task tracking across multiple systems is difficult to manage and use e.g. how to run a query for past work when a) you're not sure who did it and b) different users are using different systems.
+
+Single-sources-of-truth are ideal - have all the organization use the same <<prefer-integrated-ecosystemsmonoliths-over-best-in-class,monolithic system>>. 
+
+Prefer systems where ticket types, ticket fields (for data capture) and ticket state workflows are highly configurable i.e. Jira/GitHub/Azure DevOps/GitLab or no-code apps on Tadabase. If you have software engineers and non-software engineers in the same organization, it wouldn't be the end of the world to have the non-software engineers learn to use the tools of software engineers e.g. Jira/GitHub/Azure DevOps/GitLab.
+
+The alternative is at least to minimize the fragmentation, using as few systems as possible. You might have one system for most users and another specifically for software engineers. If you need to stitch systems together, you'll have to invest in automated, friction-free integration to ensure at least one is a single-source-of-truth e.g. use an integration to sync GitHub tickets to a home-brewed app's database.
+
+// Add a system diagram?
+
+=== Adopt our task tracking template
+
+If there's one thing engineering and technologists like to do is come up with yet more poorly chosen terminology... and then baking it into the tools so you can't get rid of it.
+
+* What's considered a `backlog` in software engineering terminology is actually a `queue` - backlog implies 'you're running behind', which is nonsense in most cases - the tickets in the backlog are just work you haven't gotten around to yet. If the people who originally chose this terminology bothered to use a dictionary, this misuse of terms wouldn't have detracted from clarity and wouldn't have introduced a corrosive accusatory tone everywhere (many task tracking tools (Jira, Azure DevOps) have 'backlog' baked in).
+* Azure DevOps uses `work item` instead of `ticket` - same number of syllables but the former is clumsy and awkward (at least in the English language). GitHub uses `issue`, which isn't any better. `Epic` is sometimes used to describe work to implement a discrete group of smaller product functions - this terminology is arcane, obtuse and software product development-specific (born out of 90s Agile). `Feature` is used the same way in other software development methodologies.
+
+There are plenty of articles around the internet about the myriad of terminology across different methodologies. What Mixed Management does is to pick the most universally useful, yet semantically unrestricted, terminology in our task tracking template.
+
+* `Backlog` because it's so universally baked into task tracking software, that it's generally too difficult to ditch.
+* `Ticket` is the item that represents a task.
+* `Project` to describe a grouping of tasks, whether product development related or not. It's universal and clear.
+* `Requirement` over `feature` or `story` as an intuitive term to label a product change. It's the most frictionless way of labelling a category of change without dragged down methodology-specific dogma (<<../../index#why-mixed,which the Mixed Management Method tries to avoid>>).
+
+You should consider at least two distinct type of backlog configuration:
+
+[arabic]
+. [.listitemterm]#General# e.g., team, department, strategic.
+. [.listitemterm]#Product# i.e. development and operations ('operations' meaning to support to the product).
+
+Each configuration has a distinct backlog hierarchy (based on ticket types), where a ticket in one level of the hierarchy can be grouped under (parented to) a ticket in a higher level. This enables a lossy, higher level (lower resolution) view on the contents of lower backlogs. 'Lossy' implies it's not necessary to assign a parent to every lower level ticket.
+
+Each level of the hierarchy contains tickets of a distinct set of types. The purpose of ticket types is to:
+
+* Categorize tickets as to the type of work they represent.
+* Capture different sets of information with fields.
+* Support different ticket states, and workflows between states.
+
+.General configuration hierarchy of backlogs
+[cols="1,1a,3a",options="header"]
+|===
+|Backlog (low level to high)
+|Ticket Types in this level
+|Description
+
+|`Tasks`
+|Only one: `Tasks`
+|The default, baseline backlog level where tasks are tracked.
+
+|`Project`
+|Only one: `Project`
+|Enable a higher-level view (lower resolution, lossy) of the work by parenting `Task` tickets to projects.
+
+|`Strategy``
+|Only one: `Objective`
+|Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
+|===
+
+.Product configuration hierarchy of backlogs
+[cols="1,1a,3a",options="header"]
+|===
+|Backlog (low level to high)
+|Ticket types in this level
+|Description
+
+|`Product`
+|Development:
+
+* `Requirement`
+* `Documentation`
+* `Bug`
+* `DevOps`
+* `Tech`
+* `Release`
+* `Task`
+
+Operations:
+
+* `Support`
+* `Bug`
+* `Task`
+
+|The default, baseline backlog level where product development and/or operation is tracked.
+
+|`Project`
+|Only one: `Project`
+|Enable a higher-level view (lower resolution, lossy) of the work by parenting `Product` tickets to projects.
+
+|`Strategy``
+|Only one: `Objective`
+|Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
+|===
+
+One can also consider hierarchical levels below `Tasks` and `Product` to break down work further into sub-tasks.
+
+// Add a colour column
+
+.Ticket types
+[cols="1,3",options="header"]
+|===
+|Ticket Type
+|Description
+
+|`Objective`
+|Work related to a strategic objective. Used for Objectives in <<Strategy#adopt-okrs,OKRs>>.
+
+|`Project`
+|Work from lower-level tickets grouped together. Also specifically used to track Key Results in <<Strategy#adopt-okrs,OKRs>>.
+
+|`Task`
+|Work that doesn't belong under any other type.
+
+|`Bug`
+|Work related to a problem in the product.
+
+|`Requirement`
+|Work that will result in an externally recognizable product change.
+
+|`Documentation`
+|Work related to product user/technical documentation.
+
+|`Tech`
+|Work to change the product under-the-hood.
+
+|`DevOps`
+|Work related to product development/operational infrastructure.
+
+|`Release`
+|Work related to releasing a version of the product.
+
+|`Support`
+|Work to support stakeholders. Tickets created by stakeholders.
+|===
+
+All tickets have a `state``, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
+
+//image::Dummy.png[]
+
+[mermaid, format=SVG]
+....
+---
+config:
+  theme: default
+  layout: dagre
+---
+flowchart TD
+ subgraph s1["Proposed"]
+        n1["To Do"]
+  end
+ subgraph s2["Doing"]
+        n2["In Progress"]
+        n3["Paused"]
+        n4["Waiting"]
+  end
+ subgraph s3["Completed"]
+        n5["Done"]
+        n6@{ label: "Won't Do" }
+  end
+ subgraph s4["Soft-Deleted"]
+        n7["Deleted"]
+        end
+ subgraph s5[" "]
+    direction LR
+        s1
+        s2
+        s3
+  end
+ subgraph s6[" "]
+    direction LR
+        s4
+  end
+    s1 <--> s2
+    s2 <--> s3
+    s5 <--> s4
+    s1 <--> s3
+    n2 <--> n3
+    n3 <--> n4
+    n4 <--> n2
+    n5 <--> n6
+    n1@{ shape: rounded}
+    n2@{ shape: rounded}
+    n3@{ shape: rounded}
+    n4@{ shape: rounded}
+    n5@{ shape: rounded}
+    n6@{ shape: rounded}
+    n7@{ shape: rounded}
+    style n1 stroke:#2962FF
+    style n2 stroke:#FF6D00
+    style n3 stroke:#FF6D00
+    style n4 stroke:#FF6D00
+    style n5 stroke:#00C853
+    style n6 stroke:#00C853
+    style n7 stroke:#AA00FF
+    style s1 stroke:#2962FF
+    style s2 stroke:#FF6D00
+    style s3 stroke:#00C853
+    style s4 stroke:#AA00FF
+    style s5 stroke:none
+    style s6 stroke:none
+....
+
+* The states are grouped into categories.
+* The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!
+
+For the `Bug` ticket type (or similar fault-oriented tickets), we recommend building out text fields that describe the problem and resolution in a structured way.
+
+* (Describe the) Problem
+   ** `Steps to Reproduce`
+   ** `Observed Behaviour/Outcome`
+   ** `Expected Behaviour/Outcome`
+   ** `Reported By`
+   ** `Accepted By`
+   ** <Other contextual information e.g. affected product version>
+* (Describe the) Resolution
+   ** `Root Cause/s`
+   ** `Workaround`
+   ** `Fix`
+   ** `Prevention`
+
+=== Implement a soft-deletion state for tickets
+
+It's bad practice to allow users of a ticketing system to hard-delete tickets.
+
+* You lose the information permanently. It is unacceptable generally, but also for some standards compliance.
+* When tickets are hard-deleted in most ticketing systems, they fall outside of the search and query functions, which is a problem for discoverability.
+
+Therefore, it's best practice to:
+
+* Create a state in the workflows to represent deletion without actually doing it,
+* Then for all queries and views to be configured by default to filter out tickets in this state.
+
+In our reference template, the soft-deletion state is called `Deleted`. 
+
+=== Keep state workflows simple
+
+There are two ways to build a workflow into ticket configuration:
+
+[arabic]
+. [.listitemterm]#Horizontally#. Build a workflow into the set of possible state values, and define rules for transitioning between them e.g. add ever more states like `Verify`, `Validate`, `Release`.
+. [.listitemterm]#Vertically#. Build the workflow by breaking up the parent ticket into smaller child tickets, using an automation to generate the children from a template. `Verify`, `Validate`, `Release` would be three child `Task` tickets parented to "Add auto-save function" `Requirement`.
+
+Our recommendation is to prefer breaking down tasks by a structured workflow vertically, and to keep state workflows simple and general (as presented in this template). Adding complication into state workflows becomes quickly unwieldy, and is difficult to change (e.g., updating existing tickets, which can easily number in the thousands). 
+
+* Workflows do change as your organization learns and improves,
+* Different disciplines in an organization will require varying workflows, so you would have to manage a variety of state workflows were you to build them into the ticket states.
+* If modifying ticket states, you might run into problems updating existing tickets without affecting completed ones.
+
+Do yourself a favour and _keep state workflows simple_.
+
+== Adopt time tracking for all
+
+After you've implemented the foundation of high-quality task tracking that provides activity records, you can build valuable time tracking upon it.
+
+[.importantpoint]#Time is money. The most expensive cost for many organizations is people. It's valuable to understand where people are investing their time.#
+
+The expense of people's time is why they're the first to get cut in hard times. Time tracking:
+
+* [.listitemterm]#Facilitates transparency and accountability# into what individuals and groups are doing
+* [.listitemterm]#Enables cost-monitoring# insights into the organization's activities. For consultancies/contractors, this is essential for billing.
+* [.listitemterm]#Enables effort estimation# by building a history of reference experiences.
+
+Many time tracking attempts introduce painful friction, becoming a burden that everyone complains about and eventually abandons. No wonder that so people rail against the concept.
+
+* [.listitemterm]#Highlight its usefulness to the individual#. "The next time your boss walks up to you and demands an explanation as to why Task X wasn't done, you can say 'I did Task Y, Task Z and wasted a large chunk of time on bureaucratic process ABC'".
+* [.listitemterm]#Make it a habit#. Like all note taking, if you leave it to the end, even the end of the day, you'll likely forget what you did. It needs to be a continuous habit (note: this is only possible with an efficient system).
+* [.listitemterm]#Only capture the minimal information required#. Limit 'when it happened' to just a date, and don't try to capture start/end times - it's too burdensome and not useful.
+   ** The essential information is:
+      *** `Date`
+      *** `Ticket ID`/`Activity`
+      *** `Duration (minutes)`
+   ** Strongly consider recording which part of the organizational structure the individual was operating in at the time the record represents. This is because people can move within an organization over time, so work done by a person that moved might be more difficult to parse in future queries. It may be possible to populate this information automatically e.g., by retrieving such information from an identity management system.
+* [.listitemterm]#Ensure the time tracking system is frictionless'. Clunky, burdensome time tracking software will kill your efforts, so you need to avoid this. Pain points can include duplicating past records easily, modifying existing records, and to do all in bulk. For example, Excel as a frontend is surprisingly frictionless because the records will be a table and Excel has all the functionality for easily working with tables. A web app, say a home-brewed one, really needs to avoid being restrictive and opinionated - flexible table-editing is better for adoption and use.
+* [.listitemterm]#Find consistent descriptions for non-ticketed activities#. There are activities that use up time but aren't tracked by tickets - purely because it would be too burdensome. For example:
+   ** Settling in/packing up
+   ** Meal/toilet/chat break
+   ** Reading messages
+   ** Unticketed meetings e.g. daily meeting, organization-wide town halls
+   ** Other unticketed activities e.g. backlog curation
+   You need to find a way to drive/enforce consistent descriptions of these in your time tracking system's `Ticket ID/Activity` field, so that they can be filtered during analysis. The most likely way is to provide preset values for the field.
+* [.listitemterm]#Get task and time tracking running ASAP#. The sooner you get a time tracking (and task tracking) system up and running, the sooner you'll start building a history of organizational activity.
+
+== Build cost-monitoring
+
+If you have high-quality, well-designed systems for managing:
+
+* Task tracking
+* Time tracking
+* Identity, and individualized cost burden
+
+Then you have all the data you need to implement cost-monitoring! Assuming you've designed your systems well and can access all the databases (e.g., via web APIs), you can implement cost-monitoring as an custom application that translates time to cost, mapping to tasks.
+
+A couple of factors to consider in developing the application:
+
+[arabic]
+. How much lag in time tracking you want it to support.
+   .. Even the most diligent note-taker can lag behind sometimes, due to busyness/absence.
+   .. Sometimes mistakes in past records need to be corrected.
+. How an individual's cost burden can vary over time (relates to when the task activity occurred)
+
+Since time tracking entries <<adopt-time-tracking-for-all,resolve to a day>>, individualized cost burden should also be determinable to a day.  
+
+== Organize content into topics
+
+In an organization's software tools, users generate content and although search functionality is essential, structuring said content into topics is still vital to avoid unmanageable chaos.
+
+Mixed Management's suggestions for topics under which to group content:
+
+* _General_
+   ** `Business`
+   ** `Culture`
+   ** `DevOps`
+   ** `Office`
+   ** `Planning and Reporting`
+   ** `Social`
+   ** `Standards`
+* _Functions_
+   ** `IT`
+   ** `People` (HR)
+   ** `Legal`
+   ** `Marketing`
+   ** `Sales`
+* _Product_
+   ** `<Product X>`
+   ** `<Product Y>`
+* _Technologies_
+   ** Whatever's relevant to your domain
+* _Standards_
+   ** Whatever's relevant to your domain
+
+You can use these topics for:
+
+* Teams channels
+* Wiki/intranet sections
+* Document storage folders
+
+and more.
+
+== Adopt documentation-as-code
+
+The bar has been continually raised, such that the use of tools that were once the esoteric domain of software engineers, is now required in domains such as Technical Writing, Marketing, Sales and more, in order to perform effectively in a modern organization.
+
+* Source code management/version control: https://git-scm.com/[Git], GitHub/GitLab/Azure DevOps/Bitbucket.
+* Markup languages: https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc], https://www.markdownguide.org/[markdown], https://mermaid.js.org/[Mermaid]
+
+https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc] is underrated. Unlike the more widely supported https://www.markdownguide.org/[markdown], AsciiDoc isn't fragmented into a dozen different variants ('flavours'). Instead, it's just a single, high quality, coherent, well-designed markup (text based authoring) language with great documentation (though its tooling ecosystem needs work)
+
+Similarly, using https://mermaid.js.org/[Mermaid] to author diagrams-as-text is underrated. It fits seamlessly into the whole approach of solely-text-based content authoring and there are increasingly more visual editors.
