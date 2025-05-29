@@ -12,7 +12,7 @@ Individual Performance, as a basis for meritocracy, should be considered as a ra
 
 [.importantpoint]#"Individual Performance = { <<character>>, <<expertise>>, <<success>> }"#
 
-Over one's career, you'll work with all sorts of combinations of these factor.
+Over one's career, one will work with all sorts of combinations of these factors.
 
 * I've worked with people of exceptional intelligence and academic credentials, who made bad decisions based on a) limited expertise in some areas, and b) emotional dysfunction (narcissism fed by deep insecurities) corrupting their reasoning ability. Despite high levels of technical expertise in many areas, their character flaws and limited expertise in some areas severely negative impacted their overall performance. As I predicted/asserted he should, he would later in his career go on to be a highly capable software architect, and thankfully not in overall leadership.
 * I've worked with people who weren't the best technically but of a sufficient level, but their spirit, conscientiousness and good humour made them a valuable contributor.
@@ -54,6 +54,8 @@ Part of this story is _intelligence_, which unpins knowledge and skills across a
 The corollary also applies - kids that aren't intelligent, don't magically become intelligent as adults. That's not to say that one can't become wise, skilled or successful… but let's be clear:
 
 [.importantpoint]#"Intelligence, whilst far from the be-all-and-end-all, is a foundation for performance. Academic success is usefully approximate measure of intelligence. Dismiss it to create a kakistocracy, fixate on it to lose out on performance.#
+
+It's possible but improbable that someone 4ft tall would become a NBA basketball professional. It is however perfectly possible for someone 4ft tall to become physical fit and muscular, or an excellent marksman. In this sense, the mind isn't so different from the body.
 
 Only toxic compassion would wilfully ignore such basic truths.
 
