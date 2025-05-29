@@ -4,15 +4,9 @@ parent: Practice
 nav_order: 10
 ---
 
-[#page-plan]
 = Plan
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Plan
 
 [quote,Mike Tyson]
 ____

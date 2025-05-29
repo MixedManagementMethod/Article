@@ -4,15 +4,9 @@ parent: Practice
 nav_order: 6
 ---
 
-[#page-decision-making]
 = Decision Making
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Decision making
 
 == Everyone gets a say but someone makes a decision
 

@@ -4,15 +4,9 @@ parent: People
 nav_order: 5
 ---
 
-[#page-organizational-structure]
 = Organizational Structure
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Organizational Structure
 
 == Establish functional verticals (preferred) and limited cross-cutting horizontals
 

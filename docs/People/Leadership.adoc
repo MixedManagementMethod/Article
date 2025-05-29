@@ -4,15 +4,9 @@ parent: People
 nav_order: 4
 ---
 
-[#page-leadership]
 = Leadership
-:toc: macro
-:toc-title: Contents
-:toc-levels: 3
 
 toc::[]
-
-== Leadership
 
 == Foster leadership, reject management
 
