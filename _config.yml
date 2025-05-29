@@ -1,7 +1,7 @@
 # Jekyll site https://jekyllrb.com/docs/configuration/options/
 title: Mixed Management Method
 description: An opinionated, anti-dogmatic, universal methodology for organizational management/leadership.
-url: https://mixedmanagementmethod.github.io/Article/
+url: https://mixedmanagementmethod.github.io
 repository: MixedManagementMethod/Article # for github-metadata
 exclude:
   - README.adoc
