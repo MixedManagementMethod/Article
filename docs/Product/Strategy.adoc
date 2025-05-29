@@ -71,3 +71,19 @@ Even non-commercial efforts require funding. If you don't provide the value, som
 Thus, as much as software engineers often hate it, the customer (business) needs to take priority over things they want to do to ease their pain, say, improving the architectural quality. Sometimes you have to explain this, and drive exposure of engineers to the business side of things (by secondment or collaboration with other departments).
 
 There's a limit to this and, as in all things product, it's a matter of judgement as to when to divert development efforts to prioritize one stakeholder over another. 
+
+== Be pragmatic
+
+At the highest generalization of product development strategy, use this structure:
+
+[arabic]
+1. Make it work.
+2. Make it work well.
+3. Release it.
+4. Make it work better.
+5. Make it fancy.
+
+The frighteningly common occurrences of mixing up the order or skipping entire steps, resulting in:
+
+* Poor user/customer experience.
+* Rapidly escalating total cost of development, not least due to substantial rework.
