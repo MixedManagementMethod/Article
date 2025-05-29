@@ -131,7 +131,7 @@ Each level of the hierarchy contains tickets of a distinct set of types. The pur
 |Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
 |===
 
-[table-product-backlogs]
+[#table-product-backlogs]
 .Product configuration hierarchy of backlogs
 [cols="1,1a,3a",options="header"]
 |===
