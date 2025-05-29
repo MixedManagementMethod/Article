@@ -210,7 +210,7 @@ All tickets have a `state`, defined in a state/status field. The state will be o
 
 .Ticket state workflow
 [#image-state-workflow]
-image::../../assets/images/State-Workflow.drawio.svg[Ticket state workflow]
+image::State-Workflow.drawio.svg[Ticket state workflow]
 
 * The states are grouped into categories.
 * The state workflow is designed to be as simple and as general as possible, preferring not to prevent transitions between states. From experience, mo' complexity (in state workflows), mo' problems!
