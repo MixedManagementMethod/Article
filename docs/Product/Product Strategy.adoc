@@ -97,3 +97,14 @@ Semantics is the meaning of words, and sometimes it's not so clear cut… and a 
 Save yourself the grief and use a date-based or https://calver.org[CalVer] versioning scheme and don't 'hard code' the semantics in the versioning scheme. 
 
 Instead, you could introduce ('soft code') the categories in product release notes if you wanted to.
+
+== Build a friction-free user feedback mechanism
+
+Your best and most cost-efficient QAs are the users of your products and services. 
+
+Some percentage of your user base will have the understanding and conscientiousness/self-interest to provide valuable feedback that will result in better products and services for them. To get the feedback, you'll need to build a mechanism e.g., a structured form. 
+
+However, even the most enthusiastic reporters will be put off if the mechanism has sufficient friction, and it doesn't take much. Therefore, it ideally is:
+
+* Immediately accessible e.g. in-app
+* Minimally burdensome e.g. pre-filling contextual information, single-click submission of logs.
