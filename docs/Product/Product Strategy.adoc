@@ -87,3 +87,13 @@ The frighteningly common occurrences of mixing up the order or skipping entire s
 
 * Poor user/customer experience.
 * Rapidly escalating total cost of development, not least due to substantial rework.
+
+== Use date-based/CalVer versioning
+
+Semantic version schemes attempt to categorize the changes made to the product between versions. The problem is the ambiguity that sometimes arises - depending on the nature of the product - as to how to categorize the change e.g. when a change is 'new' versus something existing that's been 'improved'. 
+
+Semantics is the meaning of words, and sometimes it's not so clear cut… and a waste of mental effort to think about.
+
+Save yourself the grief and use a date-based or https://calver.org[CalVer] versioning scheme and don't 'hard code' the semantics in the versioning scheme. 
+
+Instead, you could introduce ('soft code') the categories in product release notes if you wanted to.
