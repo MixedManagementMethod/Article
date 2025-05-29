@@ -21,3 +21,18 @@ Like other forms of leadership, the essence of product leadership is simply the 
 If you find, after investigation, that product leadership isn't in your organization, you need to understand why and how to remedy it.
 
 It's essential that your organization has <<../People/Leadership#foster-leadership-reject-management,competent leaders that actually value understanding the product>>.
+
+== Define product leadership as a responsibility, not a role
+
+Product Owner, Product Manager - these are just titles that some practitioners assert must be full-time roles. That is dogmatic nonsense - what's actually important is the _responsibility_ of product leadership.
+
+It's perfectly possible for product leadership to be covered without a dedicated full time PO/PM role, or for it to be covered by multiple people (if they collaborate effectively).
+
+The arrangements that work for any particular circumstance depend on variables including, but not limited to:
+
+* The business/technology domain expertise you have at your disposal
+* The people you have at your disposal
+* The maturity of your product
+* What it is you're trying to achieve next
+
+See also <<../People/Organizational Structure#dont-fall-for-the-dogma-of-full-time-specialist-roles,Don't fall for the dogma of full-time specialist roles>>.
