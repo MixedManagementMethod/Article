@@ -110,6 +110,7 @@ Each level of the hierarchy contains tickets of a distinct set of types. The pur
 * Capture different sets of information with fields.
 * Support different ticket states, and workflows between states.
 
+[#table-general-backlogs]
 .General configuration hierarchy of backlogs
 [cols="1,1a,3a",options="header"]
 |===
@@ -130,6 +131,7 @@ Each level of the hierarchy contains tickets of a distinct set of types. The pur
 |Enables the highest-level view (lower resolution, lossy) of the work by parenting `Project`/`Task` tickets to objectives.
 |===
 
+[table-product-backlogs]
 .Product configuration hierarchy of backlogs
 [cols="1,1a,3a",options="header"]
 |===

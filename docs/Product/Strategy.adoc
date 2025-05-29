@@ -1,0 +1,20 @@
+---
+title: Strategy
+parent: Product
+nav_order: 2
+---
+
+= Strategy
+
+toc::[]
+
+== Implement product roadmaps
+
+Roadmaps are representations of strategy, used to bring:
+
+* Control to development efforts
+* Clarity to relevant stakeholders.
+
+In implementation, they're a manually curated list of tickets from a <<../Practice/IT Infrastructure and Tools#table-product-backlogs,Strategy backlog>>, possibly also including ones from Projects/Product backlogs.
+
+A way to implement that would be to tag tickets with `Roadmap`, then querying for these, and presenting the results as a table or Gantt chart.
