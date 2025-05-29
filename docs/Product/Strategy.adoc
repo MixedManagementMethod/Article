@@ -8,9 +8,20 @@ nav_order: 2
 
 toc::[]
 
+== Implement product roadmaps
+
+Roadmaps are representations of strategy, used to bring:
+
+* Control to development efforts
+* Clarity to relevant stakeholders.
+
+In implementation, they're a manually curated list of tickets from a <<../Practice/IT Infrastructure and Tools#table-product-backlogs,Strategy backlog>>, possibly also including ones from Projects/Product backlogs.
+
+A way to implement that would be to tag tickets with `Roadmap`, then querying for these, and presenting the results as a table or Gantt chart.
+
 == Prioritizing development goals is about human judgement
 
-Prioritizing and sorting product development goals is to navigate and blend the priorities (pain) of different stakeholders, such as:
+Strategically prioritizing product development goals is to navigate and blend the priorities (pain) of different stakeholders, such as:
 
 * End users who are pained by small issues that are apparent in the UI/UX.
 * Admin users who are pained by missing functionality that end users don't care about.
@@ -27,17 +38,36 @@ User feedback systems, like UserVoice, help to gather customer insights but user
 
 The reality is that in the end, good product strategy comes down to human judgement i.e.,
 
-* Expertise.
-* Eating your own cooking.
-* Having good taste.
+* [.listitemterm]#Expertise#.
+* [.listitemterm]#Eating your own cooking#.
+* [.listitemterm]#Having good 'taste'#.
 
-== Implement product roadmaps
+== Empathy with stakeholders is key
 
-Roadmaps are representations of strategy, used to bring:
+The ability to put yourself in the shoes of a stakeholder - whether a customer, a user, the company leadership, your engineers, your customer support department - is key to allocating your organization's _finite_ development and operational capacity.
 
-* Control to development efforts
-* Clarity to relevant stakeholders.
+Problems occur particularly when people with responsibility for product leadership are disconnected from the experience of some stakeholders. For example:
 
-In implementation, they're a manually curated list of tickets from a <<../Practice/IT Infrastructure and Tools#table-product-backlogs,Strategy backlog>>, possibly also including ones from Projects/Product backlogs.
+* Not having the domain expertise of the customers/users.
+* Not understanding the negative impact of legacy technical issues on development efficiency.
 
-A way to implement that would be to tag tickets with `Roadmap`, then querying for these, and presenting the results as a table or Gantt chart.
+There are lots of techniques that can help, such as:
+
+* Kicking the tyres of the product yourself
+* Shadowing
+* Authoring personas 
+
+but fundamentally, the only techniques that really help are:
+
+* [.listitemterm]#Learning# (by conversation, doing, studying)
+* [.listitemterm]#Imagination#
+
+== Customer comes first
+
+[.importantpoint]#Products and services are to generate voluntary exchanges of value for someone's money.# 
+
+Even non-commercial efforts require funding. If you don't provide the value, someone else could (and probably will).
+
+Thus, as much as software engineers often hate it, the customer (business) needs to take priority over things they want to do to ease their pain, say, improving the architectural quality. Sometimes you have to explain this, and drive exposure of engineers to the business side of things (by secondment or collaboration with other departments).
+
+There's a limit to this and, as in all things product, it's a matter of judgement as to when to divert development efforts to prioritize one stakeholder over another. 
