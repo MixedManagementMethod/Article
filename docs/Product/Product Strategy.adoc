@@ -1,10 +1,10 @@
 ---
-title: Strategy
+title: Product Strategy
 parent: Product
 nav_order: 2
 ---
 
-= Strategy
+= Product Strategy
 
 toc::[]
 
