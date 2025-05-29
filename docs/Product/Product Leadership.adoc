@@ -1,0 +1,23 @@
+---
+title: Product Leadership
+parent: Product
+nav_order: 1
+---
+
+= Product Leadership
+
+toc::[]
+
+== Verify you have product leadership
+
+Like other forms of leadership, the essence of product leadership is simply the ability to:
+
+* Understand 'here', <<../Practice/Communication#communication,communicate>> it at high to low levels to different audiences using different mediums.
+* Define a vision of 'there'
+* Understand how to get from here to there
+* Communicate how to get from here to there
+* Execute
+
+If you find, after investigation, that product leadership isn't in your organization, you need to understand why and how to remedy it.
+
+It's essential that your organization has <<../People/Leadership#foster-leadership-reject-management,competent leaders that actually value understanding the product>>.
