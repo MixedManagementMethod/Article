@@ -8,6 +8,29 @@ nav_order: 2
 
 toc::[]
 
+== Prioritizing development goals is about human judgement
+
+Prioritizing and sorting product development goals is to navigate and blend the priorities (pain) of different stakeholders, such as:
+
+* End users who are pained by small issues that are apparent in the UI/UX.
+* Admin users who are pained by missing functionality that end users don't care about.
+* Development engineers who want to change the architecture to accelerate future development.
+* Marketing people who want to spend time and effort on consistent branding.
+
+Models like the https://dovetail.com/product-development/rice-scoring-model/[RICE (Reach Impact Confidence Effort) scoring model] attempt to turn judgement into turn-the-handle mechanism, which, naturally, incompetent people cling to as a silver bullet, and without critically understanding its inaccuracies and inadequacies (bias, lack of weighting, missing factors like technical flaws, and more).
+
+User feedback systems, like UserVoice, help to gather customer insights but user voting is a flawed mechanism.
+
+* If highly-voted-for requests are weighted to be presented higher up in the order, then there's a spiralling tunnel vision effect where getting exposure to new requests is increasingly difficult over time. This effect is amplified if bots routinely clear out requests with low numbers of votes. One can often see the contributor complaints that a good idea is submitted repeatedly but killed due to lack of votes.
+* 'Popular' doesn't necessarily equate to 'valuable', and value can be subjective. End users might want the shiny functionality, but if the admin doesn't get the boring functionality then it'll all end in tears.
+* Singular voices that produce valuable feedback can get drowned out by the crowd. Are the contributions of a large crowd always better than a few people with deep expertise? How about the crowds at Nuremberg?
+
+The reality is that in the end, good product strategy comes down to human judgement i.e.,
+
+* Expertise.
+* Eating your own cooking.
+* Having good taste.
+
 == Implement product roadmaps
 
 Roadmaps are representations of strategy, used to bring:
