@@ -52,6 +52,6 @@ Any workflow is going to be highly specific to your circumstances (business doma
 
 .DevOps workflow
 [#image-devops-workflow]
-image::DevOps-Workflow.drawio.svg[DevOps workflow]
+image::DevOps-Workflow.svg[DevOps workflow]
 
 These activities shouldn't be treated as discrete phases with hard boundaries - like the study (commonly but misleadingly associated with Rational Unified Process) shows, development - being a creative, crafting and manufacturing exercise - activities rise, peak, fall away and may restart.
