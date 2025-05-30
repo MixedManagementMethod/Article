@@ -13,6 +13,7 @@ The Mixed Management Method framework is:
 The following table illustrates the rationale behind the order of importance.
 
 .Rationale for framework order of importance
+[#table-framework-rationale]
 [cols="1,3",options="header"]
 |===
 |Context

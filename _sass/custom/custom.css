@@ -12,6 +12,56 @@
   color: #429ccb;
 }
 
+.ticket-objective {
+  color: #8a65e5;
+  background-color: #ffffff;
+}
+
+.ticket-project {
+  color: #5eb751;
+  background-color: #ffffff;
+}
+
+.ticket-task {
+  color: #ca9927;
+  background-color: #ffffff;
+}
+
+.ticket-bug {
+  color: #9c181d;
+  background-color: #ffffff;
+}
+
+.ticket-requirement {
+  color: #5a95f7;
+  background-color: #ffffff;
+}
+
+.ticket-documentation {
+  color: #cf6f2c;
+  background-color: #ffffff;
+}
+
+.ticket-tech {
+  color: #ce4f62;
+  background-color: #ffffff;
+}
+
+.ticket-devops {
+  color: #9298a1;
+  background-color: #ffffff;
+}
+
+.ticket-release {
+  color: #8e98a1;
+  background-color: #ffffff;
+}
+
+.ticket-support {
+  color: #5a95f7;
+  background-color: #ffffff;
+}
+
 /* From mmm.css
 
 // Change body styling

@@ -125,9 +125,7 @@ When mistakes and bad decisions do happen, inability to speak honestly prevents 
 
 When a toxic culture implemented/fostered by toxic management, doesn't allow people to speak their minds, the likelihood of making mistakes and bad decisions rises because the experiences and intellects available aren't being fully utilized.
 
-// Add a cross reference to decision-making.
-
-The best possible decisions are made more likely by a discursive process prior to the decision.
+The best possible decisions are made more likely by a <<../Practice/Decision Making#decision-making,discursive process prior to the decision>>.
 
 === Silos are evil
 
@@ -157,12 +155,10 @@ The basic principle is:
 
 This is effectively anti-siloing.
 
-// Add cross reference to the ticketing system
-
 Some mechanisms to push knowledge:
 
 * [.listitemterm]#Messaging apps# like Teams/Slack, where conservations occur in shared spaces, as opposed to email silos.
-* [.listitemterm]#An organization-wide task tracking (ticketing) system.# The history is captured in the ticket fields, particularly the comments, where notes of thoughts and actions should be kept.
+* [.listitemterm]#An organization-wide <<../Practice/IT Infrastructure and Tools#adopt-task-tracking-ticketing-for-all,task tracking (ticketing) system>>#. The history is captured in the ticket fields, particularly the comments, where notes of thoughts and actions should be kept.
 * [.listitemterm]#Publishing on intranet/wiki articles# e.g. “How we do <this>”.
 
 The level of dysfunction in an organization, and sub-sections of it, is always obvious from its email/messaging, ticketing and intranet/wiki and ticketing infrastructure and practices.

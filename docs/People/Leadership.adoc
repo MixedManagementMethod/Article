@@ -63,7 +63,7 @@ We can think of this in terms of the elements of individual performance.
 * Is as competent as their peers or more so, at any level of seniority (think military leaders who haven't risen up the ranks on the front lines).
 * Communicates effectively with clarity, completeness and conciseness.
 * Able to:
-   ** Understand 'here'
+   ** Understand 'here', <<../Practice/Communication#communication,communicate>> it at high to low levels to different audiences using different mediums.
    ** Define a vision of 'there'
    ** Understand how to get from here to there
    ** Communicate how to get from here to there
