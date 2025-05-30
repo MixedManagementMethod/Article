@@ -178,43 +178,43 @@ One can also consider hierarchical levels below `Tasks` and `Product` to break d
 
 |`Objective`
 |Work related to a strategic objective. Used for Objectives in <<Strategy#adopt-okrs,OKRs>>.
-|[.ticket-objective]#0x8a65e5#
+| [.ticket-objective]#0x8a65e5#
 
 |`Project`
 |Work from lower-level tickets grouped together. Also specifically used to track Key Results in <<Strategy#adopt-okrs,OKRs>>.
-|[.ticket-project]#0x5eb751#
+| [.ticket-project]#0x5eb751#
 
 |`Task`
 |Work that doesn't belong under any other type.
-|[.ticket-task]#0xca9927#
+| [.ticket-task]#0xca9927#
 
 |`Bug`
 |Work related to a problem in the product.
-|[.ticket-bug]#0x9c181d#
+| [.ticket-bug]#0x9c181d#
 
 |`Requirement`
 |Work that will result in an externally recognizable product change.
-|[.ticket-requirement]#0x5a95f7#
+| [.ticket-requirement]#0x5a95f7#
 
 |`Documentation`
 |Work related to product user/technical documentation.
-|[.ticket-documentation]#0xcf6f2c#
+| [.ticket-documentation]#0xcf6f2c#
 
 |`Tech`
 |Work to change the product under-the-hood.
-|[.ticket-tech]#0xce4f62#
+| [.ticket-tech]#0xce4f62#
 
 |`DevOps`
 |Work related to product development/operational infrastructure.
-|[.ticket-devops]#0x9298a1#
+| [.ticket-devops]#0x9298a1#
 
 |`Release`
 |Work related to releasing a version of the product.
-|[.ticket-release]#0x8e98a1#
+| [.ticket-release]#0x8e98a1#
 
 |`Support`
 |Work to support stakeholders. Tickets created by stakeholders.
-|[.ticket-support]#0x5a95f7#
+| [.ticket-support]#0x5a95f7#
 |===
 
 All tickets have a `state`, defined in a state/status field. The state will be one of a set of possible values, and the ticketing system should enable state workflows, establishing conditions to transition between states.
