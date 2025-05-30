@@ -27,7 +27,7 @@ asciidoctor:        # https://github.com/asciidoctor/jekyll-asciidoc
   attributes:
     idseparator: '-'
     author: Jeffrey Chongsathien
-    email: jeffrey.chongsathien@gmail.com
+    email: jeffrey.chongsathien@cantab.net
     experimental: ''
     imagesdir: /assets/images
     showtitle: ''
