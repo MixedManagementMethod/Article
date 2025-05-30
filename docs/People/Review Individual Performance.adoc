@@ -84,9 +84,7 @@ Use this structure:
 
 == Surface tickets to aid evaluation of success
 
-// Add a cross reference to the ticketing system
-
-A mechanisms to assist evaluation of individual success in a performance review is to query your (single-source-of-truth) ticketing system for:
+A mechanisms to assist evaluation of individual success in a performance review is to query your <<../Practice/IT Infrastructure and Tools#adopt-task-tracking-ticketing-for-all,(single-source-of-truth) ticketing system>> for:
 
 * Tickets that were/are assigned to them over the review period (say, a year), AND 
 * Have been completed/are in progress. 

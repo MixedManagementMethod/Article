@@ -30,9 +30,7 @@ We've already discussed such individual behaviours elsewhere in the Mixed Manage
 * [.listitemterm]#Don't ask others to do anything you're not prepared to do yourself#. 
 * [.listitemterm]#Be conscientious.#
 
-// Add a cross reference to the ticketing system
-
-How does character manifest? Ultimately, as a set of anecdotes that describe the actions an individual took in a specific scenario. This may be captured internally as a set of tickets.
+How does character manifest? Ultimately, as a set of anecdotes that describe the actions an individual took in a specific scenario. This may be captured internally as <<../Practice/IT Infrastructure and Tools#adopt-task-tracking-ticketing-for-all,a set of tickets>>.
 
 == Expertise
 
@@ -68,7 +66,5 @@ A recognizable trait of low-performers in job interviews is to talk about the su
 I once saw a presentation given to a community of product people, entitled (paraphrased somewhat) "My career as a series of failures and what I learned". The presenter walked through his entire career, describing how each product/project he was involved in failed spectacularly, and caused by _his involvement_. No attempt to promote the value of learning-through-failure could mask over the obvious that he was bad at his discipline, despite holding a high-level role in the organization. After the presentation, an audience member discreetly conversed "So this guy's work is a non-stop series of failures and now he works for you guys... good luck with that!". In the year that followed, it was no surprise to find that his most recent product work was yet another catastrophic failure in a long series of failures... and one that he refused to take responsibility for (despite the fact that it could not possibly be anyone else's).
 
 [.importantpoint]#When examining performance of current or prospective employees, ignore titles and what groups did... let them tell a story where specifically their work contributed to success.#
-
-// Add a cross reference to the ticketing system
 
 As with <<character,character>>, success manifests as a set of anecdotes (that may have been captured internally as <<../Practice/IT Infrastructure and Tools#adopt-task-tracking-ticketing-for-all,tickets>>).
