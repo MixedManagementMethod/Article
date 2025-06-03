@@ -11,7 +11,7 @@ toc::[]
 
 == What is the Mixed Management Method?
 
-[.importantpoint]#The Mixed Management Method is an opinionated, anti-dogmatic, universal methodology for organizational management/leadership.#
+[.importantpoint]#The Mixed Management Method is a universal, anti-dogmatic methodology to create, manage and lead high performance organizations.#
 
 It is primarily aimed at the software engineering discipline, but not exclusively so, as major parts of it can be applied to any organization in any domain.
 
