@@ -1,17 +1,17 @@
 /* Increase mono font size (the default is too small) (provided by DeepSeek) */
 
 code {
-  font-size: 1em;
+  font-size: $font-size-5;
 }
 
 .highlight {
   pre, code {
-    font-size: 1em;
+    font-size: $font-size-5;
   }
 }
 
 p code, li code {
-  font-size: 1em;
+  font-size: $font-size-5;
 }
 
 /* Style titles of images (blocks) */
@@ -21,6 +21,7 @@ p code, li code {
   color: #7173ef;
   font-style: italic;
   text-align: center;
+  margin: $sp-2;
 }
 
 /* Style titles of tables (blocks) */
@@ -30,6 +31,7 @@ p code, li code {
   color: #7173ef;
   font-style: italic;
   text-align: center;
+  margin: $sp-2;
 }
 
 /* Custom styles */
