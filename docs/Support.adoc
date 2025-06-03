@@ -7,10 +7,10 @@ nav_order: 6
 
 toc::[]
 
-== Consulting
-
-The Mixed Management Method is freely available here for you to use. If you think you could use help to optimize your organization, contact {author} via email: {email}
-
 == Donations
 
-<TBD>
+The Mixed Management Method is freely available here for you to use. If you found this work to be of any use, please consider throwing in a pint of beer's worth at https://coff.ee/jeffrey.chongsathien[Buy Me A Coffee].
+
+== Consulting
+
+If you think you could use help to optimize your organization, contact {author} via email: {email}
