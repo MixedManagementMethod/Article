@@ -12,6 +12,9 @@ exclude:
 plugins:
   - jekyll-asciidoc
   - jekyll-github-metadata
+aux_links:
+  Donate:
+    - https://coff.ee/jeffrey.chongsathien
 
 # https://just-the-docs.com/
 theme: just-the-docs
