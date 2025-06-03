@@ -14,11 +14,20 @@ p code, li code {
   font-size: 1em;
 }
 
-/* Style image titles */
+/* Style titles of images (blocks) */
 
 .imageblock .title {
   font-size: 0.9em;
-  color: #ff9500;
+  color: #7173ef;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Style titles of tables (blocks) */
+
+.tableblock .title {
+  font-size: 0.9em;
+  color: #7173ef;
   font-style: italic;
   text-align: center;
 }
