@@ -1,3 +1,19 @@
+/* Increase mono font size (the default is too small) (provided by DeepSeek) */
+
+code {
+  font-size: 1em;
+}
+
+.highlight {
+  pre, code {
+    font-size: 1em;
+  }
+}
+
+p code, li code {
+  font-size: 1em;
+}
+
 /* Custom styles */
 
 .importantpoint {
