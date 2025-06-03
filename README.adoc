@@ -18,17 +18,26 @@ One-time installation:
 1. Run the Ruby installer (3.3.x works) on my PC following: https://jekyllrb.com/docs/installation/windows/
 2. Open a PowerShell terminal: `gem install jekyll bundler`
 3. Ensure `jekyll -v` displays the version. Restart the PC if necessary.
-4. Clone the Article repository locally e.g. to `~\Projects\MixedManagementMethod\Article`
+4. Clone the `mixedmanagementmethod.github.io` repository locally e.g. to `~\Projects\mixedmanagementmethod.github.io`
 5. Browse to that location (the working copy) in PowerShell.
-6. `bundle install`. Surprisingly, this doesn't modify the working copy. It installs the Ruby modules that this project requires, specified in `Gemfile`.
+6. `bundle install`. It installs the Ruby modules that this project requires, specified in `Gemfile`.
 
 To see the AsciiDoc sources served as HTML:
 
-1. Navigate to the root of the working copy in PowerShell.
+1. Navigate to the root of the working copy in a PowerShell terminal.
 2. `bundle exec jekyll serve`
 3. Open a web browser to http://localhost:4000/
    a. The now running server detects changes to the source files and regenerates the HTML.
    b. Refresh the browser to view regenerated HTML.
+
+Development tools:
+
+* Visual Studio Code, with extensions:
+   ** AsciiDoc
+   ** Draw.io Integration
+   ** Git Graph
+   ** GitHub Actions
+   ** Microsoft Edge Tools for VS Code
 
 == Repository structure
 
@@ -36,11 +45,21 @@ The repository requires the following structure to work correctly:
 
 * `/.github/workflows/publish.yml`: GitHub Actions workflow to build the site and publish it to GitHub Pages.
 * `/Gemfile`, `/Gemfile.lock`: Specifies the Ruby Gem module dependencies for https://jekyllrb.com/[Jekyll]-based publishing.
-* `index.adoc`: The root file for the AsciiDoc-based content.
+* `/_config.yml`: The main Jekyll configuration file.
+* `/index.adoc`: The root file for the content.
+* `/docs/`: The AsciiDoc content
+* `/assets/images`: Centralized location for image files.
 
-== Formatting
+There's a local copy of Font Awesome 4 in `/font-awesome-4.7.0`, with some of sub-folders copied to `/fonts/`, `/less/` and `/scss/`. I'm not sure if they're actually needed, but at least having `/fonts/` get rids of some errors that otherwise appear when `bundle exec jekyll serve` is run.
 
-There are some https://docs.asciidoctor.org/asciidoc/latest/text/custom-inline-styles/[custom inline styles] that are defined in CSS (search the `.adoc` sources for `[.<style name from the following list>]`).
+== Styling
+
+The site uses the https://github.com/just-the-docs/just-the-docs[Just the Docs] Jekyll theme.
+
+There are some https://docs.asciidoctor.org/asciidoc/latest/text/custom-inline-styles/[custom inline CSS styles] defined in the file `/_sass/custom/custom.css`, as required by https://jekyllrb.com/docs/configuration/sass/[Jekyll].
 
 * `importantpoint`
 * `listitemterm`
+* `ticket_*`
+
+To find instances of use, search the `.adoc` sources for `[.<style name from the following list>]`.
