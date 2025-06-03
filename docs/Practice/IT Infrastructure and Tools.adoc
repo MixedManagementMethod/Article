@@ -115,7 +115,7 @@ Each level of the hierarchy contains tickets of a distinct set of types. The pur
 [cols="1,1a,3a",options="header"]
 |===
 |Backlog (low level to high)
-|Ticket Types in this level
+|Ticket types in this level
 |Description
 
 |`Tasks`
