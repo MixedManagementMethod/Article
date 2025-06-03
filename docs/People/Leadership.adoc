@@ -30,7 +30,7 @@ Typical manager character traits include:
 
 On the competence side, the word 'manager' only serves to obfuscate the necessity of competence and domain expertise i.e. defends the concept of the general manager. 
 
-You cannot take the manager of a grocery store, put them in charge of the cardio-thoracic surgery department of a hospital overnight and not expect the likelihood of people dying. For a managing director of a technology company to exclaim _"Of course there's such a thing as a (general) manager... look at me... I know nothing about our product and I'm a charge!"_ would be insanity.
+You cannot take the manager of a grocery store, put them in charge of the cardio-thoracic surgery department of a hospital overnight and not expect the likelihood of people dying. For a director of a technology company to be ignorant of the product (unashamedly or otherwise) would be insanity.
 
 The only possible reason that a person can have for defending the idea that competence is not a fundamental requirement for senior positions, is to attempt to defend their own lack of it. Sadly, this seems to be particularly widespread in Software Engineering, as the intangible, magical thing that is software must therefore cost nothing to create, take no time, cause no difficulty, and therefore can be led by people *_who've never done it_* (!). This always leads to disaster.
 
