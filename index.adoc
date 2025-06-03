@@ -17,11 +17,9 @@ It is primarily aimed at the software engineering discipline, but not exclusivel
 
 It's the accumulated wisdom of decades of:
 
-* Real world experience
+* Real-world experience
 * Refinement of theory based on practical application
-* Discovery of what works (and what doesn't)
-* Discovery of what is true (and what isn't)
-* Determining what is relevant (and what isn't)
+* Discovery of what works (and doesn't), is true (and isn't) and is relevant (and isn't)
 
 == Why 'Mixed'?
 
