@@ -58,9 +58,16 @@ Breaking down the walls of the martial arts silos and dogmas led to these ideas:
 
 == Why the Mixed Management Method?
 
+[.importantpoint]#The Mixed Management Method maximizes the probability of the best outcomes in a given circumstance by doing things in the best way.#
+
 It would be inefficient, and ineffective, for all organizations to attempt to reinvent a management/leadership system from scratch.
 
-The Mixed Management Method aims to be a solid foundation for _most_ organizations, in _most_ contexts and _more so_ than existing methodologies.
+The Mixed Management Method is a solid foundation for _most_ organizations, in _most_ contexts and _more so_ than existing methodologies. When the ideas and practices described here are truly applied, they don't guarantee success.
+
+[quote,Scott Adams]
+____
+Goals are for losers, but systems are for winners.
+____
 
 == License
 
