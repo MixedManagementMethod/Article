@@ -21,6 +21,9 @@ It's the accumulated wisdom of decades of:
 * Refinement of theory based on practical application
 * Discovery of what works (and doesn't), is true (and isn't) and is relevant (and isn't)
 
+[#image-collaboration]
+image::Collaboration.jpg[Collaboration]
+
 == Why 'Mixed'?
 
 Much as martial arts descended into distinct schools of formalism, software engineering and general management techniques did the same. 
@@ -37,6 +40,9 @@ Much as martial arts descended into distinct schools of formalism, software engi
 * Disciplined Agile Delivery
 
 All of these prior methodologies have some elements of truth, wisdom and value. Unfortunately, they also all contain falsehoods, dogmas and context-related incompleteness to varying degrees.
+
+[#image-martialarts]
+image::Martial Arts.png[Martial Arts]
 
 New methodologies tend to go through an adoption curve (with a peak and decline). This is particularly true of software engineering where the rapid advancement of technology has resulted in an equally rapid churn in development methodologies.
 
