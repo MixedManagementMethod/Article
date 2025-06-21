@@ -43,7 +43,7 @@ Also, sometimes the sender can provide information that they didn't think was va
 
 * [.listitemterm]#'Telling a story'# is a useful technique for encouraging the pushing of information. It's one thing to say:
 +
-"When are you available for a call tomorrow?""
+"When are you available for a call tomorrow?"
 +
 and another to say:
 +
