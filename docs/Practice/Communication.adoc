@@ -15,6 +15,9 @@ Communication happens:
 
 In any case, communication is the fundamental transmission of thoughts between people, across space and time, and it's essential to be _effective and efficient_ to collaborate effectively.
 
+[#image-communication]
+image::Communication.jpg[Communication]
+
 == Be clear, complete, concise (in that order)
 
 === Clear
