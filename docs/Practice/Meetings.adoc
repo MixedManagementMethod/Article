@@ -14,7 +14,7 @@ All the practices of good <<Communication#communication,communication>> naturall
 
 == Bring control, clarity, conciseness and comedy to meetings
 
-The most expensive part of most organizations is people's time. Meetings are synchronous conversations that can be converted into a cost figure, by calculating the prorated payroll burden of the participants' time..
+The most expensive part of most organizations is people's time. Meetings are synchronous conversations that can be converted into a cost figure, by calculating the prorated payroll burden of the participants' time.
 
 [.importantpoint]#Meetings are *expensive*. A bad meeting is an expensive waste. A good meeting brings a return on the investment.#
 
@@ -40,7 +40,7 @@ Numerous existing methodologies propose a variety of meetings/conversations, som
 * Quarterly strategy meeting
 * Biannual top-down communications
 
-Too many organizations blindly throw their employees into bureaucratic hell by irresponsibly prescribing ever more meetings and not tuning their cadence and duration to be <<Best Practice#be-effective-and-efficient,effective and efficient>>. It's a perverse scenario when a "bureaucracy buster" initiative launched by management results in recommendations to eliminate many meetings that they dogmatically implemented, upon which the management vetos the effort and nothing changes.
+Too many organizations blindly throw their employees into bureaucratic hell by irresponsibly prescribing ever more meetings and not tuning their cadence and duration to be <<Best Practice#be-effective-and-efficient,effective and efficient>>. It's a perverse scenario when a "bureaucracy buster" initiative launched by management results in recommendations to eliminate many meetings that they dogmatically implemented, upon which the management vetoes the effort and nothing changes.
 
 Whatever the meeting, whatever the methodology, consider tuning the *_duration_* and *_cadence_* to maximize first effectiveness, then efficiency. 
 
