@@ -12,6 +12,9 @@ Meetings are a specific form of communication - _synchronous_ conversations. The
 
 All the practices of good <<Communication#communication,communication>> naturally apply.
 
+[#image-meetings]
+image::Meetings.jpg[Meetings]
+
 == Bring control, clarity, conciseness and comedy to meetings
 
 The most expensive part of most organizations is people's time. Meetings are synchronous conversations that can be converted into a cost figure, by calculating the prorated payroll burden of the participants' time.
